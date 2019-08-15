@@ -5,8 +5,6 @@ package demo;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("made it! so cool!");
-        System.out.println("god damn it!" +
-                "1");
+        System.out.println("still alive!");
     }
 }
