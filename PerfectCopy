@@ -1,5 +1,5 @@
 <!-- 查询条件 -->
-	<sql id="lawcase_consult_where_clause">
+<sql id="lawcase_consult_where_clause">
 		<where>
 			del_flag = 0
 			<if test="consultId != null and  consultId != ''"> and consult_id= #{consultId}</if>
@@ -14,3 +14,5 @@
 			</if>
 		</where>
 	</sql>
+	
+	logging.level.com.didispace=DEBUG：com.didispace包下所有class以DEBUG级别输出
