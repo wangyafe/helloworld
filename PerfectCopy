@@ -1,0 +1,16 @@
+<!-- 查询条件 -->
+	<sql id="lawcase_consult_where_clause">
+		<where>
+			del_flag = 0
+			<if test="consultId != null and  consultId != ''"> and consult_id= #{consultId}</if>
+			<if test="consultor != null and  consultor != ''"> and consultor= #{consultor}</if>
+			<if test="consultContent != null and  consultContent != ''"> and consult_content= #{consultContent}</if>
+			<if test="contact != null and  contact != ''"> and contact= #{contact}</if>
+			<if test="startTime != null and  startTime != ''">and create_time >= #{startTime,jdbcType=VARCHAR}</if>
+			<if test="endTime != null and  endTime != ''">and  DATE_ADD(date_format(#{endTime,jdbcType=VARCHAR},"%Y-%m-%d"),interval 1 day) >=create_time</if>
+			<if test="search != null and  search != ''"> 
+			 <bind name="pattern" value="search" />
+			and concat(consultor,consult_content,contact) like concat('%',#{pattern},'%') escape'/'
+			</if>
+		</where>
+	</sql>
