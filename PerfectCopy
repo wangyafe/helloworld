@@ -16,3 +16,19 @@
 	</sql>
 	
 	logging.level.com.didispace=DEBUG：com.didispace包下所有class以DEBUG级别输出
+ //绑定隐私号码
+        List<String> codes = Arrays.asList(areaCodes.split(","));
+        //打乱顺序
+        Collections.shuffle(codes);
+        AxbBindRequest axbBindRequest=null;
+        BindResponse bindResponse=null;
+        // 多次尝试直至成功
+        for (String areaCode:codes) {
+            axbBindRequest = AxbBindRequestUtils.toAxbBindRequest(clue, lawyer, areaCode, expireTimeSecond);
+            log.info("pns请求参数：" + JSON.toJSONString(axbBindRequest));
+            bindResponse = pnsClientService.sendAxbBindRequest(axbBindRequest);
+            log.info("pns响应参数：" + JSON.toJSONString(bindResponse));
+            if (PNS_CODE_SUCCESS.equals(bindResponse.getCode())) {
+                break;
+            }
+        }
