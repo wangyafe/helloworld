@@ -32,3 +32,43 @@
                 break;
             }
         }
+<mapper namespace="global">
+
+	<!-- 分页：oracle -->
+	<sql id="paginationStart_oracle">
+		<![CDATA[ select * from (select row_.*, rownum rownum_ from ( ]]>
+	</sql>
+	<sql id="paginationEnd_oracle">
+		<![CDATA[ ) row_ where rownum <= #{end}) where rownum_ > #{start} ]]>
+	</sql>
+
+	<!-- 分页：sql server -->
+	<sql id="paginationStart_mssql">
+		<![CDATA[ select top ${rows} * from (select ROW_NUMBER() over( order by getdate() asc) as rownum, * from ( ]]>
+	</sql>
+	<sql id="paginationEnd_mssql">
+		<![CDATA[ ) b ) a where a.rownum > #{start}  ]]>
+	</sql>
+
+	<!-- 分页：mysql -->
+	<sql id="paginationStart_mysql">
+		<![CDATA[ select * from ( ]]>
+	</sql>
+	<sql id="paginationEnd_mysql">
+		<bind name="key_page" value="(page-1)*pageSize"></bind>
+		<if test="page &lt;= 0 ">
+			<![CDATA[ ) row_ limit 0, #{pageSize} ]]>
+		</if>
+		<if test="page > 0 "> 
+			<![CDATA[ ) row_ limit  #{key_page}, #{pageSize} ]]>
+		</if>
+	</sql>
+	
+	<!-- 排序 -->
+	<sql id="orderBy">
+		<if test="sort!=null">
+			<![CDATA[ ORDER BY ${sort} ${dir} ]]>
+		</if>
+	</sql>
+
+</mapper>
