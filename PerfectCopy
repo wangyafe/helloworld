@@ -72,3 +72,36 @@
 	</sql>
 
 </mapper>
+  /**
+     * 获取不需要Token验证的path列表
+     */
+    private List<String> findExcludePath() {
+        // 获取有添加RestController的Bean
+        Map<String, Object> controllerBeanMap = applicationContext.getBeansWithAnnotation(RequestMapping.class);
+        Set<String> excludePath = new HashSet<>();
+        try {
+            for (Object controller : controllerBeanMap.values()) {
+                Class<?> controllerClass = controller.getClass();
+                Permission classPermission = AnnotationUtils.findAnnotation(controllerClass,Permission.class);
+                RequestMapping controllerMapping = AnnotationUtils.findAnnotation(controllerClass,RequestMapping.class);
+                // 获取url的前缀
+                String prefixValue = "";
+                if (controllerMapping != null) {
+                    prefixValue = controllerMapping.value()[0];
+                }
+                Method[] controllerMethods = controllerClass.getMethods();
+                for (Method method : controllerMethods) {
+                    Permission methodPermission = AnnotationUtils.findAnnotation(method,Permission.class);
+                    RequestMapping requestMapping = AnnotationUtils.findAnnotation(method,RequestMapping.class);
+                    // 类注解排除所有request路径，方法注解排除本方法路径
+                    if ((classPermission!=null||methodPermission != null) && requestMapping !=null) {
+                        String path = requestMapping.value()[0];
+                        excludePath.add(prefixValue+path);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            log.error("拦截器exclude path异常:", e);
+        }
+        return new ArrayList<>(excludePath);
+    }
