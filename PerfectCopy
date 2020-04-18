@@ -105,3 +105,5 @@
         }
         return new ArrayList<>(excludePath);
     }
+  获取方法的正确姿势：Method[] methods = ReflectionUtils.getAllDeclaredMethods(AopUtils.getTargetClass(bean));
+  错误姿势：Method[] methods = ReflectionUtils.getAllDeclaredMethods(bean.getClass());
