@@ -107,3 +107,14 @@
     }
   获取方法的正确姿势：Method[] methods = ReflectionUtils.getAllDeclaredMethods(AopUtils.getTargetClass(bean));
   错误姿势：Method[] methods = ReflectionUtils.getAllDeclaredMethods(bean.getClass());
+  使用泛型
+  public interface MessageProcessor<T> {
+    boolean handleMessage(T messageExt);
+
+    Class<T> getClazz();
+
+    default T transferMessage(String message) {
+        return JSON.parseObject(message, getClazz());
+    }
+}
+public class Test implement Message<Entity>{}
