@@ -6,3 +6,4 @@ https://blog.csdn.net/vbirdbest/article/list/3
 5.树莓派开发之物联网 https://blog.csdn.net/weixin_33675507/article/details/89539893
 6.接口泛型 https://blog.csdn.net/waldmer/article/details/12773021
 7.导入spring源码 https://www.debugger.wiki/article/html/1588560399054562 (综合教程)
+8.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
