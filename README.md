@@ -7,3 +7,4 @@ https://blog.csdn.net/vbirdbest/article/list/3
 6.接口泛型 https://blog.csdn.net/waldmer/article/details/12773021
 7.导入spring源码 https://www.debugger.wiki/article/html/1588560399054562 (综合教程)
 8.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
+9.盘优搜、蓝菊花搜索、盘搜、小不点搜索、鸠摩搜索 股票书籍（《分析家》网站）
