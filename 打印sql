@@ -1,0 +1,23 @@
+方案一：
+1.https://blog.csdn.net/wqh0830/article/details/85886383
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+</configuration>
+
+#mybatis配置文件的位置
+mybatis.config-location=classpath:mybatis-config.xml
+2.idea安装mybatis-log-plugin
+https://www.geek-share.com/detail/2788889780.html
+方案二：
+级别控制 https://blog.lqdev.cn/2018/07/15/springboot/chapter-four/
+在Spring Boot中只需要在application.properties中进行配置完成日志记录的级别控制。
+配置格式：logging.level.*=LEVEL
+logging.level：日志级别控制前缀，*为包名或Logger名
+LEVEL：选项TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF：
