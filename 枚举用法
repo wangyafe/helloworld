@@ -11,3 +11,4 @@ public enum SeasonEnum {
 		return seq;
 	}
 } 
+int i = SPRING.getSeq();
