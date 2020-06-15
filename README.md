@@ -15,4 +15,5 @@ https://blog.csdn.net/vbirdbest/article/list/3
 14.视频解析 http://lcoc.top/vip2.3/
 15.策略模式干掉if/else https://blog.csdn.net/Howinfun/article/details/102880363?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-4 
 16.使用fiddler来抓包 https://www.cnblogs.com/crazycode2/p/6517784.html
+17.设计的本质就是识别和表达系统难点，找到系统的变化点，并隔离变化点。 说明：世间众多设计模式目的是相同的，即隔离系统变化点。 
 ![image](https://github.com/wangyafe/helloworld/blob/master/code-wallpaper-8.jpg)
