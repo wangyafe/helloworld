@@ -9,3 +9,4 @@ bugstack.cn java学习技术
 mybatis 动态sql $ #区别https://blog.csdn.net/annotation_yang/article/details/81485696
 数据库三范式 https://blog.csdn.net/weixin_41768263/article/details/88666075
 spring 中的 bean 是线程安全的吗 https://www.cnblogs.com/myseries/p/11729800.html
+Java内存泄漏的排查总结 Java内存泄漏的排查总结https://blog.csdn.net/fishinhouse/article/details/80781673
