@@ -11,3 +11,4 @@ mybatis 动态sql $ #区别https://blog.csdn.net/annotation_yang/article/details
 spring 中的 bean 是线程安全的吗 https://www.cnblogs.com/myseries/p/11729800.html
 Java内存泄漏的排查总结 https://blog.csdn.net/fishinhouse/article/details/80781673
 mysql中InnoDB存储引擎的行锁和表锁 https://www.cnblogs.com/ShaunChen/p/7492056.html
+Redis学习——内存消耗和内存回收机制 https://blog.csdn.net/damanchen/article/details/89025818
