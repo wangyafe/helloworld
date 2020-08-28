@@ -16,3 +16,4 @@ Redis学习——内存消耗和内存回收机制 https://blog.csdn.net/damanch
 SpringBoot项目配置Tomcat和JVM参数 https://www.cnblogs.com/sunshouguo/articles/10813320.html
 什么是高可用 https://www.cnblogs.com/shizhiyi/p/7750530.html
 Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 https://www.cnblogs.com/linghu-java/p/8944784.html
+Java中什么样的对象才能作为gc root https://blog.csdn.net/bolg_hero/article/details/79344745
