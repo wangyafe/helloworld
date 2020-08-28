@@ -11,3 +11,6 @@
 11.JAVA 线上故障排查完整套路！牛掰 https://fredal.xin/java-error-check
 12.Java干货 https://www.toutiao.com/c/user/3791897244/#mid=1591105071042568
 13.手把手教你定位常见Java性能问题 https://my.oschina.net/luozhou
+14.微服务调用为什么用RPC框架，http为什么不考虑 微服务不是一个简单的调用，涉及到很多方面，比如容错，高并发，熔断，事务，普通的http代码无法解决这些问题。一般需要很多组件配合完成，比如feign配合robbin
+,hystrix,dubbo需要zk来配合。https://blog.csdn.net/weixin_41989775/article/details/102867189?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+https://www.cnblogs.com/fxl-njfu/p/11557494.html
