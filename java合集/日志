@@ -1,0 +1,8 @@
+1.slf4j+log4j2
+https://blog.csdn.net/FANGAOHUA200/article/details/53561718（log4j和log4j2的区别）
+https://blog.csdn.net/zzzgd_666/article/details/80407002（控制日志输出级别）
+https://blog.csdn.net/thekenofDIS/article/details/80439776（配置详解）
+https://segmentfault.com/a/1190000039073461（日志脱敏原理）
+2.lombok + slf4j注解
+https://blog.lqdev.cn/2018/08/22/springboot/chapter-twenty-three/（日志详解）
+https://blog.lqdev.cn/2018/08/25/springboot/chapter-twenty-five/（自定义appender）
