@@ -1,1 +1,1 @@
-
+数据库事务理解（1.DML之后需要commmit 如果没有commit 那就是进行了隐式提交 可以关闭隐式提交）https://blog.csdn.net/xiaotom5/article/details/8133067 https://how2j.cn/k/jdbc/jdbc-transaction/393.html#nowhere
