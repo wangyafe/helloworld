@@ -26,3 +26,7 @@ AND <![CDATA[ id <> #{id} ]]>
 </if>
 https://blog.csdn.net/buyaoshuohua1/article/details/74991913
 2.批量操作数据库 https://blog.csdn.net/weixin_42765975/article/details/99688662?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control
+3.mysql8.0数据库配置 server.port=1999
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/booking?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=123
