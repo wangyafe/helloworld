@@ -30,3 +30,70 @@ https://blog.csdn.net/buyaoshuohua1/article/details/74991913
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/booking?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=123
+4.  <delete id="deleteByUserIds">
+        <foreach collection="users" index="index" item="id" separator=";"  open="" close="">
+            UPDATE t_rel_agent_skill_group
+            <set>
+                data_status = '1',
+                gmt_modified=now()
+            </set>
+            <where>
+                user_id = #{id}
+                and skill_group_id = #{skillGroupId}
+                and data_status = '0'
+            </where>
+        </foreach>
+    </delete>
+ 5.  <insert id="saveBatchRecord" parameterType="list">
+        insert into t_rel_agent_skill_group(user_id, skill_group_id, skill_level, operator_id,
+                                            data_status, gmt_create, gmt_modified)
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.userId}, #{item.skillGroupId}, #{item.skillLevel}, #{item.operatorId}, #{item.dataStatus}, now(), now())
+        </foreach>
+    </insert>
+6. <select id="selectListByUsers" parameterType="list" resultMap="BaseResultMap">
+        select
+        tru.id,
+        tru.alipay_account,
+        tru.domain_account_id,
+        tru.instance_id,
+        tru.ram_id,
+        tru.user_id,
+        tru.login_name,
+        tru.password,
+        tru.user_name,
+        tru.display_name,
+        tru.access_key_id,
+        tru.access_key_secret,
+        tru.ext_info,
+        tru.status,
+        tru.email,
+        tru.phone,
+        tru.private_out_bound_number_id,
+        tru.operator_id,
+        tru.skill_group_ids,
+        tru.role_ids,
+        tru.alipay_user_id,
+        tru.gmt_create,
+        tru.gmt_modified
+        from
+        t_ram_user tru
+        where user_id in
+        <foreach collection="list" item="item" open="(" close=") " separator=",">
+            #{item}
+        </foreach>
+    </select>
+ 7.    <update id="updateRamUserByUserIds" parameterType="list">
+        <foreach collection="list" index="index" item="id" separator=";"  open="" close="">
+        UPDATE t_ram_user
+        <set>
+            skill_group_ids = #{id.skillGroupIds},
+            gmt_modified=now()
+        </set>
+        <where>
+            user_id = #{id.userId}
+        </where>
+        </foreach>
+    </update>
+
