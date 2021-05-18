@@ -1,1 +1,20 @@
 1.通俗易懂 启动类加载器、扩展类加载器、应用类加载器 https://zhuanlan.zhihu.com/p/73359363
+2.反射  //从spring.txt中获取类名称和方法名称
+        File springConfigFile = new File("e:\\project\\j2se\\src\\spring.txt");
+        Properties springConfig= new Properties();
+        springConfig.load(new FileInputStream(springConfigFile));
+        String className = (String) springConfig.get("class");
+        String methodName = (String) springConfig.get("method");
+         
+        //根据类名称获取类对象
+        Class clazz = Class.forName(className);
+        //根据方法名称，获取方法对象
+        Method m = clazz.getMethod(methodName);
+        //获取构造器
+        Constructor c = clazz.getConstructor();
+        //根据构造器，实例化出对象
+        Object service = c.newInstance();
+        //调用对象的指定方法
+        m.invoke(service);
+）1.把配置文件封装成对象2.从对象获取类名和方法名并实例化3.用类对象获取构造器4.实例化出对象5.方法.invoke（构造器）完成调用
+3.动态代理
