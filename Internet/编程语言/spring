@@ -1,0 +1,2 @@
+1.Ioc 控制反转（让spring帮我们产生bean）记下来Spring装配Bean的三种方式 https://zhuanlan.zhihu.com/p/61337718
+2.DI 依赖注入 （给属性赋值 包括基本类型和引用类型）https://www.cnblogs.com/ysocean/p/7471451.html
