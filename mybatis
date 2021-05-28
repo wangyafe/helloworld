@@ -96,4 +96,4 @@ spring.datasource.password=123
         </where>
         </foreach>
     </update>
-
+8.springboot连接数据库模板 https://github.com/Ghohankawk/spring-boot-api-template.git
