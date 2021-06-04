@@ -1,6 +1,6 @@
 1.二叉查找树(1.二叉树只有两个子节点2.BST左小右大重复丢弃3.自平衡BST高度差小于1 新增和删除破坏平衡 旋转达到平衡) https://www.cnblogs.com/gaochundong/p/binary_search_tree.html
 2.算法复杂度分析 https://www.cnblogs.com/gaochundong/p/complexity_of_algorithms.html
-4.红黑树（降低了AVL的要求 1.任意节点红或黑2.根黑3.叶子节点nil4.任意两个红节点不能相邻5.任意节点和高相同 通过旋转和变色达到平衡默认新增为红）https://www.jianshu.com/p/2dcff3634326
+4.红黑树（降低了AVL的要求 1.任意节点红或黑2.根黑3.叶子节点nil4.任意两个红节点不能相邻5.任意节点和高相同 通过旋转和变色达到平衡默认新增为红 关键特性：1.内部有序2.相对平衡最长路径不超过最短2倍3.旋转开销小4.支持快速查询）https://www.jianshu.com/p/2dcff3634326
 5.Java集合--TreeMap完全解析 https://www.jianshu.com/p/2dcff3634326
 6.Java集合--HashMap解惑 https://www.jianshu.com/p/a17b4717a721
 7.Java集合--ConcurrentMap https://www.jianshu.com/p/8f7b2cd34c47 
