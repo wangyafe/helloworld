@@ -1,2 +1,3 @@
-1.二叉查找树 https://www.cnblogs.com/gaochundong/p/binary_search_tree.html
+1.二叉查找树(1.二叉树只有两个子节点2.BST左小右大重复丢弃3.自平衡BST高度差小于1 新增和删除破坏平衡 旋转达到平衡) https://www.cnblogs.com/gaochundong/p/binary_search_tree.html
 2.算法复杂度分析 https://www.cnblogs.com/gaochundong/p/complexity_of_algorithms.html
+4.红黑树（降低了AVL的要求 1.任意节点红或黑2.根黑3.叶子节点nil4.任意两个红节点不能相邻5.任意节点和高相同 通过旋转和变色达到平衡默认新增为红）https://blog.csdn.net/tanrui519521/article/details/80980135?utm_medium=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&share_token=b2adb148-6301-4917-8fdf-02cedeef4100
