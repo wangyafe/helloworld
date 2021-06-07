@@ -3,3 +3,4 @@
 3.查看JVM使用的默认的垃圾收集器 https://blog.csdn.net/qq9808/article/details/80933396
 4.JVM垃圾收集器总结 https://blog.csdn.net/qq9808/article/details/104848080?spm=1001.2014.3001.5501
 5.面试官：你对JVM垃圾收集器了解吗？13连问你是否抗的住！https://cloud.tencent.com/developer/article/1628831
+6.总结下Jvm垃圾回收器 https://zhuanlan.zhihu.com/p/86409307
