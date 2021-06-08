@@ -6,5 +6,5 @@
 4.删除目录或文件
 4.1 rm -rf file 4.2 rm -rf dir
 5.查看文件
-5.1 more file 5.2 tail -50f file 5.3 grep test test*
+5.1 more file 5.2 tail -50f file 5.3 grep test test* 5.4 less file
 6.编辑文件
