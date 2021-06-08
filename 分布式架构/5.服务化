@@ -1,4 +1,5 @@
 1.服务注册与发现 zookeeper
+讲解 Zookeeper 的五个核心知识点 https://mp.weixin.qq.com/s/W6QgmFTpXQ8EL-dVvLWsyg
 2.架构
  2.1微服务（springboot+dubbo）
  2.2RPC
