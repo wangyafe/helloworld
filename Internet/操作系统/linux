@@ -1,2 +1,10 @@
 1.登录 su 用户名（su admin 右键赋值密码）
-2.还在百度Linux命令？推荐一套我用起来特顺手的命令！https://www.jianshu.com/p/d9c51c86533e
+2.还在百度Linux命令？推荐一套我用起来特顺手的命令！https://www.jianshu.com/p/d9c51c86533e https://how2j.cn/k/deploy2linux/deploy2linux-commands/1597.html#step6944
+2.1 Linux 命令大全 2.2 Shell 教程 https://www.runoob.com/linux/linux-command-manual.html
+3.创建目录或文件
+3.1 mkdir dir 3.2 touch file
+4.删除目录或文件
+4.1 rm -rf file 4.2 rm -rf dir
+5.查看文件
+5.1 more file 5.2 tail -50f file 5.3 grep test test*
+6.编辑文件
