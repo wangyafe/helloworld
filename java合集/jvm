@@ -4,3 +4,4 @@
 4.JVM垃圾收集器总结 https://blog.csdn.net/qq9808/article/details/104848080?spm=1001.2014.3001.5501
 5.面试官：你对JVM垃圾收集器了解吗？13连问你是否抗的住！https://cloud.tencent.com/developer/article/1628831
 6.总结下Jvm垃圾回收器（用两个回收器的目的一个负责新生代 一个负责老生代 都可以设置替补 ） https://zhuanlan.zhihu.com/p/86409307
+7.JVM中的分布式垃圾回收(DGC) https://blog.csdn.net/wodewutai17quiet/article/details/53550158
