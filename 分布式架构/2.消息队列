@@ -1,3 +1,4 @@
 1.作用：异步、削峰、解耦 
 2.问题：重复、丢失、顺序、堆积
 消息队列面试热点一锅端 https://segmentfault.com/a/1190000023550285
+3.消息队列：可靠性、重复消息、消息积压、利用消息实现分布式事务 https://cloud.tencent.com/developer/article/1542467
