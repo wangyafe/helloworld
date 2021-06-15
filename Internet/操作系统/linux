@@ -6,6 +6,6 @@
 4.删除目录或文件
 4.1 rm -rf file 4.2 rm -rf dir
 5.查看文件
-5.1 more file(ctrl+c退出) 5.2 tail -50f file 5.3 grep test test* 5.4 less file（q退出）
+5.1 more file(ctrl+c退出) 5.2 tail -50f file 5.3 grep test test* 5.4 less file（q退出） 5.5 ls -lh 或者 tree -L 4
 6.编辑文件
  1.vi file打开文件 2.保存退出：esc键退出编辑模式+输入冒号 (shift+分号) 打开控制命令 接着输入wq，然后敲回车，即保存退出 3.不保存退出：q!
