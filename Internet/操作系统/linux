@@ -1,5 +1,6 @@
+0.Linux目录结构 https://wumansgy.github.io/2018/09/26/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/ linux系统目录树详解 https://blog.csdn.net/weixin_33943347/article/details/89862662?utm_medium=distribute.pc_relevant_download.none-task-blog-baidujs-1.nonecase&depth_1-utm_source=distribute.pc_relevant_download.none-task-blog-baidujs-1.nonecase
 1.登录 su 用户名（su admin 右键赋值密码）
-2.还在百度Linux命令？推荐一套我用起来特顺手的命令！https://segmentfault.com/a/1190000037643113
+2.还在百度Linux命令？推荐一套我用起来特顺手的命令！https://segmentfault.com/a/1190000037643113 linux常用命令 https://blog.csdn.net/weixin_34015860/article/details/94670357
 2.1 Linux 命令大全 2.2 Shell 教程 https://www.runoob.com/linux/linux-command-manual.html
 3.创建目录或文件
 3.1 mkdir dir 3.2 touch file
@@ -10,4 +11,4 @@
 6.编辑文件
  1.vi file打开文件 2.保存退出：esc键退出编辑模式+输入冒号 (shift+分号) 打开控制命令 接着输入wq，然后敲回车，即保存退出 3.不保存退出：q!
 7.返回上一级目录
-1.cd ..返回上一级目录 2.cd ../..返回上两级目录 3.cd或cd ~返回home目录 4.cd - 目录名       返回指定目录
+1.cd ..返回上一级目录 2.cd ../..返回上两级目录 3.cd或cd ~返回home目录 4.cd - 目录名 返回指定目录
