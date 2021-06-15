@@ -9,3 +9,5 @@
 5.1 more file(ctrl+c退出) 5.2 tail -50f file 5.3 grep test test* 5.4 less file（q退出） 5.5 ls -lh 或者 tree -L 4
 6.编辑文件
  1.vi file打开文件 2.保存退出：esc键退出编辑模式+输入冒号 (shift+分号) 打开控制命令 接着输入wq，然后敲回车，即保存退出 3.不保存退出：q!
+7.返回上一级目录
+1.cd ..返回上一级目录 2.cd ../..返回上两级目录 3.cd或cd ~返回home目录 4.cd - 目录名       返回指定目录
