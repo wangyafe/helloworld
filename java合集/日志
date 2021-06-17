@@ -7,3 +7,4 @@ https://blog.csdn.net/bruce128/article/details/42744323（指定日志到文件�
 2.lombok + slf4j注解
 https://blog.lqdev.cn/2018/08/22/springboot/chapter-twenty-three/（日志详解）
 https://blog.lqdev.cn/2018/08/25/springboot/chapter-twenty-five/（自定义appender）
+3.MDC实现日志跟踪 https://blog.csdn.net/dwyane__wade/article/details/79978747?share_token=3f3dcda0-fcf5-4a8b-9194-667977d144dc
