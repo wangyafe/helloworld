@@ -1,7 +1,7 @@
 1.leetcode-master
 2.CS-Notes
 3.一致性hash详解 https://www.huaweicloud.com/articles/1d7c24fb8e8322bb95aa2e632439b823.html https://xie.infoq.cn/article/d2a4a64b197a64ecfd086c29f
-4.算法分类 4.1搜索 4.2排序 4.3 高级算法（贪婪、回溯、剪枝、动态规划） 4.4领域算法（1.分布式算法paxos 2.大数据处理 倒排索引+BitMap布隆过滤器 3.安全算法国密 4.负载均衡算法 5.推荐算法 6.数据挖掘 7.字符串匹配KMP）
+4.算法分类 4.1搜索 4.2排序(九种内排和外排) 4.3 高级算法（贪婪、回溯、剪枝、动态规划） 4.4领域算法（1.分布式算法paxos 2.大数据处理 倒排索引+BitMap布隆过滤器 3.安全算法国密 4.负载均衡算法 5.推荐算法 6.数据挖掘 7.字符串匹配KMP）
 分布式算法 - Paxos算法 https://www.pdai.tech/md/algorithm/alg-domain-distribute-x-paxos.html
 5.详解二分查找算法 https://www.cnblogs.com/kyoner/p/11080078.html?share_token=fd6f8414-ecf9-4b69-83c1-5cb95c31b783
 6.字符串匹配的KMP算法 http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
