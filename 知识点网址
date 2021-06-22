@@ -1,29 +1,28 @@
-设计防重机制 https://juejin.cn/post/6904129881701875726
-动态代理 https://juejin.im/post/5c1ca8df6fb9a049b347f55c
-Java实现买火车票【抢票】成功率100% https://blog.csdn.net/q2450751976/article/details/104061759
-前端实践 https://blog.csdn.net/qq_41973594/article/details/103288287
-手把手教你--JAVA微信支付（H5支付） http://www.pianshen.com/article/901316384/ https://blog.csdn.net/javaYouCome/article/details/79473743 https://blog.csdn.net/qq_16927377/article/details/80542682
-源码学习 http://www.tianxiaobo.com/ https://www.cnblogs.com/java-chen-hao/
-ElasticsearchTemplate的详细使用，完成多条件查询、匹配度查询 https://blog.csdn.net/tianyaleixiaowu/article/details/77965257 https://blog.csdn.net/q2450751976/article/details/107645121
-使用redis计数来控制单位时间内对某接口的访问量，防止刷验证码接口之类的 https://blog.csdn.net/tianyaleixiaowu/article/details/74549145
-bugstack.cn java学习技术
-mybatis 动态sql $ #区别https://blog.csdn.net/annotation_yang/article/details/81485696 https://blog.csdn.net/weixin_42765975/article/details/103209330
-数据库三范式 https://www.cnblogs.com/xwdreamer/archive/2012/05/17/2506039.html
-spring 中的 bean 是线程安全的吗 https://www.cnblogs.com/myseries/p/11729800.html
-Java内存泄漏的排查总结 https://blog.csdn.net/fishinhouse/article/details/80781673
-mysql中InnoDB存储引擎的行锁和表锁 https://www.cnblogs.com/ShaunChen/p/7492056.html
-Redis学习——内存消耗和内存回收机制 https://blog.csdn.net/damanchen/article/details/89025818
-SpringBoot项目配置Tomcat和JVM参数 https://www.cnblogs.com/sunshouguo/articles/10813320.html
-什么是高可用 https://www.cnblogs.com/shizhiyi/p/7750530.html
-Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 https://www.cnblogs.com/linghu-java/p/8944784.html
-Java中什么样的对象才能作为gc root https://blog.csdn.net/bolg_hero/article/details/79344745
-类和方法注释 https://blog.csdn.net/u010608551/article/details/107557003
-Java解析post请求复杂嵌套json数据 https://blog.csdn.net/qq_37495786/article/details/84110466?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
-那些可能被你忽略的MySQL优化技巧 https://blog.csdn.net/autfish/article/details/51660864
-byte（拜特）与bit（比特）的区别 https://ask.csdn.net/questions/349519
-浅谈Java多线程之内存可见性volatile https://blog.csdn.net/aodubi0638/article/details/102144561?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
-Mysql 查看死锁和解除死锁 https://segmentfault.com/a/1190000038352601
-MySQL锁：InnoDB行锁需要避免的坑 https://www.cnblogs.com/jian0110/p/12721924.html
-Redis 的持久化与过期键 https://segmentfault.com/a/1190000017526315
-一次Java线程池误用引发的血案和总结 https://zhuanlan.zhihu.com/p/32867181
-token和jwt存在什么区别 https://blog.csdn.net/m19123456789/article/details/85010509?share_token=1bff252b-e974-456c-b194-d05fe47c5243
+1.设计防重机制 https://juejin.cn/post/6904129881701875726
+2.动态代理 https://juejin.im/post/5c1ca8df6fb9a049b347f55c
+3.Java实现买火车票【抢票】成功率100% https://blog.csdn.net/q2450751976/article/details/104061759
+4.前端实践 https://blog.csdn.net/qq_41973594/article/details/103288287
+5.手把手教你--JAVA微信支付（H5支付） http://www.pianshen.com/article/901316384/ https://blog.csdn.net/javaYouCome/article/details/79473743 https://blog.csdn.net/qq_16927377/article/details/80542682
+6.源码学习 http://www.tianxiaobo.com/ https://www.cnblogs.com/java-chen-hao/
+7.ElasticsearchTemplate的详细使用，完成多条件查询、匹配度查询 https://blog.csdn.net/tianyaleixiaowu/article/details/77965257 https://blog.csdn.net/q2450751976/article/details/107645121
+8.使用redis计数来控制单位时间内对某接口的访问量，防止刷验证码接口之类的 https://blog.csdn.net/tianyaleixiaowu/article/details/74549145
+9.bugstack.cn java学习技术
+10.mybatis 动态sql $ #区别https://blog.csdn.net/annotation_yang/article/details/81485696 https://blog.csdn.net/weixin_42765975/article/details/103209330
+11.数据库三范式 https://www.cnblogs.com/xwdreamer/archive/2012/05/17/2506039.html
+12.spring 中的 bean 是线程安全的吗 https://www.cnblogs.com/myseries/p/11729800.html
+13.Java内存泄漏的排查总结 https://blog.csdn.net/fishinhouse/article/details/80781673
+14.mysql中InnoDB存储引擎的行锁和表锁 https://www.cnblogs.com/ShaunChen/p/7492056.html
+15.Redis学习——内存消耗和内存回收机制 https://blog.csdn.net/damanchen/article/details/89025818
+16.SpringBoot项目配置Tomcat和JVM参数 https://www.cnblogs.com/sunshouguo/articles/10813320.html
+17.Java锁---偏向锁、轻量级锁、自旋锁、重量级锁 https://www.cnblogs.com/linghu-java/p/8944784.html
+18.Java中什么样的对象才能作为gc root https://blog.csdn.net/bolg_hero/article/details/79344745
+19.类和方法注释 https://blog.csdn.net/u010608551/article/details/107557003
+20.Java解析post请求复杂嵌套json数据 https://blog.csdn.net/qq_37495786/article/details/84110466?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
+21.那些可能被你忽略的MySQL优化技巧 https://blog.csdn.net/autfish/article/details/51660864
+22.byte（拜特）与bit（比特）的区别 https://ask.csdn.net/questions/349519
+23.浅谈Java多线程之内存可见性volatile https://blog.csdn.net/aodubi0638/article/details/102144561?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
+24.Mysql 查看死锁和解除死锁 https://segmentfault.com/a/1190000038352601
+25.MySQL锁：InnoDB行锁需要避免的坑 https://www.cnblogs.com/jian0110/p/12721924.html
+26.Redis 的持久化与过期键 https://segmentfault.com/a/1190000017526315
+27.一次Java线程池误用引发的血案和总结 https://zhuanlan.zhihu.com/p/32867181
+28.token和jwt存在什么区别 https://blog.csdn.net/m19123456789/article/details/85010509?share_token=1bff252b-e974-456c-b194-d05fe47c5243
