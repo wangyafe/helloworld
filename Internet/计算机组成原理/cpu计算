@@ -1,0 +1,3 @@
+1.负数为何在内存中以补码的形式存在？ https://blog.csdn.net/pseudonym_/article/details/71275964
+2.Java中>>和>>>移位操作符的区别（有符：高位正补0负补1 无符号：高位补0 正数两者相同负数不同） https://www.iteblog.com/archives/740.html
+3. 用最有效率的方法算出 2 乘以 8 等於几 2<<3 二进制左移
