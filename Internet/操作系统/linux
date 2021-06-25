@@ -13,3 +13,4 @@
 7.返回上一级目录
 1.cd ..返回上一级目录 2.cd ../..返回上两级目录 3.cd或cd ~返回home目录 4.cd - 目录名 返回指定目录
 8.文件权限（linux ls -l 详解） https://blog.csdn.net/sjzs5590/article/details/8254527?share_token=06300d9a-c4c5-4854-a566-73103436b371
+9.Linux下查找java进程耗用cpu最高的线程方法 https://my.oschina.net/hebad/blog/1526883
