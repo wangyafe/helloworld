@@ -1,3 +1,4 @@
 1.Java多线程之线程池7大参数、底层工作原理、拒绝策略详解 https://blog.csdn.net/weixin_41910694/article/details/90676705?utm_medium=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&share_token=53dea70c-ec87-40a3-90ca-1dc363b7dfa4
 2.Java多线程学习七：线程池的 4 种拒绝策略和 6 种常见的线程池 https://blog.csdn.net/zhanghai412/article/details/114039783?share_token=b37185b9-3d67-4818-9f9d-ffffddc01ce2#tt_daymode=1&tt_font=m
 3.多线程-JUC线程池-ThreadFactory线程工厂 https://www.cnblogs.com/bjlhx/p/7609100.html?share_token=20d54615-738c-4b91-b504-ce2863d409ee
+4.这一次，彻底搞懂Java并发包中的Atomic原子类 https://zhpanvip.gitee.io/2021/06/26/41-atomic-cas/
