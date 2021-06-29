@@ -1,0 +1,2 @@
+1.Mysql8.0+中的rank()、row_num()、dense_rank()等窗口函数实现排名 
+SELECT row_number()  over (order by salary DESC) id,name,salary FROM `users`;
