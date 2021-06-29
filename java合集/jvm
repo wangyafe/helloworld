@@ -8,3 +8,4 @@
 8.什么是内存泄漏？该如何检测？又该如何解决？https://zhuanlan.zhihu.com/p/354615686
 9.听闻阿里开源的Arthas在做Java应用诊断上特牛，果然 https://blog.csdn.net/m0_46995061/article/details/114365960 https://start.aliyun.com/
 10.-XX:NewRatio 命令 https://blog.csdn.net/kq1983/article/details/105742530?share_token=b05e7d11-36e4-4667-ba58-39e56efa48be
+11.jvm内存溢出问题的定位方法 https://www.cnblogs.com/godoforange/p/11544004.html
