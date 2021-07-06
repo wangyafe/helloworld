@@ -1,2 +1,5 @@
+servlet：
 1.Filter跳过剩余过滤器执行代码 不去执行chain.doFilter(request, response)（链路 直接传给下一个过滤器） https://blog.csdn.net/tandaly/article/details/8687671 （如何跳过过滤器处理）
 2.Filter配置初始化参数 使用FilterRegistrationBean配置 https://blog.csdn.net/itguangit/article/details/78349033（filter在spring框架中使用配置文件参数的一种方法）
+tomcat:
+1.面试官问：你们服务最大的并发量是多少？ https://blog.csdn.net/qq_33589510/article/details/118443886
