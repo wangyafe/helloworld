@@ -3,3 +3,4 @@ servlet：
 2.Filter配置初始化参数 使用FilterRegistrationBean配置 https://blog.csdn.net/itguangit/article/details/78349033（filter在spring框架中使用配置文件参数的一种方法）
 tomcat:
 1.面试官问：你们服务最大的并发量是多少？ https://blog.csdn.net/qq_33589510/article/details/118443886
+2.tomcat是服务端的浏览器 Servlet是运行在服务器端的程序，可以被认为是服务器端的applet。servlet被Web服务器（例如Tomcat）加载和执行，就如同applet被浏览器加载和执行一样。servlet从客户端(通过Web服务器)接收请求，执行某种操作，然后返回结果
