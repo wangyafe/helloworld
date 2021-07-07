@@ -98,3 +98,4 @@ spring.datasource.password=123
     </update>
 8.springboot连接数据库模板 https://github.com/Ghohankawk/spring-boot-api-template.git
 9.框架的本质分析——Mybatis https://segmentfault.com/a/1190000015658564
+10.这样看 mybatis，谁都会分析源码！ https://xie.infoq.cn/article/2f998541f14289c8d3851fbb9
