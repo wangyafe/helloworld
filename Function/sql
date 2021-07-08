@@ -1,2 +1,5 @@
 1.Mysql8.0+中的rank()、row_num()、dense_rank()等窗口函数实现排名 
 SELECT row_number()  over (order by salary DESC) id,name,salary FROM `users`;
+2.查询连续五天登录的用户: 新增用户登陆日志表(id、user_id、login_time、login_date);用户表新增连续登陆天数字段(continuous_days)；
+用户每次登陆往登陆日志表insert记录，并且查看昨天是否有登陆记录，如果昨天登陆记录大于0，则连续登陆天数+1，否则将连续登陆天数置为0；
+sql语句：select*fromuserwhere continuous_days>5;
