@@ -1,3 +1,4 @@
 1.容灾
 三地五中心部署架构演化进程 https://blog.csdn.net/github_34793283/article/details/115281791?share_token=073c09ab-c437-4cf7-962e-2a2e019fec5d
 2.异地多活
+3.基于iptables来做系统依赖（TCP协议调用）容灾测试 https://blog.csdn.net/iamzhongyong/article/details/9297537?spm=1001.2014.3001.5501
