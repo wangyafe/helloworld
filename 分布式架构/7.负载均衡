@@ -13,3 +13,5 @@ Nginx+Keepalived实现Nginx高可用架构，告别单点故障 https://juejin.c
  8.1 jenkins，nginx，gateway(网关)联合部署应用 https://blog.csdn.net/happyAliceYu/article/details/90701614 8.2 接口调度者——API 网关 https://juejin.cn/post/6868544587934203912https://juejin.cn/post/6868544587934203912
 9.ECS无外网IP访问外网（NAT网关） https://blog.csdn.net/u013600314/article/details/90237133
 10.什么是堡垒机？为什么需要堡垒机？ https://zhuanlan.zhihu.com/p/283065491
+ 10.1 SecureCRT 跳板机 内网直连 https://blog.csdn.net/u013600314/article/details/98039960?spm=1001.2014.3001.5501
+ 10.2 Proxifier Socks5 代理（内网访问、远程办公）https://blog.csdn.net/u013600314/article/details/106276126?spm=1001.2014.3001.5501
