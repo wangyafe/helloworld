@@ -11,3 +11,4 @@ Nginx+Keepalived实现Nginx高可用架构，告别单点故障 https://juejin.c
  ②写到一个公共的服务中，然后其他所有服务都依赖这个服务
  ③写到服务网关的前置过滤器中，所有请求过来进行权限校验
  8.1 jenkins，nginx，gateway(网关)联合部署应用 https://blog.csdn.net/happyAliceYu/article/details/90701614 8.2 接口调度者——API 网关 https://juejin.cn/post/6868544587934203912https://juejin.cn/post/6868544587934203912
+9.ECS无外网IP访问外网（NAT网关） https://blog.csdn.net/u013600314/article/details/90237133
