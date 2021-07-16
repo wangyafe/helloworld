@@ -1,6 +1,7 @@
 1.小文件：
     1.1 DFS
     1.2 fastDFS
+    用FastDFS一步步搭建文件管理系统 https://www.cnblogs.com/chiangchou/p/fastdfs.html
     分布式文件系统 - FastDFS 简单了解一下 https://www.cnblogs.com/mafly/p/fastdfs.html
 2.大文件：
     2.1 Hdfs
