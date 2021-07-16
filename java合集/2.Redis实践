@@ -1,4 +1,4 @@
 1.Redis实践 https://developer.ibm.com/zh/languages/java/articles/know-redis-and-use-it-in-springboot-projects/
 2.了解 Redis 并在 Spring Boot 项目中使用 Redis – IBM Developer https://blog.csdn.net/mbh12333/article/details/113865891
 3.Redis学习之4种模式实践及机制解析(单机、主从、哨兵、集群) https://www.cnblogs.com/jing99/p/12651186.html?share_token=25b67e7b-e9cb-4e02-bcdf-15c46bd23d3e
-4.redis 系列之——数据类型 bitmaps：今天你签到了吗？ https://xie.infoq.cn/article/85bb5725442408acf968455ba
+4.redis 系列之——数据类型 bitmaps：今天你签到了吗（系列教程）？ https://xie.infoq.cn/article/85bb5725442408acf968455ba
