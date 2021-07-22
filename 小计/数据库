@@ -1,0 +1,2 @@
+1.表的设计：方案一：实体表+关联表 方案二：实体关联（主外键关联）
+必备字段 1.id 2.creatTime 3.updateTime 4.dateState
