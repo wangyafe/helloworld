@@ -34,3 +34,4 @@ Nginx+Keepalived实现Nginx高可用架构，告别单点故障 https://juejin.c
   5.LAN口和WAN口的区别是什么？
   11.7 LAN口和WAN口的区别是什么？ https://www.zhihu.com/question/20738115
 12.iptables详解（1）：iptables概念（防火墙） https://www.zsythink.net/archives/1199/
+13.微服务架构 BFF和网关是如何演化出来的 https://xuxiangyang.blog.csdn.net/article/details/101161139?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control
