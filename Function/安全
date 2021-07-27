@@ -4,3 +4,4 @@ https://blog.csdn.net/weixin_41346864/article/details/103305423?utm_medium=distr
 3.微服务架构下的鉴权，怎么做更优雅？ https://learnku.com/articles/30704
 4.服务之间调用还需要鉴权？ https://cloud.tencent.com/developer/article/1661115
 5.数据脱敏工具类（操作字符串用正则表达式） https://zhuanlan.zhihu.com/p/131275221
+6.单点登录原理与简单实现 https://www.cnblogs.com/ywlaker/p/6113927.html 面试官：说说什么是单点登录？什么是SSO？什么是CAS？ https://zhuanlan.zhihu.com/p/345791164
