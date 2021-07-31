@@ -100,3 +100,5 @@ spring.datasource.password=123
 9.框架的本质分析——Mybatis https://segmentfault.com/a/1190000015658564
 10.这样看 mybatis，谁都会分析源码！ https://xie.infoq.cn/article/2f998541f14289c8d3851fbb9
 11.Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
+12.传输对象
+       12.1 DTO(请求对象) 12.2 BO(业务对象) 12.3 DAO(mapper请求对象) 12.3 DO(entity和数据库对应) 12.4 VO(展示对象) PO BO VO DTO POJO DAO DO这些Java中的概念分别指一些什么？ https://www.zhihu.com/question/39651928
