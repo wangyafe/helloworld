@@ -18,5 +18,4 @@ https://blog.csdn.net/vbirdbest/article/list/3
 16.使用fiddler来抓包 https://www.cnblogs.com/crazycode2/p/6517784.html
 17.设计的本质就是识别和表达系统难点，找到系统的变化点，并隔离变化点。 说明：世间众多设计模式目的是相同的，即隔离系统变化点。
 18.mysql8.0安装 https://blog.csdn.net/qq_37350706/article/details/81707862
-![image](https://github.com/wangyafe/helloworld/blob/master/code-wallpaper-8.jpg)
 19.面试要点 https://gitee.com/biwangsheng/personal 20.源码解析 https://github.com/doocs/source-code-hunter
