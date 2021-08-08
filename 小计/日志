@@ -1,0 +1,11 @@
+1.定向输出日志：name是 private static final Logger LOGGER = LoggerFactory.getLogger(InComingQueueMonitorService.class) 初始化日志对象时的入参（可以是指定字符串也可以类的限定名）
+<AsyncLogger name="KMI-CLIENT-DIGEST" additivity="false" level="${ctx:logging.level.com.alipay.csccmng}">
+            <AppenderRef ref="KMI-CLIENT-APPENDER"/>
+            <AppenderRef ref="STDOUT-APPENDER"/>
+            <AppenderRef ref="ERROR-APPENDER"/>
+</AsyncLogger>
+        <AsyncLogger name="com.alipay.csccmng.acts.test" additivity="false" level="${ctx:logging.level.com.alipay.csccmng}">
+            <AppenderRef ref="APP-DEFAULT-APPENDER"/>
+            <AppenderRef ref="STDOUT-APPENDER"/>
+            <AppenderRef ref="ERROR-APPENDER"/>
+        </AsyncLogger>
