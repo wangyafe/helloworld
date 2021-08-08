@@ -17,4 +17,5 @@
         //调用对象的指定方法
         m.invoke(service);
 ）1.把配置文件封装成对象2.从对象获取类名和方法名并实例化3.用类对象获取构造器4.实例化出对象5.方法.invoke（构造器）完成调用
-3.动态代理
+3.动态代理（拦截器和设置的Bean的名称表达式做匹配来创建代理）
+spring aop(八)--使用BeanNameAutoProxyCreator创建代理 https://blog.csdn.net/xiejx618/article/details/43952007
