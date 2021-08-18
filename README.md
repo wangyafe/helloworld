@@ -5,9 +5,9 @@ https://blog.csdn.net/vbirdbest/article/list/3
 3.https://blog.csdn.net/v_july_v(结构之法 算法之道 AI)
 4.http://www.199it.com/archives/774074.html(iFinD产业链中心 了解行业结构入口)
 5.树莓派开发之物联网 https://blog.csdn.net/weixin_33675507/article/details/89539893
-6.接口泛型 https://blog.csdn.net/waldmer/article/details/12773021
+6.物联网开发教程 http://github.com/IoT-Technology/IOT-Technical-Guide
 7.导入spring源码 https://www.debugger.wiki/article/html/1588560399054562 (综合教程)
-8.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
+8.AI文集 https://github.com/cbamls/AI_Tutorial
 9.盘优搜、蓝菊花搜索、盘搜、小不点搜索、鸠摩搜索 股票书籍（《分析家》网站）
 10.http://www.15kankan.com/ 要我看看 资源分享门户 城通网盘资源 虫部落·快搜
 11.加速国内Github访问速度 https://bestzuo.cn/posts/497652030.html#more
