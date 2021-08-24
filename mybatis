@@ -1,23 +1,12 @@
 特殊字符   替代符号（红色基本为常用的）
-
      &            &amp;
-
      <            &lt;
-
      >            &gt;
-
      "             &quot;
-
      '              &apos;
-
-
 小于等于    a<=b                 a &lt;= b      a <![CDATA[<= ]]>b
-
 大于等于    a>=b                 a &gt;= b      a <![CDATA[>= ]]>b
-
 不等于        a!=ba <![CDATA[ <> ]]>b      a <![CDATA[!= ]]>b
-
-
 例子：<if test="provinceId != null">
 AND <![CDATA[ province_id = #{provinceId} ]]>
 </if>
@@ -101,4 +90,28 @@ spring.datasource.password=123
 10.这样看 mybatis，谁都会分析源码！ https://xie.infoq.cn/article/2f998541f14289c8d3851fbb9
 11.Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
 12.传输对象
-       12.1 DTO(请求对象) 12.2 BO(业务对象) 12.3 DAO(mapper请求对象) 12.3 DO(entity和数据库对应) 12.4 VO(展示对象) PO BO VO DTO POJO DAO DO这些Java中的概念分别指一些什么？ https://www.zhihu.com/question/39651928
+       12.1 DTO(请求对象) 12.2 BO(业务对象) 12.3 DAO(mapper请求对象) 12.4 DO(entity和数据库对应) 12.4 VO(展示对象) PO BO VO DTO POJO DAO DO这些Java中的概念分别指一些什么？ https://www.zhihu.com/question/39651928
+13.打印sql
+方案一：
+1.https://blog.csdn.net/wqh0830/article/details/85886383
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+</configuration>
+
+#mybatis配置文件的位置
+mybatis.config-location=classpath:mybatis-config.xml
+2.idea安装mybatis-log-plugin
+https://www.geek-share.com/detail/2788889780.html
+方案二：
+级别控制 https://blog.lqdev.cn/2018/07/15/springboot/chapter-four/
+在Spring Boot中只需要在application.properties中进行配置完成日志记录的级别控制。
+配置格式：logging.level.*=LEVEL
+logging.level：日志级别控制前缀，*为包名或Logger名
+LEVEL：选项TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF：
