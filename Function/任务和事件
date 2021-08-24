@@ -1,4 +1,4 @@
 延时任务和定时任务
 1.SpringBoot应用篇基于Redis实现延时队列 - 今日头条 （延时任务） https://www.toutiao.com/item/6989460900709286436/?app=news_article&timestamp=1628314971&use_new_style=1&req_id=2021080713425101015119023241332D8A&group_id=6989460900709286436&share_token=9166cf51-00be-41d1-af6f-215b57cb3749
 2.十分钟！教你玩转SprintBoot定时任务 https://juejin.cn/post/6987949002842964004 （不会写corn表达式的小伙伴，可以使用这个哦：https://cron.qqe2.com）
-3.SpringBoot | 第二十二章：定时任务的使用 https://blog.lqdev.cn/2018/08/19/springboot/chapter-twenty-two/#SchedulingConfigurer
+3.SpringBoot | 第二十二章：定时任务的使用 https://blog.lqdev.cn/2018/08/19/springboot/chapter-twenty-two/#SchedulingConfigurer （cron表达式详解） https://www.cnblogs.com/linjiqin/p/3178452.html
