@@ -1,3 +1,5 @@
 1.Redis
 用了这么久的Redis，你懂它吗？ https://www.163.com/dy/article/GFTEU1Q60552BFLU.html
 2.一致性Hash
+3.分布式锁
+关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198
