@@ -9,6 +9,7 @@
 注意点：1.系统间减少依赖2.幂等设计3.设置超时4.重试策略5.灰度和回滚方案6.线上压测7.系统分级8.判重判空+单元测试+日志+业务情况组合
 高并发五个利器（缓存、限流、降级、熔断、隔离）降级是停掉不重要模块 熔断是不去请求有问题的服务 会进行试探什么时候可以 什么时候把流量分过去 隔离是防止阻塞扩散 https://zhuanlan.zhihu.com/p/61363959
  5.2 什么是接口幂等性？为什么会产生这个问题？如何保证接口幂等性？https://zhuanlan.zhihu.com/p/345428483
+ 5.3 分布式高并发系统如何保证对外接口的幂等性？ https://juejin.cn/post/6844904137172189198
 6.平滑 数据如何进行平滑的变更 （新增字段）
 https://blog.csdn.net/lxw1844912514/article/details/105721889?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-7.baidujs
 7.java分布式系统开关功能设计(服务升降级) https://blog.csdn.net/iamzhongyong/article/details/84449762?utm_medium=distribute.wap_relevant.none-task-blog-baidujs_title-0&share_token=d180ea2e-9a07-45eb-a398-a845353d0b87
