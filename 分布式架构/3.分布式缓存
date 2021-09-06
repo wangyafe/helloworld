@@ -2,4 +2,4 @@
 用了这么久的Redis，你懂它吗？ https://www.163.com/dy/article/GFTEU1Q60552BFLU.html
 2.一致性Hash
 3.分布式锁
-关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198
+ 3.1关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198 3.2 redis 分布式锁的 5个坑，真是又大又深 https://blog.csdn.net/hollis_chuang/article/details/105852232
