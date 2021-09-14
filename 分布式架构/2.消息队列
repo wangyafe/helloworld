@@ -6,3 +6,4 @@
 5.一个简单的 MySQL 批量事务消息队列（基于 Redis Lists） https://zhuanlan.zhihu.com/p/130494984
 6.基于REDIS实现延时任务 https://juejin.cn/post/6844903817713025032 6.1 kafka时间轮-轮询方式 https://blog.csdn.net/Theo9/article/details/106722067 6.2 SpringBoot应用篇基于Redis实现延时队列 - 今日头条 https://www.toutiao.com/item/6989460900709286436/?app=news_article&timestamp=1628314971&use_new_style=1&req_id=2021080713425101015119023241332D8A&group_id=6989460900709286436&share_token=9166cf51-00be-41d1-af6f-215b57cb3749
 7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
+8.订阅关系一致（topic tag groupName概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
