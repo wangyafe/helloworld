@@ -8,3 +8,5 @@
 7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
 8.订阅关系一致（topic tag groupName概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
   8.1 要求一致原因 ：RocketMQ，同一个topic下是否可以通过不同的tag来进行订阅吗？_程序新视界-程序员宅基地 https://www.cxyzjd.com/article/wo541075754/110201551
+9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
+  网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
