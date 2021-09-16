@@ -5,3 +5,9 @@ https://blog.csdn.net/weixin_41346864/article/details/103305423?utm_medium=distr
 4.服务之间调用还需要鉴权？ https://cloud.tencent.com/developer/article/1661115
 5.数据脱敏工具类（操作字符串用正则表达式） https://zhuanlan.zhihu.com/p/131275221
 6.单点登录原理与简单实现 https://www.cnblogs.com/ywlaker/p/6113927.html 面试官：说说什么是单点登录？什么是SSO？什么是CAS？ https://zhuanlan.zhihu.com/p/345791164
+7.安全架构 https://cloud.tencent.com/developer/article/1160128
+  7.1 MD5、Base64是加密算法吗？ https://blog.csdn.net/cuixbo/article/details/82870910
+  7.2 常见加密算法之单向加密（1.防止数据被篡改 2.密码加密传递存储） https://cloud.tencent.com/developer/article/1608669
+  7.3 加密算法根据应用场景的分类：单向加密和双向加密（为什么单向加密有用途） https://nieyong.github.io/wiki_ny/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B8%B8%E8%AF%86.html
+  7.4 无处不在的数字签名 （1.数字签名应用原理 2.为什么可以防止数据被篡改）https://halfrost.com/digital_signature/
+     做法：1.明文传递 2.私钥加密散列值 公钥解密对比
