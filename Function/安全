@@ -8,6 +8,6 @@ https://blog.csdn.net/weixin_41346864/article/details/103305423?utm_medium=distr
 7.安全架构 https://cloud.tencent.com/developer/article/1160128
   7.1 MD5、Base64是加密算法吗？ https://blog.csdn.net/cuixbo/article/details/82870910
   7.2 常见加密算法之单向加密（1.防止数据被篡改 2.密码加密传递存储） https://cloud.tencent.com/developer/article/1608669
-  7.3 加密算法根据应用场景的分类：单向加密和双向加密（为什么单向加密有用途） https://nieyong.github.io/wiki_ny/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B8%B8%E8%AF%86.html
+  7.3 加密算法根据应用场景的分类：单向加密和双向加密（为什么单向加密有用途） https://nieyong.github.io/wiki_ny/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B8%B8%E8%AF%86.html MD5加密，原来MD5作用这么大 https://blog.csdn.net/s_h_m114_2/article/details/98744581?share_token=cd3bcb2e-e5dd-42d9-b9b2-568ece59bd88
   7.4 无处不在的数字签名 （1.数字签名应用原理 2.为什么可以防止数据被篡改）https://halfrost.com/digital_signature/
      做法：1.明文传递 2.私钥加密散列值 公钥解密对比
