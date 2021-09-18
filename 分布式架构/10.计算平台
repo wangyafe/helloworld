@@ -2,5 +2,6 @@
  1.1 快速入门流处理框架Flink --实时报表场景的应用 https://www.cnblogs.com/yougewe/p/11371676.html
  1.2 storm实时分析 
   1.2.1 Storm 入门的Demo教程 https://www.cnblogs.com/xuwujing/p/8584684.html
+  1.2.2 Flume+Kafka+Storm+Redis实时分析系统基本架构 https://blog.csdn.net/ymh198816/article/details/51998085
 2.离线
  mapReduce离线分析 https://www.runoob.com/w3cnote/hdfs-setup.html（MapReduce 使用）
