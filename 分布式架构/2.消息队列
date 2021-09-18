@@ -10,3 +10,4 @@
   8.1 要求一致原因 ：RocketMQ，同一个topic下是否可以通过不同的tag来进行订阅吗？_程序新视界-程序员宅基地 https://www.cxyzjd.com/article/wo541075754/110201551
 9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
   网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
+10.RabbitMQ/RocketMQ/Kafka 如何提高消费速度（只有在pull模式下才可以提高） https://blog.csdn.net/H_L_S/article/details/106727440?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link
