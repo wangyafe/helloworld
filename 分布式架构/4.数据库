@@ -5,5 +5,7 @@
  1.3单节点容量有限
 MySQL主从复制(Master-Slave)实践 https://www.cnblogs.com/gl-developer/p/6170423.html
 2.分库分表
+ 2.1 基于Sharding-jdbc + 编排治理，实现实时改变分表规则动态分表 https://www.jianshu.com/p/3254ac3bc414
+ 2.2 分库分表的问题 https://zhuanlan.zhihu.com/p/54921615
 3.读写分离
  3.1 Spring AOP 实现读写分离 https://juejin.cn/post/6844903575030611975
