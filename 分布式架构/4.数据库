@@ -6,3 +6,4 @@
 MySQL主从复制(Master-Slave)实践 https://www.cnblogs.com/gl-developer/p/6170423.html
 2.分库分表
 3.读写分离
+ 3.1 Spring AOP 实现读写分离 https://juejin.cn/post/6844903575030611975
