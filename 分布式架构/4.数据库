@@ -8,6 +8,8 @@ MySQL主从复制(Master-Slave)实践 https://www.cnblogs.com/gl-developer/p/617
  2.1 基于Sharding-jdbc + 编排治理，实现实时改变分表规则动态分表 https://www.jianshu.com/p/3254ac3bc414
  2.2 分库分表的问题 https://zhuanlan.zhihu.com/p/54921615
  2.3 MyBatis分库分表方案 https://blog.csdn.net/qq_40597878/article/details/90727532?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.no_search_link&spm=1001.2101.3001.4242
+ 2.4 Spring Mybatis的分库分表方式 https://blog.csdn.net/a63297066/article/details/51459422
 3.读写分离
- 3.1 Spring AOP 实现读写分离 https://juejin.cn/post/6844903575030611975
+ 3.1 Spring AOP 实现读写分离（方法名） https://juejin.cn/post/6844903575030611975
+ 3.2 springboot实现读写分离（注解）https://www.jianshu.com/p/b3935de8712f
  3.2 MyCat教程三：安装及配置介绍 (分库分表+读写分离)https://blog.csdn.net/weixin_45600622/article/details/102641793 
