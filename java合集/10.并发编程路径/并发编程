@@ -3,3 +3,5 @@
 3.多线程-JUC线程池-ThreadFactory线程工厂 https://www.cnblogs.com/bjlhx/p/7609100.html?share_token=20d54615-738c-4b91-b504-ce2863d409ee
 4.这一次，彻底搞懂Java并发包中的Atomic原子类 https://zhpanvip.gitee.io/2021/06/26/41-atomic-cas/
 5.Java | 如何设置线程池大小？ https://www.huaweicloud.com/articles/d1f2f274673189cea78abef6809fef43.html
+6.学习路径（奉劝各位Java小老弟，掌握这些“并发编程”核心技能再去面试大厂） https://www.163.com/dy/article/GK858AEM0552BFM8.html
+  6.1 并发基础 6.2 java并发集合 6.3 并发工具类 6.4 java内存模型（JMM） 6.5 线程池 6.6 阻塞队列 6.7 锁 6.8 Atomic 6.9 其他
