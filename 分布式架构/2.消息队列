@@ -13,6 +13,7 @@
   8.3 messageQueue的作用 （rocketmq订阅多个主题_RocketMQ 的消息模型） https://blog.csdn.net/weixin_32243309/article/details/112413390?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
 9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
   网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
+  9.1 基于RocketMQ分布式事务 - 完整示例 https://juejin.cn/post/6844904099993878536#heading-14
 10.RabbitMQ/RocketMQ/Kafka 如何提高消费速度（只有在pull模式下才可以提高） https://blog.csdn.net/H_L_S/article/details/106727440?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link
 11.消息队列（五）如何保证消息的顺序性？ https://xie.infoq.cn/article/c84491a814f99c7b9965732b1
 12.Springboot集成RocketMq(消息的发布与订阅) https://blog.csdn.net/qq_42227281/article/details/107560896?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.no_search_link&spm=1001.2101.3001.4242
