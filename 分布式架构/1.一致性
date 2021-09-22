@@ -2,6 +2,7 @@
 1.1 分布式事务 （分布式事务，这一篇就够了） https://xiaomi-info.github.io/2020/01/02/distributed-transaction/
 1.1.1 从分布式事务解决到Seata使用，一梭子给你整明白了 https://cloud.tencent.com/developer/article/1814208
 1.1.2 SpringBoot+Dubbo+Seata分布式事务实战 https://juejin.cn/post/6844903878098436103
+1.1.3 分布式事务的 6 种解决方案，写得非常好！ https://blog.csdn.net/orichisonic/article/details/118759518
 1.2 分布式锁 （关于分布式锁的面试题都在这里了） https://juejin.cn/post/6844904137172189198
 1.3 mysql用的cap中哪两个_CAP理论中的P到底是个什么意思？（cap） https://blog.csdn.net/weixin_28746457/article/details/113954353
 2.paxos算法
