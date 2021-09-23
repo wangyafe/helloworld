@@ -4,4 +4,5 @@
   1.2.1 Storm 入门的Demo教程 https://www.cnblogs.com/xuwujing/p/8584684.html
   1.2.2 Flume+Kafka+Storm+Redis实时分析系统基本架构 https://blog.csdn.net/ymh198816/article/details/51998085
 2.离线
- mapReduce离线分析 https://www.runoob.com/w3cnote/hdfs-setup.html（MapReduce 使用）
+ 2.1 mapReduce离线分析 https://www.runoob.com/w3cnote/hdfs-setup.html（MapReduce 使用）
+ 2.2 用通俗易懂的大白话讲解Map/Reduce原理 https://www.jianshu.com/p/c2affdca8ed8
