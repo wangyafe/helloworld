@@ -6,3 +6,16 @@
   4.2 在jdk1.7中，由于扩容时使用头插法，在并发时可能会形成环状列表，导致死循环，在jdk1.8中改为尾插法，可以避免这种问题，但是依然避免不了节点丢失的问题
 5.Java集合--TreeMap完全解析 https://www.jianshu.com/p/2dcff3634326
 6.Java集合--HashMap解惑 https://www.jianshu.com/p/a17b4717a721
+7.Java 容器分为 Collection 和 Map 两大类，其下又有很多子类，如下所示：
+ 7.1 Collection
+    7.1.1	List
+	    7.1.1.1 ArrayList
+      7.1.1.2 LinkedList
+      7.1.1.3 Vector
+      7.1.1.4 stack
+    7.1.2 set
+      7.1.2.1 Hashset(LinkedHahset)
+      7.1.2.2 Treeset
+ 7.2 map
+    7.2.1 Hashmap(LinkedHashmap 并发类：1.hashtabel 2.concurrentHashmap) 
+    7.2.2 Treemap
