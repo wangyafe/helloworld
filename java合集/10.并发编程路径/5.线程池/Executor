@@ -1,1 +1,4 @@
-1.Executor
+1.Executors工具类提供静态方法
+ ExecutorService es = Executors.newCachedThreadPool();
+2.Java多线程Future的使用（存放callble接口返回值） https://blog.csdn.net/u010963948/article/details/54669708?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
+3.你应该这样去开发接口：Java多线程并行计算 https://developer.51cto.com/art/202001/609618.htm
