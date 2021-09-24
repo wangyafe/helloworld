@@ -1,3 +1,6 @@
 1.面向对象设计的三大基本特征和六大基本原则 https://www.cnblogs.com/jasonbourne3/p/14099834.html?share_token=4acf4030-4411-43a9-943b-04670423acf9 https://zoyi14.smartapps.cn/pages/note/index?origin=share&slug=76dc9ce01986&_swebfr=1
 2.Java泛型--泛型应用--泛型接口、泛型方法、泛型数组、泛型嵌套 https://blog.csdn.net/waldmer/article/details/12773021
 3.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
+4.面试官问：HashMap在并发情况下为什么造成死循环？一脸懵 https://segmentfault.com/a/1190000021940150
+  4.1 死循环原因：多线程扩容时重新hash写入时 会出现链表首尾相连 变成循环链表的情况 
+  4.2 在jdk1.7中，由于扩容时使用头插法，在并发时可能会形成环状列表，导致死循环，在jdk1.8中改为尾插法，可以避免这种问题，但是依然避免不了节点丢失的问题
