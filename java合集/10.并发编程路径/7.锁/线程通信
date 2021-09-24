@@ -3,3 +3,4 @@
  2.sleep 来自Thread方法 不释放锁
  3.condition类 控制锁 （[Java 锁]Condition 详解）https://www.jianshu.com/p/58651d446e03
 1.ReenTrantLock
+2.ReentrantReadWriteLock读写锁的使用(确定锁的级别) https://www.cnblogs.com/liuling/p/2013-8-21-03.html
