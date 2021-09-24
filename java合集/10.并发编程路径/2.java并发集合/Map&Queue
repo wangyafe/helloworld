@@ -1,3 +1,4 @@
 1.map
+ 1.1 Java集合--ConcurrentMap（1.hashmap线程不安全 数据丢失 死循环cpu占用率升高 2.对应两个线程安全类 2.1 HashTable 线程独占锁 2.2concurrentHashMap 锁住segment对象 segment里维护了小的hashmap） https://www.jianshu.com/p/8f7b2cd34c47
 2.set
 3.queue
