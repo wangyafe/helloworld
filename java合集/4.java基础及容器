@@ -4,3 +4,5 @@
 4.面试官问：HashMap在并发情况下为什么造成死循环？一脸懵 https://segmentfault.com/a/1190000021940150
   4.1 死循环原因：多线程扩容时重新hash写入时 会出现链表首尾相连 变成循环链表的情况 
   4.2 在jdk1.7中，由于扩容时使用头插法，在并发时可能会形成环状列表，导致死循环，在jdk1.8中改为尾插法，可以避免这种问题，但是依然避免不了节点丢失的问题
+5.Java集合--TreeMap完全解析 https://www.jianshu.com/p/2dcff3634326
+6.Java集合--HashMap解惑 https://www.jianshu.com/p/a17b4717a721
