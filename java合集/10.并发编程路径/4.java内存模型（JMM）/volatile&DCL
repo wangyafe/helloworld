@@ -1,0 +1,5 @@
+1.volatile
+2.synchronized
+3.单例模式和DCL（双重检查） https://juejin.cn/post/6844903782187270151
+   3.1 单例模式两种实现方式：1.synchronized锁+DCL +volatile 2.基于类初始化
+   3.2 DCL应用在缓存雪崩 
