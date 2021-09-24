@@ -1,5 +1,29 @@
 1.volatile
 2.synchronized
 3.单例模式和DCL（双重检查） https://juejin.cn/post/6844903782187270151
-   3.1 并发环境下单例模式两种实现方式：1.synchronized锁+DCL +volatile 2.基于类初始化
+   3.1 并发环境下单例模式两种实现方式：1.synchronized锁+DCL +volatile 
+   public class Singleton(){
+            private volatile Singleton singleton;
+            //防止外部实例化
+            private Singleton();
+            public static Singleton getInstance(){
+                  if(singleton == null){//第一次检查
+                        synchronized(Singleton.class){
+                           if(singleton == null){//第二次检查
+                                 singleton = new Singleton();
+                           }
+                        }
+                  }
+                  return singleton;
+            }
+   }
+   2.基于类初始化
+   public class Singleton(){
+      private static class SingletonHolder(){
+         public static Singleton singleton = new Singleton();
+      }
+      public static Singleton getInstance(){
+         return SingletonHolder.singleton;
+      }
+   }
    3.2 DCL应用在缓存雪崩 
