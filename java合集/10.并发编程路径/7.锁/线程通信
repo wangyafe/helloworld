@@ -1,0 +1,5 @@
+线程通信方式：
+ 1.wait notify  来自object方法 释放锁
+ 2.sleep 来自Thread方法 不释放锁
+ 3.condition类 控制锁 （[Java 锁]Condition 详解）https://www.jianshu.com/p/58651d446e03
+1.ReenTrantLock
