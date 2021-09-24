@@ -1,1 +1,2 @@
-1.Automic
+通过原子方式更新数据的工具类
+1.AtomicStampedReference 使用方法 https://www.jianshu.com/p/ab955e2a3c87?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
