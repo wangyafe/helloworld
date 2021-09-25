@@ -1,4 +1,6 @@
 1.解释模式
  Java代码是如何在机器上运行的？ https://developer.51cto.com/art/202105/661529.htm
 2.编译模式
+ 编译和解释的区别：编译是将「一个方法中」包含的所有字节码编译成机器码后再执行 解释是逐条将字节码翻译成机器码并执行
+ 2.1 Python代码是编译执行还是解释执行 https://blog.csdn.net/zhusongziye/article/details/78670050
 3.混合模式
