@@ -1,7 +1,7 @@
 1.分代回收
   1.1 回收的是内存模型中的java堆 1.2 java堆又分为新生代（复制算法）、老年代（标记整理） 1.3 新生代又分为eden tosurvivor From Survivor 默认8：1：1
   1.4 分代垃圾回收器：新生代收集器：Serial、ParNew、Parallel Scavenge 老年代收集器：CMS、Serial Old、Parallel Old
-  1.5 整堆垃圾回收器：G1
+  1.5 整堆垃圾回收器：G1（大数据系统使用）
 2.垃圾回收器实现
  2.1.serial:单线程
  2.2.parNew：多线程
