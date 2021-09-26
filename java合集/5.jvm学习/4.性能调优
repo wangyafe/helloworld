@@ -1,3 +1,7 @@
 1.常见参数
+  1.1 三种：标准（不会变动java -help查询）、X参数（变动较小 java -x查询）、XX参数（用来调优 java）
+  1.2 可以设置内存模型中的堆、 GC中的垃圾回收器、 打印GC日志
+     1.2.1 堆初始化大小 堆最大空间 新生代和老年代比例 新生代中eden和survive
+ Java虚拟机详解（五）------JVM参数（持续更新） https://www.cnblogs.com/ysocean/p/11109018.html
 2.jvm命令
 3.性能分析工具
