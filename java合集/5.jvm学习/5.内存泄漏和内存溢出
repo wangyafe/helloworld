@@ -15,3 +15,4 @@
 15.内存溢出原因：1.jvm内存过小（对应报错permGen space） 2.一次性数据过大 使用了大量的jar或class(报错PermGen space) 2.一直放数据（死循环 报错Java heap space） 4.无法回收（内存泄漏）
    15.1 Java内存泄漏的排查总结 https://blog.csdn.net/fishinhouse/article/details/80781673
    15.2 Java中OutOfMemoryError(内存溢出)的三种情况及解决办法 https://blog.csdn.net/numlockabc272/article/details/50174279
+16.jvm内存溢出问题的定位方法 https://www.cnblogs.com/godoforange/p/11544004.html
