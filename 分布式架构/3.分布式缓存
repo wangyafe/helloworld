@@ -1,5 +1,6 @@
 1.Redis
-用了这么久的Redis，你懂它吗？ https://www.163.com/dy/article/GFTEU1Q60552BFLU.html
+ 1.1 用了这么久的Redis，你懂它吗？ https://www.163.com/dy/article/GFTEU1Q60552BFLU.html
+ 1.2 RDB 持久化方式就是将 str1,str2,str3 这三个键值对保存到 RDB文件中，而 AOF 持久化则是将执行的 set,sadd,lpush 三个命令保存到 AOF 文件中
 2.一致性Hash
 图解一致性哈希算法（引入哈希环 对象和目标同时hash 然后顺时针就近配对） https://segmentfault.com/a/1190000021199728
 3.分布式锁
