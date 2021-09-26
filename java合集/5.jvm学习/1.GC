@@ -3,3 +3,6 @@
   1.4 分代垃圾回收器：新生代收集器：Serial、ParNew、Parallel Scavenge 老年代收集器：CMS、Serial Old、Parallel Old
   1.5 整堆垃圾回收器：G1
 2.垃圾回收器实现
+3.Yong Gc（新生代回收）比full GC（老年代回收）快原因：
+  3.1 年轻代比老年代存活的对象要少很多;
+  3.2 老年代除了标记清除之外, 还要进行内存碎片的清理, 另外还有可能发生Concurrent Mode Failure;
