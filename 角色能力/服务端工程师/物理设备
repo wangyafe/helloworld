@@ -5,3 +5,5 @@
   1.4 NAS: NAS是文件存储
   1.5 SLB：SLB是负载均衡，均衡负载 价格高，不适合中小站
   1.6 弹性公网IP EIP
+2. 对象存储和文件存储究竟有哪些区别？ https://cloud.tencent.com/developer/news/337397
+3. 阿里云文件存储NAS和对象存储OSS区别对比如何选择 https://blog.csdn.net/aliyunbaike/article/details/113636685
