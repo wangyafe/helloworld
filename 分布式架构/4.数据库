@@ -14,3 +14,4 @@ MySQL主从复制(Master-Slave)实践 https://www.cnblogs.com/gl-developer/p/617
  3.2 springboot实现读写分离（注解）https://www.jianshu.com/p/b3935de8712f
  3.2 MyCat教程三：安装及配置介绍 (分库分表+读写分离)https://blog.csdn.net/weixin_45600622/article/details/102641793 
 4.分库分表需要考虑的问题及思路 https://juejin.cn/post/6844903478171533320#heading-8
+   4.1 有些条件查询语句须用关联查询（条件数量过大 如查询total 可以改造表结构）
