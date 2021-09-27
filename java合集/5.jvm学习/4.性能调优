@@ -9,3 +9,7 @@
  2.1.查看字节码Javap
  2.2.-XX:NewRatio 命令 https://blog.csdn.net/kq1983/article/details/105742530?share_token=b05e7d11-36e4-4667-ba58-39e56efa48be
 3.性能分析工具
+ 3.1 听闻阿里开源的Arthas在做Java应用诊断上特牛，果然 https://blog.csdn.net/m0_46995061/article/details/114365960 https://start.aliyun.com/
+ 3.2 Java问题诊断和排查工具（查看JVM参数、内存使用情况及分析等） https://www.cnblogs.com/z-sm/p/6745375.html
+ 3.3 JVisualVM 的使用教程 https://blog.csdn.net/riemann_/article/details/102673947
+ 3.4 带你上手阿里开源的 Java 诊断利器：Arthas https://blog.csdn.net/a419240016/article/details/107479269
