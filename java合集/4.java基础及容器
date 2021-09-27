@@ -19,3 +19,4 @@
  7.2 map
     7.2.1 Hashmap(LinkedHashmap 并发类：1.hashtabel 2.concurrentHashmap) 
     7.2.2 Treemap
+8.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
