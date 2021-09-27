@@ -15,3 +15,4 @@
  3.2 Java问题诊断和排查工具（查看JVM参数、内存使用情况及分析等） https://www.cnblogs.com/z-sm/p/6745375.html
  3.3 JVisualVM 的使用教程 https://blog.csdn.net/riemann_/article/details/102673947
  3.4 带你上手阿里开源的 Java 诊断利器：Arthas https://blog.csdn.net/a419240016/article/details/107479269
+ 3.5 LINUX下开启jvisualvm远程查看JVM（jvisualvm只是个本地工具） https://blog.csdn.net/jzhanfeng123/article/details/115033041
