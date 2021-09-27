@@ -7,3 +7,4 @@
   3.1 即时编译器(Just-In-Time compilation，JIT):效率上来说解释型语言自然比不过编译型语言，当然也不是绝对了，像 JIT 的效率就很高
   3.2 分层编译（javac的时候有一部分代码被解释 一部分代码被编译成机器码）：在运行过程中，部分热点代码（for循环里的代码）会被即时编译器编译成机器码
   3.3 基本功 | Java即时编译器原理解析及实践 https://cloud.tencent.com/developer/article/1739623
+  3.4 编译和启动相关 生成代码和执行小休相关 c1编译快 c2生成代码快 https://developer.51cto.com/art/202105/661529.htm
