@@ -12,6 +12,8 @@
 12.查看字节码Javap
 13.这些JVM笔记你知道了吗 https://open-hl.toutiao.com/a6975468805149688333/?label=related_news&utm_campaign=open&utm_medium=webview&utm_source=o_llq_api&req_id=202106230404190101501611583927E9BC&dt=R7Plusm&a_t=4015916863351649568084031500bdce&gy=bb7b124c4cd75bcc3ea34306d397bd296b34c083ddff8329e556d040850330226166c5b15769ecdc0db1eba436c2b9371eb3c58967d932daf7af65c4c6cac6e6cdc694cedb3d232c844e78d901d2ec2a31182412b45fe23cb58f8d32f9751167631c6acee789d0a738b3ae1a4ebdf8839d53992a6f592cfd69f8db65f12b95ba&crypt=4515&item_id=6975468805149688333&fr=normal&from_gid=6939477062931595788&channel_id=88805669586&__publisher_id__=4248110391627803&oppo_anchor=
 14.Java内存泄漏分析和解决（内存泄漏典型案例 往集合里放入实例对象 然后把它置空 就会导致无法GC） https://www.jianshu.com/p/54b5da7c6816
+   14.1 什么是内存泄漏？该如何检测？又该如何解决？ https://zhuanlan.zhihu.com/p/354615686
+       原因: 1.大量static变量 2.连接资源未关闭（1.数据库连接2.文件资源链接3.网络连接）3.equals和hashCode方法使用不当 4.finalize方法（GC的时候调用 加入执行队列 执行完之后可以回收） 5.ThreadLocal使用不当
 15.内存溢出原因：1.jvm内存过小（对应报错permGen space jdk1.8后是metaSpace） 2.一次性数据过大 使用了大量的jar或class(报错PermGen space) 2.一直放数据（死循环 报错Java heap space） 4.无法回收（内存泄漏）
    15.1 Java内存泄漏的排查总结 https://blog.csdn.net/fishinhouse/article/details/80781673
    15.2 Java中OutOfMemoryError(内存溢出)的三种情况及解决办法 https://blog.csdn.net/numlockabc272/article/details/50174279
