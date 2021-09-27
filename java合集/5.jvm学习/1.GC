@@ -28,3 +28,7 @@
 7. 老大难的 GC 原理及调优，这下全说清楚了 https://www.6aiq.com/article/1570200567790
 8.Java中9种常见的CMS GC问题分析与解决(GC 问题分类) https://tech.meituan.com/2020/11/12/java-9-cms-gc.html
 9.查看JVM使用的默认的垃圾收集器 https://blog.csdn.net/qq9808/article/details/80933396
+  9.1JVM垃圾收集器总结 https://blog.csdn.net/qq9808/article/details/104848080?spm=1001.2014.3001.5501
+  9.2面试官：你对JVM垃圾收集器了解吗？13连问你是否抗的住！https://cloud.tencent.com/developer/article/1628831
+  9.3总结下Jvm垃圾回收器（用两个回收器的目的一个负责新生代 一个负责老生代 都可以设置替补 ） https://zhuanlan.zhihu.com/p/86409307
+  9.4JVM中的分布式垃圾回收(DGC 引用计数法) https://blog.csdn.net/wodewutai17quiet/article/details/53550158
