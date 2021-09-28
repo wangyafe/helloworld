@@ -4,6 +4,7 @@
 1.1.2 SpringBoot+Dubbo+Seata分布式事务实战 https://juejin.cn/post/6844903878098436103
 1.1.3 分布式事务的 6 种解决方案，写得非常好！ https://blog.csdn.net/orichisonic/article/details/118759518
 1.1.4 TCC分布式事务的实现原理（补偿机制） https://blog.csdn.net/eluanshi12/article/details/84528393
+1.1.5 分布式事务(1)---2PC和3PC原理（建立统一协调者） https://www.cnblogs.com/qdhxhz/p/11167025.html
 1.2 分布式锁 （关于分布式锁的面试题都在这里了） https://juejin.cn/post/6844904137172189198
 1.3 mysql用的cap中哪两个_CAP理论中的P到底是个什么意思？（cap） https://blog.csdn.net/weixin_28746457/article/details/113954353
 1.4 常说的分布式系统核心理论CAP与BASE到底是什么 https://www.toutiao.com/item/7011865349721276940/?app=news_article&timestamp=1632589262&use_new_style=1&req_id=202109260101020101502152272555C4EC&group_id=7011865349721276940&share_token=bf681cff-85de-47df-87ec-734d6519a521
