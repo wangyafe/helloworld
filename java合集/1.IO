@@ -9,4 +9,4 @@
    5.4 内核态IO多路复用： 1.select：用户传参connfd数组 os来遍历 返回带有标识的connfd 用户仍要遍历read(存在三个问题：1.connfd大文件复制 2.存在无效遍历 3.内核主动查询结果 可改为异步事件通知 即connfd状态改变主动通知)
                          2.poll: 解除select 只能监听 1024 个文件描述符的限制
                          3.epoll:1.保存一份connfd数组 只做修改 2.仅返回IO事件的connfd 3.内核不再轮询 通过异步事件通知唤醒
-6. 1.IO多路复用就是os提供遍历文件描述符机制 2.connfd状态就绪：网卡到内核缓冲区 read:内核缓冲区到用户缓冲区
+6. 1.IO多路复用就是os提供遍历文件描述符机制 2.connfd状态就绪：网卡到内核缓冲区 read:内核缓冲区到用户缓冲区 3.IO的演进：1.os提供非阻塞read函数 2.IO提供遍历connfd函数（1.select 2.poll 3.epool）
