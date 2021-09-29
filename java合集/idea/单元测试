@@ -2,5 +2,7 @@
 2.mock单元测试 https://zhuanlan.zhihu.com/p/98074553
 3.手把手教你单元测试，你学会了吗？(查看代码覆盖率) http://www.51testing.com/html/95/n-4476595.html?nomobile=1
 4.postman测试三种传输数据格式(其实是只有两种)，json对象和formData对象互转 https://blog.csdn.net/weixin_42765975/article/details/99175476
-  4.1 请求格式：1.get（不会去读 body里的formData） 2.post(去读 body里的formData)
+  4.1 请求格式：1.get（不会去读 body里的formData） 2.post(1.去读 body里的formData 2.post可以读body和head get只可以读head)
   4.2 对象格式：1.json对象 2.formData对象
+  4.3 Content-Type是声明请求body数据类型及编码格式 比如：1.text/plain（纯文本格式）
+  4.4 通常把form标签称为表单表单
