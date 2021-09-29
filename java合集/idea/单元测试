@@ -1,3 +1,6 @@
 1.阿里技术 :单元测试，只是测试吗？(TDD 与 BDD 的简单理解) https://developer.aliyun.com/article/770589
 2.mock单元测试 https://zhuanlan.zhihu.com/p/98074553
 3.手把手教你单元测试，你学会了吗？(查看代码覆盖率) http://www.51testing.com/html/95/n-4476595.html?nomobile=1
+4.postman测试三种传输数据格式(其实是只有两种)，json对象和formData对象互转 https://blog.csdn.net/weixin_42765975/article/details/99175476
+  4.1 请求格式：1.get 2.post
+  4.2 对象格式：1.json对象 2.formData对象
