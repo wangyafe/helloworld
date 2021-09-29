@@ -1,4 +1,5 @@
 1.AQS
  1.1 从ReentrantLock的实现看AQS的原理及应用 https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html
  1.2 AQS详解,并发编程的半壁江山 https://cloud.tencent.com/developer/article/1751267
+ 1.3 图文并茂：肝了1万多字！只为了让你更好地了解AQS的运行原理 https://www.daimajiaoliu.com/daima/8c786c937661000
 2.CAS
