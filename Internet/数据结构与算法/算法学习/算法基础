@@ -7,3 +7,4 @@
 6.字符串匹配的KMP算法 http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
 7.九种排序算法(重要！!) https://www.jianshu.com/p/fb4d4e595538
 8.https://github.com/Dairongpeng/algorithm-note
+9.大数据去重：（bitmap和布隆过滤器） https://cloud.tencent.com/developer/article/1813682
