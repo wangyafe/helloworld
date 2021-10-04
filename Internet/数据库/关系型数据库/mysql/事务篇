@@ -3,3 +3,4 @@
  1.2 Spring详解（八）------事务管理 https://www.cnblogs.com/ysocean/p/7617620.html#_label6
  1.3 事务的传播机制是指小方法的事务行为
 2.QPS（每秒查询数）、TPS（每秒事务数）、IOPS（每秒读写数） 
+3.MySQL（5）| 五分钟搞清楚 MVCC 机制 https://juejin.cn/post/6844903778026536968
