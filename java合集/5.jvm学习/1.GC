@@ -25,6 +25,7 @@
  6.2 软引用：有用但不是必须的对象，在发生内存溢出之前会被回收。
  6.3 弱引用：有用但不是必须的对象，在下一次GC时会被回收。
  6.4 虚引用（幽灵引用/幻影引用）：无法通过虚引用获得对象，用 PhantomReference 实现虚引用，虚引用的用途是在 gc 时返回一个通知
+ 6.5 别再找了，一文彻底解析Java 中的弱引用 https://juejin.cn/post/6844903954548015111
 7. 老大难的 GC 原理及调优，这下全说清楚了 https://www.6aiq.com/article/1570200567790
 8.Java中9种常见的CMS GC问题分析与解决(GC 问题分类) https://tech.meituan.com/2020/11/12/java-9-cms-gc.html
 9.查看JVM使用的默认的垃圾收集器 https://blog.csdn.net/qq9808/article/details/80933396
