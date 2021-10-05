@@ -1,4 +1,6 @@
 1.docker
-Docker上手，看完觉得自己又行了！ https://cloud.tencent.com/developer/article/1746181
+1.1 Docker上手，看完觉得自己又行了！ https://cloud.tencent.com/developer/article/1746181
+1.2 各种 Docker 注册中心一览 https://www.infoq.cn/article/2016/12/overview-docker-registries
+1.3 https://yeasy.gitbook.io/docker_practice/repository/registry(自建私有仓库) https://yeasy.gitbook.io/docker_practice/repository/registry
 2.k8s
 Docker 和 Kubernetes 从听过到略懂：给程序员的旋风教程 https://juejin.cn/post/6844903650611953677
