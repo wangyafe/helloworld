@@ -1,0 +1,70 @@
+一.静态网页 （考虑浏览器兼容）
+1.Html 布局网页
+2.css 美化网页
+3.js 点击跳转 窗口弹出
+4.jq 框架和组件 简化js编程方式
+5.bootstrap 套用其好看的样式 快速开发
+二.动态网页
+6.Ajax 前端调用后端接口
+7.json 后端返回数据的一种格式
+8.spring 轻量级开发框架
+9.springmvc 快速开发Web应用框架
+10.freeMarker 服务端模板引擎
+11.HttpClient java实现的http请求客户端
+12.mybatis 持久层框架
+13.mysql 关系型数据库
+14.maven 项目管理工具
+15.Tomcat sevlet容器 接收浏览器请求
+三.软件工程
+16.git 代码版本管理工具
+17.gitlab 项目管理和代码托管平台
+18.nexus maven仓库管理器
+19.禅道 覆盖了项目管理的核心流程
+20.jira 项目管理 任务管理 缺陷管理
+四.自动化构建管理工具（虚拟化）
+21.Docker 应用容器引擎
+22.jenkins CI&CD工具
+五.监控和日志
+23.prometheus 监控系统和时间序列数据库
+24.Grafana 度量仪表盘和图形编辑器
+25.zabbix 监控解决方案
+26.es 搜索引擎
+27.kibana 对日志高效搜索 可视化 分析等操作的平台
+28.logstash 应用程序日志事件的传输、处理 管理 搜索的平台
+29.log4j 可以控制日志信息输送目的地的开源组件
+30.logback log4j创始人设计的另一套开源组件
+六.负载均衡
+31.nginx 高性能的http和反向代理的Web服务器
+32.lvs 服务器集群系统
+33.keepalived 检测web服务器状态的程序
+七.缓存
+34.redis key-value数据库 对关系型数据库起到了很好的补充作用
+35.jedis redis客户端开发包
+36.redisson 在nio基础上 提供工具类
+八.消息队列
+37.rabbitmq 
+38.kafka 高吞吐量的发布订阅消息系统
+39.rocketmq 基于高可用分布式系统 提供低延时 高可靠的消息发布和订阅服务
+九.分布式微服务架构（重构期）
+40.dubbo 高性能rpc框架
+41.springCloud 快速构建微服务架构的开发框架
+   41.1 nacos 动态服务发现配置和服务管理平台
+   41.2 Ribbon 在客户端提供软件负载均衡算法的组件、
+   41.3 fein java http客户端库
+   41.4 sentinel 面向分布式服务架构的高可用流量防护组件
+   41.5 GateWay 微服务网关组件
+42.zookeeper 分布式协调服务
+43.Netty 高性能网络应用框架
+44.xxl-job 轻量级分布式任务调度系统
+45.elastic-job 分布式调度解决方案
+十.大数据
+46.mycat 分库分表中间件
+47.sharding-sphere 分库分表框架
+十一.可伸缩
+48.kubernetes 谷歌云平台的开源容器集群管理系统
+49.openshift 红帽推出的paas
+十二.新生代架构
+50.servie mesh 下一代微服务
+51.serverless 用来构架和运行不需要服务器管理的应用程序
+52.云原生架构 运用云环境 充分利用云资源的架构
+   
