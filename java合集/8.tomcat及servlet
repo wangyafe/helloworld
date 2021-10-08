@@ -7,3 +7,6 @@ tomcat:
 3.【大厂每日面试】Tomcat的连接器是如何设计的？（tomcat负责网络通信和应用层协议解析并执行容器service tomcat设计结构的深入理解及复杂系统用接口和抽象基类） https://blog.csdn.net/qq_33589510/article/details/118856306
 拦截器：
 1.springboot 实现拦截的 3 种方式介绍及异步执行的思考 https://juejin.cn/post/6982562317040877582
+监听器：
+1.Java如何使用Listener（监听1.web启动和关闭 2.请求开始和结束 3.session开始和结束） https://blog.csdn.net/zcl_love_wx/article/details/52072655
+
