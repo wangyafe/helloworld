@@ -16,3 +16,6 @@
 9.Linux下查找java进程耗用cpu最高的线程方法 https://my.oschina.net/hebad/blog/1526883
 10.nohup java -jar demo-0.0.1-SNAPSHOT.jar & #后台运行
    curl http://localhost:9000/getUserInfo #访问接口
+11.Linux 不懂权限管理，怎么玩骚操作 https://cloud.tencent.com/developer/article/1748506
+   11.1 链接文件即windows的快捷文件
+   11.2 总用量以块为单位文件大小
