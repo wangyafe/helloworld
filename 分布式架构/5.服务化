@@ -14,5 +14,11 @@
 3、所有biz之间的通讯，都通过proxy完成，proxy之间才存在远端连接，即图中红色箭头，这样就实现了业务开发人员与基础技术开发人员关注点的分离，如果所有节点都实现了如上解耦，整个架构会演变为service mesh网格
 3.springCloud
 👉👉👉冒着挂科的风险也要给你们看的 Spring Cloud 入门总结 https://juejin.cn/post/6844904007975043079
+  3.1 zuul 微服务网关
+  3.2 Hystrix 服务降级熔断器（运行在客户端）
+  3.3 Ribbon 进程内负载均衡器 （运行在客户端）
+  3.4 Eureka 注册中心
+  3.5 Fegin 服务调用映射
+  3.6 Config + Bus 动态配置
 4.分布式服务框架资料汇总 https://www.cnblogs.com/qingfengEthan/p/12636046.html
 5.微服务应用(二十二)：微服务架构之服务治理 http://www.gxitsky.com/article/1616752873224281
