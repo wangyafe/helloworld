@@ -5,7 +5,7 @@ tomcat:
 1.面试官问：你们服务最大的并发量是多少？ https://blog.csdn.net/qq_33589510/article/details/118443886
 2.tomcat是服务端的浏览器 Servlet是运行在服务器端的程序，可以被认为是服务器端的applet。servlet被Web服务器（例如Tomcat）加载和执行，就如同applet被浏览器加载和执行一样。servlet从客户端(通过Web服务器)接收请求，执行某种操作，然后返回结果
 3.【大厂每日面试】Tomcat的连接器是如何设计的？（tomcat负责网络通信和应用层协议解析并执行容器service tomcat设计结构的深入理解及复杂系统用接口和抽象基类） https://blog.csdn.net/qq_33589510/article/details/118856306
-4.深度解读Tomcat中的NIO模型 https://www.jianshu.com/p/76ff17bc6dea
+4.深度解读Tomcat中的NIO模型（最大线程数用来处理read函数） https://www.jianshu.com/p/76ff17bc6dea
 拦截器：
 1.springboot 实现拦截的 3 种方式介绍及异步执行的思考 https://juejin.cn/post/6982562317040877582
 监听器：
