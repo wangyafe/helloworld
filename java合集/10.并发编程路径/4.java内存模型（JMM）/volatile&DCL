@@ -29,3 +29,8 @@
    3.2 DCL应用在缓存雪崩 
 4.啃完这53道Java并发面试宝典，并发相关面试再也难不倒你！ https://www.jianshu.com/p/10d084e01dc5
   volatile应用场景和作用：1.禁止指令重排（as-if-serial 在单线程环境下不能改变程序运行的结果） 2.可见性 一写多读
+5.Synchronized解析——如果你愿意一层一层剥开我的心(对象的内存布局) https://juejin.cn/post/6844903918653145102#heading-15
+  5.1 面试官：说说多线程并发问题（锁升级原理） https://juejin.cn/post/6844903941830869006#heading-11
+  5.2 锁升级原理：1.偏向锁：只有一个线程时 比较线程Id(对象头的mark word里) 2.轻量级：在偏向锁的条件下 线程B访问同步代码 比较对象头的线程id不一样，会升级为轻量级锁，并且通过自旋的方式来获取轻量级锁 3.重量级：并发下 转为重量级锁
+  5.3 对象内存布局：1.对象头（mark word [1.轻量级锁指针2重量级锁指针3.偏向锁的线程Id4.GC年龄5.hashcode] 2.class point） 2.实例数据（1.类的属性数据信息2.父类的属性信息） 3.对齐填充
+  5.4 Synchronized原理：1.同步代码块:monitorEnter+monitorExit指令 和monitor对象 2.同步方法：设置方法标志 +monitor对象
