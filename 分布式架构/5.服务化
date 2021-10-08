@@ -15,8 +15,8 @@
 3.springCloud
 👉👉👉冒着挂科的风险也要给你们看的 Spring Cloud 入门总结 https://juejin.cn/post/6844904007975043079
   3.1 zuul 微服务网关
-  3.2 Hystrix 服务降级熔断器（运行在客户端）
-  3.3 Ribbon 进程内负载均衡器 （运行在客户端）
+  3.2 Hystrix 服务降级熔断器（运行在应用层）
+  3.3 Ribbon 进程内负载均衡器 （运行在应用层）
   3.4 Eureka 注册中心
   3.5 Fegin 服务调用映射
   3.6 Config + Bus 动态配置
