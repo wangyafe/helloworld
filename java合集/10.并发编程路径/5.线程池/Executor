@@ -3,3 +3,4 @@
 2.Java多线程Future的使用（存放callble接口返回值） https://blog.csdn.net/u010963948/article/details/54669708?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
 3.你应该这样去开发接口：Java多线程并行计算 https://developer.51cto.com/art/202001/609618.htm
 4.常见线程：单一的/固定数的/可变的三种常见线程池
+5.Thread.start() ，它是怎么让线程启动的呢？ https://my.oschina.net/itstack/blog/4754367
