@@ -4,3 +4,6 @@
  1.3 事务的传播机制是指小方法的事务行为
 2.QPS（每秒查询数）、TPS（每秒事务数）、IOPS（每秒读写数） 
 3.MySQL（5）| 五分钟搞清楚 MVCC 机制 https://juejin.cn/post/6844903778026536968
+4.数据库事务理解（1.DML之后需要commmit 如果没有commit 那就是进行了隐式提交 可以关闭隐式提交）https://blog.csdn.net/xiaotom5/article/details/8133067 https://how2j.cn/k/jdbc/jdbc-transaction/393.html#nowhere
+5.深入学习MySQL事务：ACID特性的实现原理 https://www.cnblogs.com/kismetv/p/10331633.html
+6.查看锁的情况select * from performance_schema.data_locks;
