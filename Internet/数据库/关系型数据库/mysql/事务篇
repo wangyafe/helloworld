@@ -5,5 +5,16 @@
 2.QPS（每秒查询数）、TPS（每秒事务数）、IOPS（每秒读写数） 
 3.MySQL（5）| 五分钟搞清楚 MVCC 机制 https://juejin.cn/post/6844903778026536968
 4.数据库事务理解（1.DML之后需要commmit 如果没有commit 那就是进行了隐式提交 可以关闭隐式提交）https://blog.csdn.net/xiaotom5/article/details/8133067 https://how2j.cn/k/jdbc/jdbc-transaction/393.html#nowhere
-5.深入学习MySQL事务：ACID特性的实现原理 https://www.cnblogs.com/kismetv/p/10331633.html
-6.查看锁的情况select * from performance_schema.data_locks;
+5.查看锁的情况select * from performance_schema.data_locks;
+6.深入学习MySQL事务：ACID特性的实现原理 https://www.cnblogs.com/kismetv/p/10331633.html
+  6.1 原子性（Atomicity）: 事务进行写操作时 生成对应undo log(回滚日志 是逻辑日志 记录的是sql相关信息) 回滚时根据undo log执行相反操作
+  6.2 一致性（Consistency） ：1.数据库层面的保障（不允许整型写入字符串型字段） 2.应用层保障（一致性是指数据的一致性）
+  6.3 隔离性（Isolation）: 1.写对写的影响 锁机制保障隔离性（Innodb的行锁和表锁） 2.写对读的影响 
+       2.1 加锁读（1.for update 2.in share mode 3.间隙锁（在范围查询时 防止幻读 RC级别下用加锁读生效）
+       2.2 非加锁读 mvcc保障隔离性
+          2.2.1 RC隔离级别：读最新快照
+          2.2.2 RR隔离级别：读当前快照
+  6.4 持久性（Durability）: 1.事务写操作时 写入redo log（重做日志 物理日志） 再写入buffer pool 2.默认刷盘时机是提交
+7.【大厂面试03期】MySQL是怎么解决幻读问题的？ https://www.cnblogs.com/notfound9/p/13041794.html?share_token=b021b66c-359c-44ea-b3e3-8b51430884c8#tt_daymode=1&tt_font=m
+       
+
