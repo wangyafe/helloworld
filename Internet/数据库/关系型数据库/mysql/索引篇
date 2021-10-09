@@ -1,22 +1,20 @@
-1.数据库事务理解（1.DML之后需要commmit 如果没有commit 那就是进行了隐式提交 可以关闭隐式提交）https://blog.csdn.net/xiaotom5/article/details/8133067 https://how2j.cn/k/jdbc/jdbc-transaction/393.html#nowhere
-2.深入学习MySQL事务：ACID特性的实现原理 https://www.cnblogs.com/kismetv/p/10331633.html
-3.查看锁的情况select * from performance_schema.data_locks;
-4.MySQL索引那些事：什么是索引？为什么加索引就查得快了？ http://blog.itpub.net/70000181/viewspace-2776159/
-5.B+Tree原理及mysql的索引分析 https://www.cnblogs.com/xiaoxi/p/6894610.html
-6.MySQL回表、索引覆盖、索引下推 https://blog.csdn.net/luxiaoruo/article/details/106637231?share_token=7a59d0da-1223-4c66-b503-b8b9f6809f75
+1.MySQL索引那些事：什么是索引？为什么加索引就查得快了？ http://blog.itpub.net/70000181/viewspace-2776159/
+2.B+Tree原理及mysql的索引分析 https://www.cnblogs.com/xiaoxi/p/6894610.html
+3.MySQL回表、索引覆盖、索引下推 https://blog.csdn.net/luxiaoruo/article/details/106637231?share_token=7a59d0da-1223-4c66-b503-b8b9f6809f75
 锁表是为了数据一致性 建立索引时读取数据 建立索引树 dml操作的话导致索引文件和数据文件不一致
-7.MySQL-添加索引或字段时如何不锁表 https://www.cnblogs.com/lvqiang/p/14412493.html?share_token=94f48c48-f35e-4e93-acf2-5fed40c7d7f0
-8.MySQL 的 MRR 到底是什么？ https://www.cnblogs.com/jmcui/p/13488892.html
-9.1.select b.NAME, a.NAME, a.INDEX_ID, a.PAGE_NO
+4.MySQL-添加索引或字段时如何不锁表 https://www.cnblogs.com/lvqiang/p/14412493.html?share_token=94f48c48-f35e-4e93-acf2-5fed40c7d7f0
+5.MySQL 的 MRR 到底是什么？ https://www.cnblogs.com/jmcui/p/13488892.html
+6.1.select b.NAME, a.NAME, a.INDEX_ID, a.PAGE_NO
  from information_schema.innodb_indexes as a  
 join  information_schema.innodb_tables as b 
 on a.table_id=b.table_id;
 Windows命令行下的十六进制文件查看工具Hexdump https://blog.csdn.net/mochu7777777/article/details/106878902 9.2 Linux版如何查看MySQL中索引树的高度？ https://www.jianshu.com/p/67760a755bc6
-10.书写高质量 SQL 的 30 条建议(in和exist区别) https://xie.infoq.cn/article/80fff36408f1bf7e17694b6d1
-11.数据库表设计（一对多，多对多） 【好】 https://www.cnblogs.com/my_life/articles/5950415.html
-12.MySQL多表连接查询 https://www.cnblogs.com/geaozhang/p/6753190.html
-13.数据库ER图基础概念整理 https://blog.csdn.net/belen_xue/article/details/52763629
-14.回去等通知吧， 连sql的执行顺序都不知道？ https://bbs.huaweicloud.com/blogs/detail/194440
-15.阿里一面，给了几条SQL，问需要执行几次树搜索操作？(索引分类) https://juejin.cn/post/6923788859712995336#heading-14
-  15.1 MyISAM和InnoDB 索引区别 https://segmentfault.com/a/1190000022206424
-  15.2 Mysql空间索引 https://www.jianshu.com/p/74a554ff973a
+7.书写高质量 SQL 的 30 条建议(in和exist区别) https://xie.infoq.cn/article/80fff36408f1bf7e17694b6d1
+8.数据库表设计（一对多，多对多） 【好】 https://www.cnblogs.com/my_life/articles/5950415.html
+9.MySQL多表连接查询 https://www.cnblogs.com/geaozhang/p/6753190.html
+10.数据库ER图基础概念整理 https://blog.csdn.net/belen_xue/article/details/52763629
+11.回去等通知吧， 连sql的执行顺序都不知道？ https://bbs.huaweicloud.com/blogs/detail/194440
+12.阿里一面，给了几条SQL，问需要执行几次树搜索操作？(索引分类) https://juejin.cn/post/6923788859712995336#heading-14
+  12.1 MyISAM和InnoDB 索引区别 https://segmentfault.com/a/1190000022206424
+  12.2 Mysql空间索引 https://www.jianshu.com/p/74a554ff973a
+13.联合索引在B+树上的存储结构及数据查找方式 https://blog.csdn.net/ibigboy/article/details/104571930?depth_1-
