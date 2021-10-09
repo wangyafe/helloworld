@@ -15,6 +15,7 @@
           2.2.1 RC隔离级别：读最新快照
           2.2.2 RR隔离级别：读当前快照
   6.4 持久性（Durability）: 1.事务写操作时 写入redo log（重做日志 物理日志） 再写入buffer pool 2.默认刷盘时机是提交
+  6.5 不能完全保证特例：1.第一次读非加锁读 第二次加锁读
 7.【大厂面试03期】MySQL是怎么解决幻读问题的？ https://www.cnblogs.com/notfound9/p/13041794.html?share_token=b021b66c-359c-44ea-b3e3-8b51430884c8#tt_daymode=1&tt_font=m
        
 
