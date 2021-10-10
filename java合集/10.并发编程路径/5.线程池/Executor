@@ -4,3 +4,4 @@
 3.你应该这样去开发接口：Java多线程并行计算 https://developer.51cto.com/art/202001/609618.htm
 4.常见线程：单一的/固定数的/可变的三种常见线程池
 5.Thread.start() ，它是怎么让线程启动的呢？ https://my.oschina.net/itstack/blog/4754367
+6.线程池的核心线程数 设置大小与cpu 的关系 https://blog.csdn.net/weixin_43975771/article/details/113099180
