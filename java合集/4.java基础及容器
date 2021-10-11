@@ -18,5 +18,7 @@
       7.1.2.2 Treeset
  7.2 map
     7.2.1 Hashmap(LinkedHashmap 并发类：1.hashtabel 2.concurrentHashmap) 
+      7.*.1 jdk1.7 1.8 hash map 区别及一些细节 https://www.cnblogs.com/silyvin/p/11475086.html?share_token=7857d804-ffff-4227-af35-91ce63458d0b
+      7.*.2 JDK1.8HashMap链表转红黑树，平均查找长度 https://www.jianshu.com/p/6d7b9c7fef3a
     7.2.2 Treemap
 8.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
