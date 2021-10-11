@@ -2,3 +2,8 @@
 2.SpringBoot实战电商项目mall （单体前后端搭建所需技术）https://github.com/macrozheng/mall
 3.可作为脚手架 https://github.com/xie19900123/spring-boot-learning
 4.Spring Boot 2实践系列(二十二)：Web 静态资源,跨域,消息转换器,拦截器,监听器,过滤器等相关配置 http://www.gxitsky.com/article/1605436777609536
+5.SpringBoot的启动流程是怎样的？SpringBoot源码（七） https://segmentfault.com/a/1190000022119546
+   5.1 SPRINGBOOT启动原理（基于2.3.9.RELEASE版本） https://www.cnblogs.com/theRhyme/p/how-does-springboot-start.html
+   5.2 SpringBoot-v2.2.0启动过程以及细节 https://www.cnblogs.com/LUA123/p/11720686.html
+       1.初始化springApplication对象（1.实例化监听器）
+       2.调用run方法（1.遍历监听器 2.配置banner 3.创建 、准配、刷新上下文）
