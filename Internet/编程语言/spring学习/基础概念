@@ -3,3 +3,4 @@
 3.spring实战 https://www.cnblogs.com/xing901022/category/642864.html
 4.doocs/source-code-hunter（源码解析） https://github.com/doocs/source-code-hunter
 5.SpringMVC学习笔记01——SpringMVC执行原理(controller是action 也是handler 用适配器的原因是不知道action实现方式 (多情况调度)) https://blog.csdn.net/xulidanga/article/details/119484933
+6.高频面试题：Spring 如何解决循环依赖？（提前引用） https://zhuanlan.zhihu.com/p/84267654
