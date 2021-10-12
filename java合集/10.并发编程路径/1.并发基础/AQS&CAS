@@ -2,6 +2,7 @@
  1.1 从ReentrantLock的实现看AQS的原理及应用 https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html
  1.2 AQS详解,并发编程的半壁江山 https://cloud.tencent.com/developer/article/1751267
  1.3 图文并茂：肝了1万多字！只为了让你更好地了解AQS的运行原理 https://www.daimajiaoliu.com/daima/8c786c937661000
+ 1.4 阿里面试官：说一下公平锁和非公平锁的区别？ https://blog.csdn.net/qq_35190492/article/details/104943579
 2.CAS
  2.1 CAS(自旋)原理解析，及ABA问题 https://blog.csdn.net/weixin_44998030/article/details/105325844?share_token=bd47a147-3341-4ca8-bf67-9d183b22ca67
  2.2 CAS 实现原子操作的三大问题（只能保证一个变量的原子性 可采用并发原子类AtomicReferrence或锁） https://www.jianshu.com/p/68f9cd012de8
