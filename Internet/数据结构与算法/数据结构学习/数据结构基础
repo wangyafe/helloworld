@@ -5,3 +5,4 @@
 8.字典树(前缀树 es的term index使用) https://blog.csdn.net/weixin_39778570/article/details/81990417?share_token=4d9d6dd6-cfef-4564-ba37-3e0ebd939b32
 9.B树 https://www.cnblogs.com/lianzhilei/p/11250589.html?share_token=b666f2b6-8b9e-4e5f-99c9-3c64a9c34749
 10.跳表这种高效的数据结构，值得每一个程序员掌握 https://zhuanlan.zhihu.com/p/54869087
+  10.1 多级索引的链表，就是跳表 2.事件复杂度为O(m*log2n)
