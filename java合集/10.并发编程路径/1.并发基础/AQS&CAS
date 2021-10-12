@@ -5,7 +5,7 @@
  1.4 阿里面试官：说一下公平锁和非公平锁的区别？ https://blog.csdn.net/qq_35190492/article/details/104943579
  1.5 浅析 AQS https://zhuanlan.zhihu.com/p/228911378
     1.5.1 原理：1.volatile int state(共享资源) 2.CLH（双向队列）
-    1.5.2 1.实现共享锁和独占锁 2.独占锁又分为公平锁和非公平锁
+    1.5.2 功能：1.实现共享锁和独占锁 2.独占锁又分为公平锁和非公平锁
     1.5.3 应用：1.ReentrantLock 2.各种并发工具类 3.自定义的同步器继承AQS后，只需要实现共享资源state的获取和释放方式（CAS）
     1.5.3 步骤：1.cas修改state 2.队列获取锁失败 调用unsafe.park 线程阻塞 3.新线程失败 放入队尾 4.释放资源后 unsafe.unpark唤醒 
 2.CAS
