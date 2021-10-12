@@ -24,3 +24,5 @@
       7.3 Hashmap1.7和1.8区别+ConcurrentHashmap1.7和1.8区别 https://www.cnblogs.com/leeego-123/p/12156165.html
     7.2.2 Treemap
 8.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
+9.关于final修饰的字段初始化问题 https://blog.csdn.net/qq_41817611/article/details/107121704
+  9.1 在虚拟机为它开辟空间时必须得保证它会被显式赋值一次且只被赋值一次
