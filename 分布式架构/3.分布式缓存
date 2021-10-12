@@ -8,3 +8,9 @@
 图解一致性哈希算法（引入哈希环 对象和目标同时hash 然后顺时针就近配对） https://segmentfault.com/a/1190000021199728
 3.分布式锁
  3.1关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198 3.2 redis 分布式锁的 5个坑，真是又大又深 https://blog.csdn.net/hollis_chuang/article/details/105852232
+4.数据类型和数据结构
+  1.String 2.动态字符串 3.编码格式(int raw embstr)
+  2.List 2.压缩列表和双向链表 3.编码格式（zipList LinkedList）
+  3.Hash 2.压缩列表和字典 3.编码格式（zipList HashTable）
+  4.set 2.整数集合和字典 3.编码格式（intset HashTable）
+  5.zset 2.压缩列表和和跳表 3.编码格式（ziplist skiplist）
