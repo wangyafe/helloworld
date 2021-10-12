@@ -1,1 +1,3 @@
 1.LinkedBlockingQueue
+2.经典并发同步模式：生产者-消费者设计模式 https://zhuanlan.zhihu.com/p/73442055
+  2.1 基于阻塞队列
