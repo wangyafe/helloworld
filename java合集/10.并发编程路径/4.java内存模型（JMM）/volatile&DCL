@@ -1,6 +1,8 @@
 1.volatile
 2.synchronized
  2.1 什么是 happens-before 关系？ https://www.cnblogs.com/muzhongjiang/p/15143313.html?share_token=bd05d68a-4f1b-477e-8e50-79b24b881b20
+ 2.2 重量级锁相比Lock锁为什么更占用资源 https://www.jianshu.com/p/955a6ef92787
+    1.涉及内核态和用户态的切换
 3.单例模式和DCL（双重检查） https://juejin.cn/post/6844903782187270151
    3.1 并发环境下单例模式两种实现方式：1.synchronized锁+DCL +volatile 
    public class Singleton(){
