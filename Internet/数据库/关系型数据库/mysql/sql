@@ -1,3 +1,7 @@
 1.回去等通知吧， 连sql的执行顺序都不知道？ https://bbs.huaweicloud.com/blogs/detail/194440
 2.书写高质量 SQL 的 30 条建议(in和exist区别) https://xie.infoq.cn/article/80fff36408f1bf7e17694b6d1
 3.MySQL多表连接查询(重要) https://www.cnblogs.com/geaozhang/p/6753190.html
+  1.左关联 a left join b on a.id = b.id (1.加条件 where b.id = null或a.id =null 2.查询指明表)
+  2.右关联 a right join b on a.id = b.id
+  3.内关联 a,b on a.id = b.id
+4.查询在一张表不在另外一张表的记录 https://www.cnblogs.com/xwdreamer/archive/2012/06/01/2530597.html
