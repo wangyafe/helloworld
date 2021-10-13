@@ -5,8 +5,8 @@
    1.1.3 分布式事务的 6 种解决方案，写得非常好！ https://blog.csdn.net/orichisonic/article/details/118759518
    1.1.4 TCC分布式事务的实现原理（补偿机制） https://blog.csdn.net/eluanshi12/article/details/84528393
    1.1.5 分布式事务(1)---2PC和3PC原理（建立统一协调者） https://www.cnblogs.com/qdhxhz/p/11167025.html
-    1.2pc问题：1.阻塞 2.协调者崩溃  
-    2.3pc改进：1.先获取数据库锁 询问是否可以进行commit操作 2.在preCommit阶段引入超时机制
+    1.2pc问题：1.阻塞 2.协调者崩溃 导致参与者阻塞  
+    2.3pc改进：1.先获取数据库锁 询问是否可以进行commit操作 2.在preCommit阶段引入 参与者超时机制
  1.2 分布式锁 （关于分布式锁的面试题都在这里了） https://juejin.cn/post/6844904137172189198
    1.2.1 论Redis 7种加锁方式的优缺点 https://blog.csdn.net/weixin_38308374/article/details/116088557?share_token=8e994031-e159-428c-a594-98bab7cd5920
      缺点：1.主从模式下数据丢失 2.无法支持锁重入 3.锁无法自动续期
