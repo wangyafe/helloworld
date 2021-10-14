@@ -1,3 +1,5 @@
 1.MySQL 的 MRR 到底是什么？ https://www.cnblogs.com/jmcui/p/13488892.html
 2.数据库ER图基础概念整理 https://blog.csdn.net/belen_xue/article/details/52763629
 3.数据库表设计（一对多，多对多） 【好】 https://www.cnblogs.com/my_life/articles/5950415.html
+4.数据库连接池性能优化，连接数到底应该设置多大？ https://blog.csdn.net/qq_45076180/article/details/113736789?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
+  4.1 线程总是在I/O上阻塞，我们可以让线程/连接数比CPU核心多一些，这样能够在同样的时间内完成更多的工作
