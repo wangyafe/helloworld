@@ -7,6 +7,7 @@
   1.5 1.zookeeper= 1.文件系统 +2.监听通知机制 2.设计模式角度是观察者模式 3.zk满足cp，eurake满足ap
 2.架构
  2.1 微服务（springboot+dubbo）
+   2.2.1 微服务架构之「 服务注册 」（微服务基础理解） https://zhuanlan.zhihu.com/p/60777641
  2.2 RPC
    2.2.1 ESB（企业服务总线）相关知识点总结 https://www.jianshu.com/p/10ec5b86296f
  2.3 SOA
