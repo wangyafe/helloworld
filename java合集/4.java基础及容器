@@ -11,6 +11,7 @@
     7.1.1 List
       7.1.1.1 ArrayList
        1.面试官问线程安全的List，看完再也不怕了！ https://cloud.tencent.com/developer/article/1513967
+       2.写入时复制（CopyOnWrite）（CopyOnWrite 思想） https://www.cnblogs.com/jmcui/p/12377081.html
       7.1.1.2 LinkedList
       7.1.1.3 Vector
       7.1.1.4 stack
