@@ -1,3 +1,4 @@
 1.LinkedBlockingQueue
 2.经典并发同步模式：生产者-消费者设计模式 https://zhuanlan.zhihu.com/p/73442055
   2.1 基于阻塞队列实现
+3.JAVA中的阻塞队列和非阻塞队列-简介 https://blog.csdn.net/truelove12358/article/details/106424619
