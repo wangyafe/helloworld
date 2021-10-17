@@ -1,1 +1,4 @@
-7. 整数反转【每日一题】 https://blog.csdn.net/Nighticerain/article/details/116377606
+1. 整数反转【每日一题】 https://blog.csdn.net/Nighticerain/article/details/116377606
+2.Top k问题 最小的K个数（手写大顶堆和用优先级队列比较）https://blog.csdn.net/qq_34115899/article/details/85398427
+   2.1 堆（1.完全性 2.堆序性）优先级队列和堆（一） https://zhuanlan.zhihu.com/p/355317948
+   2.1 快排 1.选取基准值 2.分割数组 3.将每个数组递归使用基准值分割 （1.https://www.cxyxiaowu.com/725.html 2.https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/solution/tu-jie-top-k-wen-ti-de-liang-chong-jie-fa-you-lie-/）
