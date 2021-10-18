@@ -1,1 +1,3 @@
-
+1.字典树(前缀树 es的term index使用) https://blog.csdn.net/weixin_39778570/article/details/81990417?share_token=4d9d6dd6-cfef-4564-ba37-3e0ebd939b32
+2.数据结构与算法：字典树（前缀树）https://zhuanlan.zhihu.com/p/28891541
+  2.1 利用字符串的公共前缀来降低查询时间的开销以达到提高效率的目的 2.1 树结构：1.前缀数量 2.结尾数量
