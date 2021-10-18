@@ -3,3 +3,4 @@
 3.数据库表设计（一对多，多对多） 【好】 https://www.cnblogs.com/my_life/articles/5950415.html
 4.数据库连接池性能优化，连接数到底应该设置多大？ https://blog.csdn.net/qq_45076180/article/details/113736789?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
   4.1 线程总是在I/O上阻塞，我们可以让线程/连接数比CPU核心多一些，这样能够在同样的时间内完成更多的工作
+5.1 MySQL explain 应用详解(吐血整理🤩) https://segmentfault.com/a/1190000023565685 2.最官方的 mysql explain type 字段解读 https://mengkang.net/1124.html
