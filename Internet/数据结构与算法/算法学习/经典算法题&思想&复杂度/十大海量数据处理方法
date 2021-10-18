@@ -1,0 +1,11 @@
+1.十道海量数据处理面试题与十个方法大总结 https://blog.csdn.net/v_july_v/article/details/6279498
+  1.Bloom filter(1.判重 2.交集) 位数组+K个Hash函数 (hash取模可以将数据映射对应文件（看作重复版的均分）)
+  2.分而治之+Hash
+  3.bit-map 数字大小对应的位为1 （2^32是四十多亿）
+  4.堆   利用最大堆和最小堆求海量数据的前n大/前n小/Top k问题 https://blog.csdn.net/weixin_39411321/article/details/89208219
+  5.双桶划分
+  6.数据库索引
+  7.倒排索引
+  8.外排序
+  9.trie树
+  10.分布式处理mapReduce 1.数据划分到不同机器上处理（分而治之+hash） 2.合并归约
