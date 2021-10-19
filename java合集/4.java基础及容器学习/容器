@@ -1,0 +1,26 @@
+1.面试官问：HashMap在并发情况下为什么造成死循环？一脸懵 https://segmentfault.com/a/1190000021940150
+  1.1 死循环原因：多线程扩容时重新hash写入时 会出现链表首尾相连 变成循环链表的情况 
+  1.2 在jdk1.7中，由于扩容时使用头插法，在并发时可能会形成环状列表，导致死循环，在jdk1.8中改为尾插法，可以避免这种问题，但是依然避免不了节点丢失的问题
+2.Java集合--TreeMap完全解析 https://www.jianshu.com/p/2dcff3634326
+3.Java集合--HashMap解惑 https://www.jianshu.com/p/a17b4717a721
+4.Java 容器分为 Collection 和 Map 两大类，其下又有很多子类，如下所示：
+ 4.1 Collection
+    4.1.1 List
+      4.1.1.1 ArrayList
+       4.面试官问线程安全的List，看完再也不怕了！ https://cloud.tencent.com/developer/article/1513967
+       4.写入时复制（CopyOnWrite）（CopyOnWrite 思想） https://www.cnblogs.com/jmcui/p/12377081.html
+          原因：不能并发读写 1.Java ConcurrentModificationException异常原因和解决方法 https://www.cnblogs.com/dolphin0520/p/3933551.html
+          2.多线程进阶（三）-- JUC中CopyOnWriteArrayList()解析及为什么要复制 
+      4.1.1.2 LinkedList
+      4.1.1.3 Vector
+      4.1.1.4 stack
+    4.1.2 set
+      4.1.2.1 Hashset(LinkedHahset)
+      4.1.2.2 Treeset
+ 4.2 map
+    4.2.1 Hashmap(LinkedHashmap 并发类：1.hashtabel 2.concurrentHashmap) 
+      4.*.1 jdk1.7 1.8 hash map 区别及一些细节 https://www.cnblogs.com/silyvin/p/11475086.html?share_token=7857d804-ffff-4227-af35-91ce63458d0b
+        1. 1.7扩容条件是数组长度大于阈值且存在哈希冲突，1.8扩容条件是数组长度大于阈值或链表转为红黑树且数组元素小于64时
+      4.*.2 JDK1.8HashMap链表转红黑树，平均查找长度 https://www.jianshu.com/p/6d7b9c7fef3a
+      4.3 Hashmap1.7和1.8区别+ConcurrentHashmap1.7和1.8区别 https://www.cnblogs.com/leeego-123/p/12156165.html
+    4.2.2 Treemap
