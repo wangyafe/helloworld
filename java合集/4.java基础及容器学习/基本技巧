@@ -1,1 +1,2 @@
 1.排序 Java重写compare方法对对象进行排序 https://blog.csdn.net/qq_40087415/article/details/81369855
+2.Java异常处理finally和return 执行顺序：1、执行try,catch，给“返回值”临时变量赋值2、执行finally 3、return return语句两个作用：给返回值赋值，结束方法运行
