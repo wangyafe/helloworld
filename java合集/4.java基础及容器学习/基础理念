@@ -4,4 +4,4 @@
 4.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
 5.关于final修饰的字段初始化问题 https://blog.csdn.net/qq_41817611/article/details/107121704
   5.1 在虚拟机为它开辟空间时必须得保证它会被显式赋值一次且只被赋值一次
-6.java项目中的classpath到底是什么(1.打包后的src放在web-inf目录里 2.classpath 配置文件的路径) https://segmentfault.com/a/1190000015802324
+6.java项目中的classpath到底是什么(1.打包后的src放在web-inf目录里 2.classpath 2.1配置文件的路径 2.2也即WEB-INF/classes/这个目录的路径) https://segmentfault.com/a/1190000015802324
