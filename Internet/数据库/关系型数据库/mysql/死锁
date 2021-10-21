@@ -1,2 +1,3 @@
 1.mysql 演示死锁的发生 https://blog.csdn.net/HMM316/article/details/114671028?share_token=cca4c354-15b9-42f7-8483-3529cfbc7fd7#tt_daymode=1&tt_font=m
   1.开启两个事务 start transaction 写入两条已存在数据 分别持有s锁 2.修改这条数据 互相等待对方释放S锁 加X锁
+2.如何解决MySQL中的死锁问题（死锁的条件） https://mp.weixin.qq.com/s/Rhl9g_SMeDefcCJT-sRtsw
