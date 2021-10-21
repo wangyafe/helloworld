@@ -36,3 +36,5 @@
 10.JVM系列之:再谈java中的safepoint https://www.cnblogs.com/flydean/p/13450929.html
    10.1 GC或heap dump的时候需要暂停所有线程 就设置一个safepoint 等待所有线程到达后 保存栈堆信息 等待jvm执行完成后 所有线程再恢复操作
    10.2 线程被挂起就是safepoint状态 （在竞争锁被阻塞，IO被阻塞，或者在等待获得监视器锁状态时，线程就处于safepoint状态）
+11.面试专用简洁易懂好记最全笔记Minor GC与Full GC分别在什么时候发生 https://blog.csdn.net/ImBiTion6/article/details/108199515
+  1.满了 2.剩余空间放不下新对象（fullGC包括 minorGC后存活和晋升的对象）
