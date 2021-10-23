@@ -1,4 +1,4 @@
-1.23种设计模式全解析 https://www.cnblogs.com/susanws/p/5510229.html
+1.23种设计模式全解析 https://www.cnblogs.com/susanws/p/5510229.html https://github.com/CyC2018/CS-Notes/tree/master/notes
 2.创建型（五种）：
       0.简单工厂：1.普通简单工厂：1.接口 2.多个实现类 3.单个生产方法工厂类（type标识）
                   2.多方法：1.接口 2.多个实现类 3.多个生产方法工厂类
