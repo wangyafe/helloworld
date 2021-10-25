@@ -3,3 +3,5 @@
    2.1 堆（1.完全性 2.堆序性）优先级队列和堆（一） https://zhuanlan.zhihu.com/p/355317948
    2.1 快排 1.选取基准值 2.分割数组 3.将每个数组递归使用基准值分割 （1.https://www.cxyxiaowu.com/725.html 2.https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/solution/tu-jie-top-k-wen-ti-de-liang-chong-jie-fa-you-lie-/）
 3.LeetCode 第 5 题：最长回文子串（超详细的解法！！！） https://www.cxyxiaowu.com/2869.html （中心扩散法）
+4.1[LeetCode] 459. 重复的子字符串 https://zhuanlan.zhihu.com/p/126313419 4.2 LeetCode 459. 重复的子字符串(Repeated Substring Pattern) https://www.cnblogs.com/hgnulb/p/10923510.html
+   3.如果是 由至少两个子串组成 追加同样字符串（又加了两个字串） 删除首尾字母（破坏了两个子串） 但仍包含元字符串
