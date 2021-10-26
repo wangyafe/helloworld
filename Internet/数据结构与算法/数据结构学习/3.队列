@@ -1,3 +1,4 @@
 0.数组实现 Java数据结构和算法（五）——队列 https://www.cnblogs.com/ysocean/p/7921930.html
 1. 使用PriorityQueue https://www.liaoxuefeng.com/wiki/1252599548343744/1265120632401152
 2. JAVA中的阻塞队列和非阻塞队列-简介 https://blog.csdn.net/truelove12358/article/details/106424619
+3.优先级队列是由堆实现 可最为堆使用 https://github.com/wangyafe/leetcode-master/blob/master/problems/0347.%E5%89%8DK%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md
