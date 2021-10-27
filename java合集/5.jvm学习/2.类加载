@@ -7,5 +7,5 @@
 4.聊聊如何实现一个支持键值对的SPI https://www.cnblogs.com/linyb-geek/p/15421440.html
   1.聊聊基于jdk实现的spi如何与spring整合实现依赖注入 https://www.cnblogs.com/linyb-geek/p/15151407.html
   2.java之spi机制简介 https://mp.weixin.qq.com/s?__biz=MzI1MTY1Njk4NQ==&mid=2247487184&idx=1&sn=5410eb25a7997b7f415d9e3ce54fc607&chksm=e9eee0a6de9969b0256e6d8e488a03a3e6d3213f952bb927c8cb12f826c41202b4f487fb487e&scene=21#wechat_redirect
-  3.作用(使用jar包中的bean)：1.将服务接口与服务实现分离以达到解耦、大大提升了程序可扩展性的机制 2.@Autowired + @Qualifier注解就是SPI的应用步骤之一 3.依赖注入：1 项目启动时，利用spi加载类并生成对象 2.将生成的对象注入到spring容器 3.在业务项目中，使用 @Autowired + @Qualifier注解，按需引用SPI生成的bean对象
+  3.作用(使用jar包中的bean 代码里可提供接口 实现接口和服务分离)：1.将服务接口与服务实现分离以达到解耦、大大提升了程序可扩展性的机制 2.@Autowired + @Qualifier注解就是SPI的应用步骤之一 3.依赖注入：1 项目启动时，利用spi加载类并生成对象 2.将生成的对象注入到spring容器 3.在业务项目中，使用 @Autowired + @Qualifier注解，按需引用SPI生成的bean对象
   4.步骤 1.约定目录 2.约定文件名 3.约定格式 4.获取放入缓存 5.根据key查找对应实例
