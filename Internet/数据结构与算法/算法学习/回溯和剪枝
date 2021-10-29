@@ -1,1 +1,2 @@
-1.递归进入新节点（调用本方法） 2.回溯回到父节点（处理全局变量）3.单层处理及单个节点处理逻辑 https://github.com/wangyafe/leetcode-master/blob/master/problems/0077.%E7%BB%84%E5%90%88.md
+1.递归进入新节点（调用本方法） 2.回溯回到父节点（处理全局变量）3.单层处理及单个节点处理逻辑 
+  1.1 单个节点处理类型：1.使用上个节点（如阶乘） 2.剩余节点状态（组合问题）https://github.com/wangyafe/leetcode-master/blob/master/problems/0077.%E7%BB%84%E5%90%88.md
