@@ -2,4 +2,4 @@
   1.1 单个节点处理类型：1.使用上个节点（如阶乘） 2.剩余节点状态（组合问题）https://github.com/wangyafe/leetcode-master/blob/master/problems/0077.%E7%BB%84%E5%90%88.md
 2.剪枝（去除多余循环）
   2.1 组合问题 剩余个数大于等于K
-3.组合问题常见三参数（1.result 2.path 3.startIndex）
+3.组合问题常见三参数（1.全局变量：1.result 2.path 2.入参 3.startIndex）
