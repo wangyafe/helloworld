@@ -9,4 +9,5 @@
    1.6.递推
       1.组合问题： dp[j]+=dp[j-num[i]]
       2.背包问题： dp[j]=max(dp[j],dp[j-weight[i]] + value[i])
+      3.确定递推：1.加数组元素dp[] 2.不加数组元素dp[]+_value
 3.判断是否可以用dp 1.累加 2.结果均分
