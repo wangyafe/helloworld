@@ -1,4 +1,4 @@
-1.DP是由前一个状态推导出来的（状态来自二维数组左上方和正上方）
+1.DP是由前一个状态推导出来的（1.状态来自二维数组左上方和正上方 2.是or否）
  1.1 case中找规律 1.dp数组含义(1.i表示背包容量 2.元素表示结果即最值) 2.递推 3.初始化 4.遍历顺序（1.物品 2.背包倒序） 5.验证
     1.1 抽象出对应模型 1.物品 2.背包 3.价值 4.递推（加与不加）
  1.2 不同的Bst 1.第一层循环递推dp[i] 2.第二层求dp[i](连加写法 dp[i] += dp[i-1]*dp[i-j]) https://github.com/wangyafe/leetcode-master/blob/master/problems/0096.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md
@@ -7,7 +7,7 @@
    1.1 画出二维数组 1.2 确定dp[i][j]来源 1.3 双层循环是指行遍历或者列遍历
    1.4 模板 https://github.com/wangyafe/leetcode-master/blob/master/problems/1049.%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8FII.md
    1.5 举例推导dp数组 用weight[i]数组遍历背包
-   1.6.递推（状态来自二维数组左上方和正上方）
+   1.6.递推（1.状态来自二维数组左上方和正上方 2.是or否）
       1.组合问题： dp[j]+=dp[j-num[i]]
       2.背包问题： dp[j]=max(dp[j],dp[j-weight[i]] + value[i]) 2.1 确定递推：1.加数组元素dp[] 2.不加数组元素dp[]+value
    1.7 遍历顺序 
