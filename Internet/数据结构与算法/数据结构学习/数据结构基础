@@ -3,4 +3,3 @@
 4.红黑树（降低了AVL的要求 1.任意节点红或黑2.根黑3.叶子节点nil4.任意两个红节点不能相邻5.任意节点和高相同 通过旋转和变色达到平衡默认新增为红 关键特性：1.内部有序2.相对平衡最长路径不超过最短2倍3.旋转开销小4.支持快速查询）https://www.jianshu.com/p/2dcff3634326
 浅析红黑树（RBTree）原理及实现 https://blog.csdn.net/tanrui519521/article/details/80980135?utm_medium=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&share_token=b2adb148-6301-4917-8fdf-02cedeef4100
 5.B树 https://www.cnblogs.com/lianzhilei/p/11250589.html?share_token=b666f2b6-8b9e-4e5f-99c9-3c64a9c34749
-6.变量=容器概念
