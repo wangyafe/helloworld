@@ -1,4 +1,18 @@
 1.有序数组中指定元素出现次数 1.方案：HashMap，相同的key每出现一次，value加1 时间复杂度：线性阶O(n)
    2.方案：二分法查找 两边推进（利用升序条件）时间复杂度:对数阶O(logn) 判断一个有序数组中一个数字重复出现的次数 https://blog.csdn.net/nwpubear/article/details/81915247
    3.java-有序数组中指定数字出现的次数（标准二分法） https://www.jianshu.com/p/f1931527a5c3 3.2 二分查找算法（递归与非递归两种方式）https://blog.csdn.net/lovesummerforever/article/details/24588989
-   
+       public static int binary(int[] array, int start ,int end, int target){
+        int middle = (start + end)/2;
+        if(array[middle] == target){
+            return middle;
+        }
+        if(start>=end){
+            return -1;
+        }
+        if(array[middle]>target){
+            return binary(array, start, middle -1, target);
+        }else if(array[middle]<target){
+            return binary(array,middle+1,end,target);
+        }
+        return -1;
+    }
