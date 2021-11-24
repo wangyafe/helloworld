@@ -7,3 +7,6 @@
 4.回溯可解决的问题：1.组合 2.分割 3.子集 4.棋盘（数独和N皇后） 5.排列
 5.回溯模板（递归也可） https://github.com/wangyafe/leetcode-master/blob/master/problems/0051.N%E7%9A%87%E5%90%8E.md
 6.回溯是叶子节点返回父节点 再到另一个子节点(1.可以修改全局变量2.从下往上处理) 2.回溯从根获取返回值 可以修改每个节点的返回值
+7.1 回溯的判重方法：1.树层:char[i]==char[i-1] && !hasUsed[i - 1]) 2.树枝 char[i]==char[i-1] && hasUsed[i - 1])
+   排列问题 http://www.cyc2018.xyz/%E7%AE%97%E6%B3%95/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3/38.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.html#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0
+  7.2回溯确定树层的循环元素：全局变量 int[] used 排除上层使用（回溯时清除）2.startIndex
