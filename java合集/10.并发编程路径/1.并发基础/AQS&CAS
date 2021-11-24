@@ -8,6 +8,9 @@
     1.5.2 功能：1.实现共享锁和独占锁 2.独占锁又分为公平锁和非公平锁
     1.5.3 应用：1.ReentrantLock 2.各种并发工具类 3.自定义的同步器继承AQS后，只需要实现共享资源state的获取和释放方式（CAS）
     1.5.3 步骤：1.cas修改state 2.队列获取锁失败 调用unsafe.park 线程阻塞 3.新线程失败 放入队尾 4.释放资源后 unsafe.unpark唤醒 
+ 1.6 AQS-独占与共享 https://www.jianshu.com/p/e5a2b4f2203c 2.深入浅出AQS之共享锁模式 https://cloud.tencent.com/developer/article/1514721 3.AQS共享锁与独占锁对比 https://www.jianshu.com/p/e5a2b4f2203c 
+    1.共享：1.1 多线程的并发控制 1.2线程执行完成后 唤醒头节点 并将唤醒时间传递下去
+    
 2.CAS
  2.1 CAS(自旋)原理解析，及ABA问题 https://blog.csdn.net/weixin_44998030/article/details/105325844?share_token=bd47a147-3341-4ca8-bf67-9d183b22ca67
  2.2 CAS 实现原子操作的三大问题（只能保证一个变量的原子性 可采用并发原子类AtomicReferrence或锁） https://www.jianshu.com/p/68f9cd012de8
