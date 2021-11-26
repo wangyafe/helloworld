@@ -2,3 +2,4 @@
 2.LeetCode 第 5 题：最长回文子串（超详细的解法！！！） https://www.cxyxiaowu.com/2869.html （中心扩散法）
 3.1[LeetCode] 459. 重复的子字符串 https://zhuanlan.zhihu.com/p/126313419 4.2 LeetCode 459. 重复的子字符串(Repeated Substring Pattern) https://www.cnblogs.com/hgnulb/p/10923510.html
    3.如果是 由至少两个子串组成 追加同样字符串（又加了两个字串） 删除首尾字母（破坏了两个子串） 但仍包含元字符串
+4.求一个整数是几位数？把整数转换成字符串 https://www.cxybb.com/article/qq_45791799/107206091
