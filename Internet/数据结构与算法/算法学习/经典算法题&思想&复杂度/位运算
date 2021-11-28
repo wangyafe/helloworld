@@ -1,3 +1,4 @@
 1.位运算n & (n-1)的妙用 https://blog.csdn.net/navyifanr/article/details/19496459 2.二进制中 1 的个数 http://www.cyc2018.xyz/%E7%AE%97%E6%B3%95/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3/15.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.html#%E9%A2%98%E7%9B%AE%E9%93%BE%E6%8E%A5
 3.位运算（&、|、^、~、>>、<<） https://www.runoob.com/w3cnote/bit-operation.html
   3.1 1.按位与 2.按位或 3.异或运算 4.取反 5.右移运算 6.左移运算
+  3.2 两个相等的元素异或的结果为 0
