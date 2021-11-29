@@ -2,3 +2,4 @@
 3.位运算（&、|、^、~、>>、<<） https://www.runoob.com/w3cnote/bit-operation.html
   3.1 1.按位与 2.按位或 3.异或运算 4.取反 5.右移运算 6.左移运算
   3.2 1.两个相等的元素异或的结果为 0 2.0 与任意数 x 异或的结果都为 x
+4.负数的二进制表示（反码+1） https://www.jianshu.com/p/6c518e7b4690
