@@ -5,3 +5,4 @@
   2.右关联 a right join b on a.id = b.id
   3.内关联 a,b on a.id = b.id
 4.查询在一张表不在另外一张表的记录 https://www.cnblogs.com/xwdreamer/archive/2012/06/01/2530597.html
+5.多个条件作为分组或排序条件（加逗号）select AVG(s_score),c_id from score GROUP BY c_id,s_id ORDER BY AVG(s_score),c_id desc
