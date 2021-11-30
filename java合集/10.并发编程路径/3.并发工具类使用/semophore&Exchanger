@@ -3,3 +3,4 @@
 3.cyclicBarrir 同步屏障
 4.countDownLatch 等待多线程完成
 5. Java中的并发工具类 https://www.jianshu.com/p/3cdeda81c517
+6.信号量Semaphore详解以及应用（1.release增加许可证 2.acquir获取许可证） https://blog.csdn.net/weixin_34290631/article/details/94116143?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.no_search_link&spm=1001.2101.3001.4242.1
