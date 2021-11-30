@@ -1,4 +1,7 @@
 1.LinkedBlockingQueue
 2.经典并发同步模式：生产者-消费者设计模式 https://zhuanlan.zhihu.com/p/73442055
-  2.1 基于阻塞队列实现
+  2.1 1.基于阻塞队列实现 2.Object 3.Semophere 4.lock和condition
+  2.2 
+    1.同步：1.缓冲区满时 producer不能put 2.空时 consumer不能take
+    2.互斥：对缓冲区的互斥访问（防止共享数据被修改）
 3.JAVA中的阻塞队列和非阻塞队列-简介 https://blog.csdn.net/truelove12358/article/details/106424619
