@@ -8,6 +8,7 @@
 图解一致性哈希算法（引入哈希环 对象和目标同时hash 然后顺时针就近配对） https://segmentfault.com/a/1190000021199728
 3.分布式锁
  3.1关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198 3.2 redis 分布式锁的 5个坑，真是又大又深 https://blog.csdn.net/hollis_chuang/article/details/105852232
+ 3.3 考虑异常时 分布式锁无法删除问题（1.捕获异常 2.在catch中处理 3.再抛出）
 4.数据类型和数据结构
   1.String 2.动态字符串 3.编码格式(int raw embstr)
   2.List 2.压缩列表和双向链表 3.编码格式（zipList LinkedList）
