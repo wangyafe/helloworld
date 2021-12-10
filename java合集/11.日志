@@ -1,5 +1,6 @@
 1.slf4j+log4j2
-https://blog.csdn.net/FANGAOHUA200/article/details/53561718（log4j和log4j2的区别）
+https://blog.csdn.net/FANGAOHUA200/article/details/53561718（log4j和log4j2的区别） https://my.oschina.net/xianggao/blog/523401 (Log4j2配置文件详解) https://www.docs4dev.com/docs/zh/log4j2/2.x/all/articles.html(
+Log4j2 中文文档)
 https://blog.csdn.net/zzzgd_666/article/details/80407002（控制日志输出级别）
 https://blog.csdn.net/thekenofDIS/article/details/80439776（配置详解）
 https://segmentfault.com/a/1190000039073461（日志脱敏原理）
