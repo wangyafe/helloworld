@@ -9,3 +9,4 @@
             <AppenderRef ref="STDOUT-APPENDER"/>
             <AppenderRef ref="ERROR-APPENDER"/>
         </AsyncLogger>
+2.异常日志只会输出出错位置和Exception类型 不会主动打印参数 需要另外打印
