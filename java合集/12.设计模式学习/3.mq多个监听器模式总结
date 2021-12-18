@@ -1,0 +1,4 @@
+0.发送消息 https://github.com/wangyafe/any-platform/blob/develop/src/main/java/com/shengsu/any/system/aop/ExceptionAdvice.java
+1.实例化Listen,注入map中 https://github.com/wangyafe/service-center/blob/develop/log-center/log-center-service/src/main/java/com/shengsu/log/mq/RocketMQConsumer.java
+2.根据tag 取出对应处理器 https://github.com/wangyafe/common-share/tree/6617fd7f09cb398ae8e99b7e94a7ae4907573aff/common-web/src/main/java/com/shengsu/mq
+3.处理器接口化（1.消息类型转化） https://github.com/wangyafe/common-share/blob/6617fd7f09cb398ae8e99b7e94a7ae4907573aff/common-web/src/main/java/com/shengsu/mq/MessageProcessor.java
