@@ -4,3 +4,4 @@
  2.2解决方法：1.抛 java.lang.RuntimeException or java.lang.Error 非检查性异常 2.接口要声明异常
  2.3 java.lang.reflect.UndeclaredThrowableException的解决 https://www.jianshu.com/p/7edab536e4b9 2.4 jdk动态代理异常处理分析，UndeclaredThrowableException https://segmentfault.com/a/1190000012262244
 3.两万字详解Java异常，面试再也不怕被问到！ https://javazhiyin.blog.csdn.net/article/details/121917598
+ 3.1  1.throws（作用）抛出受检查异常 2.声明异常
