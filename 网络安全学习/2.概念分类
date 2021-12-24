@@ -1,1 +1,1 @@
-1.CSRF 浅谈CSRF攻击方式（ctoken） https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
+1.CSRF 浅谈CSRF攻击方式（1.ctoken种在cookie 2.query string包含query 保持一致 3.确定请求来自A站点 ） https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
