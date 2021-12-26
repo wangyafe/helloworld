@@ -11,3 +11,4 @@
  5.5 你知道 JVM 的方法区是干什么用的吗？（类信息：全类有效名） https://zhuanlan.zhihu.com/p/166190558
 6.JVM会加载class文件，然后加载后的Java类会被存放于方法区(Method Area)中.实际运行时，虚拟机会执行方法区内的代码，JVM会使用堆和栈来存储运行时数据
 7.一个“Hello World”理解JVM运行时数据区 https://www.cnblogs.com/junfengchan/p/9250585.html
+8.从Java代码运行聊到JVM及对象创建-分配-定位-布局-垃圾回收 https://www.toutiao.com/i6797907413220459019/?timestamp=1640444094&app=news_article&use_new_style=1&req_id=2021122522545301015120821204C9FCF9&share_token=0d469b66-3503-4861-800b-dc931b7881b4&group_id=6797907413220459019
