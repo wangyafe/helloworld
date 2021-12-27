@@ -1,0 +1,3 @@
+1.将对象和名字捆绑的技术，对象工厂负责生产出对象，这些对象都和唯一的名字绑在一起，外部资源可以通过名字获得某对象的引用
+  1.1 提供了应用编程接口（application programming interface，API）和服务提供者接口（service provider interface，SPI）
+     1.应用接口根据名字可以引用对象 2.jndi的spi包括RMI
