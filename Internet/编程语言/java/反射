@@ -1,0 +1,3 @@
+1. 反射：method.invoke(instance) 传统：new ins 调用 
+ 1.1 与传统的通过new 来获取对象的方式不同 反射机制，会先拿到Hero的“类对象”,然后通过类对象获取“构造器对象” 再通过构造器对象创建一个对象 https://how2j.cn/k/reflection/reflection-reflection/107.html
+ 1.2 用处：实例可配置化 https://how2j.cn/k/reflection/reflection-usage/1111.html
