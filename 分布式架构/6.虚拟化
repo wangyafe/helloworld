@@ -5,4 +5,5 @@
 1.4 微服务架构之「 容器技术 」(Docker的实现原理) https://zhuanlan.zhihu.com/p/73127004
 1.5 第一次玩docker的体验：从0搭建docker应用 https://www.163.com/dy/article/GMAISIL305521T2V.html
 2.k8s
-Docker 和 Kubernetes 从听过到略懂：给程序员的旋风教程 https://juejin.cn/post/6844903650611953677
+2.1 Docker 和 Kubernetes 从听过到略懂：给程序员的旋风教程 https://juejin.cn/post/6844903650611953677
+2.2 k8s就是云原生里的操作系统 https://www.toutiao.com/w/i1721070251609091/?share_token=7522ac4f-8a47-4a86-9216-135674d5c738&timestamp=1641349667&app=news_article&use_new_style=1
