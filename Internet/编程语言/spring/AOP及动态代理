@@ -1,3 +1,0 @@
-1.获取代理类的具体实现（ jdk动态代理会在运行时生成委托接口的具体实现类，我们通过ProxyGenerator手动生成下class文件，再利用idea解析class文件得到具体代理类）
-2.动态代理（拦截器和设置的Bean的名称表达式做匹配来创建代理）
-spring aop(八)--使用BeanNameAutoProxyCreator创建代理 https://blog.csdn.net/xiejx618/article/details/43952007
