@@ -1,0 +1,7 @@
+1.Nice，终于有人把SpringMVC讲明白了，太简单了... https://www.toutiao.com/i7034321246066180640/?timestamp=1641355712&app=news_article&use_new_style=1&req_id=202201051208320101510680471D000B31&share_token=7f597c3c-46f6-4c40-9b43-7656c081c0e0&group_id=7034321246066180640
+  1.1 需要处理适配器的原因：不同的controller（1.注解 2.实现controller接口 3.实现HttpRequestHandler）实现方法对应不同的处理方式
+    1.1.2 返回值不同处理方式不同 1.return index ->> 跳转到根目录下的 index页面 2.返回ModelAndView对象 设置参数给view 3.@ResponseBody 返回json字符串
+    1.1.3 都是将返回值放入respose的body中 浏览器会解析body并渲染
+  1.2 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？ https://juejin.cn/post/6844904194130837511 
+  1.3 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？SpringMVC处理器适配器与处理器篇章 https://juejin.cn/post/6844904195389128711
+  1.4 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？SpringMVC视图处理器与视图篇章【终章】 https://juejin.cn/post/6844904196106354696
