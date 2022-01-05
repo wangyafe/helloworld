@@ -1,0 +1,2 @@
+1.什么是JVM？什么是JDK？ 什么是JRE？（1.jvm是jre中的bin 2.jvm运行的时候需要jre中的lib 3.解释编译器在jdk的bin中 -javac.exe文件）https://zhuanlan.zhihu.com/p/82646659
+2.你安装的是SUN/Oracle JDK还是OpenJDK? https://www.cnblogs.com/shoufeng/p/9719995.html#1--%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E4%BD%A0%E5%AE%89%E8%A3%85%E7%9A%84jdk%E7%89%88%E6%9C%AC
