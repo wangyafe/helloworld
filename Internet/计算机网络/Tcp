@@ -1,5 +1,0 @@
-1.计算机网络常见知识点[转] https://allenwu.itscoder.com/ji-suan-ji-wang-luo
-  1.1 TCP的可靠性是通过顺序编号（SEQ）和确认（ACK）来实现的
-2.TCP/IP详解 https://blog.csdn.net/pashanhu6402/article/details/96430961?spm=1001.2014.3001.5501
-3.子网掩码帮助确定网络位和主机位
-  3.1 DHCP服务器分配的是内网Ip 公网IP可以是动态的（重启或者重新拨号上网）
