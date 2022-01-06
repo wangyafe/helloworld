@@ -8,3 +8,4 @@
 [12.数据图片 网站排名](https://monitor.5118.com/)
 [13.总结了 150 余个神奇网站，你不来瞅瞅吗？](https://blog.csdn.net/qq_43901693/article/details/104750730)
 [18.源码解析](https://github.com/doocs/source-code-hunter)
+[设计模式——总结23种设计模式](https://www.toutiao.com/i7043831296220594695/?timestamp=1641426311&app=news_article&use_new_style=1&req_id=202201060745110101502192060A4AED6A&share_token=3c57a0d6-0eb5-4b91-967b-55103727f25f&group_id=7043831296220594695)
