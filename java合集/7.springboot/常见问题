@@ -1,0 +1,8 @@
+1.SpringBoot的启动流程是怎样的？SpringBoot源码（七） https://segmentfault.com/a/1190000022119546
+   5.1 SPRINGBOOT启动原理（基于2.3.9.RELEASE版本） https://www.cnblogs.com/theRhyme/p/how-does-springboot-start.html
+   5.2 SpringBoot-v2.2.0启动过程以及细节 https://www.cnblogs.com/LUA123/p/11720686.html
+       1.初始化springApplication对象（1.实例化监听器）
+       2.调用run方法（1.遍历监听器 2.配置banner 3.创建 、准配、刷新上下文）
+2.淘宝一面：“说一下 Spring Boot 自动装配原理呗？” https://segmentfault.com/a/1190000039045866
+   如何将jar包中的bean 注入到IOC容器中：
+   6.1 通过@EnableAutoConfiguration开启自动装配 6.2 通过SpringFactoriesLoader最终加载META-INF/spring.factories中的自动配置类实现自动装配 6.3 自动配置类其实就是通过@Conditional按需加载的配置类，想要其生效必须引入spring-boot-starter-xxx包实现起步依赖
