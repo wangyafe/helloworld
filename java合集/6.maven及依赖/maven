@@ -1,5 +1,6 @@
 1.Maven最全教程，看了必懂 https://zhuanlan.zhihu.com/p/62841181
 2.使用Nexus搭建Maven私服 https://www.cnblogs.com/knowledgesea/p/11190579.html
+ 2.1 小伙伴问我：如何搭建Maven私服？我连夜肝了这篇实战文章 https://www.toutiao.com/a6879985750134391307/?log_from=5adf6a5666b9c_1641449419040
 3.maven deploy时报错 https://my.oschina.net/wjzk/blog/602372
 4.发布Jar包到Maven中央仓库(为开发开源中间件做准备) https://my.oschina.net/itstack/blog/4409573
 5.maven 设置中央仓库 https://blog.csdn.net/caideb/article/details/81111021?share_token=8c727398-aa3c-451c-aecb-3b6269530e40
