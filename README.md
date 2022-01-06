@@ -8,5 +8,4 @@
 [12.数据图片 网站排名](https://monitor.5118.com/)
 [13.总结了 150 余个神奇网站，你不来瞅瞅吗？](https://blog.csdn.net/qq_43901693/article/details/104750730)
 [14.策略模式干掉if/else](https://blog.csdn.net/Howinfun/article/details/102880363?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-4)
-[16.mysql8.0安装](https://blog.csdn.net/qq_37350706/article/details/81707862)
 [18.源码解析](https://github.com/doocs/source-code-hunter)
