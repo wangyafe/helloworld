@@ -1,8 +1,7 @@
 1.DIY 浏览器 https://www.runningcheese.com/http
-2. http Tcp/ip （协议知识）https://www.cnblogs.com/xrq730/category/746089.html
-3.使用chrome浏览器直接调post接口（重新打开一个网页） https://blog.csdn.net/u013267916/article/details/112603078?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-3&spm=1001.2101.3001.4242
-4.浏览器调试技巧 https://juejin.cn/post/6881439870380834830#heading-1
-5.如何根据前端内容快速找到程序中的代码
+2.使用chrome浏览器直接调post接口（重新打开一个网页） https://blog.csdn.net/u013267916/article/details/112603078?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-3&spm=1001.2101.3001.4242
+3.浏览器调试技巧 https://juejin.cn/post/6881439870380834830#heading-1
+4.如何根据前端内容快速找到程序中的代码
 https://blog.csdn.net/yang134679/article/details/97267412?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase
-6.简单弄懂同源政策 (Same Origin Policy) 与跨网域 (CORS) https://www.toutiao.com/i7044061736407761440/?timestamp=1640079576&app=news_article&use_new_style=1&req_id=2021122117393601015011008217059225&share_token=c18c05a9-3234-4980-8549-122ec8dfb676&group_id=7044061736407761440
-  6.1 跨域 = 跨源=跨来源 6.2 /允许 client side 带 cookie 等验证，defult 是 false( Access-Control-Allow-Credentials: true)
+5.简单弄懂同源政策 (Same Origin Policy) 与跨网域 (CORS) https://www.toutiao.com/i7044061736407761440/?timestamp=1640079576&app=news_article&use_new_style=1&req_id=2021122117393601015011008217059225&share_token=c18c05a9-3234-4980-8549-122ec8dfb676&group_id=7044061736407761440
+  5.1 跨域 = 跨源=跨来源 5.2 /允许 client side 带 cookie 等验证，defult 是 false( Access-Control-Allow-Credentials: true)
