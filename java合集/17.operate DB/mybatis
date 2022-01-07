@@ -25,3 +25,4 @@ https://www.geek-share.com/detail/2788889780.html
 配置格式：logging.level.*=LEVEL
 logging.level：日志级别控制前缀，*为包名或Logger名
 LEVEL：选项TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF：
+5.mybatis 动态sql $ #区别 https://blog.csdn.net/weixin_42765975/article/details/103209330
