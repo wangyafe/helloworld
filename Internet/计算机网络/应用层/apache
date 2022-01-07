@@ -1,6 +1,6 @@
 1.Web Server
   1.HTTP服务器软件（1.http server 2.application server) 绑定IP地址并监听tcp端口来提供HTTP服务 2.httpd是Apache HTTP Server
-  3.http server(1.Apache HTTP Server 2.Nginx) 只是把服务器上的文件如实的通过HTTP协议传输给客户端(可以通过其他模块来支持（例如通过Shell、PHP、Python脚本程序来动态生成内容) 4.application server(tomcat) http server功能+生成资源
+  3.http server(1.Apache HTTP Server 2.Nginx 3.Windows上的IIS) 只是把服务器上的文件如实的通过HTTP协议传输给客户端(可以通过其他模块来支持（例如通过Shell、PHP、Python脚本程序来动态生成内容) 4.application server(tomcat) http server功能+生成资源
   5.如果想要使用Java程序来动态生成资源内容，使用这一类HTTP服务器很难做到 6.servlet技术可以让Java程序也具有处理HTTP请求 tomcat支持运行Servlet的容器(如同shell在nginx中运行)
   6.jdk类库提供了开发http server的接口 Class HttpServer
 2.tomcat 与 nginx，apache的区别是什么？ https://www.zhihu.com/question/32212996
