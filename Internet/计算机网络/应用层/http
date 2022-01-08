@@ -2,3 +2,4 @@
 2.一个TCP连接可以发多少个HTTP请求? https://blog.csdn.net/qq9808/article/details/104865940?spm=1001.2014.3001.5501
 3.深入浅出 HTTPS 工作原理(验证证书的合法性与中间人攻击) https://cloud.tencent.com/developer/article/1005197
 4.HTTP解析 https://www.cnblogs.com/xrq730/p/4907559.html 5.你所不知道的 HSTS（响应头上设置 强制浏览器内部跳转https）
+5.http协议是指报文的格式结构和内容（协议不同=报文或数据帧格式结构不同）
