@@ -1,0 +1,4 @@
+1.查看 Response header，根据不同状态码做不同的事（比如上面提到的重定向） 2.如果响应资源进行了压缩（比如 gzip），还需要进行解压 3,响应资源做缓存
+  4.根据MIME[content-type] 类型去解析渲染（比如 HTML、Image各有不同的解析方式）
+2.1.解析HTML构建DOM树 2.用css匹配规则 3.计算和级联 4.渲染树及重绘 5.将像素发给GPU GPU合并渲染层 3D加速
+  2.2 超细！在浏览器输入xxxhub 回车之后发生了什么https://toutiao.io/posts/mufeah6/preview
