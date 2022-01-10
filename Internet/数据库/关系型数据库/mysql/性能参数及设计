@@ -5,3 +5,5 @@
   4.1 线程总是在I/O上阻塞，我们可以让线程/连接数比CPU核心多一些，这样能够在同样的时间内完成更多的工作
 5.1 MySQL explain 应用详解(吐血整理🤩) https://segmentfault.com/a/1190000023565685 2.最官方的 mysql explain type 字段解读 https://mengkang.net/1124.html
 6.架构是单进程多线程 2.线程处理模式 one- thread-per-connection（每个请求对应一个线程，目前被作为默认值)
+ 6.1 [玩转MySQL之二]MySQL连接机制浅析及运维 https://zhuanlan.zhihu.com/p/43941022
+ 6.2 连接是准备就绪的socket读写文件 关闭连接是关闭文件
