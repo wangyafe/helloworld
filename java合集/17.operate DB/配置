@@ -6,4 +6,6 @@
 2.springBoot(1.spring 2.mybatis)
   1.dataSource(驱动) 2.mapperLocation（mapper文件）+ +实体路径
   2.mybatis typeAliases 给实体类起别名 https://blog.csdn.net/m0_46409345/article/details/108657678
-3.@MapperScan注解使用 https://blog.csdn.net/manchengpiaoxue/article/details/84937257?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&utm_relevant_index=5
+3.注入mapper实例：1.注解 2.xml(mybatis配置文件（configLocation）)
+  1.@MapperScan注解使用 https://blog.csdn.net/manchengpiaoxue/article/details/84937257?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&utm_relevant_index=5
+  
