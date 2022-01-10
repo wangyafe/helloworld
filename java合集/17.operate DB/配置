@@ -1,4 +1,4 @@
-所有的配置都是基于1.xml 2.注解
+所有的配置都是基于1.xml 2.注解（注入和使用bean）
 1.spring+mybatis
   1.数据源(dataSource:1.ZdalDataSource 2.DruidDataSource 3.DriverManagerDataSource) 2.mybatis配置文件（configLocation） 3.事务管理 4.mapper文件 5.扫描路径 6.sqlSessionFactory（1.数据源 2.mybatis配置文件）
   2.MyBatis学习-使用Druid连接池将Maybatis整合到spring https://www.cnblogs.com/Jack-Blog/p/13519166.html#druid%E9%85%8D%E7%BD%AE
@@ -10,4 +10,6 @@
 3.注入mapper实例：1.注解 2.xml(mybatis配置文件（configLocation）)
   1.@MapperScan注解使用 https://blog.csdn.net/manchengpiaoxue/article/details/84937257?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&utm_relevant_index=5
 4.1.<context:annotation-config>使xml的bean 可以注解使用 2.<context:component-scan>使注解的bean注入spring（也可以注解使用 只使用它就可以） 3.@ComponentScan和<context:component-scan>功能相同
+  1.@SpringBootApplication（默认是子包）的优先级小于（且包含）@ComponentScan(basePackages = {"a","b","c"})
   1.Spring 注解<context:annotation-config> 和 <context:component-scan>的作用与区别  https://www.cnblogs.com/qlqwjy/p/9721466.html
+  2.SpringBoot启动类的扫描注解的用法及冲突原则 https://juejin.cn/post/6892493290671702030
