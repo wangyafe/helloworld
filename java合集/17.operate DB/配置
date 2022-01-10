@@ -1,0 +1,7 @@
+1.spring+mybatis
+  1.数据源(dataSource:1.ZdalDataSource 2.DruidDataSource 3.DriverManagerDataSource) 2.mybatis配置文件 3.事务管理 4.mapper文件 5.扫描路径 6.sqlSessionFactory（1.数据源 2.mybatis配置文件）
+  2.MyBatis学习-使用Druid连接池将Maybatis整合到spring https://www.cnblogs.com/Jack-Blog/p/13519166.html#druid%E9%85%8D%E7%BD%AE
+  3.Mybatis与Spring整合连接MySQL https://blog.csdn.net/foreverling/article/details/50987203
+2.springBoot(1.spring 2.mybatis)
+  1.dataSource(驱动) 2.mapperLocation+ +实体路径
+  2.mybatis typeAliases 给实体类起别名 https://blog.csdn.net/m0_46409345/article/details/108657678
