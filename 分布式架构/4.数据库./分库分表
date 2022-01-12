@@ -5,3 +5,4 @@
 2.分库分表下非拆分键的查询方案（异构索引表） https://blog.csdn.net/sinat_29774479/article/details/107555322
 3.数据库表数据量大读写缓慢如何优化（1）【冷热分离】 https://juejin.cn/post/6914274236194357262
 4.中间件（代理数据库 如：mycat,mysql Router obproxy）：伪装成数据库，负载请求，解析或转发到真正数据库
+  4.1 连接代理 像操作单表一样操作
