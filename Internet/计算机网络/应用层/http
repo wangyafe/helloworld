@@ -3,3 +3,4 @@
 3.深入浅出 HTTPS 工作原理(验证证书的合法性与中间人攻击) https://cloud.tencent.com/developer/article/1005197
 4.HTTP解析 https://www.cnblogs.com/xrq730/p/4907559.html 5.你所不知道的 HSTS（响应头上设置 强制浏览器内部跳转https）
 5.http协议是指报文的格式结构和内容（协议不同=报文或数据帧格式及性质不同）
+  5.1 http协议内容解析（响应头含义等） https://www.runoob.com/http/http-content-type.html
