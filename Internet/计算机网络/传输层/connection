@@ -1,0 +1,9 @@
+1.连接是传输层的任务 应用层只是调用了传输层控制连接 
+ 2.通讯传输模式：1.全双工（双向通信:1.websocket 2.tcp 3.电话 4.http2.0） 2.半双工（只有一方主动发起接收 http1.1）3.单工（只能发起或接收 打印机）
+   1.异步（报文发送和接收相互独立 1.异步双工（接收和发送两个子进程 如netty异步双工长连接） 2.异步单工（两个应用程序））
+   2.在长连接中一般是没有条件能够判断读写什么时候结束，所以必须要加长度报文头。读函数先是读取报文头的长度，再根据这个长度去读相应长度的报文
+   3.长连接和短连接，单工、半双工和全双工_吧啦吧啦F-程序员宅基地 https://cxyzjd.com/article/Rflyee/8878275
+2.面试官：TCP Keepalive 和 HTTP Keep-Alive 是一个东西吗 https://bbs.huaweicloud.com/blogs/285330
+3.Http的连接管理 https://blog.poetries.top/http-protocol/notes/base/14-HTTP%E7%9A%84%E8%BF%9E%E6%8E%A5%E7%AE%A1%E7%90%86.html
+4.应用层写自己的心跳机制（保活机制并不是RFC规定的TCP协议的内容，服务器内核可以不实现）：1.默认的keep-alive时间长 2.socket proxy会让TCP的保活失效：3.大多数proxy应用只能转发TCP的应用数据，不能转发TCP协议内部的包
+  1.HTTP长连接实现原理 https://juejin.cn/post/6923887573861564423
