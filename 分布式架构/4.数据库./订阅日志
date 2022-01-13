@@ -1,0 +1,2 @@
+1.Redis-Mysql 数据一致性问题解决框架：Canal 设计详解 https://blog.csdn.net/wmq880204/article/details/113863596?share_token=26f923c9-cfab-41de-b51b-af52403c4bb2
+  作用：1.数据同步 2.数据脱敏  3.数据消费（双写一致性）
