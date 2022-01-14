@@ -8,3 +8,4 @@
 4.web server处理请求大致流程： 1.主进程监听 2.fork子进程（servlet）处理 3.解析、验证、封装 4.是否重定向（1.返回301及重定向地址） 5.url重写模块（真实资源返回)
    6.(rest url）根据URL规把请求重写到一个REST风格的URL上 7.解释器（根据动态语言的脚本，来决定调用什么类型的动态文件解释器来处理这个请求） 8.代码层面 9.返回响应
    超细！在浏览器输入xxxhub 回车之后发生了什么 https://toutiao.io/posts/mufeah6/preview
+5.详解tomcat的连接数与线程池(连接两个进程的连接，线程是处理请求) https://www.cnblogs.com/kismetv/p/7806063.html
