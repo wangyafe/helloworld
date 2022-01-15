@@ -1,0 +1,2 @@
+1.HttpSession 是通过 Servlet 容器创建和管理的 2.有效期指的是访问有效期，每一次访问都会更新 lastAccessedTime 的值 3.监听器可以监听session的生命周期
+2.基于 spring-session 解决分布式 session 共享问题 https://luoluocaihong.gitbooks.io/spring-session/content/zhuan-zai/2ji-yu-spring-session-jie-jue-fen-bu-shi-session-gong-xiang-wen-ti.html
