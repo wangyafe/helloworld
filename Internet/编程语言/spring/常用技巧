@@ -1,0 +1,8 @@
+1.获取spring容器对象（1.ApplicationContext 2.BeanFactory） 2.实现Aware接口（Aware表示已感知的意思，通过这类接口可以获取指定对象） 3.初始化Bean的时候调用方法：1.使用@PostConstruct注解 2.实现InitializingBean接口
+2.从spring容器中获取实例对象模式 1.sigleton 2.prototype 3.spring web又对Scope进行了扩展 1.RequestScope(请求) 2.SessionScope（会话） 3.自定义（线程）
+3.BeanFactory spring容器 2.FactoryBean封装获取Bean之前的操作
+4.自定义类型转换 Converter<S,T>：将 S 类型对象转为 T 类型对象
+5.自定义@Enable
+6.RestTemplate拦截器每次请求前将tranceId设置在header（拦截器可以拦截请求和调用）
+7.spring中那些让你爱不释手的代码技巧 https://juejin.cn/post/6931630572720619534
+
