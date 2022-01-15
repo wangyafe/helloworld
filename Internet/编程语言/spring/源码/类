@@ -1,0 +1,4 @@
+1.BeanWrapper（操作javaBean属性的工具）1.Apache的BeanUtils和PropertyUtils 2.cglib的BeanMap和BeanCopier 3.spring的BeanUtils
+2.WebMvcConfigurer（配置web容器的Bean,如注入拦截器，类型转化器）
+3.BeanFactoryPostProcessor和BeanPostProcessor（修改容器中的Bean Definitions）
+4.aware(获取Bean)
