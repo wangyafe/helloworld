@@ -2,3 +2,4 @@
 2.class文件在spring容器中会变为BeanDefinition 2.bean存放在beanFactory 
   2.1 听说你一读Spring源码就乱？我帮你把架子搭好了，你填就行！https://juejin.cn/post/6854573218636759048
 3.导入spring源码 https://www.debugger.wiki/article/html/1588560399054562 (综合教程)
+4.spring启动流程：1.配置文件 2.IOC初始化（1.BDReader读取配置文件 2.解析配置文件装配成BD 3.反射将BD初始化 4.将BD包装成BeanWrapper 5.注入IOC容器） 3.DI操作 4.初始化handleMapping
