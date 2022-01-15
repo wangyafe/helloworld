@@ -1,0 +1,1 @@
+1.设置binlog的session级别，也就是在此session中操作的语句，并不会产生binlogz(数据库优化整理之：冷热分离)
