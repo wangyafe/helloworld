@@ -1,0 +1,2 @@
+1.tranceId(请求标识) 2.spanId(调用顺序) 3.parantId(层级关系) 4.时间戳（1.cs 2.sr 3.ss 4.cr）
+  1.一文读懂链路追踪 https://juejin.cn/post/6844903861283471374
