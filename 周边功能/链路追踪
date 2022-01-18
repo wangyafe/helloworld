@@ -7,3 +7,4 @@
    2.seluth原理和使用 https://www.jianshu.com/p/d10e2a0264f3
    3..http(1.拦截器 2.放入MDC) 2.Rpc(1.报文（RPCContext） 2.放入MDC) 3.mq(1.message 2.放入MDC) 4.task(1.放入MDC)
    4.全链路日志追踪traceId(http、dubbo、mq) https://blog.csdn.net/promisessh/article/details/110532387
+   5.分布式之链路追踪——skywalking_飘然生的博客-程序员ITS203 https://www.its203.com/article/weixin_44635157/118958151
