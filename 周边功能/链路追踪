@@ -1,2 +1,9 @@
 1.tranceId(请求标识) 2.spanId(调用顺序) 3.parantId(层级关系) 4.时间戳（1.cs 2.sr 3.ss 4.cr）
   1.一文读懂链路追踪 https://juejin.cn/post/6844903861283471374
+2.MDC(1.诊断日志容器2.ThreadLocal) 1.存取：k-v形式 2.打印：xml文件配置%X{REQ_ID} 
+  2.1 MDC是什么鬼？用法、源码一锅端 https://juejin.cn/post/6844904132478763022
+3. 1.线程/进程间的调用，例如：RPC，http，异步（参数传递） 2.线程内的调用（ThreadLocal传递）
+   1.同一个线程打印的（不同方法服务）日志标识相同
+   2.seluth原理和使用 https://www.jianshu.com/p/d10e2a0264f3
+   3..http(1.拦截器 2.放入MDC) 2.Rpc(1.报文（RPCContext） 2.放入MDC) 3.mq(1.message 2.放入MDC) 4.task(1.放入MDC)
+   4.全链路日志追踪traceId(http、dubbo、mq) https://blog.csdn.net/promisessh/article/details/110532387
