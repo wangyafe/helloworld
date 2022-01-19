@@ -3,3 +3,4 @@
 2.终于有大佬把"计算机基础"讲明白了 https://www.toutiao.com/i7044879888758718990/?timestamp=1640277192&app=news_article&use_new_style=1&req_id=2021122400331201015121708517346408&share_token=13c5411f-99f2-45e1-86a4-a093086554b3&group_id=7044879888758718990  
  2.1 socket起源于UNIX，在Unix一切皆文件哲学的思想下，socket是一种"打开—读/写—关闭"模式的实现，服务器和客户端各自维护一个"文件"，在建立连接打开后，可以向自己文件写入内容供对方读取或者读取对方内容，通讯结束时关闭文件
 3.超细！在浏览器输入xxxhub 回车之后发生了什么 https://toutiao.io/posts/mufeah6/preview
+4.图解 | 原来这就是网络 https://www.cnblogs.com/flashsun/p/14266148.html
