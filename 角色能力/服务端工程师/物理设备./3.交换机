@@ -2,3 +2,4 @@
    1.MAC地址表 用于映射 MAC 地址和它的端口（出口） https://www.cnblogs.com/flashsun/p/14266148.html
    2.建立过程：通过以太网内各节点之间不断通过交换机通信，不断完善起来的
    3.以太网 交换机建立的局域网
+2.交换机无ip和mac地址 https://www.cnblogs.com/flashsun/p/14266148.html
