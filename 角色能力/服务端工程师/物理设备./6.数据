@@ -1,0 +1,2 @@
+1.数据链路头部：源目mac 2.网络层头部：源目ip 3.端口 4.数据包
+1.数据包的两个 IP 地址都是不变的，只有 MAC 地址在不断变化 https://www.cnblogs.com/flashsun/p/14266148.html
