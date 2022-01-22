@@ -6,6 +6,3 @@
 6.架构套路总结 https://blog.csdn.net/shijinghan1126/article/details/117906768
 7.什么是架构和架构的本质？(架构图的分类) https://blog.csdn.net/weixin_38889300/article/details/109040483
 8.架构学习笔记 https://blog.csdn.net/shijinghan1126/article/details/117898383
-  8.1 异步事件通知唤醒 = 队列（LinkedBlockingQueue）
-  8.2 网站KPI:1.RT 2.吞吐量 = 1.TPS 2.HPS 3.QPS 3.并发数 =（1.在线用户数 2.并发访问数） 4.系统KPI（1.cpu负载 2.内存 3.网络IO 4.磁盘IO 5.DB访问）
-  8.3 QPS、TPS、并发用户数、吞吐量关系 https://zhuanlan.zhihu.com/p/111914041
