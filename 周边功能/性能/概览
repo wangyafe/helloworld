@@ -1,0 +1,3 @@
+1.1 异步事件通知唤醒 = 队列（LinkedBlockingQueue）
+1.2 网站KPI:1.RT 2.吞吐量 = 1.TPS 2.HPS 3.QPS 3.并发数 =（1.在线用户数 2.并发访问数） 4.系统KPI（1.cpu负载 2.内存 3.网络IO 4.磁盘IO 5.DB访问）
+1.3 QPS（每秒读请求）、TPS（每秒写请求）、并发用户数、吞吐量关系 https://zhuanlan.zhihu.com/p/111914041
