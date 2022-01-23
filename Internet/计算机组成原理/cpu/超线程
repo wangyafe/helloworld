@@ -1,0 +1,2 @@
+1.超线程在物理内核上公开执行上下文 在切换线程时无需恢复 2.而多线程需要恢复上下文 
+  1.什么是超线程 https://www.intel.cn/content/www/cn/zh/gaming/resources/hyper-threading.html?share_token=fc97d1d2-3cbc-4ca3-aeae-19385ccb2843
