@@ -1,0 +1,2 @@
+1.浅谈内存映射I/O(MMIO)与端口映射I/O(PMIO)的区别 https://www.cnblogs.com/idorax/p/7691334.html
+ 1.MMIO:将所有的控制寄存器映射到内存空间，这样可以像读写内存一样读写数据缓冲区 (磁盘键盘鼠标设备管理 https://www.toutiao.com/a7024664623035122209/?log_from=e6f574d5b0e67_1642948143899)
