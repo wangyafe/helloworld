@@ -1,1 +1,2 @@
 1.一文带你全面解析postman工具的使用（基础篇） https://www.jianshu.com/p/e6b052f69001
+ 1.1.postMan请求格式 数组+对象:{"list":[{"name":"wany","pwd":"124"}]}
