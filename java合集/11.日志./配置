@@ -2,3 +2,4 @@
   1.1 三大组件：1.Loggers(记录器) 2.Appenders (输出源) 2.Layouts(布局)  可简单理解为1.日志类别 2. 日志要输出的地方 3.日志以何种形式输出
   1.2 输出源：1.console：输出到屏幕 2.file：输出到文件 3.socket：通过网络输出到远程计算机 4.jdbc：输出到数据库
 2.异步日志体现在线程上（Log4j2中的同步日志与异步日志） https://blog.csdn.net/weixin_33862514/article/details/93441701?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.queryctrv2&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+3.Spring Boot 集成Log4j2 使用JDBCAppender把日志写入数据库 https://blog.csdn.net/hiyouseewhat/article/details/89884534?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-1.pc_relevant_paycolumn_v3&spm=1001.2101.3001.4242.2&utm_relevant_index=4
