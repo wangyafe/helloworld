@@ -1,0 +1,4 @@
+1.Logstash 教程 https://www.tizi365.com/archives/717.html
+ 1.1 Logstash（Elastic Stack 的一部分）能够整合任何来源、任何格式的数据 https://www.elastic.co/cn/logstash/
+ 1.2 Logstash是一个数据同步工具，在ELK（Elasticsearch + Logstash + Kibana）技术栈中解决数据同步问题 日常项目中数据主要存储在MYSQL、日志文件中，通过Logstash可以将MYSQL、日志文件、redis等多种数据源的数据同步到ES，这样就可以通过ES搜索数据
+ 1.3 MYSQL同步数据到Elasticsearch策略: 1.双写策略，更新MYSQL数据的同时通过ES API直接写入数据到ES （同步方式）2.通过Logstash同步数据到ES （异步方式）3.通过订阅MYSQL Binlog，将数据同步到ES （异步方式）
