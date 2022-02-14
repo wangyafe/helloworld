@@ -1,1 +1,6 @@
-1.
+1.网络丢包的四大原因和修复方法 https://blog.csdn.net/duandianR/article/details/77513506
+  1.网络阻塞（1.TCP重传 2.降低传输速率）
+  2.中继设备处理能力
+  3.网络设备软件
+  4.硬件（终端本身）或光缆
+2.网络丢包原因及解决方案 https://www.jianshu.com/p/60658b0f9276
