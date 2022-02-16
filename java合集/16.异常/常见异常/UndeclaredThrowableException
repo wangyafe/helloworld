@@ -1,0 +1,4 @@
+2.java.lang.reflect.UndeclaredThrowableException（为什么未抛出自定义异常，自定义异常如果继承Exception就不确定是IOException还是RuntimeException）
+ 2.1 动态代理在invoke时会将被包装成InvocationTargetException，这是个受检异常，而代理类在处理异常时发现该异常在接口中没有声明，所以包装为UndeclaredThrowableException
+ 2.2解决方法：1.抛 java.lang.RuntimeException or java.lang.Error 非检查性异常 2.接口要声明异常
+ 2.3 java.lang.reflect.UndeclaredThrowableException的解决 https://www.jianshu.com/p/7edab536e4b9 2.4 jdk动态代理异常处理分析，UndeclaredThrowableException https://segmentfault.com/a/1190000012262244
