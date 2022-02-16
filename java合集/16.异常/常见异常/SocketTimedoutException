@@ -1,0 +1,3 @@
+1.SocketTimeoutException（响应超时 但成功提交 幂等）ConnectException（请求或者连接超时）
+  1.1SocketTimeoutException和ConnectException简介 https://blog.csdn.net/u010142437/article/details/18091545
+2.原因每个时延环节都可以出问题（1.发送 2.传输 3.处理 4.排队）
