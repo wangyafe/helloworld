@@ -3,3 +3,8 @@
 2 TCP 粘包/拆包的原因及解决方法？ https://juejin.cn/post/6997790102906748936
 3一条tcp链路各个数据包走的物理路径不同（路由器负载）2.包是顺序发 到达不是顺序的 3.包丢失 1.降低传输速率（实时应用） 2.TCP重传
  3.1 一条tcp链路各个数据包走的路径一样吗，如果中间链路断电，将会触发怎样的处理？ http://www-quic.zhihu.com/question/287460367
+4.1.mss （1500kb）TCP报文中data部分的最大长度 2.mtu(1518kb) 数据链路层最大数据限制 3.滑动窗口 在ACK消息中携带windows size(剩余SO_RCVBUF 或SO_SNDBUF)
+ 4.原因：1.socket缓冲区与滑动窗口 2.MSS/MTU限制 3.Nagle算法 (任意时刻，最多只能有一个未被确认的小于MSS尺寸的数据块)
+ 5. 5.0 TCP粘包、拆包与通信协议 http://www.tianshouzhi.com/api/tutorials/netty/343
+5.TCP消息头部标志位可设置消息类型 1.SYN 2.ACK 3.FIN 4.PSH(1.其中ack是确认消息 2.应答消息带有长度和ack)
+6.TCP协议中的seq/ack序号是如何变化的？ https://www.jianshu.com/p/15754b4e9458
