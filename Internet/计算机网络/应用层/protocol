@@ -1,3 +1,2 @@
-1.TCP读取规则（粘包（数据无法一次全部发送）：二进制无法区分何时停止）：1.标记(Redis) 2.固定长度 3.消息长度（1.http 2.dubbo）
-  1.1 数据一般分为 header 和 body 2.rpc有attachment
-  1.2 聊聊 dubbo 协议 https://xie.infoq.cn/article/a98afea6beabb2e3b338cc872
+1.1 数据一般分为 header 和 body 2.rpc有attachment
+1.2 聊聊 dubbo 协议 https://xie.infoq.cn/article/a98afea6beabb2e3b338cc872
