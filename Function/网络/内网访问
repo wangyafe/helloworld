@@ -1,3 +1,3 @@
 1.小白也能看懂的VPN原理 https://www.toutiao.com/i6951344491521540644/?timestamp=1641637764&app=news_article&use_new_style=1&req_id=2022010818292301015901914623AD6EBE&share_token=3c0b9df5-0c3c-49cb-8fbf-c2041241bd39&group_id=6951344491521540644
-2.1.将源IP包封装成payload 包装vpn的IP头 2.工作在IP层 3.ss工作在TCP层
+2.1.将源IP包封装成payload 包装vpn的IP头 2.工作在IP层(vpn是通过编写一套网卡驱动并注册到操作系统实现的虚拟网卡，这样数据只要经过网卡收发就可以进行拦截处理) 3.ss工作在TCP层
 3.vpn工作原理和搭建方法 https://yuerblog.cc/2017/01/03/how-vpn-works-and-how-to-setup-pptp/
