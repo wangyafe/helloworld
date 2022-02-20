@@ -1,1 +1,2 @@
 1.Socket原理讲解 https://blog.csdn.net/pashanhu6402/article/details/96428887
+2.4层协议的api能拿到client的ip地址 http是应用层，ip是网络层，那么http请求头部的client ip是怎么获取到的呢？ https://www.zhihu.com/question/264264051
