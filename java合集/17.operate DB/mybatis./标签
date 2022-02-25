@@ -1,0 +1,3 @@
+1.Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
+2.parameterType和@Param注解用法 https://blog.csdn.net/qq_38483435/article/details/80742542
+  1.parameterType两种数据类型 1.简单 2.复杂（1.map 2.实体） 2.用@Param可以省去paramterType
