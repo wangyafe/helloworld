@@ -1,8 +1,7 @@
 1.mybatis的一些特殊符号标识 https://blog.csdn.net/buyaoshuohua1/article/details/74991913
-2.Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
-3.传输对象
+2.传输对象
        12.1 DTO(请求对象) 12.2 BO(业务对象) 12.3 DAO(mapper请求对象) 12.4 DO(entity和数据库对应) 12.4 VO(展示对象) PO BO VO DTO POJO DAO DO这些Java中的概念分别指一些什么？ https://www.zhihu.com/question/39651928
-4.打印sql
+3.打印sql
 方案一：
 1.https://blog.csdn.net/wqh0830/article/details/85886383
 <?xml version="1.0" encoding="utf-8" ?>
