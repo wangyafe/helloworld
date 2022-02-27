@@ -1,3 +1,4 @@
 1.什么是持续集成（CI）/持续部署（CD）？ https://zhuanlan.zhihu.com/p/42286143
 2.idea之Recompile、Rebuild和Build之间的区别 https://codeantenna.com/a/ZIHjgN8mEY
   2.1选定目标不同（1.project 2.文件）2.编译（1.强制编译 2.只编译修改过的文件）
+3.编译是编译器生成可执行文件如class文件 3.1部署是把程序文件上传到应用服务器上并重启容器 对外提供web服务 3.2 发布是部署的拓扑结构（全部服务器）
