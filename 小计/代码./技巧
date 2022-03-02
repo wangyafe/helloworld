@@ -1,1 +1,5 @@
 1.集合用流 2.字符串用正则表达式
+2. for循环代替：.stream().forEach(recording->{
+                    if(recording !=null){
+                        resp.setFileName(recording.getFileName());
+                    }});
