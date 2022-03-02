@@ -1,1 +1,2 @@
 1.CSRF 浅谈CSRF攻击方式（1.ctoken种在cookie 2.query string包含query 保持一致 3.确定请求来自A站点 ） https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html
+ 2.登录了 A 站点的用户访问 B 站点时请求就会被发送，并且浏览器会自动带上用户在 A 站点上的 Cookie 从而成功创建一笔转账 2.1 B 站点无法访问到 A 站点域下的 Cookie
