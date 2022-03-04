@@ -2,3 +2,4 @@
   1.1 Maven settings.xml中私有仓库配置浅析 https://www.jianshu.com/p/b734f075a85a
 2.仓库顺序：1.本地 2.中央仓库（ 1.镜像 2.镜像中配置远程仓库） 3.私服
  2.1 Maven的默认中央仓库以及修改默认仓库&配置第三方jar包从私服下载 https://www.cnblogs.com/qlqwjy/p/8643032.html
+3.将jar发布到maven中央仓库小记 https://blog.csdn.net/hj7jay/article/details/51130398 2. Maven可以提交到官方公共仓库maven.org https://www.cnblogs.com/EasonJim/p/6671419.html
