@@ -1,0 +1,4 @@
+1.profile是配置文件 active激活生效 2.mirror是镜像（id是标识 mirrorOf是镜像规则） respository是仓库
+  1.1 Maven settings.xml中私有仓库配置浅析 https://www.jianshu.com/p/b734f075a85a
+2.仓库顺序：1.本地 2.中央仓库（ 1.镜像 2.镜像中配置远程仓库） 3.私服
+ 2.1 Maven的默认中央仓库以及修改默认仓库&配置第三方jar包从私服下载 https://www.cnblogs.com/qlqwjy/p/8643032.html
