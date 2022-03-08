@@ -1,0 +1,2 @@
+0.网络数据经过两次copy:1.缓冲区（设备控制器）2.用户程序内存 
+1.网络协议栈是TCP/IP 理解 Linux 网络栈（1）：Linux 网络协议栈简单总结 https://www.cnblogs.com/sammyliu/p/5225623.html
