@@ -12,3 +12,5 @@
 6.JVM会加载class文件，然后加载后的Java类会被存放于方法区(Method Area)中.实际运行时，虚拟机会执行方法区内的代码，JVM会使用堆和栈来存储运行时数据
 7.一个“Hello World”理解JVM运行时数据区 https://www.cnblogs.com/junfengchan/p/9250585.html
 8.从Java代码运行聊到JVM及对象创建-分配-定位-布局-垃圾回收 https://www.toutiao.com/i6797907413220459019/?timestamp=1640444094&app=news_article&use_new_style=1&req_id=2021122522545301015120821204C9FCF9&share_token=0d469b66-3503-4861-800b-dc931b7881b4&group_id=6797907413220459019
+9.不同类型的数据存储位置不同 1.寄存器（处理器内部） 2.栈内存（1.引用 2.基本数据类型） 3.堆（对象） 4.常量池（方法区 1.字符串常量 2.基本数据类型常量 在java用于保存在编译期已确定的，已编译的class文件中的一份数据） 5.非RAM区（1.流对象 2.持久化对象 如果数据完全存活于程序之外，那么它可以不受程序的任何控制，在程序没有运行时也可以存在）
+  9.1 java中数据的5种存储位置(堆与栈) https://blog.csdn.net/ghost_Programmer/article/details/40891735
