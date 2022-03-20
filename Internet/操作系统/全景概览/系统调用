@@ -1,0 +1,3 @@
+0. 1.Linux通过共享库直接提供系统调用 2.Windows则通过Windows API间接进行提供系统调用
+1..Linux是通过软中断实现系统调用，Windows则通过动态链接库实现系统调用(dll) 操作系统的十个常见疑惑，你都知道吗（下） https://www.toutiao.com/a6950447795690258977/?log_from=2d292b0358b1a_1647174728996
+2.彻底搞懂系统调用 https://www.toutiao.com/a6960057656262296102/?log_from=dfc4b58efc3ca_1647699826244
