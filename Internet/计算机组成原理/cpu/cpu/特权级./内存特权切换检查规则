@@ -1,0 +1,3 @@
+1.根据切换的内存资源类型不同（代码段，数据段，栈段，门描述符） 会触发特权级检查 检查规则也不同
+2.1.cs寄存器（代码段 code segment） 2.ds寄存器（数据段 data segment） 3.ss寄存器（栈段 stack segment）
+3.彻底搞懂X86 CPU特权级-中篇(内存特权级切换检查规则) https://www.toutiao.com/a6961691548899705358/?log_from=fdf996405a5ed_1647783834517
