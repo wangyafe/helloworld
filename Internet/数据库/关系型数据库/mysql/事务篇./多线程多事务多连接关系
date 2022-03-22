@@ -1,0 +1,5 @@
+1.事务是基于连接实现的 2.spring是通过 ThreadLocal 来保证同一个线程在其生命周期中，当多次操作数据库的时候（很多个dao），每次都可以获得同一个数据库连接
+  3.MySQL中事务默认是隐式事务（即自动提交（autocommit）模式为 ON） 4.在自动提交模式下，如果没有start transaction显式地开始一个事务，那么每个sql语句都会被当做一个事务执行提交操作
+  5.事务操作：1.START|BEGIN 开始一个事务 2.ROLLBACK 事务回滚 3.COMMIT 事务确认
+2.MySQL全面瓦解14：事务  https://www.cnblogs.com/wzh2010/p/13843088.html
+3.多线程与数据库事务以及数据库连接之间的关系 https://cloud.tencent.com/developer/article/1861190
