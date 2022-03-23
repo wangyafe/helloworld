@@ -6,3 +6,4 @@
   2.3 http连接复用进化论（并行新建TCP） https://www.cnblogs.com/nuannuan7362/p/14994481.html
 3.面试官:如何实现一个连接池，我当场懵了 https://cloud.tencent.com/developer/article/1805844 3.2 HttpClient连接池的深入理解 https://blog.csdn.net/lan861698789/article/details/112975083
 4.c++ socket线程池_后端开发中从内存池到连接池 老码农眼中的资源池-爱代码爱编程 https://icode.best/i/54099435851348
+5.连接池代替长连接复用原因：1.管理长连接 2.如果客服端在某个时刻加大连接数 而后不使用 造成大量内存浪费 3.服务端在有大量连接时性能下降 也需要控制连接数
