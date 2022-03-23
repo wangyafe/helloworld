@@ -1,0 +1,2 @@
+1.最大连接数（和数据库最大连接数不是同一配置 maxConnections）和最大线程数（连接数如果大于线程数 请求进入等待队列acceptCount 默认值为100）
+1.Tomcat学习之连接数设置 https://www.cnblogs.com/sunfie/p/12295945.html
