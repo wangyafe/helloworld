@@ -1,0 +1,8 @@
+1.连接池在客户端维护 2.业务项目中 1.数据库连接池 2.Redis连接池 3.HTTP连接池
+  1.1 连接池：别让连接池帮了倒忙 https://www.toutiao.com/article/6955734370682683918/?app=news_article&timestamp=1648022573&use_new_style=1&req_id=202203231602530101581490191601175E&group_id=6955734370682683918&share_token=6646a66c-9f37-4397-aa2d-3cd167102352
+2.前后串行的请求可以复用同一连接 2.同一时间并行的请求都要经过TCP三次握手建立请求（1.不使用连接池 2.连接池不够用）
+  2.1http连接复用原理（长连接复用原理）：当前的url与上一次下载的url之间进行对比，如果host相同的话，则用上一次的socket_id。否则关闭上一次的socket，重新连接服务器，获取新的socket。
+  2.2 http 连接复用 https://blog.51cto.com/u_15077561/4644547
+  2.3 http连接复用进化论（并行新建TCP） https://www.cnblogs.com/nuannuan7362/p/14994481.html
+3.面试官:如何实现一个连接池，我当场懵了 https://cloud.tencent.com/developer/article/1805844 3.2 HttpClient连接池的深入理解 https://blog.csdn.net/lan861698789/article/details/112975083
+4.c++ socket线程池_后端开发中从内存池到连接池 老码农眼中的资源池-爱代码爱编程 https://icode.best/i/54099435851348
