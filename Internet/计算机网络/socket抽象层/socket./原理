@@ -1,0 +1,6 @@
+1.Socket原理讲解 https://blog.csdn.net/pashanhu6402/article/details/96428887
+  1.1 三次握手发生在socket的那几个函数中（1.客户端connect 2.服务端accept） 在客户端通过connect函数发起请求连接时 服务端触发accept
+  1.2 四次握手释放连接的过程(1.close 2.read返回0读取为空 3.close)
+  1.3 客户端connect 2.服务端accept在三次握手建立连接时用到 
+  1.4 1.read()/write() 2.recv()/send() 3.readv()/writev() 4.recvmsg()/sendmsg() 5.recvfrom()/sendto() 在已经建立连接 读写socket文件时用到
+2.4层协议的api能拿到client的ip地址 http是应用层，ip是网络层，那么http请求头部的client ip是怎么获取到的呢？ https://www.zhihu.com/question/264264051
