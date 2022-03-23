@@ -1,0 +1,4 @@
+1.数据库连接池配置（不同于服务器连接配置区）：maxActive
+2.连接池在客户端维护
+3.Spring Boot 数据库连接池参数  https://www.cnblogs.com/jpfss/p/11265036.html
+4.什么是连接池（问题） https://segmentfault.com/q/1010000003899036
