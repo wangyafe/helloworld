@@ -1,6 +1,10 @@
 1.连接就是socket socket就是连接 2.连接创建完成后 就像读写本地文件 进行网络IO
-2.服务端：1.socket(创建socket) 2.bind(绑定IP+端口 一个服务器可以有多个网卡也就是多个IP) 3.listen(1.监听 2.创建两个队列 1.半连接 2.已连接) 4.accept(会阻塞 在收到连接请求时调用 从已连接队列中获取连接)
+2.服务端：1.socket(创建socket) 2.bind(绑定IP+端口 一个服务器可以有多个网卡也就是多个IP) 3.listen(1.监听 2.创建两个队列 1.半连接 2.已连接) 
+  4.accept(会阻塞 在收到连接请求时调用 创建用于传输数据的socket 并从已连接队列中获取连接)
   5.read(会阻塞 读取请求) 6.write(会阻塞 发送请求或相应) 7.close(关闭连接)
-3.客服端：1.socket(创建socket) 2.connet(请求连接 会阻塞 等待三次握手完成) 3.read(会阻塞 读取请求) 4.write(会阻塞 发送请求或相应) 5.close(关闭连接)
+  6.监听的 Socket 和真正用来传数据的 Socket 是两个，一个叫作监听 Socket，一个叫作已连接 Socket
+3.客服端：1.socket(创建socket) 2.connet(请求连接确定五元组 会阻塞 等待三次握手完成) 3.read(会阻塞 读取请求) 4.write(会阻塞 发送请求或相应) 5.close(关闭连接)
 4.三次握手（1.SYN(请求连接)包 2.ACK（应答包））四次挥手（1.FIN(关闭连接包) 2.ACK(应答包)）
-5.为什么网络 I/O 会被阻塞？ https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493163&idx=1&sn=6e579a0433157c31beaa87e7defb26ac&chksm=c1618b52f61602449eb8212a4a6b54a025918fea2824c8235e2924a836c0759eea777cce7ce7&scene=178&cur_album_id=2087617432768086020#rd
+  5.为什么网络 I/O 会被阻塞？ https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493163&idx=1&sn=6e579a0433157c31beaa87e7defb26ac&chksm=c1618b52f61602449eb8212a4a6b54a025918fea2824c8235e2924a836c0759eea777cce7ce7&scene=178&cur_album_id=2087617432768086020#rd
+  6.网络协议笔记（五）传输层（2） https://segmentfault.com/a/1190000023490752
+  7.为什么多个客户端可以连接服务器的同个端口？ https://blog.csdn.net/qq_25665807/article/details/77884936
