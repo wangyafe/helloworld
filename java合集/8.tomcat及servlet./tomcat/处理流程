@@ -1,0 +1,4 @@
+0.(连接)服务端和客户端通过socket创建socket 0.1客户端通过connect发送连接请求（阻塞） 0.2服务端通过accept创建请求队列（阻塞）
+1.在accept队列中接收连接（当客户端向服务器发送请求时，如果客户端与OS完成三次握手建立了连接，则OS将该连接放入accept队列）
+  1.2在连接中获取请求的数据，生成request 1.3调用servlet容器处理请求；返回response
+2.Socket原理讲解 https://blog.csdn.net/pashanhu6402/article/details/96428887
