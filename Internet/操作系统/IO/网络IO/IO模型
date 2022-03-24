@@ -10,4 +10,4 @@
    5.1 Linux未完全实现AIO 2.tomcat底层实现是用epoll模拟实现的AIO 3.windows真正实现了AIO 但项目部署在linux
    5.2 主流还是 I/O 多路复用(1.AIO未彻底实现 2.信号驱动式IO TCP协议的socket产生信号相同 无法区分哪个是数据准备就绪)
 4.图解 | 原来这就是 IO 多路复用 https://zhuanlan.zhihu.com/p/360878783
-5.让我们，从头到尾，通透I/O模型 https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493642&idx=1&sn=113839708c9a0acf9fb8e4a9f5fc02bc&chksm=c1618573f6160c650b0dd2e1dede03f8bdbca06668697f756e8f2262d86d6b3c15622ecc0e68&scene=178&cur_album_id=2087617432768086020#rd
+5.让我们，从头到尾，通透I/O模型（示意图） https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493642&idx=1&sn=113839708c9a0acf9fb8e4a9f5fc02bc&chksm=c1618573f6160c650b0dd2e1dede03f8bdbca06668697f756e8f2262d86d6b3c15622ecc0e68&scene=178&cur_album_id=2087617432768086020#rd
