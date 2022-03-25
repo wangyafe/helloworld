@@ -1,0 +1,2 @@
+1.编译成中间代码class 2.JIT代码优化 3.jvm逐条解释执行（java先编译后解释）
+2.java代码从编译到加载执行的过程 https://blog.csdn.net/java_collect/article/details/104411483
