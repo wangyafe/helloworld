@@ -11,3 +11,4 @@ for (int i=0;i++;i<retry){
     }
 }
 2.Java 实现重试机制 https://blog.csdn.net/jiahao1186/article/details/102940598
+3.用两行代码实现重试功能，spring-retry真是简单而优雅 https://www.toutiao.com/article/7079729889322041894/?app=news_article&timestamp=1648441423&use_new_style=1&req_id=202203281223420101512031571501C81D&group_id=7079729889322041894&share_token=727e2580-10ea-42b0-8055-5fe7bdfb31e0
