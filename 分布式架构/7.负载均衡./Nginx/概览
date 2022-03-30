@@ -1,1 +1,2 @@
 1.反向代理 2.动静分离 3.负载均衡 4.https://how2j.cn/k/nginx/nginx-proxypass/1570.html
+2.负载均衡 Nginx 可分为 4层负载 和7层负载（返回时需要经过Nginx） https://blog.csdn.net/weixin_44685869/article/details/105572608
