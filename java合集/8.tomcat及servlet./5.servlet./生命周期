@@ -1,0 +1,4 @@
+1.单例模式下 多线程执行service 创建Servlet实例、调用实例的init()和destroy()方法都只进行一次
+2.创建servlet在容器启动时 读取web.xml配置 2.1 销毁servlet在容器关闭或重启
+1.1.Servlet 是由 JVM 的垃圾回收器进行垃圾回收的
+ 1.Servlet一般在什么时候被销毁 https://blog.csdn.net/qq_40459545/article/details/110563055
