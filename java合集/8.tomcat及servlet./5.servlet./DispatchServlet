@@ -1,0 +1,4 @@
+1.DisPatcherServlet是Spring中唯一的Servlet 2.controller不是servlet 3.DisPatcherServlet分发请求给HandlerMapping(处理器映射器)和HandlerAdapter(处理器适配器)找到具体的Controlle
+ 1.1 controller只是一个普通的javaBean
+ 1.2 Controller类与Servlet的关系 https://blog.csdn.net/weixin_50902489/article/details/116424565
+ 1.3 springboot的controller接口和servlet原生接口的关系(SpringBoot整合Servlet) https://blog.csdn.net/Brave_heart4pzj/article/details/120241849
