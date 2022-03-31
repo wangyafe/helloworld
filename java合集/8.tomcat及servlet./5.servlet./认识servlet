@@ -1,1 +1,2 @@
-1.WEB请求处理三：Servlet容器请求处理 https://www.jianshu.com/p/571c474279af
+1.servlet工作模式 1.Web服务器的一部分而存在（tomcat） 2.Servlet容器由Web服务器插件和Java容器两部分组成(安装1.Tomcat 2.Web服务器 3.中间连接件) 3.Servlet容器运行在Web服务器外部地址空间
+2.WEB请求处理三：Servlet容器请求处理 https://www.jianshu.com/p/571c474279af
