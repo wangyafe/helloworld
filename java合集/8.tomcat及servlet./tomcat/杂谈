@@ -1,2 +1,3 @@
 1.tomact运行在jvm之上 所有java语言的应用都要jvm解释执行
 2.tomcat是1.servlet容器(进程内根据路径找到servlet小程序 ) 2.web服务器(对外提供网络服务) 对应两个核心模块 1.连接器（Connector） 2.容器（Container）
+ 2.1 连接器分类：1.Http Connector 2.AJP Connector（配置的web服务器） 3.APR HTTP Connector
