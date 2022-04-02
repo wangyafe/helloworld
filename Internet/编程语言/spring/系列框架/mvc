@@ -5,3 +5,4 @@
   1.2 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？ https://juejin.cn/post/6844904194130837511 
   1.3 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？SpringMVC处理器适配器与处理器篇章 https://juejin.cn/post/6844904195389128711
   1.4 当一个http请求来临时，SpringMVC究竟偷偷帮你做了什么？SpringMVC视图处理器与视图篇章【终章】 https://juejin.cn/post/6844904196106354696
+2.WEB请求处理五：MVC框架请求处理 https://www.jianshu.com/p/6462e69ce241
