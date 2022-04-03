@@ -1,0 +1,3 @@
+1.数据链路层（修改目的mac地址） 2.IP负载均衡（修改目的IP） 3.反向代理 4.DNS 域名解析 5.HTTP 重定向
+ 1.1 分布式系统中很常见的负载均衡方案 https://www.toutiao.com/article/6805926063638577677/?app=news_article&timestamp=1648920833&use_new_style=1&req_id=202204030133530101580512090B17456D&group_id=6805926063638577677&share_token=376d117c-39cc-4b5b-b56e-44d0d199a62c
+ 1.2 LVS(Linux Virtual Server)，同时支持上面的IP负载均衡和数据链路层负载均衡
