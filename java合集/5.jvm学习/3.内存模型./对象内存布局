@@ -5,4 +5,5 @@
   2.2 堆内存分配方式：1.指针碰撞法 2.空闲列表法
   2.3 Java对象的内存分配过程是保证线程安全： 1.同步（cas） 2.tlab（类似threadLocal）
   2.4 GC主要是针对 1.Java Heap 2.元空间 2.其他区域都是线程私有的，即随着线程的创建而创建，随着线程的销毁而销毁
-2.Java对象的内存分配过程是如何保证线程安全的 https://hollis.blog.csdn.net/article/details/97722748?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=1
+3.Java对象的内存分配过程是如何保证线程安全的 https://hollis.blog.csdn.net/article/details/97722748?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=1
+4.从Java代码运行聊到JVM及对象创建-分配-定位-布局-垃圾回收（示意图） https://www.toutiao.com/article/6797907413220459019/?timestamp=1640444094&app=news_article&use_new_style=1&req_id=2021122522545301015120821204C9FCF9&share_token=0d469b66-3503-4861-800b-dc931b7881b4&group_id=6797907413220459019
