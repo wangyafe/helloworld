@@ -1,1 +1,8 @@
-.1.计算分配连续内存空间给新对象 2.操作时计算出地址范围 3.引用地址或变量名在栈（线程中） 实例对象在堆中
+1.计算分配连续内存空间给新对象 2.操作时计算出地址范围 3.引用地址或变量名在栈（线程中） 实例对象在堆中
+ 1.1 对象的创建：1.虚拟机栈创建栈帧 栈帧内创建对象的引用 2.在方法区进行类的加载 3. Java 堆区进行分配内存并内存初始化，4.到栈帧中初始化对象的数据(地址赋值给引用)
+2.某方法在调用另一个方法是通过动态链接在元空间中的常量池中查询方法的引用
+  2.1 jdk1.8是元空间（元空间和方法区的区别：1.方法区使用永久代实现的 占用的是堆空间 2.元空间占用系统native内存）
+  2.2 堆内存分配方式：1.指针碰撞法 2.空闲列表法
+  2.3 Java对象的内存分配过程是保证线程安全： 1.同步（cas） 2.tlab（类似threadLocal）
+  2.4 GC主要是针对 1.Java Heap 2.元空间 2.其他区域都是线程私有的，即随着线程的创建而创建，随着线程的销毁而销毁
+2.Java对象的内存分配过程是如何保证线程安全的 https://hollis.blog.csdn.net/article/details/97722748?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=1
