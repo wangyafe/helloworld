@@ -1,3 +1,4 @@
-1.编译成中间代码class 2.JIT代码优化 3.jvm逐条解释执行（java先编译后解释）
+1.编译成中间代码class 2.类加载器加载到内存 3.JIT代码优化 4.jvm逐条解释执行（java先编译后解释）
 2.java代码从编译到加载执行的过程 https://blog.csdn.net/java_collect/article/details/104411483
 3.我们的Java代码启动之后，是如何神奇地变成JVM进程的？ https://www.toutiao.com/article/7079757972632781345/?app=news_article&timestamp=1648434295&use_new_style=1&req_id=2022032810245501015010521418C7C538&group_id=7079757972632781345&share_token=54379b66-4194-441d-a1bf-69fbe9020006
+4.从Java代码运行聊到JVM及对象创建-分配-定位-布局-垃圾回收 https://www.toutiao.com/article/6797907413220459019/?timestamp=1640444094&app=news_article&use_new_style=1&req_id=2021122522545301015120821204C9FCF9&share_token=0d469b66-3503-4861-800b-dc931b7881b4&group_id=6797907413220459019
