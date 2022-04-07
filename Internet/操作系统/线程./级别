@@ -1,2 +1,4 @@
 1.Java创建的线程到底是用户级线程（ULT）还是内核级线程（KLT） https://blog.csdn.net/qq_41640103/article/details/109389334
 2.linux下创建用户线程和内核线程 https://blog.csdn.net/CHALLENG_EVERYTHING/article/details/74452625
+3.在我们程序的实际使用中，不会直接去使用内核线程，而是使用内核线程的一种高级接口——轻量级进程(LWP) 
+  3.1 Java线程实现 https://www.toutiao.com/article/6941387837807837704/?log_from=841e340ba8f98_1642942973375
