@@ -1,3 +1,4 @@
 1.jdk源码（安装后的应用看不到jdk源码）： 1.编译器源码 2.jvm源码（1.解释器(解释字节码) 2.一些连接到本地代码的库） 3.类库
 2.native的具体实现在1.jvm 2.os
   2.1 http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d 2.2 如何查看java本地方法 https://www.jianshu.com/p/4f73957acc5b 2.3 openJDK源码下载 https://www.jianshu.com/p/6fe47f6a1b2a
+  2.4 java 本地地址_Java本地方法在哪里？ https://blog.csdn.net/weixin_28889765/article/details/114056116?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=2
