@@ -1,5 +1,0 @@
-1.ElasticsearchTemplate的详细使用，完成多条件查询、匹配度查询 https://blog.csdn.net/tianyaleixiaowu/article/details/77965257 https://blog.csdn.net/q2450751976/article/details/107645121
-2.Springboot检索Elasticsearch学习 https://segmentfault.com/a/1190000023555522
-3.Elasticsearch 如何做到快速检索 - 倒排索引的秘密 https://segmentfault.com/a/1190000037658997 什么是倒排索引？ https://www.cnblogs.com/zlslch/p/6440114.html
-4.Elastic 系列：Lucene 的索引结构和查询效率 https://ningg.top/elastic-series-03-elastic-lucene-data-structure/
-5.使用ELK完成日志查询 https://github.com/free3growth/ELK
