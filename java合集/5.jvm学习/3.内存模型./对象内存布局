@@ -1,1 +1,4 @@
-
+1.对象头（1.mark word 2.class point 3.array length （数组对象才有）） 2.实例数据 3.对齐填充
+ 1.1 Suvivor中对象每熬过一次YoungGC 年龄加一 15进入老年代 （标记对象分代年龄的分配的空间是4bit，而4bit能表示的最大数就是2^4-1 = 15）
+ 1.2 打印对象内存布局 引入jar包
+1.Java对象的内存布局 https://www.cnblogs.com/jajian/p/13681781.html
