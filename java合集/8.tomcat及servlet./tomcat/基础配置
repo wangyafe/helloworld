@@ -1,3 +1,11 @@
 1.最大连接数（和数据库最大连接数不是同一配置 maxConnections）和最大线程数（连接数如果大于线程数 请求进入等待队列acceptCount 默认值为100）
-1.Tomcat学习之连接数设置 https://www.cnblogs.com/sunfie/p/12295945.html
-2.WEB请求处理四：Tomcat配置实践 https://www.jianshu.com/p/b5a3c269cae3
+2.Tomcat学习之连接数设置 https://www.cnblogs.com/sunfie/p/12295945.html
+3.WEB请求处理四：Tomcat配置实践 https://www.jianshu.com/p/b5a3c269cae3
+  3.1 catalina = server(一个jvm实例 端口监听关闭tomcat请求）
+  3.2 service（1.多个service 处理由不同服务器（1.tomcat 2.apache)接收的web客户请求 3.tomcat不同的工作模式)
+  3.3 engine(Servlet处理器的一个实例，即servlet引擎 一个service一个engine)
+  3.4 host(虚拟主机 可通过不同的路径域名访问)
+  3.5 context(应用)
+  3.6 Connector（监听请求的1.端口 2.协议）
+  3.7 log（日志）
+
