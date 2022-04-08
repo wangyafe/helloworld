@@ -1,0 +1,4 @@
+1. Coyote 模块提供链接通信 2.Jasper 模块提供 JSP 引擎 3.Naming 提供JNDI 服务 4.Juli 提供⽇志服务 5.Catalina Servlet容器
+ 1.catalina(也即server) 2.service(多个) 3.Container（也即engine） 4.Host 5.Context（应用） 6.Wrapper（表示⼀个Servlet）
+2.tomcat中catalina是什么 https://blog.csdn.net/limuzi13/article/details/52805759
+3.Tomcat Servlet 容器 Catalina基本认识 https://blog.csdn.net/qq_36194388/article/details/107733315?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_antiscanv2&utm_relevant_index=1
