@@ -1,0 +1,2 @@
+1.Java编译原理(javac) https://www.toutiao.com/article/6934279368575566350/?log_from=e15004f9f9d17_1649328988422
+  1.词法分析（源文件中的字符流转换成Token集合） 2.语法分析（生成抽象语法树） 3.语义分析 4.字节码（bytecode）生成 
