@@ -1,0 +1,5 @@
+1.做 Java 这么久了，你编译过 JDK 源码吗 https://zhuanlan.zhihu.com/p/101402297
+2.写Java这么久，JDK源码编译过没？编译JDK源码踩坑纪实 https://segmentfault.com/a/1190000023251649
+3.Win10下编译OpenJDK8  https://www.cnblogs.com/jpfss/p/11641045.html#_5
+4.Java虚拟机（JVM源码）：搭建OpenJDK(10)源码调试环境 https://blog.csdn.net/wd2014610/article/details/81703203
+  4.1 CLion 调试 4.2 IDEA 中配置使用编译好的 JDK
