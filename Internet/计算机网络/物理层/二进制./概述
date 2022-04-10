@@ -1,0 +1,4 @@
+1.字节流也是01文件 和二进制单位不同 
+ 1.1 utf-8和ascii用来转化成字符串方便阅读 运行时是二进制文件 3.encoding方法和decoding用来加密和转义字符 运行时是二进制文件
+2.字节流和二进制流 https://blog.csdn.net/shuimuqiuer/article/details/6952849?share_token=49d2bdd6-06e0-42af-bc8a-0f2813f783ca
+
