@@ -1,0 +1,9 @@
+9.json是字符串可以网络传输 javabean是对象无法网络传输 有数据类型
+1.java原生序列化缺陷就是不能跨语言，只能在 Java 生态里使用 1.2 json序列化：就是JavaBean对象转化为JSON格式的字符串
+ 1.3 json字符串 序列化的方式可以跨语言 通常后端和前端的耦合就是 JSON 数据
+ 1.4 前端要json字符串，后端要javaBean对象（假设后端采用java语言）
+ 1.5 版本号目的修改字段之反序列化仍然成功 设置默认
+2.阿里一面灵魂一问：RPC或者HTTP什么时候需要序列化和反序列化？ https://blog.csdn.net/m0_67645544/article/details/123295413?share_token=a8b36790-3cf2-47ae-9800-ae9df6dd60a3
+3.将Java对象序列化成XML格式，将XML反序列化还原为Java对象 https://blog.csdn.net/sxdtzhaoxinguo/article/details/81980228
+4.JSON序列化和反序列化 https://blog.csdn.net/qq_42524288/article/details/113091490?spm=1001.2101.3001.4242.2&utm_relevant_index=4&utm_medium=distribute.wap_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.wap_blog_relevant_default&share_token=82be4053-7dd8-4a01-969c-140ded1374a0
+5.JSON方法序列化js对象 https://blog.csdn.net/m0_37820751/article/details/108461752?spm=1001.2101.3001.6650.4&utm_medium=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~Rate-4.wap_blog_relevant_default&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~Rate-4.wap_blog_relevant_default&share_token=0337e9fe-58bf-4edb-a598-d94020678f5b
