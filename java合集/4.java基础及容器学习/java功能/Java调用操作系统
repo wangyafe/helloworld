@@ -1,0 +1,4 @@
+1.Java是跨平台的语言，需要虚拟机，Java是无法直接访问操作系统API的 1.2 通过JNA与JNI技术 自动实现Java接口到native function的映射
+ 1.1 Windows平台使用Java调用Windows API或dll https://blog.csdn.net/MaxWoods/article/details/79453304?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-1.pc_relevant_aa&spm=1001.2101.3001.4242.2&utm_relevant_index=4
+ 1.2 Java调用Win32实现操作其他程序窗口 https://blog.csdn.net/zhaodecang/article/details/78290499?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9.pc_relevant_aa&utm_relevant_index=15
+ 1.3 Java调用操作系统API与DLL的使用 https://blog.csdn.net/qq969422014/article/details/48294297
