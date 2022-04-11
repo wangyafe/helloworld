@@ -1,0 +1,2 @@
+1.Reload 表示使用新编码重新加载，新编码不会保存到文件中 2.Convert 表示使用新编码进行转换，新编码会保存到文件中
+ 1.1 IDEA文件编码修改 https://www.cnblogs.com/faunjoe88/p/5734974.html
