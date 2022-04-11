@@ -1,0 +1,1 @@
+1.getdomainname(获取域名) 2.setdomainname(设置域名) 3.gethostid(获取主机标识号) 4.sethostid(设置主机标识号)
