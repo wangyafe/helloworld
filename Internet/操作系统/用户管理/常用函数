@@ -1,0 +1,1 @@
+1.getuid（获取用户标识） 2.setuid（设置用户标识） 3.getgid（获取组标识） 4.setgid(设置组标识)
