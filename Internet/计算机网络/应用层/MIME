@@ -1,0 +1,6 @@
+1.在万维网中使用的HTTP协议中也使用了MIME的框架，标准被扩展为互联网媒体类型
+ 1.1 使得HTTP传输的不仅是普通的文本，而变得丰富多彩
+ 1.2 为了支持多媒体数据类型，HTTP协议中就使用了附加在文档之前的MIME数据类型信息来标识数据类型
+2.浏览器根据不同类型的数据调用不同的程序或者插件 运行或者打开该文件
+3. MIME详解 https://blog.csdn.net/fuhanghang/article/details/105347378 https://www.cnblogs.com/fire909090/p/7132120.html
+4.网络标准之：永远是1.0版本的MIME https://www.toutiao.com/article/7073615838728831525/?log_from=454aeed53ac91_1649669693082
