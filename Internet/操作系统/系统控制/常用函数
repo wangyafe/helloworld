@@ -1,0 +1,1 @@
+1.reboot(重启) 2.sysinfo(获取系统信息) 3.stime(设置系统时间) 4.time（获取系统时间）
