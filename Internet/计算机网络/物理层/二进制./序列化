@@ -1,4 +1,5 @@
 9.json是字符串可以网络传输 javabean是对象无法网络传输 有数据类型
+ 0.1 form表单可以转成javabean 其符合http协议 2.接受请求原始的是httpservlet
 1.java原生序列化缺陷就是不能跨语言，只能在 Java 生态里使用 1.2 json序列化：就是JavaBean对象转化为JSON格式的字符串
  1.3 json字符串 序列化的方式可以跨语言 通常后端和前端的耦合就是 JSON 数据
  1.4 前端要json字符串，后端要javaBean对象（假设后端采用java语言）
