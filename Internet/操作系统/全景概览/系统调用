@@ -1,3 +1,7 @@
 0. 1.Linux通过共享库直接提供系统调用 2.Windows则通过Windows API间接进行提供系统调用
 1..Linux是通过软中断实现系统调用，Windows则通过动态链接库实现系统调用(dll) 操作系统的十个常见疑惑，你都知道吗（下） https://www.toutiao.com/a6950447795690258977/?log_from=2d292b0358b1a_1647174728996
 2.彻底搞懂系统调用 https://www.toutiao.com/a6960057656262296102/?log_from=dfc4b58efc3ca_1647699826244
+3.1.直接调用系统调用接口 2.调用库函数
+ 1. Linux提供的系统调用包含的内容有：1.文件操作 2.进程控制 3.系统控制 4.内存管理 5.网络管理 6.socket套接字 7.进程间通信 8.用户管理
+ 2.c语言通过引入include <sys/stat.h>头文件 直接调用系统接口 2.1 C语言通过库函数调用系统接口
+ 4.Linux下应用开发基础知识大总结 https://www.toutiao.com/article/6856217214308385287/?app=news_article&timestamp=1649609821&use_new_style=1&req_id=2022041100570101015816004102819C6C&group_id=6856217214308385287&share_token=4a5a1f98-3c72-468e-98f6-33fd20d22986
