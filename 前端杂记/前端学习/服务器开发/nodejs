@@ -1,1 +1,1 @@
-1.运行在服务端的 JavaScript 2.基于Google的V8引擎 3.通过事件驱动I/O服务端JavaScript环境
+1.运行在服务端的 JavaScript(相当于tomcat) 2.基于Google的V8引擎 3.通过事件驱动I/O服务端JavaScript环境
