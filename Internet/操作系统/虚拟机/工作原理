@@ -1,0 +1,3 @@
+1.Hyperviso（虚拟机管理器） 1.I型--裸机型，直接运行在物理设备之上 2.II型--宿主机型，运行在宿主机器的操作系统上
+2.虚拟机的实现原理 https://www.cnblogs.com/plxx/p/5461753.html
+3.虚拟机是怎么实现的 https://www.zhihu.com/question/20848931
