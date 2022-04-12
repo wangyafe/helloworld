@@ -1,1 +1,2 @@
-Canvas:通过 JavaScript 在网页矩形区域绘制路径、矩形、圆形、字符以及添加图像，可以控制到像素级别
+1.Canvas:通过 JavaScript 在网页矩形区域绘制路径、矩形、圆形、字符以及添加图像，可以控制到像素级别
+2.chartjs 就是可以画各种图表的一款前端工具 https://how2j.cn/k/chartjs/chartjs-intro/2056.html
