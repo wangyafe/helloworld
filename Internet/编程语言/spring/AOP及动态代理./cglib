@@ -1,0 +1,2 @@
+1.Spring中都是使用的cglib动态代理，而cglib本身就是使用ASM 2.CGLIB是对ASM的封装，简化ASM的操作，降低ASM的使用门槛
+ 1.CGLIB(Code Generation Library) 介绍与原理 https://www.runoob.com/w3cnote/cglibcode-generation-library-intro.html
