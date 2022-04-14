@@ -1,0 +1,2 @@
+0.利用了反射原理 1.调用方法：1、Class.forname()调用本地方法，比较耗时 2、Class.getMethod会遍历类的方法 2.读取元空间中的类信息
+1.JDK动态代理 http://www.manongjc.com/detail/29-hhvaldwlwmiicap.html
