@@ -1,2 +1,4 @@
 1.别当工具人了，手摸手教会你 Jenkins ！ https://cloud.tencent.com/developer/article/1764138
 2.Jenkins操作手册 - 巨详细，一篇足矣 https://www.163.com/dy/article/GKP7QKNF05521T2V.html
+3.三十二张图告诉你如何用Jenkins构建SpringBoot https://www.toutiao.com/article/6893456566410805773/?log_from=b86402c904e16_1649921485507
+  3.1 Jenkins集成需要用到1.maven 2.JDK 3.Git环境
