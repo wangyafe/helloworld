@@ -3,3 +3,5 @@
 spring aop(八)--使用BeanNameAutoProxyCreator创建代理 https://blog.csdn.net/xiejx618/article/details/43952007
 3.Java 动态代理详解 https://juejin.im/post/5c1ca8df6fb9a049b347f55c
 4.动态代理及其实现原理 https://segmentfault.com/a/1190000037648064
+ 4.1 静态代理（在代理中实例化目标对象） 4.2 jdk动态代理（1.使用反射 读取元空间中的类信息 2.运行期间） 4.3 cglib(1.asm技术修改字节码文件) 4.4Aspectj（编译期间） 4.5 instrumentation （java agent）
+ 
