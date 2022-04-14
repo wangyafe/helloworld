@@ -2,3 +2,4 @@
 2.动态代理（拦截器和设置的Bean的名称表达式做匹配来创建代理）
 spring aop(八)--使用BeanNameAutoProxyCreator创建代理 https://blog.csdn.net/xiejx618/article/details/43952007
 3.Java 动态代理详解 https://juejin.im/post/5c1ca8df6fb9a049b347f55c
+4.动态代理及其实现原理 https://segmentfault.com/a/1190000037648064
