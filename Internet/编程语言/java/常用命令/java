@@ -1,1 +1,2 @@
 1.java 启动jvm 并执行程序
+ 1.1 java -jar xxx.jar 直接运行 jar 包
