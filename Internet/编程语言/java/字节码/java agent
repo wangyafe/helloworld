@@ -1,0 +1,3 @@
+1.实现方式：1.target类 2.agent类 3.ClassFileTransformer的实现
+  1.2 将agent类和ClassFileTransformer打成jar包
+  1.3 IDEA 的 debug 怎么实现？有人知道吗 https://www.toutiao.com/article/7086284001287258632/?app=news_article&timestamp=1649999544&use_new_style=1&req_id=202204151312240101511802280B06B847&group_id=7086284001287258632&share_token=78306479-bbbf-4b69-bb47-def92c5fd9aa
