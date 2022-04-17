@@ -1,5 +1,0 @@
-1.ThreadLocal 曾用在读写分离
- 1.1 Java ThreadLocal 实现原理（维护了ThreadLocalMap对象，使线程之间的数据天然隔离） https://segmentfault.com/a/1190000022351511
-2.ForkJoin框架 也是一种线程池 ForkJoinPool
- 2.1要解决的问题：处理分割 合并任务 而ThreadPoolExector无法等待子任务结果 再处理父任务
- 2.2【高并发】什么是ForkJoin？看这一篇就够了！ https://www.cnblogs.com/binghe001/p/12683253.html
