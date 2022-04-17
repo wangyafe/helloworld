@@ -10,3 +10,4 @@
  WeakReference weakReference = new WeakReference(obj ); // 弱引用
  6.4 虚引用（幽灵引用/幻影引用）：无法通过虚引用获得对象，用 PhantomReference 实现虚引用，虚引用的用途是在 gc 时返回一个通知
  6.5 别再找了，一文彻底解析Java 中的弱引用 https://juejin.cn/post/6844903954548015111
+2.可以把强引用设置成弱引用或软引用
