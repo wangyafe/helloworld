@@ -1,0 +1,12 @@
+1. 引用类型：
+ 1.1 强引用：发生 gc 的时候不会被回收。
+ Object obj = new Object();
+ Object obj2 =obj; //强引用
+ 1.2 软引用：有用但不是必须的对象，发生GC，如果内存足够就不会回收，不足就会回收。
+ Object obj = new Object();
+ SoftReference softReference = new SoftReference(obj ); // 软引用
+ 1.3 弱引用：有用但不是必须的对象，垃圾回收的时候会被回收。
+ Object obj = new Object();
+ WeakReference weakReference = new WeakReference(obj ); // 弱引用
+ 6.4 虚引用（幽灵引用/幻影引用）：无法通过虚引用获得对象，用 PhantomReference 实现虚引用，虚引用的用途是在 gc 时返回一个通知
+ 6.5 别再找了，一文彻底解析Java 中的弱引用 https://juejin.cn/post/6844903954548015111
