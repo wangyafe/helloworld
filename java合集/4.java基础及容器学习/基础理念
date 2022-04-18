@@ -2,7 +2,5 @@
 2.Java泛型--泛型应用--泛型接口、泛型方法、泛型数组、泛型嵌套 https://blog.csdn.net/waldmer/article/details/12773021
 3.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
 4.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
-5.关于final修饰的字段初始化问题 https://blog.csdn.net/qq_41817611/article/details/107121704
-  5.1 在虚拟机为它开辟空间时必须得保证它会被显式赋值一次且只被赋值一次
 6.java项目中的classpath到底是什么(1.打包后的src放在web-inf目录里 2.classpath 2.1配置文件的路径 2.2也即WEB-INF/classes/这个目录的路径) https://segmentfault.com/a/1190000015802324
 7.Java 到底是值传递还是引用传递？（调用方法时copy实参传递给方法 修改不影响实参） https://www.zhihu.com/question/31203609
