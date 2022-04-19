@@ -12,3 +12,6 @@
  3.Class.forName(name, initialize, loader)：Class.forName()的参数版本，initialize参数可以控制是否初始化类（执行static语句块, true为初始化，false不初始化），loader可以指定类加载器
  4.命令启动的时候由JVM加载
 6.深入理解Java类加载机制-类加载器 https://www.toutiao.com/article/6931191805497672200/?log_from=db35ea01998f1_1650336494590
+7.类加载器的核心方法：1.loadClass() 类加载的方法入口, 默认实现了双亲委派机制 2.findClass() 根据名称或位置加载.class字节码, 负责定位和找到具体的.class文件
+  3.defineClass() 把二进制流(字节码)转化为Class对象
+8.java什么时候会触发类加载_Java 类加载器classLoader | 七日打卡 https://blog.csdn.net/weixin_42412250/article/details/114759237
