@@ -1,0 +1,4 @@
+1 多态性实现机制——静态分派与动态分派 https://wiki.jikexueyuan.com/project/java-vm/polymorphism.html
+  1.1 确定方法版本：1.javac 编译器就根据参数的静态类型（引用）决定使用哪个重载版本 2.运行期根据实际类型（实例）确定方法执行版本的分派过程称为动态分派
+  1.2 Java方法调用(虚拟机字节码执行引擎) https://www.toutiao.com/article/6932454828308185607/?log_from=445d8b2709e86_1650360991972
+  
