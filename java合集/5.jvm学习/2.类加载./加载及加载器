@@ -1,0 +1,14 @@
+1.启动类加载器（1.加载 jre/lib 2.通过-Xbootclasspath参数所指定的路径） 
+ 1.1 由c+=实现 是虚拟机的一部分 1.2 不可以被java程序调用
+2.扩展类加载器（1.jre/lib/ext 2.系统变量java.ext.dirs所指定的路径）
+ 1.1 由java实现 可以被java程序调用
+3.应用类加载器
+ 1.1 ClassLoader.getSystemClassLoader()获取
+4.双亲委派
+ 收到类加载请求时 交给父类加载器加载
+5.类加载方式
+ 1.Class.forName()：将class文件加载到JVM中，并且初始化类（执行static语句块）
+ 2.ClassLoader.loadClass()：将class文件加载到JVM中，不进行初始化，不执行static语句块，只有newInstance的时候才会执行static语句块
+ 3.Class.forName(name, initialize, loader)：Class.forName()的参数版本，initialize参数可以控制是否初始化类（执行static语句块, true为初始化，false不初始化），loader可以指定类加载器
+ 4.命令启动的时候由JVM加载
+6.深入理解Java类加载机制-类加载器 https://www.toutiao.com/article/6931191805497672200/?log_from=db35ea01998f1_1650336494590
