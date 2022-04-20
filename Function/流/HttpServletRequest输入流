@@ -1,2 +1,5 @@
 1.解决HttpServletRequest输入流只能读一次的问题 http://39.107.221.112/article/830227
  1.1 过滤器中保存 1.2 工具类中读取
+ 1.2 https://github.com/wangyafe/common-share/tree/develop/common-web/src/main/java/com/shengsu/filter
+ 1.3 https://github.com/wangyafe/common-share/blob/develop/common-web/src/main/java/com/shengsu/util/HttpUtils.java
+ 1.4 https://github.com/wangyafe/common-share/blob/develop/common-web/src/main/java/com/shengsu/config/BaseWebConfigurer.java
