@@ -4,3 +4,4 @@
   1.5 把一个线程拆分成更小的粒度：1.建立连接的handler 2.读取数据的handler 3.回写数据的hander。handler处理完event就丢给下一个handler处理，自己又可以去服务socket，提高了复用率，提高了系统的吞吐量
  2.Reactor三种线程模型 1.单线程模型 2.多线程模型 3.主从线程模型
  3.基于IO多路复用的Reactor模式（1.代码示例 2.导图） https://www.jianshu.com/p/4d88d4e3b6d4
+4.Reactor模型 https://juejin.cn/post/6844904102560792590
