@@ -3,3 +3,4 @@
   2.在 Java 源文件被编译成字节码文件时，所有的变量和方法引用都作为符号引用（Symbilic Reference）保存在 Class 文件的常量池里
   3.当一个方法要调用其他方法，需要将常量池中指向方法的符号引用转化为其在内存地址中的直接引用。动态链接的作用就是为了将符号引用转换为调用方法的直接引用
 3.符号引用（Symbilic Reference） 4.内存地址中的直接引用
+5.阿里云二面：简单聊聊 Java 虚拟机栈 https://www.toutiao.com/article/7088536625428431375/?app=news_article&timestamp=1650507425&use_new_style=1&req_id=20220421101705010158163136172BFBC3&group_id=7088536625428431375&share_token=bc40154e-9e42-41b3-bde6-7a0f6fce6a8a
