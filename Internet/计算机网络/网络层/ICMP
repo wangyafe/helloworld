@@ -1,2 +1,2 @@
-1.ping/trancert(tracerout) 基于ICMP 协议来实现 2.控制消息 用于网络诊断 3.ping发送回显请求 2.tancert回显应答里有路径路由器IP
+1.ping/trancert(tracerout) 基于ICMP 协议来实现 2.控制消息 用于网络诊断 3.ping发送回显请求 2.tracert回显应答里有路径路由器IP
  1.1 深入理解ICMP协议 https://zhuanlan.zhihu.com/p/369623317
