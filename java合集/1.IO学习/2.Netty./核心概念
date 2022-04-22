@@ -1,0 +1,13 @@
+1.Netty 切割成了三部分：1.core 2.transport services 3.protocol support
+ 1.1 1. Channel（连接） 2.ChannelHandler（处理逻辑） 3.ChannelPipeline（编排处理） 4.ChannelHandlerContext(handler的包装 避免重复逻辑)
+ 1.2 bootGroup(监听连接) 2.eventLoop(创建channel线程) 3.新建channel注册到selector(workGroup中的处理线程eventloop执行)
+2. 注册处理逻辑：public void initChannel(SocketChannel ch) {
+        ChannelPipeline p = ch.pipeline();
+        if (sslCtx != null) {
+            p.addLast(sslCtx.newHandler(ch.alloc()));
+        }
+        p.addLast(new HttpServerCodec());
+        p.addLast(new HttpServerExpectContinueHandler());
+        p.addLast(new HttpHelloWorldServerHandler());
+    }
+  3.Netty，核心就是这条主线 https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247494045&idx=1&sn=5598d56617f1ec369ffe2baa857948b7&chksm=c16184e4f6160df22b45b2c1a1b15dedc2d6ba5b359897fdc9abde4bf050a5fb41447e68d9bc&scene=178&cur_album_id=2126839054972354563#rd
