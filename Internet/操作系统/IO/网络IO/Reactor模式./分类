@@ -1,0 +1,5 @@
+1.基础网络IO事件：1.连接（accept） 2.读事件（read) 3.写事件（write）
+ 1.单线程：1.一个线程负责（1.监听所有事件） 2.交给其他线程处理读写
+ 2.多线程：1.一个线程负责（1.监听所有事件） 2.交给线程池处理读写
+ 3.主从：1.一个线程负责监听连接事件（accept） 2.将channel与eventLoop绑定（负责以后的读写事件监听） 3.交给线程池处理读写
+2.对 Reactor 始终隔了一层纱？ https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247494369&idx=1&sn=cd75ab5e3a535981ac65c7b3f47ea75e&chksm=c1618798f6160e8ea33cb50662e935b2ec616c880bc9d3cf4d8aa833990e22b957d70864aae7&scene=178&cur_album_id=2126839054972354563#rd
