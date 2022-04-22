@@ -1,0 +1,2 @@
+1.Netty，从这里入手更易上手（含细节分析）（启动代码） https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247494194&idx=1&sn=2ddc4e3c4571fb6b0e83f5facfa3eb79&chksm=c161874bf6160e5d4a10f281b686ec95337738d2d2addb953df927ae1e300481a8aabb430a21&scene=178&cur_album_id=2126839054972354563#rd
+2.原来 Netty 的核心启动逻辑是这样的！ https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247494305&idx=1&sn=96462d063637e02d9fb2095dd1c06dc1&chksm=c16187d8f6160ece073beeb7ab65018273d667ed459578064b34c536b0963807f31cb800d77e&scene=178&cur_album_id=2126839054972354563#rd
