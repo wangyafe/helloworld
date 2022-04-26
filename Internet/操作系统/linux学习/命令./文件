@@ -12,10 +12,3 @@
  1.vi file打开文件 2.保存退出：esc键退出编辑模式+输入冒号 (shift+分号) 打开控制命令 接着输入wq，然后敲回车，即保存退出 3.不保存退出：q!
 7.返回上一级目录
 1.cd ..返回上一级目录 2.cd ../..返回上两级目录 3.cd或cd ~返回home目录 4.cd - 目录名 返回指定目录
-8.文件权限（linux ls -l 详解） https://blog.csdn.net/sjzs5590/article/details/8254527?share_token=06300d9a-c4c5-4854-a566-73103436b371
-9.Linux下查找java进程耗用cpu最高的线程方法 https://my.oschina.net/hebad/blog/1526883
-10.nohup java -jar demo-0.0.1-SNAPSHOT.jar & #后台运行
-   curl http://localhost:9000/getUserInfo #访问接口
-11.Linux 不懂权限管理，怎么玩骚操作 https://cloud.tencent.com/developer/article/1748506
-   11.1 链接文件即windows的快捷文件
-   11.2 总用量以块为单位文件大小
