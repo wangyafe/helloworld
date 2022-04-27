@@ -3,3 +3,4 @@
 2.题目类型：1.简单 2.汇总、分组、条件 3.多表复杂 4.topN问题 5.行列互换
   4.分组排序：Mysql8.0+中的rank()、row_num()、dense_rank()等窗口函数 https://blog.csdn.net/cpc784221489/article/details/105270445
   5.行列互换：case表达式+聚合函数 https://www.shiqidu.com/d/776
+  6.条件：不同列比较 用表自连
