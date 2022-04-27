@@ -1,2 +1,4 @@
 1.执行顺序，from，where，group by having select order by limit
 2.select 中的别名 having中可以使用
+3.MySQL 日期时间函数 https://www.cnblogs.com/hongdada/p/9929332.html#datetime%E5%92%8Ctimestamp%E5%8C%BA%E5%88%AB%EF%BC%9A
+4.Mysql经典练习题与知识点总结 https://blog.csdn.net/cpc784221489/article/details/105102005?spm=1001.2014.3001.5501
