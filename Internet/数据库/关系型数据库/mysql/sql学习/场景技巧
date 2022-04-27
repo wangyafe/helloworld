@@ -1,0 +1,2 @@
+1.执行顺序，from，where，group by having select order by limit
+2.select 中的别名 having中可以使用
