@@ -2,3 +2,15 @@
 2.这样看 mybatis，谁都会分析源码！ https://xie.infoq.cn/article/2f998541f14289c8d3851fbb9
 3.mybatis 如何实现数据库类型和Java类型的转换的 TypeHandler(类型转换器)
  3.1 无人问津的，mybatis https://mp.weixin.qq.com/s/NslGUUMmW2TXwUCJ6Cl6tA
+4.MyBatis 层级结构各个组件：
+ 1.SqlSession： ，它是 MyBatis 核心 API，主要用来执行命令，获取映射，管理事务。接收开发人员提供 Statement Id 和参数。并返回操作结果。
+ 2.Executor ：执行器，是 MyBatis 调度的核心，负责 SQL 语句的生成以及查询缓存的维护。
+ 3.StatementHandler : 封装了JDBC Statement 操作，负责对 JDBC Statement 的操作，如设置参数、将Statement 结果集转换成 List 集合。
+ 4.ParameterHandler : 负责对用户传递的参数转换成 JDBC Statement 所需要的参数。
+ 5.ResultSetHandler : 负责将 JDBC 返回的 ResultSet 结果集对象转换成 List 类型的集合。
+ 6.TypeHandler : 用于 Java 类型和 JDBC 类型之间的转换。
+ 7.MappedStatement : 动态 SQL 的封装
+ 8.SqlSource : 表示从 XML 文件或注释读取的映射语句的内容，它创建将从用户接收的输入参数传递给数据库的 SQL。
+ 9.Configuration: MyBatis 所有的配置信息都维持在 Configuration 对象之中
+5.面试官问你MyBatis SQL是如何执行的？把这篇文章甩给他 https://www.toutiao.com/article/6788679755429315075/?log_from=155629f816143_1649929249811
+
