@@ -1,0 +1,2 @@
+  1.禁止通过IP直接访问（http报文中的请求行中有域名）
+   1.1 Nginx禁止直接通过IP地址访问网站 https://www.cnblogs.com/apexchu/p/4335787.html?share_token=340deb0c-31bf-404d-8d72-5ba98352b2f7
