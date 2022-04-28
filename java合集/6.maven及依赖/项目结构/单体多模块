@@ -1,0 +1,2 @@
+1.CodeGenerator 代码生成器 2.统一返回 3.通用的分页对象 4.常用工具类 5.全局异常拦截 6.错误枚举 7.自定义异常 8.多环境配置文件 9.Maven多环境配置 10.日志配置 11.JenkinsFile
+ 1.1 一个 SpringBoot 项目的五脏六腑 https://www.toutiao.com/article/6887724282965819912/
