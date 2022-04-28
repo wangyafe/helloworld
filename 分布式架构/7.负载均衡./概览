@@ -22,8 +22,6 @@ Nginx+Keepalived实现Nginx高可用架构，告别单点故障 https://juejin.c
   11.3 开发运维日记 (一) Nginx部署和内外网配置（NET外网IP时区分内外网拓扑图） https://www.cnblogs.com/xiaoxing/p/12145401.html?share_token=990799ec-7954-4190-82c3-1832aeb55920
   2.域名代替IP
   11.4. 公司内网搭建代理DNS使用内网域名代替ip地址 https://www.cnblogs.com/liuxinyustu/articles/11757384.html?share_token=ed1215be-6cb3-4766-b677-5337df966cf9
-  3.禁止通过IP直接访问
-  11.5 Nginx禁止直接通过IP地址访问网站 https://www.cnblogs.com/apexchu/p/4335787.html?share_token=340deb0c-31bf-404d-8d72-5ba98352b2f7
   4.nginx虚拟主机配置
   11.6 nginx虚拟机配置 https://www.cnblogs.com/andy6/p/7010914.html
   5.LAN口和WAN口的区别是什么？
