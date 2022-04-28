@@ -1,3 +1,3 @@
 1.DI模式有两种：1.注解(1.字段 2.setter方法 3.构造器) 2.xml（1.通过类的setter方法 2.通过类的构造器）
   1.1 这12道Spring面试题要是还不会的话？就白干了(bean的自动装配，有哪些方式:1.byName 2.byType 3.Construct 4.No 5.) https://cloud.tencent.com/developer/article/1831547
-      
+  1.2 DI原理 1.setter方法（实例化后 设置引用地址） 2.构造方法（实例化前 准备好数据）
