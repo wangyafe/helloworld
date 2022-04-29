@@ -1,2 +1,2 @@
-1.类级别实例化 （调用对应的构造方法）
+1.类级别实例化 （自动：调用对应的构造方法）
  1.1 spring注解原理解析 https://blog.csdn.net/statckoverflow/article/details/17392351?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3
