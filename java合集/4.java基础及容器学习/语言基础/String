@@ -1,0 +1,2 @@
+1.java String直接赋值和实例化区别 https://blog.csdn.net/weixin_47535428/article/details/113703817
+ 1.1 直接赋值 jvm会实例化一个匿名对象 1.2 显式实例化 会实例化两个对象
