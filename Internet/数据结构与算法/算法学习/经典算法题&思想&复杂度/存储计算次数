@@ -16,3 +16,6 @@
         }
         return -1;
     }
+    4.HashMap<Interger,Interger> hp = new HashMap<Interger,Interger>;
+    !hp.containKey
+    
