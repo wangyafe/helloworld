@@ -1,0 +1,2 @@
+1.List逆向遍历、反向遍历--Iterator详解 https://blog.csdn.net/import_sadaharu/article/details/78906160?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78906160-blog-79659566.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-78906160-blog-79659566.pc_relevant_antiscanv2&utm_relevant_index=1
+  1.1 it = list.itetator while(it.hasList())
