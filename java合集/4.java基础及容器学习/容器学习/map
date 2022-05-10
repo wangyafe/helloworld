@@ -2,3 +2,4 @@
  1.1（2021最新版）Java后端面试题|Java基础部分 https://cloud.tencent.com/developer/article/1809985
  1.2 jdk1.8chm中的sy关键字（头节点不为空）+cas（头节点为空）
 2.1.HashMap以自定义对象作为key的时候需要重写hashcode 与equals(1.确定散列的方式 2.确定比较value相等的方式) 2.String作为key的时候已经重写hashCode与equals
+2.2 entry是key-value对象
