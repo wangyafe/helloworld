@@ -1,0 +1,2 @@
+1.实时（规定时间内必须做出响应 如1.嵌入式 2.工业控制） 2.分时（1.轮询 2.什么任务就绪干什么事情 如linux windows）
+ 2.Linux是实时系统还是分时操作系统? https://www.eet-china.com/mp/a130081.html 3.windows和linux这类操作系统究竟是软实时操作系统还是分时操作系统？  https://www.zhihu.com/question/61774449
