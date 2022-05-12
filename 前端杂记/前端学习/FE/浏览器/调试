@@ -1,0 +1,2 @@
+1.chrome浏览器如何跟踪新开标签的网络请求？（1.setting 2.DevTools区域，勾选第一个 Auto-open DevTools for popups）
+2.JavaScript反防审查强制开控制台方法（反防f12必开控制台）{1.chrome 浏览器右上角 2.更多工具 3. 开发者工具 } https://blog.csdn.net/qq_21567385/article/details/109253191
