@@ -9,3 +9,4 @@
   6.2 Mysql空间索引 https://www.jianshu.com/p/74a554ff973a
 7.联合索引在B+树上的存储结构及数据查找方式 https://blog.csdn.net/ibigboy/article/details/104571930?depth_1-
 8.索引的最左前缀原则 https://www.cnblogs.com/frankltf/p/10368509.html?share_token=c80254c8-d921-4784-85e4-9bfa44dfd133#tt_daymode=1&tt_font=m
+ 8.1 MySQL-隐式类型转换导致索引失效 https://juejin.cn/post/6994006962870419470
