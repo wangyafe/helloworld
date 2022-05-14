@@ -3,3 +3,5 @@
  1.2 jdk1.8chm中的sy关键字（头节点不为空）+cas（头节点为空）
 2.1.HashMap以自定义对象作为key的时候需要重写hashcode 与equals(1.确定散列的方式 2.确定比较value相等的方式) 2.String作为key的时候已经重写hashCode与equals
 2.2 entry是key-value对象
+3.HashMap 常见问题Java8(扩容、转红黑树、退化链表、Hash优化) https://blog.csdn.net/yakax/article/details/108422101
+ 3.1 在扩容时 low、high 两个TreeNode 长度小于6时 会退化为链表
