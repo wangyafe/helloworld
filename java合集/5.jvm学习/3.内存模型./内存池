@@ -1,0 +1,2 @@
+02 | 内存池：如何提升内存分配的效率？ https://time.geekbang.org/column/article/230221
+ 1.1 jvm通过Xms预分配堆空间就是内存池（池化技术）
