@@ -1,0 +1,4 @@
+1.Mybatis-Plus和Mybatis的区别 https://blog.csdn.net/qq_34508530/article/details/88943858
+ 1.1在使用普通的mybatis时会建立一个DAO层接口，并对应一个xml用来写SQL
+ 1.2mp同样要建立一个DAO层 但只需要让我们建立的DAO继承MP提供的BaseMapper<?>即可
+ 1.3mybatis优点：条件过于复杂的查询使用mybatis 易于维护且逻辑清晰
