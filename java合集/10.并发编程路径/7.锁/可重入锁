@@ -1,0 +1,2 @@
+1.同一线程的可重入（嵌套获取锁） 深入理解可重入锁 https://www.jianshu.com/p/6e8a49121133
+2.redis分布式锁-可重入锁 https://www.cnblogs.com/x-kq/p/14801527.html
