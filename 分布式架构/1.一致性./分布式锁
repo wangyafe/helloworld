@@ -1,0 +1,7 @@
+ 1.1 del锁时：1.锁其实已经过期 2.被其它线程获取 3.导致释放掉了其他线程的锁 2.setNx:业务执行时间过长 导致还没有执行完就过期了
+ 1.2 分布式锁 （关于分布式锁的面试题都在这里了） https://juejin.cn/post/6844904137172189198
+   1.2.1 论Redis 7种加锁方式的优缺点 https://blog.csdn.net/weixin_38308374/article/details/116088557?share_token=8e994031-e159-428c-a594-98bab7cd5920
+     缺点：1.主从模式下数据丢失 2.无法支持锁重入 3.锁无法自动续期
+   1.2.2 Redlock之分布式锁实现原理 https://blog.csdn.net/qq_39470733/article/details/116054873?share_token=afcfd2ab-24ef-43b3-a577-4296265ea484
+     redlock缺点及原因：1.同时持有锁 2.数据丢失
+   1.2.3 redis分布式锁自动延长过期时间 https://segmentfault.com/a/1190000037526623?share_token=790903ce-519c-4de4-bcc6-58aeb06a2580
