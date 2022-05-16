@@ -6,6 +6,7 @@
  1.4 redis六种淘汰策略，redis默认的淘汰策略，如何设置redis淘汰策略和最大内存 https://blog.csdn.net/ju_362204801/article/details/114441137
 2.一致性Hash
 图解一致性哈希算法（引入哈希环 对象和目标同时hash 然后顺时针就近配对） https://segmentfault.com/a/1190000021199728
+redis cluster集群模式原理 （一致性hash算法（自动缓存迁移）+虚拟节点（自动负载均衡）） https://juejin.cn/post/6844903984294002701
 3.分布式锁
  3.1关于分布式锁的面试题都在这里了 https://juejin.cn/post/6844904137172189198 3.2 redis 分布式锁的 5个坑，真是又大又深 https://blog.csdn.net/hollis_chuang/article/details/105852232
  3.3 考虑异常时 分布式锁无法删除问题（1.捕获异常 2.在catch中处理 3.再抛出）
