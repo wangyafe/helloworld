@@ -1,0 +1,4 @@
+1.SET key value（NX、PX、XX） https://blog.csdn.net/zheng2780071070/article/details/114954234
+ 1.1 px ex(时间) 1.2 nx xx(是否为空)
+2.【三】redis通用命令及其时间复杂度 https://blog.csdn.net/jy02268879/article/details/81437636
+ 2.1 keys时间复杂度最高的命令
