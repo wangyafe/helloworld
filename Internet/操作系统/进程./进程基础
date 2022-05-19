@@ -1,1 +1,2 @@
 1.操作系统 001 https://blog.ginshio.org/2021/operatingsystem_001/#%E8%BF%9B%E7%A8%8B
+2.1 进程有独立的内存空间 通信困难 2.线程共享内存 通信方便快捷
