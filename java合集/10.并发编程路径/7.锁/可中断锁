@@ -1,0 +1,2 @@
+1.获取锁的时候 可设置超时 2.可调用方法中断
+ 1.1 什么是可中断锁？有什么用？怎么实现？ https://segmentfault.com/a/1190000040660592 https://how2j.cn/k/thread/thread-lock/684.html#nowhere
