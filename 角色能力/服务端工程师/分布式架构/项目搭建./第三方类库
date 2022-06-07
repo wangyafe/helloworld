@@ -1,0 +1,3 @@
+1.Guava：来自Google的常用类库 2.Apache Commons：来自Apache的常用类库 3.Mockito：主要用于单元测试的mock 4.DBUnit：测试中管理数据库测试数据
+5.Rest Assured：用于Rest API测试 6.Jackson 2：Json数据的序列化和反序列化 7.jjwt：Jwt token认证 8.Lombok：自动生成常见Java代码，比如equals()方法，getter和setter等；
+9.Feign：声明式Rest客户端 10.Tika：用于准确检测文件类型 11.itext：生成Pdf文件等 12.zxing：生成二维码 13.Xstream：比Jaxb更轻量级的XML处理库
