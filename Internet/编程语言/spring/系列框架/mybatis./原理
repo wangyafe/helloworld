@@ -13,4 +13,5 @@
  8.SqlSource : 表示从 XML 文件或注释读取的映射语句的内容，它创建将从用户接收的输入参数传递给数据库的 SQL。
  9.Configuration: MyBatis 所有的配置信息都维持在 Configuration 对象之中
 5.面试官问你MyBatis SQL是如何执行的？把这篇文章甩给他 https://www.toutiao.com/article/6788679755429315075/?log_from=155629f816143_1649929249811
+  5.1 $Proxy61(代理类) 是Dao的implements(实现)
 
