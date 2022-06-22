@@ -1,1 +1,2 @@
 1.map改变元素类型
+2.collect(Collectors.groupingBy(InterbankSyncGrant::getInstCode)) 集合转为容器map
