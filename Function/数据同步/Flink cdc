@@ -1,0 +1,4 @@
+1.原理：1.基于查询 2.基于日志
+2.链路 1.Mysql 开启 binlog 2.Canal 同步 binlog 数据写入到 Kafka 3.Flink 读取 Kakfa 中的 binlog 数据进行相关的业务
+3.Flink CDC 同步mysql数据 https://blog.csdn.net/congge_study/article/details/123694906?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-11-123694906-blog-116221693.pc_relevant_blogantidownloadv1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-11-123694906-blog-116221693.pc_relevant_blogantidownloadv1&utm_relevant_index=17
+  3.1 Flink CDC 系列 - 实现 MySQL 数据实时写入 Apache Doris https://blog.csdn.net/weixin_44904816/article/details/121690296?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-9-121690296-blog-125223388.pc_relevant_default&spm=1001.2101.3001.4242.6&utm_relevant_index=12
