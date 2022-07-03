@@ -1,3 +1,4 @@
+0.防火墙即允许哪些人或者内容访问你的资源
 1.ip/tcp/数据+攻击代码 防火墙1.访问控制列表（ACL）2.包过滤组织不信任网络访问或者访问不信任网络 3 路由器可承担防火墙的功能
   1.1 防火墙技术原理 https://www.toutiao.com/i7071054348482069024/?timestamp=1646455181&app=news_article&use_new_style=1&req_id=202203051239410101511740781137D489&share_token=4cd86ff3-9629-4795-9ade-c4b3bf93887a&group_id=7071054348482069024
 2.华为防火墙实战配置详细教程，太全了，适合小白入门提升工作 https://www.toutiao.com/i7057740561628824101/?timestamp=1643614373&app=news_article&use_new_style=1&req_id=2022013115325301015120123100226839&share_token=1bcd2502-5caf-48d0-8ee8-74750070d353&group_id=7057740561628824101
