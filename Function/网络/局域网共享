@@ -4,3 +4,7 @@
   2.1 怎么判断两台电脑是否在同一局域网 https://blog.csdn.net/couragehope/article/details/83352782?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-83352782-blog-88778766.pc_relevant_multi_platform_whitelistv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-83352782-blog-88778766.pc_relevant_multi_platform_whitelistv2&utm_relevant_index=2
 3.局域网内电脑不能互相访问
   3.1 同一工作组 3.2 关闭防火墙
+4.本地启动springboot服务 让同一网段的电脑访问
+  4.0 Windows10怎么让本地的springboot项目在局域网中能够访问得到 https://blog.csdn.net/Pzzzz_wwy/article/details/106337892
+  4.1 同一网段 2.关闭防火墙 3.设置IDEA
+  4.2 IDEA 内置项目启动如何让局域网其它机器（手机）访问？ https://www.jianshu.com/p/a020efcbee5d
