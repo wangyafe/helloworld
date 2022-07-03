@@ -1,4 +1,5 @@
 1.局域网即内网 共享文件夹或共享磁盘
+ 1.1 win10下局域网不同电脑间如何实现文件共享？ https://blog.csdn.net/cw616729/article/details/100176006
 2.判断是否是同一局域网 1.子网掩码 2.ping对方计算机的计算机名（1.关闭系统自带的防火墙 2.关闭相关杀毒软件的防火墙功能）
   2.1 怎么判断两台电脑是否在同一局域网 https://blog.csdn.net/couragehope/article/details/83352782?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-83352782-blog-88778766.pc_relevant_multi_platform_whitelistv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-83352782-blog-88778766.pc_relevant_multi_platform_whitelistv2&utm_relevant_index=2
 3.局域网内电脑不能互相访问
