@@ -4,4 +4,3 @@ SELECT row_number()  over (order by salary DESC) id,name,salary FROM `users`;
 用户每次登陆往登陆日志表insert记录，并且查看昨天是否有登陆记录，如果昨天登陆记录大于0，则连续登陆天数+1，否则将连续登陆天数置为0；
 sql语句：select*fromuserwhere continuous_days>5;
 3.mysql数据库只存储时分秒，不存储含年月日，以及只存储年月日 https://blog.csdn.net/Qyq0498/article/details/108072236
-4.mysql多表关联查询left join 去掉结果集重复列。已解决 https://blog.csdn.net/qq_20597149/article/details/77775955
