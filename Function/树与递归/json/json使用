@@ -3,6 +3,7 @@
 2.判断value属于数组还是对象1.obj instanceof JSONArray 2.obj instanceof JSONObject
 3.遍历key-value
 4.根据key获取value json.get(key)
+5.对象转JSON字符串保留空（null）值 String rest = JSON.toJSONString(resoult, SerializerFeature.WriteMapNullValue);
 2.处理json
  2.1.java处理json指定key改变（递归实现）-爱代码爱编程 https://icode.best/i/58012643567246
  2.2.Json字符串递归遍历进行解析，并对value值作出修改-爱代码爱编程 https://icode.best/i/24903545994740
