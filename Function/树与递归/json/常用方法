@@ -1,0 +1,4 @@
+1.解析成jsoonObejct :JSONObject json = JSONObject.parseObject(str); 1.2.解析成java对象：InterbankGroupSubdivisionModifyDTO json = JSONObject.parseObject(str, InterbankGroupSubdivisionModifyDTO.class);
+2.判断value属于数组还是对象1.obj instanceof JSONArray 2.obj instanceof JSONObject
+3.遍历key-value
+4.根据key获取value json.get(key)
