@@ -1,4 +1,8 @@
+1.常用方法:
 1.解析成jsoonObejct :JSONObject json = JSONObject.parseObject(str); 1.2.解析成java对象：InterbankGroupSubdivisionModifyDTO json = JSONObject.parseObject(str, InterbankGroupSubdivisionModifyDTO.class);
 2.判断value属于数组还是对象1.obj instanceof JSONArray 2.obj instanceof JSONObject
 3.遍历key-value
 4.根据key获取value json.get(key)
+2.处理json
+ 2.1.java处理json指定key改变（递归实现）-爱代码爱编程 https://icode.best/i/58012643567246
+ 2.2.Json字符串递归遍历进行解析，并对value值作出修改-爱代码爱编程 https://icode.best/i/24903545994740
