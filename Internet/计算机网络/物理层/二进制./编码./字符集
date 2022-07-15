@@ -5,3 +5,4 @@
   2.ANSI 这个不是ASCII的意思，而是采用本地编码的意思。如果你是中文的操作系统，就会使GBK，如果是英文的就会是ISO-8859-1
   3.ASCII，Unicode，UTF-8和Base64（utf-8编码规则） https://juejin.cn/post/6844904040090828814
   4.https://how2j.cn/k/io/io-encoding/695.html#nowhere
+3.ASCII表是计算机将字符转为数字存储的一张转换表。因此，只有字符才有ASCII值，数字是没有的 3.1 数字1没有ASCII值，数字1在计算机中就是按数值1存储的 3.2字符1的ASCII值是 49
