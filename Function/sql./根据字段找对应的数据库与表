@@ -1,0 +1,2 @@
+//其中 table_schema 是所在库, table_name 是所在表
+SELECT table_schema,table_name FROM information_schema.columns WHERE column_name = '字段名'
