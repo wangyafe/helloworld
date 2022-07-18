@@ -1,0 +1,4 @@
+//不为空
+SELECT * FROM `table_name` WHERE `col` IS NOT NULL
+//为空
+SELECT * FROM `table_name` WHERE `col` IS NULL
