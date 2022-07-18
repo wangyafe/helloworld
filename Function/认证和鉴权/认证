@@ -2,3 +2,4 @@
 [2.OAuth系列之OAuth2.0授权码模式学习笔记](https://smilenicky.blog.csdn.net/article/details/97504088?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.no_search_link)
 [3.SpringBoot 整合 oauth2（三）实现 token 认证](https://www.jianshu.com/p/19059060036b)
 4.微服务架构下的安全认证与鉴权 https://www.infoq.cn/article/uib7ark52myroa2kl7xf
+5.单点登录JWT、CAS、Oauth2、SAML几种技术方案对比分析 https://www.toutiao.com/article/7121238910709416480/?app=news_article&timestamp=1658114478&use_new_style=1&req_id=202207181121170101580491570AD89956&group_id=7121238910709416480&share_token=dabd19b8-a361-4d68-b563-dc3dadffdb9f&source=m_redirect
