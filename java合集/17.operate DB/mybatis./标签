@@ -1,3 +1,5 @@
 1.Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
 2.parameterType和@Param注解用法 https://blog.csdn.net/qq_38483435/article/details/80742542
   1.parameterType两种数据类型 1.简单 2.复杂（1.map 2.实体） 2.用@Param可以省去paramterType
+3.Mybatis中<![CDATA[]]>的作用 https://www.jianshu.com/p/1a8af228a6ab?u_atoken=897e9da7-27ed-4970-a4e1-d2b58edd8585&u_asession=01kbcVSm_uqQNY8NQAqWMrg92Ym_q0Lr4kQNOqYOAR2jV5vRFzE4N1konvASkUiAipX0KNBwm7Lovlpxjd_P_q4JsKWYrT3W_NKPr8w6oU7K8ff2BTctccEUs1k7Ua-h7gPpcarp92QKzyJKyYjREPlmBkFo3NEHBv0PZUm6pbxQU&u_asig=05kFDd_B-Pw3zuN8QRRYt5661xuhpEbiKnYDChYP3Oli5ka0MN43irirm62yGp7C7pjwmPLmRUXuxcLBAJ5C6x4tDfazCwM0NqUw--xHR9jBqm-10yDreIN_gxSseMj1jLaHcmOwveLN5z3g3NE90dLgXNkE35eytIiNeHlUc94A39JS7q8ZD7Xtz2Ly-b0kmuyAKRFSVJkkdwVUnyHAIJzdIyItV2boEEG5w3AgN9P8KjiYHrWyzITvCBPvOidnpNWPRPQyB_SKrj-61LB_f61u3h9VXwMyh6PgyDIVSG1W-7mtlUhJaIgaW--mRJppeAjwQ0iZx7g0iaRIPGdTGFH-jbjPmh_QNeJv6FbzVbfsf_OYwEc_Odcf2je5uGe_dnmWspDxyAEEo4kbsryBKb9Q&u_aref=Pq90dVnd%2BdptUQiukhC%2BCmGCeL4%3D
+  3.1 特殊字符> < &防止转义 3.2 标签放在CDATA外部
