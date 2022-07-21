@@ -1,1 +1,6 @@
 1.mysql多表关联查询left join 去掉结果集重复列。已解决 https://blog.csdn.net/qq_20597149/article/details/77775955
+2.添加和修改数据时的重复性校验 https://blog.csdn.net/Sun_of_Rainy/article/details/82627459?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-82627459-blog-95668096.pc_relevant_multi_platform_whitelistv2_exp180w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-82627459-blog-95668096.pc_relevant_multi_platform_whitelistv2_exp180w&utm_relevant_index=1
+ 2.1 <if test="id != null and  id != ''">
+            and id != #{id}    //id是排除本身的
+        </if>
+ 2.2 悲观锁
