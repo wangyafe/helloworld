@@ -1,3 +1,6 @@
 1.三目运算判空 2.另起变量 2.括号复合判断
-2.isEmpty（不包括空格） 2.1 isBlank（包含空格） 2.2isAnyEmpty/isNoneEmpty/isAnyBlank/isNoneBlank 逻辑判空
+2.字符串判空：isEmpty（不包括空格） 2.1 isBlank（包含空格） 2.2isAnyEmpty/isNoneEmpty/isAnyBlank/isNoneBlank 逻辑判空
  2.3 isEmpty 和 isBlank 请别乱用了，小心把服务器搞崩 https://www.toutiao.com/article/7119656082699764265/?log_from=39bfcfabc733_1658113632367
+3.对象判空 1.Objects 2.Optionl 
+ 3.1 还用 if(obj!=null) 做非空判断？带你快速上手 Optional 实战性理解https://www.toutiao.com/article/7098935941447844365/?log_from=3db3575817da3_1658124315209
+4.基本类型存在默认值
