@@ -4,4 +4,4 @@
                         resp.setFileName(recording.getFileName());
                     }});
 3.遍历删除用倒序 list遍历删除元素的正确做法 https://blog.csdn.net/qq_40256408/article/details/105839409?share_token=c3a84c76-354e-4424-831e-d2dd35952088
-4.改变集合中的元素类型 使用map
+4.改变集合中的元素类型 使用map  4.1 optionl判空修改属性 Optional.ofNullable(applyList).ifPresent(vo::setApplyList);
