@@ -1,2 +1,4 @@
 1.Mybatis主子表关联插入时，获取插入到主表的id https://blog.csdn.net/Curtisjia/article/details/111398919?share_token=3c36a5e3-f4c6-497b-8063-ffbf19306d0f
  1.1 主键service生成
+2.mybatis批量插入并返回主键（xml和注解两种方式） https://blog.csdn.net/yjclsx/article/details/84318397
+  2.2 DAO对象入参id 在返回时设置了主键
