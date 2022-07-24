@@ -1,3 +1,10 @@
 1.insert可返回主键（动态sql） 或者影响行数 1.2 update 影响行数 1.3 delete 影响行数
  1.4 用包装器类型接收 1.6 xml文件中insert update delete无需设置resultType或resultMap
 2 【转】详解mybatis的insert，update，delete返回值 https://blog.csdn.net/beidaol/article/details/90961349?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-90961349-blog-124124656.pc_relevant_multi_platform_whitelistv1_exp2&spm=1001.2101.3001.4242.2&utm_relevant_index=4
+3.select出参
+ 3.1 MyBatis进行查询映射时 每一次查询的结果都放在map(key-value形式) 键是属性名，值则是其对应的值
+ 3.2 resultMap(将数据库属性名与javaBean的属性名建立对应关系) 一般采用resultMap
+ 3.3 resultType: Integer,String ,Long ,class（使用resultType 指定javabean时 要使用别名）
+ 3.4 MyBatis的返回参数类型 https://blog.csdn.net/u010235716/article/details/51698787?spm=1001.2101.3001.6650.12&utm_medium=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~default-12-51698787-blog-118640415.wap_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~default-12-51698787-blog-118640415.wap_relevant_multi_platform_whitelistv1&share_token=bf0fb657-f987-4818-8094-33de565e95bb
+ 3.5 Mybatis中强大的resultMap(字段映射 集合的嵌套 Select 查询) https://juejin.cn/post/6844903858477481992#heading-6
+ 
