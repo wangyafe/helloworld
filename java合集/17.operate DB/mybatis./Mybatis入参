@@ -1,0 +1,5 @@
+1.单个参数 2.多个参数（1.使用索引（顺序）2.使用@Param（指定key） 3.使用Map 4.POJO） 3.List传参（条件批量查询） 4.数组传参
+2.Mybatis的几种传参方式 https://blog.csdn.net/qq_31960623/article/details/119862666 
+ 2.1 【DB系列】Mybatis之参数传递的几种姿势 https://spring.hhui.top/spring-blog/2021/09/24/210924-SpringBoot%E7%B3%BB%E5%88%97Mybatis%E4%B9%8B%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%E7%9A%84%E5%87%A0%E7%A7%8D%E5%A7%BF%E5%8A%BF/#5-%E7%AE%80%E5%8D%95%E5%8F%82%E6%95%B0-Map%E5%8F%82%E6%95%B0
+3. 1.ParameterType(一般是省略)  2.ParameterMap（指定key和handle 可操作key）
+ 3.1 Mybatis之ParameterMap、ParameterType传参类型指定使用姿势 https://juejin.cn/post/7027444875276582919
