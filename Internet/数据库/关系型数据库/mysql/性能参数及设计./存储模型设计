@@ -1,2 +1,4 @@
 1.数据库表设计（一对多，多对多） 【好】 https://www.cnblogs.com/my_life/articles/5950415.html
   1.1外键在多表中
+2.动态扩展字段（extra_attr）
+ 2.1 传参json 2.2 定义扩展类 2.3 解析为json(JSON.toJSONString(overallRiskInfo)) 2.4 转为JavaBean（JSONObject.parseObject(riskEntry.getOverallRiskInfo(), OverallRiskInfo.class);）
