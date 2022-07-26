@@ -1,0 +1,16 @@
+1.函数式接口：接口中只有一个抽象方法的接口（Object类中的方法不算）
+2.Java8四大内置核心函数式接口： 
+ 2.1.Consumer<T> : 消费型接口（无返回值，有去无回）
+        void accept(T t);
+ 2.2.Supplier<T> : 供给型接口
+         T get();
+ 2.3 Function<T,R> : 函数型接口
+        R apply(T t);
+ 2.4 Predicate<T> : 断言型接口
+        boolean test(T t);
+3.四大核心接口的-->扩展子接口
+  3.1 如：BiConsumer，Consumer的增强版，接受两个参数
+4.Lambda表达式的语法结构
+  1.(参数列表，对应的是接口中对应的抽象方法的参数列表) -> {对抽象方法的实现}
+  2.Lambda表达式语法分在3个部分：1.左边的参数列表，对应的是函数式接口中抽象方法的参数列表 2.中间的符号:->,为固定写法 3.右边大括号内对函数接口抽象方法的实现 4.Lambda表达式的在具体场景下可以有简略写法
+5.Java8新特性之一：Lambda表达式 https://www.cnblogs.com/wuhenzhidu/p/lambda.html
