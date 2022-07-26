@@ -1,0 +1,7 @@
+1.触发排序 1.Arrays.sort(arr)（可指定部分排序） 2.Collections.sort(list)
+  1.1 重写Comparable 和 Comparator（使用场景1.对象没有实现Comparable接口 2.实现了但不是想要的比较方式）
+  1.1 重写Comparable方式（Java 关于重写compareTo方法 https://blog.csdn.net/u013591605/article/details/75267629）
+2.一篇文章带你深入理解 Comparable 和 Comparator（comparable和comparator接口区别表） https://blog.csdn.net/nanhuaibeian/article/details/118585314?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-118585314-blog-86578188.pc_relevant_multi_platform_whitelistv2_ad_hc&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+3.Java中集合排序常用的方式 https://www.helloworld.net/p/0077246579
+4.比较方式和参数顺序方式一致为正序 否则为降序
+ 4.1 Java的Comparator升序降序的记法 https://blog.csdn.net/li1593891525/article/details/122009818?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122009818-blog-121582712.pc_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-122009818-blog-121582712.pc_relevant_multi_platform_whitelistv1&utm_relevant_index=1
