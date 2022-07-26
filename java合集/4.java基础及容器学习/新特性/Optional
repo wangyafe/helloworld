@@ -1,0 +1,18 @@
+1.Optional是一个对象容器
+2.常用组合：
+ 2.1 （判空抛出异常）Optional.ofNullable(interbankInstInfoCache.findInstInfoByName(tntInstId, instName))
+                .orElseThrow(() -> new IbcBizException(ErrorCodeEnum.DATA_NOT_EXIST, "根据" + instName + "未查找到该机构")).getNode();
+ 2.2 （判空使用默认实例） Optional.ofNullable(getTradeSummarysByTime(tntInstId, start, end, null))
+                .orElse(new ArrayList<>()).stream().map(InterbankTradeSummary::getBizCode).collect(Collectors.toList());
+                
+                Optional.ofNullable(riskGrantApplyDAO.getByCondition(condition.getTntInstId(), condition.getEntityId(), condition.getBizScene(), condition.getExpireDt(),
+                condition.getEffectDt(), condition.getStatus())).orElseGet(ArrayList::new).stream()
+                .map(RiskGrantApplyConverter::convertDo2Bo).collect(Collectors.toList())
+ 2.3 （判空执行函数） Optional.ofNullable(endorsementApprovalRepository.getById(tntInstId, vo.getApprovalId()))
+                    .ifPresent(a -> vo.setEndorsementName(a.getEndorsementName()));
+ 2.4 Optional.map()方法(对象进行二次包装)
+ 2.5 dao接口层中定义返回值时加上Optional  public interface LocationRepository extends JpaRepository<Location, String> {
+                                               Optional<Location> findLocationById(String id);
+3.还用 if(obj!=null) 做非空判断？带你快速上手 Optional 实战性理解 https://www.toutiao.com/article/7098935941447844365/?log_from=3db3575817da3_1658124315209
+4.Java8新特性之五：Optional  https://www.cnblogs.com/wuhenzhidu/p/10765655.html
+                                       
