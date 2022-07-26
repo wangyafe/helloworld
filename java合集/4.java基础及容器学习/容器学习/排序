@@ -1,0 +1,5 @@
+1.Arrays.sort 实现原理和 Collections.sort 实现原理 https://blog.csdn.net/Asa_Prince/article/details/86629505?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-86629505-blog-56668545.pc_relevant_multi_platform_whitelistv2_ad_hc&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-9-86629505-blog-56668545.pc_relevant_multi_platform_whitelistv2_ad_hc&utm_relevant_index=13
+ 1.1 Collections.sort方法或者是Arrays.sort方法，底层实现都是TimSort实现
+ 1.2 legacyMergeSort(a)：归并排序（默认关闭） ComparableTimSort.sort()：Timsort排序
+ 1.3 Timsort排序是结合了合并排序（merge sort）和插入排序（insertion sort）而得出的排序算法
+2.Timsort原理介绍 https://blog.csdn.net/yangzhongblog/article/details/8184707
