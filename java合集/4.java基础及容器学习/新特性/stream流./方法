@@ -1,2 +1,14 @@
-1.map改变元素类型
-2.collect(Collectors.groupingBy(InterbankSyncGrant::getInstCode)) 集合转为容器map
+
+1.创建Stream
+从一个数据源，如集合、数组中获取流。
+2.中间操作
+ 2.1 筛选与切片(skip limit)
+ 2.2 映射（map）flatmap避免流中流
+ 2.3 排序
+ 2.4 一个操作的中间链，对数据源的数据进行操作。
+3.终止操作
+ 3.1 查找与匹配
+ 3.2 收集 (collect(Collectors.groupingBy(InterbankSyncGrant::getInstCode)) 集合转为容器map)
+ 3.3 一个终止操作，执行中间操作链，并产生结果1.map（二次包装）
+4. Java8新特性之三：Stream API https://www.cnblogs.com/wuhenzhidu/p/10740091.html
+
