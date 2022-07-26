@@ -1,0 +1,1 @@
+1.（流方法）sorted(Comparator.comparing(x -> (String)getValue(x,request.getSortProperty())))（getValue为反射方法）
