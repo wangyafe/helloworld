@@ -1,0 +1,4 @@
+1.声明式编程和命令式编程的比较（转） https://developer.aliyun.com/article/270068
+ 1.1声明式告诉计算机想要什么 专注于what (比如sql、流式编程)
+ 1.2命令式告诉计算机怎么做 专注于how
+ 1.3编程范式：命令式编程(Imperative)、声明式编程(Declarative)和函数式编程(Functional)  https://blog.51cto.com/u_15274944/2924188
