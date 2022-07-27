@@ -3,3 +3,6 @@
 2.字节流和二进制流 https://blog.csdn.net/shuimuqiuer/article/details/6952849?share_token=49d2bdd6-06e0-42af-bc8a-0f2813f783ca
 3.byte（拜特）与bit（比特）的区别 https://ask.csdn.net/questions/349519
   3.1byte是字节 （一般情况两个byte是一个字符） 3.2 bit(位 一个01)
+4.JAVA中的流到底是什么？怎么这么抽象 https://www.zhihu.com/question/28457447
+  4.1 当程序需要读取数据的时候，就会开启一个通向数据源的流，这个数据源可以是文件，内存，或是网络连接
+  4.2 流是一组有顺序的，有起点和终点的字节集合
