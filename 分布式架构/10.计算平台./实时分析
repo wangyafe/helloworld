@@ -3,4 +3,8 @@
  1.2 storm实时分析 
   1.2.1 Storm 入门的Demo教程 https://www.cnblogs.com/xuwujing/p/8584684.html
   1.2.2 Flume+Kafka+Storm+Redis实时分析系统基本架构 https://blog.csdn.net/ymh198816/article/details/51998085
-
+2.大数据的计算模式主要分为批量计算(batch computing)、流式计算(stream computing)、交互计算(interactive computing)、图计算(graph computing)
+  2.1 流计算（流水线）流式计算理解成水龙头，源端数据源源不断的流入水管，水管中进行一些基本的数据处理然后传递给下游，一直到生成目标数据为止
+  2.2 当程序需要读取数据的时候，就会开启一个通向数据源的流，这个数据源可以是文件，内存，或是网络连接
+  2.3 流是一组有顺序的，有起点和终点的字节集合
+  2.4 什么是流式计算？ https://zhuanlan.zhihu.com/p/81849938
