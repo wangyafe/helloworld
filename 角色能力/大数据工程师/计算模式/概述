@@ -1,0 +1,4 @@
+1.大数据的计算模式主要分为批量计算(batch computing)、流式计算(stream computing)、交互计算(interactive computing)、图计算(graph computing)等
+  1.1 批量计算则统一收集数据，存储到数据库中，然后对数据进行批量处理的数据计算方式
+  1.2 流计算是采用流水线模式
+  1.3 什么是流式计算？ https://zhuanlan.zhihu.com/p/81849938
