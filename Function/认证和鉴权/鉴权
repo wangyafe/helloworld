@@ -1,2 +1,4 @@
 1.通用权限管理系统 java_java中的通用权限管理设计(推荐) https://blog.csdn.net/weixin_29352517/article/details/114064455?share_token=017dc1c9-36ad-46b1-958e-0d535d6327fa
  1.1 权限表 1.2 管理组表 1.3 人员表 1.4 权限与管理组关联表 1.5 管理组与人员关联表
+2.微服务架构下的鉴权，怎么做更优雅？ https://learnku.com/articles/30704
+3.服务之间调用还需要鉴权？ https://cloud.tencent.com/developer/article/1661115
