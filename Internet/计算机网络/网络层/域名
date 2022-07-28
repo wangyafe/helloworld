@@ -1,0 +1,8 @@
+1.域名分类
+ 1.1 一级域名（有一个以"."分隔的后缀） 1.2 二级域名 1.3 三级域名
+2.根域名（根域名 .root 对于所有域名都是一样的） 
+3.顶级域名（又叫域名后缀） 根域名的下一级叫做顶级域名
+ 3.1顶级域名分类：1.国家和地区顶级域名(.cn中国) 2.通用顶级域名（.com） 3.新顶级域名（.top .xyz）
+4.什么是三级域名，二级域名和顶级域名 https://www.toutiao.com/article/7125297527192551977/?app=news_article&timestamp=1659007203&use_new_style=1&req_id=2022072819200201015118610704003FD7&group_id=7125297527192551977&share_token=05565e31-5e83-4800-8172-2aab912b41dc&source=m_redirect
+ 4.1 域名、顶级域名、一级域名、二级域名、子域名的简单科普 https://docs.fuyeor.com/answer/7111.html
+ 4.2 工程师最容易搞错的域名知识 https://zhuanlan.zhihu.com/p/73291638
