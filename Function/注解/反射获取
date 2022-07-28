@@ -1,0 +1,2 @@
+1.注解也是属性的一部分（即标记）
+ 1.1 Java通过反射注解赋值 https://www.toutiao.com/article/7122840250942685731/?log_from=4ea72a27d7c24_1658997378273 https://github.com/jeremylai7/java-codes/blob/master/basis/src/main/java/reflect/SetValueByAnnotation.java
