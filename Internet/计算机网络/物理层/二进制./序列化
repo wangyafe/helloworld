@@ -8,3 +8,4 @@
 3.将Java对象序列化成XML格式，将XML反序列化还原为Java对象 https://blog.csdn.net/sxdtzhaoxinguo/article/details/81980228
 4.JSON序列化和反序列化 https://blog.csdn.net/qq_42524288/article/details/113091490?spm=1001.2101.3001.4242.2&utm_relevant_index=4&utm_medium=distribute.wap_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.wap_blog_relevant_default&share_token=82be4053-7dd8-4a01-969c-140ded1374a0
 5.JSON方法序列化js对象 https://blog.csdn.net/m0_37820751/article/details/108461752?spm=1001.2101.3001.6650.4&utm_medium=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~Rate-4.wap_blog_relevant_default&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~CTRLIST~Rate-4.wap_blog_relevant_default&share_token=0337e9fe-58bf-4edb-a598-d94020678f5b
+6.java 序列化ID的作用（本地文件存储和网络传输中保持类的版本一致） https://blog.csdn.net/liji_xc/article/details/47302455?share_token=e0b45487-37ee-4f5c-afad-040f9b888099
