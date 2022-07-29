@@ -3,3 +3,4 @@
  1.2 用处：实例可配置化 https://how2j.cn/k/reflection/reflection-usage/1111.html
 2.反射性能查：1.Class.forname()调用本地方法，比较耗时 2、Class.getMethod会遍历类的方法 3.读取元空间的类信息
   2.1反射和ASM(字节码技术)区别 https://blog.csdn.net/AlbertFly/article/details/53161201
+3.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
