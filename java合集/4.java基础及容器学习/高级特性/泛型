@@ -6,3 +6,4 @@
   3.2 <? extends 类名> 上界 只能传入某种类型，或者它的子类
   3.3 <? super 类名> 下界 只能传入某种类型，或者它的父类
 4.Java高级特性-泛型：泛型的基本用法，怎样才能少写 1 万行代码 https://segmentfault.com/a/1190000038666472#item-4
+5.Java泛型--泛型应用--泛型接口、泛型方法、泛型数组、泛型嵌套 https://blog.csdn.net/waldmer/article/details/12773021
