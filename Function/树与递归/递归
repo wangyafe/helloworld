@@ -1,2 +1,2 @@
 画出树状图
-1.什么时候return 2.什么时候更新变量 3.回溯 4.foreach无return 结束递归 5.方法中调用递归（1.list.add(recursion()) 2.循环中调用递归）
+1.什么时候return 2.什么时候更新变量（1.局部变量 2.全局变量） 3.回溯 4.foreach无return 结束递归 5.方法中调用递归（1.list.add(recursion()) 2.循环中调用递归）
