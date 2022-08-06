@@ -1,0 +1,2 @@
+1.通过上下文获取注解 （实现了ApplicationListener接口，这样在onApplicationEvent方法中，就可以拿到ApplicationContext的实例。我们再获取打了PayCode注解的类，放到一个map中）
+ 1.1 9条消除if...else的锦囊妙计，助你写出更优雅的代码 https://developer.51cto.com/article/638712.html
