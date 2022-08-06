@@ -1,0 +1,18 @@
+1. 责任链模式（if…else 中的条件表达式灵活多变，无法将条件中的数据抽象为表格并用统一的方式进行判断时，这时应将对条件的判断权交给每个功能组件） 用链的形式将这些组件串联起来，形成完整的功能
+  1.1 每个Handler的子类，都定义了下一个需要执行的Handler，构成一个链式调用，通过HandlerChain把这种链式结构组装起来
+  1.2 责任链模式——消除大量的 else if https://blog.csdn.net/XSemperFI/article/details/105179385
+2.设置链条：
+    public void afterPropertiesSet() throws Exception { 
+        Map<String, PayHandler> beansOfTypeMap = applicationContext.getBeansOfType(PayHandler.class); 
+        if (beansOfTypeMap == null || beansOfTypeMap.size() == 0) { 
+            return; 
+        } 
+        List<PayHandler> handlers = beansOfTypeMap.values().stream().collect(Collectors.toList()); 
+        for (int i = 0; i < handlers.size(); i++) { 
+            PayHandler payHandler = handlers.get(i); 
+            if (i != handlers.size() - 1) { 
+                payHandler.setNext(handlers.get(i + 1)); 
+            } 
+        } 
+        header = handlers.get(0); 
+    } 
