@@ -20,5 +20,6 @@
 4.if…else 表达式过于复杂
  1.抽取方法 2.移动方法
 5.如何干掉java中的if...else... https://blog.csdn.net/a13935302660/article/details/100652295?spm=1001.2101.3001.6650.8&utm_medium=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-8-100652295-blog-102663917.wap_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-8-100652295-blog-102663917.wap_relevant_multi_platform_whitelistv1&share_token=e0a770c7-65a6-4f49-ba06-a04093093e36
- 5.1 可以拆解或合并执行 变为单机问题或者分布式问题（1.把不同的处理函数放入不同的应用中 2.订阅消息队列 3.执行处理函数）
+ 5.1 9条消除if...else的锦囊妙计，助你写出更优雅的代码 https://developer.51cto.com/article/638712.html 
+ 5.2 可以拆解或合并执行 变为单机问题或者分布式问题（1.把不同的处理函数放入不同的应用中 2.订阅消息队列 3.执行处理函数）
 6.意义：if…else 往往意味着这段代码违反了违反单一职责原则和开闭原则 使用依赖倒置原则
