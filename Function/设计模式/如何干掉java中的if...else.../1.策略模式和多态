@@ -1,0 +1,5 @@
+1. 策略模式和多态（一个类中的多个方法都有过多if…else 判断）
+ 1.1 使用策略模式和多态去掉if/else、switch https://www.jianshu.com/p/288071b4ae13
+ 1.2 将参数（action）和实例以key·value的方式放入map
+ 1.3 根据参数实例化对象（效率低）
+ 1.4 9条消除if...else的锦囊妙计，助你写出更优雅的代码 https://developer.51cto.com/article/638712.html
