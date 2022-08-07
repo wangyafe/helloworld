@@ -1,1 +1,7 @@
 1. 有限状态机 （复杂业务场景导致if...else过多）
+ 1.1 审批单状态（1.待提交（已保存到数据库） 2.待审核 3.审批通过 4.审批拒绝）1.2 对应状态转移event(1.提交 2.通过 3.拒绝)
+ 1.2 状态类和上下文（context）互为属性
+ 1.3 产生if esle原因：要处理新增需求状态
+2.我们的系统一般不会只有一个状态机在运行，可以通过 StateMachineBuilder 来构建多个状态机
+3.详解状态模式以及Spring状态机 https://mdnice.com/writing/40e83d424be1422ab85615318c87b798
+4.Spring StateMachine 文档 https://docs.gitcode.net/spring/guide/spring-statemachine/spring-statemachine.html#%E5%BA%8F%E8%A8%80
