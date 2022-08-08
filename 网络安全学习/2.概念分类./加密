@@ -1,0 +1,12 @@
+1.数据库加解密 https://blog.csdn.net/k849875005/article/details/103633451?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.baidujs
+https://blog.csdn.net/weixin_41346864/article/details/103305423?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.baidujs
+2.过滤器Filter拦截未登录用户访问请求 https://blog.csdn.net/qq_39784352/article/details/115053405?share_token=40ccbfc9-6986-436b-8f29-44586f61595c
+5.数据脱敏工具类（操作字符串用正则表达式） https://zhuanlan.zhihu.com/p/131275221
+7.安全架构 https://cloud.tencent.com/developer/article/1160128
+  7.1 MD5、Base64是加密算法吗？ https://blog.csdn.net/cuixbo/article/details/82870910
+  7.2 常见加密算法之单向加密（1.防止数据被篡改 2.密码加密传递存储） https://cloud.tencent.com/developer/article/1608669
+  7.3 加密算法根据应用场景的分类：单向加密和双向加密（为什么单向加密有用途） https://nieyong.github.io/wiki_ny/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B8%B8%E8%AF%86.html MD5加密，原来MD5作用这么大 https://blog.csdn.net/s_h_m114_2/article/details/98744581?share_token=cd3bcb2e-e5dd-42d9-b9b2-568ece59bd88
+  7.4 无处不在的数字签名 （1.数字签名应用原理 2.为什么可以防止数据被篡改）https://halfrost.com/digital_signature/
+     做法：1.明文传递 2.私钥加密散列值 公钥解密对比
+8.html服务流程如何实现_Java第56讲——如何实现HTTPS服务器 https://blog.csdn.net/weixin_31359991/article/details/112082363
+9.SpringBoot项目使用https协议 https://blog.csdn.net/weixin_44718865/article/details/117521567?share_token=60f57a9a-4c7e-454d-84ee-2f7cf02d0e6d
