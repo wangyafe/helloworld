@@ -1,3 +1,6 @@
 1.开启线程池 使用异步
  1.1 释放连接
  1.2 开启新事务
+ 1.3 三方接口同时写本地 开启线程池（释放连接）
+2.private static final ThreadPoolExecutor sendMeetingSummaryExecutor = new ThreadPoolExecutor(10,
+            10, 1, TimeUnit.MINUTES, new LinkedBlockingQueue<>(1000), new ThreadFactoryBuilder().setNameFormat("send_meeting_summary_%d").build());
