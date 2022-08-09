@@ -1,0 +1,2 @@
+1.（流方法）sorted(Comparator.comparing(x -> (String)getValue(x,request.getSortProperty())))（getValue为反射方法）
+2.（反射）利用java反射机制实现对象集合按任意指定字段排序 https://www.codeleading.com/article/4430157325/
