@@ -1,0 +1,2 @@
+1.ComparatorChain（指定多字段链条） 2.BeanComparator（指定字段及排序方向） 3.FixedOrderComparator（指定枚举排序）
+2.ComparatorChain、BeanComparator用法示例 https://blog.csdn.net/seasongu/article/details/42646889
