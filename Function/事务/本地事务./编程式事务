@@ -1,1 +1,66 @@
-1.
+0.springboot Transaction事务的手动版(编程式事务)和自动版(声明式事务) https://blog.csdn.net/weixin_41725792/article/details/113619937?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&utm_relevant_index=2
+1.两种方式：
+ 1.1使用// 事务管理器
+@Autowired
+PlatformTransactionManager platformTransaction;
+// 事务定义  ：事务的一些基础信息，如超时时间、隔离级别、传播属性等
+@Autowired
+TransactionDefinition transactionDefinition;
+
+ 1.2 使用事务模板
+  @Autowired
+private TransactionTemplate transactionTemplate;
+
+2.// 事务管理器
+@Autowired
+PlatformTransactionManager platformTransaction;
+// 事务定义  ：事务的一些基础信息，如超时时间、隔离级别、传播属性等
+@Autowired
+TransactionDefinition transactionDefinition;
+
+public synchronized void test(){
+// 事务的一些状态信息，如是否一个新的事务、是否已被标记为回滚
+TransactionStatus transactionStatus = PlatformTransactionManager.getTransaction(transactionDefinition);
+// 查询订单数量
+	queryProductCount();
+// 判断订单是否>0
+	if(){
+		platformTransactionManager.rollback(transactionStatus);
+		throw Exception();
+	}
+// 更新库存
+	update();
+// 插入一条订单数据	
+	insert();
+	platformTransactionManager.commit(transactionStatus);
+}
+3.@Autowired
+private TransactionTemplate transactionTemplate;
+
+public synchronized void test(){
+// 事务的一些状态信息，如是否一个新的事务、是否已被标记为回滚
+        /*  如果你的方法需要返回值请使用这个类
+         *      new TransactionCallback<Object>()
+         *
+         *  如果你的方法不需要返回值那么使用👇下面这个例子就可以了
+         *      new TransactionCallbackWithoutResult()
+         */
+		transactionTemplate.execute(new TransactionCallback<Object>() {
+		            @Override
+		            public Object doInTransaction(TransactionStatus transactionStatus) {
+		                // 查询订单数量
+							queryProductCount();
+						// 判断订单是否>0
+							if(){
+								platformTransactionManager.rollback(transactionStatus);
+								throw Exception();
+							}
+						// 更新库存
+							update();
+						// 插入一条订单数据	
+							insert();
+		                return null;
+		            }
+		})
+}
+
