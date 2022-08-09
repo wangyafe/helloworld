@@ -4,3 +4,4 @@
 2.反射性能查：1.Class.forname()调用本地方法，比较耗时 2、Class.getMethod会遍历类的方法 3.读取元空间的类信息
   2.1反射和ASM(字节码技术)区别 https://blog.csdn.net/AlbertFly/article/details/53161201
 3.理解反射 invoke方法 及 setaccessible https://blog.csdn.net/buyaoshuohua1/article/details/78933417
+4.在运行期 分析类以及修改其本身状态或行为 (JAVA反射机制详解，一学就会 https://www.toutiao.com/article/7127883704642994696/?app=news_article&timestamp=1660011620&use_new_style=1&req_id=202208091020200101580490270A315F9E&group_id=7127883704642994696&share_token=03f638b7-22e1-484b-92c0-b54b2a29b884&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share&source=m_redirect)
