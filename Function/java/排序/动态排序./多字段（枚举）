@@ -1,2 +1,3 @@
 1.ComparatorChain（指定多字段链条） 2.BeanComparator（指定字段及排序方向） 3.FixedOrderComparator（指定枚举排序）
 2.ComparatorChain、BeanComparator用法示例 https://blog.csdn.net/seasongu/article/details/42646889
+3.解决字段数据为空引发的NPE（可以使用Comparator.comparing的第2个参数） Java中List的排序 https://www.cnblogs.com/cdfive2018/p/10927960.html
