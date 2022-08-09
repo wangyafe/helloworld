@@ -1,0 +1,12 @@
+CountDownLatch countDownLatch = new CountDownLatch(1);
+ExecutorService executorService = Executors.newFixedThreadPool(5);
+executorService.execute(()->{
+    try {
+        countDownLatch.await();
+        test();
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+});
+countDownLatch.countDown();
+1.springboot Transaction事务的手动版(编程式事务)和自动版(声明式事务) https://blog.csdn.net/weixin_41725792/article/details/113619937?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&utm_relevant_index=2
