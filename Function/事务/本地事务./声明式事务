@@ -1,0 +1,2 @@
+1.注解事务不能防止并发（事务方法执行结束 但还未提交 这是因为注解是使用切面实现的 代理类未提交） 就会对读写版本的接口有影响
+ 1.1 springboot Transaction事务的手动版(编程式事务)和自动版(声明式事务) https://blog.csdn.net/weixin_41725792/article/details/113619937?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-113619937-blog-94383010.pc_relevant_multi_platform_whitelistv2eslanding&utm_relevant_index=2
