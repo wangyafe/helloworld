@@ -15,6 +15,7 @@
  2.6 责任链模式（if…else 中的条件表达式灵活多变，无法将条件中的数据抽象为表格并用统一的方式进行判断时，这时应将对条件的判断权交给每个功能组件） 用链的形式将这些组件串联起来，形成完整的功能
  2.7 Optional（ if…else 是由非空检查导致）optional.ifPresentOrElse
  2.8 Assert(参数验证)  Spring、Apache Commons 都提供了工具类
+ 2.9 三目运算符（if…else 是由非空检查导致）
 3.if else复合嵌套过深
  1.抽取方法 2.卫语句（即if return或者break continue）
 4.if…else 表达式过于复杂
