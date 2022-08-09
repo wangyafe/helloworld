@@ -1,0 +1,4 @@
+1.除了事务的传播行为外，事务的其他特性Spring是借助底层资源的功能来完成的，Spring无非只充当个代理的角色。但是事务的传播行为却是Spring凭借自身的框架提供的功能
+ 1.1 MYSQL事务的传播行为看这一篇就够了 https://blog.csdn.net/qq_39455116/article/details/86249174
+ 1.2 Spring详解（八）------事务管理 https://www.cnblogs.com/ysocean/p/7617620.html#_label6
+ 1.3 事务的传播机制是指小方法的事务行为
