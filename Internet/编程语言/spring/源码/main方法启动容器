@@ -1,0 +1,4 @@
+1.AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);时，会启动该并刷新容器
+2.会执行AbstractApplicationContext类的refresh() 方法 在refresh() 方法中会执行很多复杂的逻辑，这个方法时spring的核心方法
+3.其中有一行代码prepareBeanFactory(beanFactory);我们查看一下，在代码中有一行 beanFactory.addBeanPostProcessor(new ApplicationListenerDetector(this))
+4.就是向spring容器中注册了一个发现事件监听器的BeanPostProcessor
