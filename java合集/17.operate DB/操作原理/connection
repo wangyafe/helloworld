@@ -1,0 +1,2 @@
+1.数据库连接connection 通过数据源建立并管理
+2.connection管理事务
