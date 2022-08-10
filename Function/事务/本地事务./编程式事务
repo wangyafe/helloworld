@@ -6,7 +6,8 @@ PlatformTransactionManager platformTransaction;
 // 事务定义  ：事务的一些基础信息，如超时时间、隔离级别、传播属性等
 @Autowired
 TransactionDefinition transactionDefinition;
- 1.2 使用事务模板
+ 1.2 使用事务模板（IOC事务管理器）
   @Autowired
 private TransactionTemplate transactionTemplate;
-1.3 13.Spring事务管理-编码方式（1.配置bean 2.set方法DI） https://blog.csdn.net/qq_20008183/article/details/88257938?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0-88257938-blog-83547162.pc_relevant_multi_platform_featuressortv2removedup&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+ 1.3 13.Spring事务管理-编码方式（1.配置bean 2.set方法DI） https://blog.csdn.net/qq_20008183/article/details/88257938?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0-88257938-blog-83547162.pc_relevant_multi_platform_featuressortv2removedup&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+ 1.4Spring系列之spring中编程式事务怎么用的？https://blog.csdn.net/weixin_46228112/article/details/124792957?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-2-124792957-blog-88257938.pc_relevant_multi_platform_whitelistv1_exp2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-2-124792957-blog-88257938.pc_relevant_multi_platform_whitelistv1_exp2&utm_relevant_index=5
