@@ -1,0 +1,4 @@
+1.观察者模式(1.监听器注册到集合中 2.发布事件时遍历集合调用监听器的方法)
+ 1.1 https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20-%20%E8%A7%82%E5%AF%9F%E8%80%85.md
+ 1.2 spring的ApplicationEvent事件监听机制原理与应用 https://blog.csdn.net/ChirsPaul3/article/details/113702974?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-113702974-blog-106042420.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-113702974-blog-106042420.pc_relevant_aa&utm_relevant_index=1
+  1.2.1注解 1.2.2接口
