@@ -1,0 +1,5 @@
+1.PlatformTransactionManager多个实现类，用来应对不同的环境
+ 1.1 JpaTransactionManager：如果你用jpa来操作db，那么需要用这个管理器来帮你控制事务
+ 1.2 DataSourceTransactionManager：如果你用是指定数据源的方式，比如操作数据库用的是：JdbcTemplate、mybatis、ibatis，那么需要用这个管理器来帮你控制事务。
+ 1.3 HibernateTransactionManager：如果你用hibernate来操作db，那么需要用这个管理器来帮你控制事务。
+ 1.4 JtaTransactionManager：如果你用的是java中的jta来操作db，这种通常是分布式事务，此时需要用这种管理器来控制事务
