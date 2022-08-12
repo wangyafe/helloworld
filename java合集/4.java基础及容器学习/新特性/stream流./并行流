@@ -1,0 +1,2 @@
+1.谨慎使用 Java8 新特性 parallelStream https://juejin.cn/post/6891120931716988942#heading-5
+ 1.1 如果项目中其它并行流的任务执行耗时, 会占据对应资源, 使得最后还是通过主线程执行任务
