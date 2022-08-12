@@ -13,3 +13,5 @@
                                 List<MeetingSummary> list = meetingSummaryService.queryByCondition(cond);
                                 return CollectionUtils.isEmpty(list) ? null : list.get(0);
                             })
+6.java List＜Bean＞ 根据某个属性值获取到该对象 https://blog.csdn.net/Romantic_321/article/details/123568689
+ 6.1 list.stream().filter(user -> Objects.equals(user.getId(),1)).findFirst();
