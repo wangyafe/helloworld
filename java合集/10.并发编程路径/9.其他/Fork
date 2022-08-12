@@ -9,4 +9,5 @@
 3.并发解决办法 公共变量变为线程变量 继承 RecursiveTask或者RecursiveAction写任务
 4.主线程占用一个cpu核心数
 5.013-多线程-基础-Fork/Join框架、parallelStream讲解 https://www.cnblogs.com/bjlhx/p/11131197.html
-  
+6.自定义 ForkJoinPool 提升并行流 ParallelStream 执行速度 https://developer.aliyun.com/article/715684
+  6.1 Parallel Stream，默认采用的是一个 ForkJoinPool.commonPool 的线程池 2.jvm公用这个pool 3.其他任务也用了并行流
