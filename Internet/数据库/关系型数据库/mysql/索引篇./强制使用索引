@@ -1,0 +1,3 @@
+1.mysql使用强制索引 https://blog.csdn.net/yynike123/article/details/125460703?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-125460703-blog-86573077.pc_relevant_multi_platform_whitelistv2&spm=1001.2101.3001.4242.2&utm_relevant_index=4
+ 1.1 select * from salaries force index(idx_emp_no ) where emp_no=10005
+ 1.2 应用场景：模糊查询时使用的索引没有上界（数据量大） 强制使用其他索引
