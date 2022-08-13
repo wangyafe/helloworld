@@ -1,7 +1,6 @@
-1.Java多线程之线程池7大参数、底层工作原理、拒绝策略详解 https://blog.csdn.net/weixin_41910694/article/details/90676705?utm_medium=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-1.wap_blog_relevant_pic&share_token=53dea70c-ec87-40a3-90ca-1dc363b7dfa4
-2.Java多线程学习七：线程池的 4 种拒绝策略和 6 种常见的线程池 https://blog.csdn.net/zhanghai412/article/details/114039783?share_token=b37185b9-3d67-4818-9f9d-ffffddc01ce2#tt_daymode=1&tt_font=m
-3.多线程-JUC线程池-ThreadFactory线程工厂 https://www.cnblogs.com/bjlhx/p/7609100.html?share_token=20d54615-738c-4b91-b504-ce2863d409ee
-4.这一次，彻底搞懂Java并发包中的Atomic原子类 https://zhpanvip.gitee.io/2021/06/26/41-atomic-cas/
-5.Java | 如何设置线程池大小？ https://www.huaweicloud.com/articles/d1f2f274673189cea78abef6809fef43.html
-6.学习路径（奉劝各位Java小老弟，掌握这些“并发编程”核心技能再去面试大厂） https://www.163.com/dy/article/GK858AEM0552BFM8.html
+1.学习路径（奉劝各位Java小老弟，掌握这些“并发编程”核心技能再去面试大厂） https://www.163.com/dy/article/GK858AEM0552BFM8.html
   6.1 并发基础 6.2 java并发集合 6.3 并发工具类 6.4 java内存模型（JMM） 6.5 线程池 6.6 阻塞队列 6.7 锁 6.8 Atomic 6.9 其他
+2.并发编程三大核心：1.互斥 2.分工 3.协作
+ 1.互斥（1.互斥锁 2.无锁）
+ 2.分工（1.Excutor和线程池 2.Fork/join框架 3.Future 4.生产者-消费者模式）
+ 3.写作（并发操作类）
