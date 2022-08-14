@@ -1,2 +1,4 @@
 1.Java并发编程：Callable、Future和FutureTask（Future就是对于具体的Runnable或者Callable任务的执行结果进行取消、查询是否完成、获取结果） https://www.cnblogs.com/dolphin0520/p/3949310.html
  1.1 Java 通过Future来对任务进行取消（如果任务执行超时（获取超时） 就cancel任务） https://blog.csdn.net/u013276277/article/details/83049317
+ 1.2 Future操作任务结果时会阻塞主线程
+2.线程池之阻塞主线程，等子线程全部跑完之后，执行主线程 https://blog.csdn.net/epitomizelu/article/details/121300073
