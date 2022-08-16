@@ -3,4 +3,5 @@
 3.基础支持层来提供功能支撑，基础支持层包括
   3.1 连接管理 3.2 事务管理 3.3 配置加载 3.4 缓存处理等
 4.在不与Spring 集成的情况下使用SqlSessionFactory,SqlSession连接操作数据库（集成spring就会用IOC和DI注解 Bean交给spring容器管理）
+ 4.1 https://how2j.cn/k/mybatis/mybatis-tutorial/1087.html#nowhere
 5.面试官问你MyBatis SQL是如何执行的？把这篇文章甩给他 https://www.toutiao.com/article/6788679755429315075/?log_from=155629f816143_1649929249811
