@@ -1,0 +1,6 @@
+1.接口层Mapper 或者是 Dao 接口中的接口（通过MapperProxy生成代理类将Dao或者mapper与sql绑定）是查询、新增、更新还是删除操作
+2.中间层是数据处理层，主要是配置 Mapper -> XML 层级之间的参数映射，SQL 解析，SQL 执行，结果映射的过程
+3.基础支持层来提供功能支撑，基础支持层包括
+  3.1 连接管理 3.2 事务管理 3.3 配置加载 3.4 缓存处理等
+4.在不与Spring 集成的情况下使用SqlSessionFactory,SqlSession连接操作数据库
+5.面试官问你MyBatis SQL是如何执行的？把这篇文章甩给他 https://www.toutiao.com/article/6788679755429315075/?log_from=155629f816143_1649929249811
