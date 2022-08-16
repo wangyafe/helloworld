@@ -7,3 +7,5 @@
 3.Http的连接管理 https://blog.poetries.top/http-protocol/notes/base/14-HTTP%E7%9A%84%E8%BF%9E%E6%8E%A5%E7%AE%A1%E7%90%86.html
 4.应用层写自己的心跳机制（保活机制并不是RFC规定的TCP协议的内容，服务器内核可以不实现）：1.默认的keep-alive时间长 2.socket proxy会让TCP的保活失效：3.大多数proxy应用只能转发TCP的应用数据，不能转发TCP协议内部的包
   1.HTTP长连接实现原理 https://juejin.cn/post/6923887573861564423
+5.一个连接同时只能一次通信（传输数据）
+ 5.1 一个连接一个线程通信 5.2 想做到多线程通信 需要多个连接
