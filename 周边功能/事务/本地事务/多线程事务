@@ -1,0 +1,4 @@
+1.数据库连接池的最大连接数大于等于线程数
+2.子线程理解为微服务中的一个个子系统的时候，这就是一个分布式事务的场景
+3.在commit的时候出现破坏原子性
+4.要我说，多线程事务它必须就是个伪命题 https://www.toutiao.com/article/6892985918131536387/?app=news_article&timestamp=1660502513&use_new_style=1&req_id=2022081502415301015814917025CE0EBC&group_id=6892985918131536387&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=9e12a763-e3a9-4451-b931-20be1d664dc5&source=m_redirect
