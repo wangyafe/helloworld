@@ -1,0 +1,2 @@
+1.countDownLatch 等待多线程完成
+ 1.1 在countDownLatch.await处 阻塞 等到 countDownLatch.countdown为0
