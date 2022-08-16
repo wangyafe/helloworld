@@ -1,2 +1,2 @@
-1.数据源的作用 1.找到数据库 2.管理连接connection
+1.数据源的作用 1.找到数据库 2.管理连接connection（实现了连接池）
 2.常见数据源：dataSource:1.ZdalDataSource 2.DruidDataSource 3.DriverManagerDataSource 4.org.apache.tomcat.jdbc.pool.DataSource
