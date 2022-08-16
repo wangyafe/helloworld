@@ -1,0 +1,7 @@
+1.jdbc 通过java访问数据库
+2.JDBC编程六步
+ 1.注册驱动（driver） 2.获取连接(connection) 3.获取数据库操作对象(statement) 4.执行sql(excute) 5.处理查询结果集(ResultSet) 6.释放资源(1.sta.close 2.con.close)
+3.把驱动、url、user、password提取到配置文件
+ 3.1通过FileInputStream和Properties读取配置文件 3.2 通过java.util包中工具类ResourceBundle
+4.通过连接控制事务管理
+5.手动实现JDBC连接数据库的代码 https://blog.csdn.net/qq_42449963/article/details/103637667
