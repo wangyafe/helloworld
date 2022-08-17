@@ -1,0 +1,6 @@
+一.初始化调用（1.bean 2.application）
+1.InitializingBean：当bean初始化的时候 调用该逻辑（afterPropertiesSet）方法
+ 1.1BeanDefinitionRegistryPostProcessor：application（容器）初始化的时候 调用该逻辑（postProcessBeanDefinitionRegistry）
+二.回调
+ 1.FactoryBean：在调用getBean的时候会返回该工厂返回的实例对象，也就是再调一次getObject方法返回工厂的实例。
+ 2.ApplicationListener：注册了该监听的话，那么就可以了监听到Spring的一些事件，然后做相应的处理
