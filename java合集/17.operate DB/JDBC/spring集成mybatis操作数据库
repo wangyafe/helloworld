@@ -5,3 +5,11 @@
  <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="net.itaem.dao"/>
 	</bean>
+2.mybatis-spring通过SqlSessionFactoryBean管理并封装了sqlSesionFactory实例化
+ 2.1 通过MapperFactoryBean管理并封装了getMapper 它实现了BeanFactroy在问spring要实例getBean的时候 实际会返回给它getObject方法中的实例
+ 2.2 Dao或者mapper是MapperFactoryBean的一个实例
+  <bean id="personDao" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="net.itaem.dao.PersonDao"/>
+		<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+	</bean>
+2.3 实例化mapperFactoryBean(Dao或者Mapper)方式：1.xml 2.注解@mapper 3.xml中（MapperScannerConfigurer扫描类） 4.注解扫描类mapperScan 
