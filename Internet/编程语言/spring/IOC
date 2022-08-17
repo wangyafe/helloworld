@@ -1,2 +1,6 @@
 1.类级别实例化 （自动：调用对应的构造方法）
  1.1 spring注解原理解析 https://blog.csdn.net/statckoverflow/article/details/17392351?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3
+2.实例化方式
+ 1.xml 2.注解（@service等） 3.new 4.反射 5.clone方法 6.反序列化 7.第三方库Objenesis
+ 3.new有三种方式 3.1通过new调用类构造器 3.2调用对象的getXXXInstance方法（单例模式） 3.3工厂方法返回对象（XXXBuilder/XXXFactory）如：String str = String.valueOf(23)
+ 2.3 Java对象实例化方式及过程 https://juejin.cn/post/7010615982750171144 2.4 对象实例化与内存布局(深入) https://cloud.tencent.com/developer/article/1827832
