@@ -12,4 +12,6 @@
 		<property name="mapperInterface" value="net.itaem.dao.PersonDao"/>
 		<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
 	</bean>
-2.3 实例化mapperFactoryBean(Dao或者Mapper)方式：1.xml 2.注解@mapper 3.xml中（MapperScannerConfigurer扫描类） 4.注解扫描类mapperScan 
+ 2.3 实例化mapperFactoryBean(Dao或者Mapper)方式：1.xml 2.注解@mapper 3.xml中（MapperScannerConfigurer扫描类） 4.注解扫描类mapperScan 
+3.springboot整合mybatis中mapper加载为bean过程梳理 https://blog.csdn.net/aborde/article/details/114903548?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-2-114903548-blog-43447441.pc_relevant_multi_platform_whitelistv4eslandingctr2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EESLANDING%7Edefault-2-114903548-blog-43447441.pc_relevant_multi_platform_whitelistv4eslandingctr2&utm_relevant_index=3
+ 3.1 注意是哪个实例调用的方法
