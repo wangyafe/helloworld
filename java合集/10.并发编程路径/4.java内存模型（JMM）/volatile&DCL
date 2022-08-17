@@ -1,4 +1,8 @@
-1.volatile
+1.volatile应用场景和作用：1.禁止指令重排（as-if-serial 在单线程环境下不能改变程序运行的结果） 2.可见性 一写多读
+ 1.1 单例模式DCL(双重检测锁)模式存在这个问题
+ 1.2 实例化过程不是原子操作分三步JVM指令 1.memory =allocate();//1：分配对象的内存空间 2.ctorInstance(memory);//2：初始化对象 3.instance =memory;//3：设置instance指向刚分配的内存地址
+ 1.3 多线程并发时 导致线程拿到的是未初始化的对象
+ 1.4 Java并发：volatile内存可见性和指令重排 https://blog.csdn.net/jiyiqinlovexx/article/details/50989328
 2.单例模式和DCL（双重检查） https://juejin.cn/post/6844903782187270151
    3.1 并发环境下单例模式两种实现方式：1.synchronized锁+DCL +volatile 
    public class Singleton(){
@@ -27,4 +31,4 @@
    }
    2.2 DCL应用在缓存雪崩 
 3.啃完这53道Java并发面试宝典，并发相关面试再也难不倒你！ https://www.jianshu.com/p/10d084e01dc5
-  volatile应用场景和作用：1.禁止指令重排（as-if-serial 在单线程环境下不能改变程序运行的结果） 2.可见性 一写多读
+
