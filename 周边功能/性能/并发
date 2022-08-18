@@ -1,3 +1,0 @@
-1.并发数计算（1.服务器带宽 2.后端程序 3.实例规格 4.访问数据） 2.4核8G1M 30K网页=4 （加上8秒超时 大概是40） 10M 大概300（双十一58万qps 大概2000台服务器）
-2.腾讯云4核8g服务器可支持多少人同时在线？4核8G并发量计算 https://blog.csdn.net/yunweifun/article/details/108371359?share_token=0abcc141-ae6d-405a-a186-ab6f35aa6b3c
-3.阿里云4核8G服务器10M带宽支持在线人数并发量计算 https://blog.csdn.net/yunweifun/article/details/120796717?share_token=0e221c12-91df-4981-af1e-fc3250928069
