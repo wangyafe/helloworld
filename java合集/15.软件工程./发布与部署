@@ -3,3 +3,5 @@
 3.搭建具备灰度发布能力的技术架构 https://www.toutiao.com/i6959836721248813582/?timestamp=1645781571&app=news_article&use_new_style=1&req_id=202202251732500101580681500B000889&share_token=5e53d000-0b44-4bde-b44f-71c6423d6242&group_id=6959836721248813582
 4.什么是持续集成（CI）/持续部署（CD）？ https://www.toutiao.com/i6590576887989273096/?timestamp=1645717461&app=news_article&use_new_style=1&req_id=20220224234421010158162022050415F8&share_token=84474612-acca-4d4f-a131-887640ec8a61&group_id=6590576887989273096
 5.部署微服务的5个测试策略 https://www.toutiao.com/article/7105637191182762528/?app=news_article&timestamp=1654481674&use_new_style=1&req_id=2022060610143401015814905312E411A8&group_id=7105637191182762528&share_token=37720a23-7ac2-4e7a-a96e-c52af255834b
+6.发布三板斧：
+ 1.充分灰度 2.可监控（是否需要做埋点 核对） 3.可应急（1.代码回滚 2.配置回滚 3.上游流量切换 4.功能开关 5.回滚顺序（1.组件代码 2.前后端 3.上下游））
