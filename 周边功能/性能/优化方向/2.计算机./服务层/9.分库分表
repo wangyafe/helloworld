@@ -1,0 +1,3 @@
+1.并发量大（数据库连接问题），需要数据量小（查询接口） 分库不分表
+2.阿里二面：为什么要分库分表 https://cloud.tencent.com/developer/article/1901963
+3.https://www.easemob.com/news/7484
