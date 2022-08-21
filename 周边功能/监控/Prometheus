@@ -1,2 +1,4 @@
 1.监控 和 预警 的功能
 2.监控信息：1.接口响应时间 2.调用第三方服务耗时 3.慢查询sql耗时 4.cpu使用情况 5.内存使用情况 5.磁盘使用情况 6.数据库使用情况
+3.史上最全接口性能优化的11个技巧 https://www.easemob.com/news/7484
+4.Prometheus 快速入门教程（一）：Prometheus 快速入门  https://www.cnblogs.com/chanshuyi/p/01_head_first_of_prometheus.html
