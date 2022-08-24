@@ -1,0 +1,17 @@
+1.枚举是元素实例化好的集合
+2.构造器不能public 防止外部实例化
+3.values() 取出集合
+4.name()获取元素名
+5.   public static Scenario getByName(String name) {
+        Scenario[] var1 = values();
+        int var2 = var1.length;
+
+        for(int var3 = 0; var3 < var2; ++var3) {
+            Scenario scenario = var1[var3];
+            if (scenario.name().equals(name)) {
+                return scenario;
+            }
+        }
+
+        return null;
+    }
