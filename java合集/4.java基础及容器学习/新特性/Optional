@@ -13,7 +13,7 @@
  2.4 Optional.map()方法(对象进行二次包装)
  2.5 dao接口层中定义返回值时加上Optional  public interface LocationRepository extends JpaRepository<Location, String> {
                                                Optional<Location> findLocationById(String id);
- 2.6 消除if else Optional<String> strOptional = Optional.of("Hello World!");
+ 2.6 （消除if else jDK 1.9版本接口）Optional<String> strOptional = Optional.of("Hello World!");
                  strOptional.ifPresentOrElse(System.out::println, () -> System.out.println("Null"));
 3.还用 if(obj!=null) 做非空判断？带你快速上手 Optional 实战性理解 https://www.toutiao.com/article/7098935941447844365/?log_from=3db3575817da3_1658124315209
 4.Java8新特性之五：Optional  https://www.cnblogs.com/wuhenzhidu/p/10765655.html
