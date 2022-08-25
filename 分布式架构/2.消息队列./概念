@@ -12,3 +12,6 @@
   8.1 要求一致原因 ：RocketMQ，同一个topic下是否可以通过不同的tag来进行订阅吗？_程序新视界-程序员宅基地 https://www.cxyzjd.com/article/wo541075754/110201551
   8.2 RocketMQ——角色与术语详解 https://jaskey.github.io/blog/2016/12/15/rocketmq-concept/
   8.3 messageQueue的作用 （rocketmq订阅多个主题_RocketMQ 的消息模型） https://blog.csdn.net/weixin_32243309/article/details/112413390?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
+9.RocketMQ Broker中的消息被消费后不会删除
+  9.1 每条消息都会持久化到CommitLog中，每个Consumer连接到Broker后会维持消费进度信息，当有消息消费后只是当前Consumer的消费进度（CommitLog的offset）更新了
+  9.2 RocketMQ在面试中那些常见问题及答案+汇总 https://zhuanlan.zhihu.com/p/161661032
