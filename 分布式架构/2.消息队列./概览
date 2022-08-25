@@ -5,12 +5,6 @@
 4.《RocketMQ技术内幕》学习笔记 https://blog.csdn.net/shijinghan1126/article/details/107566198
 5.一个简单的 MySQL 批量事务消息队列（基于 Redis Lists） https://zhuanlan.zhihu.com/p/130494984
 6.基于REDIS实现延时任务 https://juejin.cn/post/6844903817713025032 6.1 kafka时间轮-轮询方式 https://blog.csdn.net/Theo9/article/details/106722067 6.2 SpringBoot应用篇基于Redis实现延时队列 - 今日头条 https://www.toutiao.com/item/6989460900709286436/?app=news_article&timestamp=1628314971&use_new_style=1&req_id=2021080713425101015119023241332D8A&group_id=6989460900709286436&share_token=9166cf51-00be-41d1-af6f-215b57cb3749
-7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
-  订阅提示：不同的group才可以实现订阅模式
-8.订阅关系一致（topic tag groupName messageQueue概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
-  8.1 要求一致原因 ：RocketMQ，同一个topic下是否可以通过不同的tag来进行订阅吗？_程序新视界-程序员宅基地 https://www.cxyzjd.com/article/wo541075754/110201551
-  8.2 RocketMQ——角色与术语详解 https://jaskey.github.io/blog/2016/12/15/rocketmq-concept/
-  8.3 messageQueue的作用 （rocketmq订阅多个主题_RocketMQ 的消息模型） https://blog.csdn.net/weixin_32243309/article/details/112413390?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
 9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
   网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
   9.1 基于RocketMQ分布式事务 - 完整示例 https://juejin.cn/post/6844904099993878536#heading-14
