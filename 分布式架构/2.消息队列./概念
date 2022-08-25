@@ -1,1 +1,10 @@
 1.ConsumerGroup 将consumer分组
+2.topic (订阅队列组 默认是4 可修改)
+3.tag/code(队列名)
+4.messageQueue（队列）
+7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
+  订阅提示：不同的group才可以实现订阅模式
+8.订阅关系一致（topic tag groupName messageQueue概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
+  8.1 要求一致原因 ：RocketMQ，同一个topic下是否可以通过不同的tag来进行订阅吗？_程序新视界-程序员宅基地 https://www.cxyzjd.com/article/wo541075754/110201551
+  8.2 RocketMQ——角色与术语详解 https://jaskey.github.io/blog/2016/12/15/rocketmq-concept/
+  8.3 messageQueue的作用 （rocketmq订阅多个主题_RocketMQ 的消息模型） https://blog.csdn.net/weixin_32243309/article/details/112413390?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242
