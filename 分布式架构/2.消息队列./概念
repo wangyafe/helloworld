@@ -1,6 +1,6 @@
 1.ConsumerGroup 将consumer分组
 2.topic (订阅队列组 默认是4 可修改)
-3.tag/code(队列名)
+3.tag/code(消息标签 可过滤消息)
 4.messageQueue（队列）
 7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
   订阅提示：不同的group才可以实现订阅模式
