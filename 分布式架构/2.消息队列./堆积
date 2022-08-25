@@ -1,3 +1,3 @@
 1.一定要收藏的RocketMQ超全指南 https://heapdump.cn/article/3801373
  1.消费者扩容（mq数量大于集群中的consumer） 2.迁移Queue扩容（consumer发送新容量的mq） (导图)
- 
+2..RabbitMQ/RocketMQ/Kafka 如何提高消费速度（只有在pull模式下才可以提高） https://blog.csdn.net/H_L_S/article/details/106727440?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link
