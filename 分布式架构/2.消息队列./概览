@@ -9,6 +9,4 @@
   网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
   9.1 基于RocketMQ分布式事务 - 完整示例 https://juejin.cn/post/6844904099993878536#heading-14
 10.RabbitMQ/RocketMQ/Kafka 如何提高消费速度（只有在pull模式下才可以提高） https://blog.csdn.net/H_L_S/article/details/106727440?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link
-11.消息队列（五）如何保证消息的顺序性？ https://xie.infoq.cn/article/c84491a814f99c7b9965732b1
- 11.1 不同的消费者消费不同的消息队列（数据发到了不同的队列）
 13.RocketMQ原理学习--消费者消费消息 https://blog.csdn.net/qq924862077/article/details/84797525
