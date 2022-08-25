@@ -1,11 +1,6 @@
 1.作用：异步、削峰、解耦 
 2.问题：重复、丢失、顺序、堆积
 消息队列面试热点一锅端 https://segmentfault.com/a/1190000023550285
-3.消息队列：可靠性、重复消息、消息积压、利用消息实现分布式事务 https://cloud.tencent.com/developer/article/1542467
 4.《RocketMQ技术内幕》学习笔记 https://blog.csdn.net/shijinghan1126/article/details/107566198
-5.一个简单的 MySQL 批量事务消息队列（基于 Redis Lists） https://zhuanlan.zhihu.com/p/130494984
 6.基于REDIS实现延时任务 https://juejin.cn/post/6844903817713025032 6.1 kafka时间轮-轮询方式 https://blog.csdn.net/Theo9/article/details/106722067 6.2 SpringBoot应用篇基于Redis实现延时队列 - 今日头条 https://www.toutiao.com/item/6989460900709286436/?app=news_article&timestamp=1628314971&use_new_style=1&req_id=2021080713425101015119023241332D8A&group_id=6989460900709286436&share_token=9166cf51-00be-41d1-af6f-215b57cb3749
-9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
-  网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
-  9.1 基于RocketMQ分布式事务 - 完整示例 https://juejin.cn/post/6844904099993878536#heading-14
-13.RocketMQ原理学习--消费者消费消息 https://blog.csdn.net/qq924862077/article/details/84797525
+
