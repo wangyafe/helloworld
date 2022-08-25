@@ -1,4 +1,4 @@
-1.ConsumerGroup 将consumer分组
+1.ConsumerGroup （1.用于消费模式集群还是广播 2.用于表示不同的消费者 可多个订阅者）
 2.topic (订阅队列组 默认是4 可修改)
 3.tag/code(队列小组 多个队列贴tag)
 4.messageQueue（队列）
