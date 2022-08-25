@@ -1,0 +1,5 @@
+1.消息队列：可靠性、重复消息、消息积压、利用消息实现分布式事务 https://cloud.tencent.com/developer/article/1542467
+5.一个简单的 MySQL 批量事务消息队列（基于 Redis Lists） https://zhuanlan.zhihu.com/p/130494984
+9.为什么要有事务消息 （还不知道事务消息吗？这篇文章带你全面扫盲！） https://juejin.cn/post/6844904106532962311
+  网络原因 存在消息已经发送到 MQ 服务端，但是由于网络问题未及时收到 MQ 的响应消息，从而导致消息发送端认为消息消息发送失败
+  9.1 基于RocketMQ分布式事务 - 完整示例 https://juejin.cn/post/6844904099993878536#heading-14
