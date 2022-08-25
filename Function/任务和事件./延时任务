@@ -1,2 +1,4 @@
 1.SpringBoot应用篇基于Redis实现延时队列 https://juejin.cn/post/6993117907450347557
 2.基于kafka实现延迟队列 https://zhuanlan.zhihu.com/p/365802989
+3.基于REDIS实现延时任务 https://juejin.cn/post/6844903817713025032 
+ 3.1 kafka时间轮-轮询方式 https://blog.csdn.net/Theo9/article/details/106722067
