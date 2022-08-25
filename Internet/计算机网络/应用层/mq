@@ -1,1 +1,15 @@
-
+常用协议：
+1.AMQP
+AMQP即Advanced Message Queuing Protocol，是应用层协议的一个开放标准，为面向消息的中间件设计。消息中间件主要用于组件之间的解耦，消息的发送者无需知道消息使用者的存在，反之亦然。AMQP 的主要特征是面向消息、队列、路由（包括点对点和发布/订阅）、可靠性、安全。
+优点：可靠、通用
+2.MQTT
+MQTT（Message Queuing Telemetry Transport，消息队列遥测传输）是IBM开发的一个即时通讯协议，有可能成为物联网的重要组成部分。该协议支持所有平台，几乎可以把所有联网物品和外部连接起来，被用来当做传感器和致动器（比如通过Twitter让房屋联网）的通信协议。
+优点：格式简洁、占用带宽小、移动端通信、PUSH、嵌入式系统
+3.STOMP
+STOMP（Streaming Text Orientated Message Protocol）是流文本定向消息协议，是一种为MOM(Message Oriented Middleware，面向消息的中间件)设计的简单文本协议。STOMP提供一个可互操作的连接格式，允许客户端与任意STOMP消息代理（Broker）进行交互。
+优点：命令模式（非topic\queue模式）
+4.XMPP
+XMPP（可扩展消息处理现场协议，Extensible Messaging and Presence Protocol）是基于可扩展标记语言（XML）的协议，多用于即时消息（IM）以及在线现场探测。适用于服务器之间的准即时操作。核心是基于XML流传输，这个协议可能最终允许因特网用户向因特网上的其他任何人发送即时消息，即使其操作系统和浏览器不同。
+优点：通用公开、兼容性强、可扩展、安全性高，但XML编码格式占用带宽大
+5.基于AMQP实现的golang消息队列MaxQ https://zhuanlan.zhihu.com/p/28967866
+6.消息队列原理及选型 https://www.jianshu.com/p/19a94c1c729b
