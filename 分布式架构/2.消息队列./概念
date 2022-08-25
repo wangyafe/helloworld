@@ -4,6 +4,8 @@
 4.messageQueue（队列）
 5.MQ快速理解 https://www.jianshu.com/p/2ee602c2a34d?u_atoken=ad1d265f-1318-4b10-b6d5-7b5857f49135&u_asession=01MHs8ed426Oxvdj3UzXeYHJVYpoUkdjuX2bpoX30pvWMnUZ8NkdsiE_z3mprLelRzX0KNBwm7Lovlpxjd_P_q4JsKWYrT3W_NKPr8w6oU7K_oK24CPVPpfXjTJAJZ5nCXCvvWHyhA8I9G3hxoTho1LGBkFo3NEHBv0PZUm6pbxQU&u_asig=0500pkkgPKvXrghAk8gHNczFMlh68NsXatuR3A6_8gzDPmE3KSfjKyDord0FSi33wCceMoffRZzx1OKavAhXUrvBR7W125_C2VJ1M1BL9Bqa7j49SMpt9A-hBtEGzqgaB8nH5ExHlHREKcoGpDDS6NpCXeNQgwrACR7qK5JaTYpL39JS7q8ZD7Xtz2Ly-b0kmuyAKRFSVJkkdwVUnyHAIJzbZD4LRy2riIUjL4xnzvL9kRc-iLHf_LOBmBCndLCnjpChTz2MQxpCmDDGYlh3aZze3h9VXwMyh6PgyDIVSG1W8gO_2ndF5JTkmE9kxFOiOMNPiAmCOnVC6hPCK1rmxyarmlSQ6RlkY4iJltkvMAnNUCuKhvV9PmtWLGWgQiFKnMmWspDxyAEEo4kbsryBKb9Q&u_aref=HREPfhABFMiJ8wobhVoiCujB01w%3D
  1.重Topic（kafka、JMS（ActiveMQ） 2.轻Topic（rocketmq rabbitmq） key和queue 的解耦 轻量级 灵活应用 生产者只关心发送key消费者 只关心queue
+6.消费 offset 信息存储
+ 6.1 集群模式 broker持久化本地维护 6.2 广播模式 消费者持久化本地自己维护
 7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
   订阅提示：不同的group才可以实现订阅模式
 8.订阅关系一致（topic tag groupName messageQueue概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
