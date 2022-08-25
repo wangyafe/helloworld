@@ -5,6 +5,7 @@
  5.Exchange: 负责将message分发到不同的Queue中
  6.Queue: 消息最终会落到Queue中，消息由Broker push给Consumer或者由Consumer来pull消息
  7.Binding：exchange和queue之间的消息路由策略
+ (导图)
 2.RabbitMQ的四种交换器类型（fanout、direct、topic、headers）（Exchange） https://blog.csdn.net/qq_26900081/article/details/106763590
  2.1 BindingKey 用于将队列和交换器绑定 2.2 Routingkey 告诉交换器当前消息发给哪个队列（Routingkey 等于 BindingKey 的这个队列）
 3.同一个topic多个messagequeue(默认是4 可修改)
