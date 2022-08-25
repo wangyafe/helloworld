@@ -1,4 +1,4 @@
-1.Broker: 接收和分发的应用
+ 1.Broker（代理进程）: 接收和分发的应用
  2.Virtual host:出于多租户和安全因素，把AMQP的基本组件划分到一个虚拟分组中。各个租户之间是网络隔离的，类似Linux中的namespace概念（可自行Google）
  3.Connection：publisher/consumer 和broker之间的TCP连接
  4.Channel：是相较于Connection更加轻量的连接，是Connection上的逻辑连接
