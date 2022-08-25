@@ -1,6 +1,29 @@
 1.作用：异步、削峰、解耦 
-2.问题：重复、丢失、顺序、堆积
-消息队列面试热点一锅端 https://segmentfault.com/a/1190000023550285
-4.《RocketMQ技术内幕》学习笔记 https://blog.csdn.net/shijinghan1126/article/details/107566198
-6.基于REDIS实现延时任务 https://juejin.cn/post/6844903817713025032 6.1 kafka时间轮-轮询方式 https://blog.csdn.net/Theo9/article/details/106722067 6.2 SpringBoot应用篇基于Redis实现延时队列 - 今日头条 https://www.toutiao.com/item/6989460900709286436/?app=news_article&timestamp=1628314971&use_new_style=1&req_id=2021080713425101015119023241332D8A&group_id=6989460900709286436&share_token=9166cf51-00be-41d1-af6f-215b57cb3749
+  2.为什么要选择RocketMQ（技术选型 低延迟、吞吐量比较高）
+  3.消息模型（队列模型和发布/订阅模型）
+  4.RocketMQ本身的消息是由几部分组成(1.Message 2.Topic 3.TagGroup 4.MessageQueuev 5.Offset)
+  5.消息消费模式有两种：Clustering（集群消费）和Broadcasting（广播消费）
+  6.RoctetMQ基本架构(1.p集群 2.nameserver集群 3.broker 4.consumer集群)
+  7.分别功能（1.nameserver 1、和Broker 结点保持长连接 2、维护 Topic 的路由信息） 2.Producer(同步 异步 单向) 在发送消息前从 NameServer 中获取 Topic 的路由信息也就是发往哪个 Broker
+   7.3 Broker 消息存储和中转角色，负责存储和转发消息 7.4 consumer 用户部署，支持PUSH和PULL两种消费模式，支持集群消费和广播消费，提供实时的消息订阅机制
+  8.保证消息的可用性/可靠性/不丢失(1.p 2.broker 3.c)
+  9.消息重复(1.业务幂等 2.消息去重)
+  10.消息积压（1.消费者扩容 2.消息迁移Queue扩容）
+  11.顺序消息（1.部分顺序 同 ID 的消息发送到同一个MessageQueue 消费者不能并发消费 MessageQueueSelector 类来控制把消息发往哪个MessageQueue  2.全局（队列模式））
+  12.消息过滤（1.broker 2.consumer(1.tag 2.sql表达式 3.filter server)）
+  13.延时消息(1.临时存储 2.定时任务)
+  14.分布式消息事务和半消息(1.二次确认 2.消息回查)
+  15.死信队列（消费重试失败后 不会丢弃 放入死信队列）
+  16.保证RocketMQ的高可用（1.namesever集群 2.broker 1.集群和主从）
+  17.RocketMQ的整体工作流程(p和c通过nameserver做broker发现 缓存到本地)
+  18.RocketMQ不使用Zookeeper作为注册中心（CP特性）
+  19.Broker是怎么保存数据
+  20.RocketMQ怎么对文件进行读写（零拷贝）
+  21.消息刷盘实现（1.同步 2.异步）
+  22.RocketMQ 的负载均衡（1.producer通过topic路由broker 2.consumer启动时候 执行RebalanceService的启动（每隔20s执行一次）分配mq给c）
+  23.RocketMQ消息长轮询(1.无数据不会立即返回hold住 3.异步线程检查，看queue中是否有数据，或者超时)
+2.一定要收藏的RocketMQ超全指南 https://heapdump.cn/article/3801373
+3.消息队列面试热点一锅端 https://segmentfault.com/a/1190000023550285
+4.RocketMQ在面试中那些常见问题及答案+汇总 https://zhuanlan.zhihu.com/p/161661032
+5.《RocketMQ技术内幕》学习笔记 https://blog.csdn.net/shijinghan1126/article/details/107566198
 
