@@ -1,0 +1,6 @@
+1.P1生产消息，发送给服务器端的Exchange
+2.Exchange收到消息，根据ROUTINKEY，将消息转发给匹配的Queue1
+3.Queue1收到消息，将消息发送给订阅者C1
+4.C1收到消息，发送ACK给队列确认收到消息（回调UniformEventMessageListener扩展接口 执行业务逻辑）
+5.Queue1收到ACK，删除队列中缓存的此条消息
+6.消息队列原理及选型 https://www.jianshu.com/p/19a94c1c729b
