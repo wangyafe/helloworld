@@ -1,4 +1,9 @@
-1.Tomcat是如何启动Spring项目的？
+1.Tomcat是如何启动Spring项目的？ https://www.toutiao.com/article/7136733307575763487/?app=news_article&timestamp=1661657200&use_new_style=1&req_id=202208281126400101511881640288ECD6&group_id=7136733307575763487&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=e37f05f9-bda2-4f6a-bbd2-101541489b04&source=m_redirect
  1.1 tomcat在启动ServletContext容器的时候会发布ServletContextEvent事件
  1.2 Spring实现ServletContextListener接口，监听该事件来监听ServletContext的生命周期
  1.3 servletContextListener接口中 实现SpringIOC容器refresh()方法初始化容器
+2.tomcat是如何启动SpringMVC的
+ 2.1 tomcat加载web.xml中的servlet会调用servlet的init()方法
+ 2.2 HttpServletBean中实现了init()方法：方法中会获取contextConfigLocation配置，然后调用onRefresh()方法初始化容器
+ 2.3 将springIOC容器设置为父容器
+3.SpringMVC（sevlet容器）和SpringIOC容器关系：SpringMVC容器是SpringIOC的子容器，MVC容器中的bean能注入SpringIOC中的bean，反之则不能
