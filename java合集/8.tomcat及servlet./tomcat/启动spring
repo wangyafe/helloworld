@@ -1,0 +1,4 @@
+1.Tomcat是如何启动Spring项目的？
+ 1.1 tomcat在启动ServletContext容器的时候会发布ServletContextEvent事件
+ 1.2 Spring实现ServletContextListener接口，监听该事件来监听ServletContext的生命周期
+ 1.3 servletContextListener接口中 实现SpringIOC容器refresh()方法初始化容器
