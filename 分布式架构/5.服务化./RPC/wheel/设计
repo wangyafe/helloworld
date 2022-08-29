@@ -1,0 +1,11 @@
+1.手写RPC框架，真不是为了装1 3 https://www.toutiao.com/article/7135617095701692935/?app=news_article&timestamp=1661400536&use_new_style=1&req_id=2022082512085501015015809815361626&group_id=7135617095701692935&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=0e5a444f-3d14-476e-b079-d75c5a31b0fb&source=m_redirect
+ 1.1 动态代理，因为我们consumer项目里只有接口UserService定义，没有实现类，想要调用一个接口的方法？那就只能搞个代理对象了。
+ 1.2 编解码，也就是consumer需要把请求参数传到provider里去，网络传输过程先把我们的参数进行编码，然后传到provider，provider再对传过来的参数进行解码。
+ 1.3 网络通信，跨进程肯定就会涉及到网络通信。
+ 1.4 网络传输协议，consumer和provider 对于来回的参数信息，肯定得有有个标准，你按照什么样的方式传给我，不然我怎么知道你想表达什么。
+ 1.5 序列化和反序列化
+ 1.6 数据压缩，在进行数据网络传输时，如果数据太大了，我们得考虑能不能对数据进行压缩。
+ 1.6 注册中心，如果provider 进行集群部署（同样服务部署多个机器上），这时候我们需要在consumer进行手工维护，如果量一旦大起来了，这工作量可想而知。
+ 1.7 动态感知服务上下线，如果provider 存在宕机或者部署了新的节点，这时候consumer就需要知道哪些服务下线了，哪些服务上线了。
+ 1.8 动态路由，如果provider 进行集群部署（同样服务部署多个机器上），我们不可能让consumer都落在同一个节点上，这样资源不能充分利用了，古代皇帝的雨露均沾。动态路由那就会涉及到各种各样的算法，比如随机，轮询，权重等
+2.手把手教你手写一个RPC（实现SPI、注册中心等） https://blog.csdn.net/weixin_44298615/article/details/122315469?share_token=4c6750c5-0b38-4640-8740-e4246431f983
