@@ -1,0 +1,5 @@
+1.作用：腾讯工程师带你深入解析 MySQL binlog https://zhuanlan.zhihu.com/p/33504555
+ 1.1 复制：MySQL Replication在Master端开启binlog，Master把它的二进制日志传递给slaves并回放来达到master-slave数据一致的目的
+ 1.1 数据恢复：通过mysqlbinlog工具恢复数据
+ 1.3 增量备份
+2.开启：my.cnf配置中设置：log_bin="存放binlog路径目录"
