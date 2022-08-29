@@ -1,4 +1,4 @@
 1.java.sql.Connection的进一步封装（使用组合设计模式），提供给用户更强易用的CRUD方法，如下，也提供一获取Connection的方法
 2.SqlSession接口的默认实现DefaultSqlSession，我们平时使用的就是它
-3.SqlSession的运行主要是依靠Executor执行器调用（调度）StatementHandler、parameterHanlder、ResultSetHandler，Executor首先通过创建StamentHandler执行预编译并设置参数运行
+3.四大对象：SqlSession的运行主要是依靠Executor执行器调用（调度）StatementHandler、parameterHanlder、ResultSetHandler，Executor首先通过创建StamentHandler执行预编译并设置参数运行
 4.Mybatis的SqlSession运行原理（转）  https://www.cnblogs.com/ajianbeyourself/p/14780707.html#_label1
