@@ -1,0 +1,14 @@
+1.ACL模型：访问控制列表（1.客体的权限实体 2.是否含主体） 2.DAC模型：自主访问控制（权限传递） 3.MAC模型：强制访问控制（主体有一个权限标识，客体也有一个权限标识，而主体能否对该客体进行操作取决于双方的权限标识的关系）
+ 4.ABAC模型：基于属性的访问控制（一个或一组属性是否满足某种机制来授权） 5.RBAC模型：基于角色的权限访问控制
+2.RBAC-0（用户和角色、角色和权限多对多关系）
+ 2.1 RBAC-1（角色权限继承） 2.2 RBAC-2（角色限制）2.3 RBAC-3（基于RBAC-0，将RBAC-1和RBAC-2进行了整合）
+3.用户管理（组织架构/职位/用户组）
+4.角色管理（1. 自动获得基础角色 2. 临时角色与失效时间 3. 虚拟角色 4. 黑白名单）
+5.权限管理（1.页面/菜单权限 2.操作权限 3.数据权限）
+ 5.1 行权限和列权限。行权限控制：看多少条数据。列权限控制：看一条数据的多少个字段
+ 5.2 提供行列级数据权规则配置，赋予角色
+6.授权流程（授权即给用户授予角色,按流程可分为手动授权和审批授权）
+7.权限系统就该这么设计，yyds https://www.toutiao.com/article/7127824936739013123/?log_from=8539104b0c665_1661768813864
+8.如何设计一个权限系统 https://blog.csdn.net/qianshangding0708/article/details/106270769?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-106270769-blog-110884759.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-106270769-blog-110884759.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=1
+9.数据库（简单的RBAC权限设计表结构） https://blog.csdn.net/simplexiaobo/article/details/112105361?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-112105361-blog-78379595.topnsimilarv1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-112105361-blog-78379595.topnsimilarv1&utm_relevant_index=4
+10.RBAC从零开始--数据库表设计（操作信息日志表） https://blog.csdn.net/xia744510124/article/details/78379595
