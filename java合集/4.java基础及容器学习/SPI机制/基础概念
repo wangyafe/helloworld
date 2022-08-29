@@ -7,4 +7,4 @@
  2.1 JDK/Dubbo/Spring 三种 SPI 机制，谁更好？ https://segmentfault.com/a/1190000039812642
  2.2 使用类加载器获取实例：1.ServiceLoader 2.ExtensionLoader 3.SpringFactoriesLoader
  2.3 无法确认具体加载哪一个实现，也无法加载某个指定的实现，仅靠ClassPath的顺序是一个非常不严谨的方式
- 
+ 2.4 springboot-starter中的SPI 机制 https://juejin.cn/post/6844903890173837326
