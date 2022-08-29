@@ -1,1 +1,2 @@
 1.static只能修饰全局变量 2.static方法只能访问static变量 3.static代码块中的只能访问到在他之前定义的类变量，定义在他之后的类变量，可以对其赋值，但是不能访问
+ 1.1 java静态代码块在什么时候会执行（主动使用）https://blog.csdn.net/And_leayf/article/details/89341659
