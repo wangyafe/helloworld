@@ -1,0 +1,14 @@
+1.根据target(已编译文件)的搜索路径（1.指定（spring.config.name） 2.默认classpath:/,classpath:/config/,file:./,file:./config/）
+2.文件名（1.指定（spring.config.name） 2.默认 application）
+3.扩展名（1.xml 2.properties 3.yml 4.yaml）
+ 3.1 org.springframework.boot.env.PropertySourcesLoader#getAllFileExtensions获取扩展名
+4.ConfigFileApplicationListener监听启动事件（1.spi机制实例化PropertiesPropertySourceLoader和YamlPropertySourceLoader）
+ 4.1 加载文件org.springframework.boot.context.config.ConfigFileApplicationListener.Loader#load()，org.springframework.boot.context.config.ConfigFileApplicationListener.Loader#doLoadIntoGroup
+ 4.2 利用输入流读取配置文件，并根据读到的分隔符进行判断来切分配置文件的key和value
+ 4.3 key-value键值对的形式封装成一个OriginTrackedMapPropertySource
+ 4.4 最后再将一个个配置文件封装成Document。最后遍历这些Documents
+ 4.5 调用（消费性接口）consumer.accept(profile, document));供上层调用访问
+5.读取配置文件
+  5.1 通过FileInputStream和Properties读取配置文件 5.2 通过java.util包中工具类ResourceBundle
+  5.3 手动实现JDBC连接数据库的代码 https://blog.csdn.net/qq_42449963/article/details/103637667
+6.SpringBoot全局配置文件加载原理详解（万字源码分析） https://juejin.cn/post/7083325770755489800#heading-8
