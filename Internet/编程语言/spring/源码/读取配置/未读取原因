@@ -1,0 +1,2 @@
+1.spring boot设置端口不生效的问题 https://blog.csdn.net/bird_tp/article/details/107531980
+ 1.1 pom文件设置成了父级项目（<packaging>pom</packaging>）
