@@ -7,7 +7,7 @@
 6.消费 offset 信息存储
  6.1 集群模式 broker持久化本地维护 6.2 广播模式 消费者持久化本地自己维护(RocketMQ原理学习--消费者消费消息 https://blog.csdn.net/qq924862077/article/details/84797525)
  6.3 RocketMQ是如何知道哪些消息已经被消费过，哪些还未消费呢。
- 6.4 客户端会维护一个消息的offset，客户端拉取完消息之后，broker会随着响应体返回一个下一次拉取的位置，消费者会更新自己的下一次的pull的位置
+ 6.4 客户端会维护一个消息的offset，客户端拉取完消息之后，broker会随着响应体返回一个下一次拉取的位置，消费者会更新自己的下一次的pull的位置（1.每隔5s上报给broker持久化 2.consumer设置启动消费位置）
 7.订阅模式分为集群订阅和广播订阅 （Alibaba阿里 RocketMQ入门实例(订阅消息)） https://blog.csdn.net/qq_30904985/article/details/88965694?share_token=5f237c89-516c-46ef-8569-c435984b41ea
   订阅提示：不同的group才可以实现订阅模式
 8.订阅关系一致（topic tag groupName messageQueue概念） https://help.aliyun.com/document_detail/43523.html?spm=a2c4g.11186623.6.626.532f4fe1WoEYbq
