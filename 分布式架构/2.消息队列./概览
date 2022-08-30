@@ -6,6 +6,7 @@
   6.RoctetMQ基本架构(1.p集群 2.nameserver集群 3.broker 4.consumer集群)
   7.分别功能（1.nameserver 1、和Broker 结点保持长连接 2、维护 Topic 的路由信息） 2.Producer(同步 异步 单向) 在发送消息前从 NameServer 中获取 Topic 的路由信息也就是发往哪个 Broker
    7.3 Broker 消息存储和中转角色，负责存储和转发消息 7.4 consumer 用户部署，支持PUSH和PULL两种消费模式，支持集群消费和广播消费，提供实时的消息订阅机制
+   7.4为什么要主动拉取消息而不使用事件监听方式（防止消息积压在consumer 无法被其他consumer消费）
   8.保证消息的可用性/可靠性/不丢失(1.p 2.broker 3.c)
   9.消息重复(1.业务幂等 2.消息去重)
   10.消息积压（1.消费者扩容 2.消息迁移Queue扩容）
