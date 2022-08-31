@@ -1,3 +1,9 @@
 1.主线程 2.子线程
  1.1 主线程在开启子线程后 线程中的任务交给子线程执行
  1.2 主线程如果没有阻塞 会越过子线程的任务 继续执行
+2.多线程之balking设计模式 https://zhuanlan.zhihu.com/p/51040605
+ 2.1 某个线程因为发现其他线程正在进行和自己相同的工作而放弃即将开始的任务（保存文档时 如果先进行了手动保存 无需进行自动保存 反之亦然）
+ 2.2 解决的是“线程安全的if”（if代码块中修改公共条件变量）语义
+ 2.3 方案：1.synchronized 2.Lock 3.DCL
+ 2.4 Balking模式：线程安全的单例模式 https://www.modb.pro/db/234665
+ 2.5 并发编程模式 - Balking模式 https://blog.csdn.net/it_lihongmin/article/details/109109276
