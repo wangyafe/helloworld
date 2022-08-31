@@ -7,6 +7,7 @@
  1.6 日志实现通过桥接器相互桥接
  1.7 日志实现Log4j2是完全不兼容Log4j1.x的，它也搞了分离的设计，分化成log4j-api和log4j-core，这个log4j-api也是日志接口，log4j-core是日志实现
  1.8 堆栈溢出问题（有些桥接器不能并存 引起死循环：如jcl-over-slf4j和slf4j-jcl jcl API桥接到slf4j slf4j API桥接到jcl，如果同时引用会导致循环调用，进而导致栈溢出）
+ 1.9 spring boot默认使用的日志框架就是logback
 2.java日志体系详解 http://www.chaiguanxin.com/articles/2019/02/16/1550297267938.html
 3.常见的日志框架分析 https://www.cnblogs.com/eaglelihh/p/15003410.html
 4.深入掌握Java日志体系，再也不迷路了 https://www.toutiao.com/article/6905026316341527052/?app=news_article&timestamp=1661911125&use_new_style=1&req_id=20220831095845010151076030243944F5&group_id=6905026316341527052&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=f1803456-e7e2-41ab-8403-45a2623971ea&source=m_redirect
