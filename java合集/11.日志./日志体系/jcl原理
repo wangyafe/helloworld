@@ -1,0 +1,6 @@
+1.原理：通过Class.forName()来判断各个日志框架的核心类是否存在（name列表手动维护）
+ 1.1 org.apache.commons.logging.impl.LogFactoryImpl#discoverLogImplementation（判断是否存在）
+ 1.2 若存在 则使用否则继续遍历列表
+ 1.3 JCL原理介绍 https://blog.csdn.net/Leon_Jinhai_Sun/article/details/105937984
+ 1.4 常见的日志框架分析  https://www.cnblogs.com/eaglelihh/p/15003410.html
+2.缺陷：由于它使用了ClassLoader寻找和载入底层的日志组件， 导致像OSGI这样的框架无法正常工作，由于其不同的插件使用自己的ClassLoader。OSGI的这种机制保证了插件互相独立，然而却使Apache Common Logging无法工作
