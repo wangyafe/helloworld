@@ -1,0 +1,2 @@
+1.直接调用StaticLoggerBinder.getSingleton();看org.slf4j.impl.StaticLoggerBinder这个类有没有在classpath下
+2.常见的日志框架分析 https://www.cnblogs.com/eaglelihh/p/15003410.html
