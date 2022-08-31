@@ -1,3 +1,4 @@
-1.通过判断类是否在classpath（通过全限定类名搜索） org.slf4j.LoggerFactory#bind org.slf4j.LoggerFactory#performInitialization
+1.通过判断类是否在classpath（通过全限定类名搜索） org.slf4j.LoggerFactory#bind org.slf4j.LoggerFactory#performInitialization、
+ 1.1 直接调用StaticLoggerBinder.getSingleton();看org.slf4j.impl.StaticLoggerBinder这个类有没有在classpath下
 2.jar包中直接引用其他包中的类 实现适配器模式
 3.常见的日志框架分析 https://www.cnblogs.com/eaglelihh/p/15003410.html
