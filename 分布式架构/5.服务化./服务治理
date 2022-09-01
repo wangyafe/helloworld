@@ -1,3 +1,3 @@
 1.服务注册与发现 2.限流与熔断 3.降级与隔离 4.动态配置 5.服务监控
 2.你们系统是微服务架构，结果你连服务治理都没听说过？ https://www.toutiao.com/article/7088515174931448331/?log_from=5bd50245f6c4c_1650770100124
-3.微服务应用(二十二)：微服务架构之服务治理 http://www.gxitsky.com/article/1616752873224281
+3.微服务架构之服务治理 http://www.gxitsky.com/2021/03/25/ArchitectureDesign-Microservice-service-governance/
