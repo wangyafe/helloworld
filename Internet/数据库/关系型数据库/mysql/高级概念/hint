@@ -1,0 +1,2 @@
+1.告诉查询优化器需要按照我们告诉它的方式来生成执行计划 2.Hint可基于表的连接顺序、方法、访问路径、并行度等规则对DML（数据操纵语言，Data Manipulation Language）语句产生作用
+3.MySQL的特殊关键字提示：hint https://www.jianshu.com/p/dd90990fe9f1
