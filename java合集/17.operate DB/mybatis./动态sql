@@ -1,5 +1,6 @@
 1.批量操作数据库 https://blog.csdn.net/weixin_42765975/article/details/99688662?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control
-1.1mybatis 详解（五）------动态SQL  https://www.cnblogs.com/ysocean/p/7289529.html
+ 1.1mybatis 详解（五）------动态SQL  https://www.cnblogs.com/ysocean/p/7289529.html
+ 1.2MyBatis官方文档-动态 SQL https://thinkwon.blog.csdn.net/article/details/100887702
 2.1.  <delete id="deleteByUserIds">
         <foreach collection="users" index="index" item="id" separator=";"  open="" close="">
             UPDATE t_rel_agent_skill_group
