@@ -1,0 +1,2 @@
+1.这8种保证线程安全的技术你都知道吗？ https://cloud.tencent.com/developer/article/1718149
+ 1.1 无状态 1.2 不可变 1.3 安全的发布 1.4 volatile 1.5 synchronized 1.6 lock 1.7 cas 1.8 threadlocal
