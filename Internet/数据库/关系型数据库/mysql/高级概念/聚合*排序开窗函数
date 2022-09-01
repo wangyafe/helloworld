@@ -1,0 +1,4 @@
+1.Hive 开窗函数 https://blog.csdn.net/wangpei1949/article/details/81437574
+ 1.1 聚合：count、sum、max、min、avg、first_value、last_value、lag、lead、cume_dist
+ 1.2 排序：rank、dense_rank、ntile、row_number、percent_rank
+2.SQL | 2个高级概念：常见表表达式（CTEs）与临时函数 https://zhuanlan.zhihu.com/p/539648410
