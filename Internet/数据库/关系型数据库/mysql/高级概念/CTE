@@ -1,0 +1,6 @@
+1.MySQL CTE(公共表表达式) https://www.yiibai.com/mysql/cte.html
+2.SQL---公共表表达式（CTEs） https://www.cnblogs.com/HuZihu/p/12598375.html
+3.WITH <query_name> AS (
+    <query_definition>
+)
+SELECT ... FROM <query_name>;
