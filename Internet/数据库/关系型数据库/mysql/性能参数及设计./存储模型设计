@@ -2,3 +2,12 @@
   1.1外键在多表中
 2.动态扩展字段（extra_attr）
  2.1 传参json 2.2 定义扩展类 2.3 解析为json(JSON.toJSONString(overallRiskInfo)) 2.4 转为JavaBean（JSONObject.parseObject(riskEntry.getOverallRiskInfo(), OverallRiskInfo.class);）
+3.表属性
+ 3.1 名字 3.2字段类型 3.3 字段长度 3.4 字段个数 3.5 主键（1.单体自增 2.分库分表后（外部算法生成）） 3.6存储引擎 3.7 NOT NULL 3.8 外键（不使用）3.9 索引 3.10 时间字段 3.11 金额字段（decimal）
+ 3.12 唯一索引 3.13 字符集（1.utf-8 utf8mb4 2.utf-8只能解码三个字节的字符） 3.14 排序规则（COLLATE） 3.15 大字段（1.分表 2.使用mongoDb）
+4.(字符类型)1.时间格式的数据有：date、datetime和timestamp等等可以选择 2.字符类型的数据有：varchar、char、text等可以选择 3.数字类型的数据有：int、bigint、smallint、tinyint
+5.（字段长度）varchar和char是代表字符长度之外，其余的类型都是代表字节长度
+6.（not null）null值只能用is null或者is not null判断
+7.(索引) 1.引个数超过5个了，可以删除部分普通索引，改成联合索引 2.（使用索引二分法查找 全表扫描可能效率比它高）数据重复率非常高的字段，比如：状态，不建议单独创建普通索引。因为即使加了索引，如果mysql发现全表扫描效率更高，可能会导致索引失效
+8.（排序规则）字符排序规则跟字符集有关，比如：字符集如果是utf8mb4，则字符排序规则也是以：utf8mb4_开头的，常用的有：utf8mb4_general_ci、utf8mb4_bin等（utf8mb4_general_ci对大小写不敏感）
+9.聊聊数据库建表的15个小技巧 https://www.toutiao.com/article/7136131710445453828/?log_from=bb80f4b54f744_1662098407064
