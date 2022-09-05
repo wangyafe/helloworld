@@ -1,1 +1,9 @@
-
+1.减少服务器的数量（创新才能达到低成本目标）
+ 1.1 新技术（1.NoSQL（Memcache、Redis等）的出现是为了解决关系型数据库无法应对高并发访问带来的访问压力 2.全文搜索引擎（Sphinx、Elasticsearch、Solr）的出现是为了解决关系型数据库like搜索的低效的问题 3.Hadoop的出现是为了解决传统文件系统无法应对海量数据存储和计算的问题）
+ 1.2 创造全新的理念和技术
+  1.2.1 Facebook为了解决PHP的低效问题，刚开始的解决方案是HipHop PHP，可以将PHP语言翻译为C++语言执行，后来改为HHVM，将PHP翻译为字节码然后由虚拟机执行，和Java的JVM类似。
+  1.2.2 新浪微博将传统的Redis/MC + MySQL方式，扩展为Redis/MC + SSD Cache + MySQL方式，SSD Cache作为L2缓存使用，既解决了MC/Redis成本过高，容量小的问题，也解决了穿透DB带来的数据库访问压力。具体参链接http://www.infoq.com/cn/articles/weibo-platform-archieture
+  1.2.3 Linkedin为了处理每天5千亿的事件，开发了高效的Kafka消息系统
+  1.2.4 将Ruby on Rails改为Java
+  1.2.5 Lua + redis改为Go语言实现
+2.12架构设计复杂度来源之低成本 https://www.toutiao.com/article/7129382527130681891/?log_from=6c95db09bad09_1662371559215
