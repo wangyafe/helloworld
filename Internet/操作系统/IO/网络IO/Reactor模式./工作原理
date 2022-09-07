@@ -1,5 +1,17 @@
-1.reactor主线程包含三个对象（1.reactor(负责 1.select（监听） 2.dispatch（分配给acceptor或者handle）) 2.acceptor(处理连接事件) 3.handle(处理非连接事件（请求）只负责响应)）
-2.processor子线程(业务处理)
-3.Reactor承担所有事件的监听和响应，只在主线程中运行，瞬间高并发时会成为性能瓶颈
-4.不存在单Reactor多进程，主要原因在于如果采用多进程，子进程完成业务处理后，将结果返回给父进程，并通知父进程发送给哪个client，这是很麻烦的事情
+1.单reactor多线程
+ 1.reactor主线程包含三个对象（1.reactor(负责 1.select（监听） 2.dispatch（分配给acceptor或者handle）) 2.acceptor(处理连接事件) 3.handle(处理非连接事件（请求）只负责响应)）
+ 2.processor子线程(业务处理)
+ 3.Reactor承担所有事件的监听和响应，只在主线程中运行，瞬间高并发时会成为性能瓶颈
+ 4.不存在单Reactor多进程，主要原因在于如果采用多进程，子进程完成业务处理后，将结果返回给父进程，并通知父进程发送给哪个client，这是很麻烦的事情
+2.多reactor多进程/线程
+ 2.1 父进程中mainReactor对象通过select监控连接建立事件，收到事件后通过Acceptor接收，将新的连接分配给某个子进程
+ 2.2 子进程的subReactor将mainReactor分配的连接加入连接队列进行监听，并创建一个Handler用于处理连接的各种事件
+ 2.3 当有新的事件发生时，subReactor会调用连接对应的Handler（即第2步中创建的Handler）来进行响应
+ 2.4 Handler完成read→业务处理→send的完整业务流程
 5. 35单服务器高性能模式：Reactor与Proactor（中）（导图） https://www.toutiao.com/article/7138377755053425189/?log_from=470ddeb6916c6_1662539011184
+6.Reactor是非阻塞同步网络模型，因为真正的read和send操作都需要用户进程同步操作 
+ 6.1 Nginx采用的是多Reactor多进程，采用多Reactor多线程的实现有Memcache和Netty 
+ 6.2 进程请求IO（无论是硬盘还是网络IO），先让内核读取数据到内核缓存，然后从内核缓存读取到进程。
+ 6.3 这里面就有2个IO等待时间，第一个是读取到内核缓存，第二个是读取到进程。前者花费的时间远远大于后者。
+ 6.4 在第一个时间中进程不做等待就是NIO，即非阻塞。第二个时间中进程也不需要等待就是AIO，即异步
+ 6.5 36单服务器高性能模式：Reactor与Proactor（下） https://www.toutiao.com/article/7138376314122289700/?log_from=c3decf018d258_1662541574332
