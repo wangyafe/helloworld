@@ -3,3 +3,8 @@
  1.I/O模型：阻塞、非阻塞、同步、异步 2.进程模型：单进程、多进程、多线程
 3.单服务器高性能模式：PPC与TPC
 4.32单服务器高性能模式：PPC与TPC（上） https://www.toutiao.com/article/7137241364684784143/?log_from=27f3de741959e_1662464455761
+5.33单服务器高性能模式：PPC与TPC（下） https://www.toutiao.com/article/7137242782732648993/?log_from=6fccd3e222138_1662530862457
+ 1.PPC和TPC能够支持的最大连接数差不多，都是几百个(占资源和上下文切换很耗费性能 C/C++的喜欢用多进程，Java用多线程)
+  1.1 BIO：阻塞IO，PPC和TPC属于这种
+  1.2 NIO：多路复用IO，reactor就是基于这种技术
+  1.3 AIO：异步io，Proactor就是基于这种技术
