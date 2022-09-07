@@ -6,3 +6,5 @@
 2.分库分表下非拆分键的查询方案（异构索引表） https://blog.csdn.net/sinat_29774479/article/details/107555322
 3.中间件（代理数据库 如：mycat,mysql Router obproxy）：伪装成数据库，负载请求，解析或转发到真正数据库
   3.1 连接代理 像操作单表一样操作
+4.27高性能数据库集群之分库 https://www.toutiao.com/article/7135346826148069891/?log_from=a40f7aaf86ec3_1662519290965
+5.28高性能数据库集群之分表 https://www.toutiao.com/article/7135360334767997440/?log_from=8a3393897b3bf_1662520452698
