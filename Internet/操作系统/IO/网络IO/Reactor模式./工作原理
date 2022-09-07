@@ -1,0 +1,5 @@
+1.reactor主线程包含三个对象（1.reactor(负责 1.select（监听） 2.dispatch（分配给acceptor或者handle）) 2.acceptor(处理连接事件) 3.handle(处理非连接事件（请求）只负责响应)）
+2.processor子线程(业务处理)
+3.Reactor承担所有事件的监听和响应，只在主线程中运行，瞬间高并发时会成为性能瓶颈
+4.不存在单Reactor多进程，主要原因在于如果采用多进程，子进程完成业务处理后，将结果返回给父进程，并通知父进程发送给哪个client，这是很麻烦的事情
+5. 35单服务器高性能模式：Reactor与Proactor（中）（导图） https://www.toutiao.com/article/7138377755053425189/?log_from=470ddeb6916c6_1662539011184
