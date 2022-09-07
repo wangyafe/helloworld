@@ -1,0 +1,12 @@
+1.背景：同步非阻塞：
+ 1.进程IO两阶段（1.网卡拷贝到内核空间 2.内核空间拷贝到进程空间）
+ 2.多reactor多进程中 子进程的subReactor将mainReactor分配的连接加入连接队列进行监听，并创建一个Handler用于处理连接的各种事件 
+ 3.handle在read数据时把内核数据拷贝到进程空间 会产生阻塞
+2.进程将proactor和handler注册到内核中，内核回调handler的业务处理 read和send异步 不阻塞read
+ 2.1 Proactor Initiator负责创建Proactor和Handler，并将Proactor和Handler都通过Asynchronous Operation Processor注册到内核
+ 2.2 Asynchronous Operation Processor负责处理注册请求，并完成I/O操作
+ 2.3 Asynchronous Operation Processor完成I/O操作后通知Proactor
+ 2.4 Proactor根据不同的事件类型回调不同的Handler进行业务处理
+ 2.5 Handler完成业务处理，Handler也可以注册新的Handler到内核进程
+3.让我们，从头到尾，通透I/O模型 https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493642&idx=1&sn=113839708c9a0acf9fb8e4a9f5fc02bc&chksm=c1618573f6160c650b0dd2e1dede03f8bdbca06668697f756e8f2262d86d6b3c15622ecc0e68&scene=178&cur_album_id=2087617432768086020#rd
+4.36单服务器高性能模式：Reactor与Proactor（下） https://www.toutiao.com/article/7138376314122289700/?log_from=c3decf018d258_1662541574332
