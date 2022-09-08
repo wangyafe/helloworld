@@ -1,0 +1,7 @@
+1.CAP关注的粒度是数据(是分布式数据库系统理论)
+ 1.c(一致性) 2.a(可用性) 3.p(分区容错 即不能进行主从或者主主复制)
+2.用户分区的分布式架构（用户的读写都在一个实例上）
+3.cap是忽略延迟的 
+4.base(基本可用（Basically Available 允许损失部分可用性，即保证核心可用）、软状态（ Soft State 数据不一致时期）、最终一致性（ Eventual Consistency）)
+5.BASE是CAP理论中AP方案的延伸（要求基本可用）
+6.40分布式系统CAP ACID BASE细节 https://www.toutiao.com/article/7139797656271913476/?log_from=95f831755ed67_1662633357614 39分布式系统CAP理论及应用 https://www.toutiao.com/article/7139793438781817382/?log_from=b6d8edc3cf43a_1662632440111
