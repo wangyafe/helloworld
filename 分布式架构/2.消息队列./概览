@@ -11,7 +11,7 @@
   9.消息重复(1.业务幂等 2.消息去重)
   10.消息积压（1.消费者扩容 2.消息迁移Queue扩容）
    10.CommitLog文件什么时候进行清除 （1.过期 2.磁盘 遇到了消息堆积，但是问题不大 https://www.51cto.com/article/687264.html）
-  11.顺序消息（1.部分顺序 同 ID 的消息发送到同一个MessageQueue 消费者不能并发消费 MessageQueueSelector 类来控制把消息发往哪个MessageQueue  2.全局（队列模式））
+  11.顺序消息（消息内容不一致 消费需要写操作触发顺序消息）（1.部分顺序 同 ID 的消息发送到同一个MessageQueue 消费者不能并发消费 MessageQueueSelector 类来控制把消息发往哪个MessageQueue  2.全局（队列模式））
   12.消息过滤（1.broker 2.consumer(1.tag 2.sql表达式 3.filter server)）
   13.延时消息(1.临时存储 2.定时任务)
   14.分布式消息事务和半消息(1.二次确认 2.消息回查)
