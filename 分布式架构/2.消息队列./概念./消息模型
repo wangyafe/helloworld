@@ -1,0 +1,4 @@
+1.消息队列漫谈：什么是消息模型？ https://zhuanlan.zhihu.com/p/99791229
+ 1.1 RabbitMQ 队列模型 1.2 RocketMQ 发布/订阅者模型 1.3 RocketMQ 与 kafka 的消息实现虽然不同，但是消息模型是完全一致的
+2.使用队列模型时（一个groupId 消费一个队列） 实现发布/订阅模式 可用（exchange）交换机绑定多个队列 在消费端绑定交换机创建queue 将消息发送给多个queue
+ https://how2j.cn/k/message/message-rabbitmq-type/2031.html
