@@ -1,0 +1,5 @@
+1.原生的分布式数据库是在数据库引擎层面解决了分布式的问题 用担心是否存在跨库操作，是否有全局一致性的问题等等，这些都由数据库内部解决了
+ 1.1 架构典型的代表，国外就是谷歌的 Google Spanner 数据库，国内就是 OceanBase数据库
+2.分布式数据库与集中式数据库的差异 https://www.modb.pro/db/53627
+3.原生分布式数据库与分库分表中间件、云原生数据库有何区别？ https://www.163.com/dy/article/GU3AGQAR0511FQO9.html
+4.OceanBase 数据库整体架构 https://www.oceanbase.com/docs/enterprise/oceanbase-database-cn/V3.2.3/10000000000354584
