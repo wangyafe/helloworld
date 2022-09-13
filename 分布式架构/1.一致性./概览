@@ -7,12 +7,6 @@
    1.1.5 分布式事务(1)---2PC和3PC原理（建立统一协调者） https://www.cnblogs.com/qdhxhz/p/11167025.html
     1.2pc问题：1.阻塞 2.协调者崩溃 导致参与者阻塞  
     2.3pc改进：1.先获取数据库锁 询问是否可以进行commit操作 2.在preCommit阶段引入 参与者超时机制
- 1.3 mysql用的cap中哪两个_CAP理论中的P到底是个什么意思？（cap） https://blog.csdn.net/weixin_28746457/article/details/113954353
- 1.4 常说的分布式系统核心理论CAP与BASE到底是什么 https://www.toutiao.com/item/7011865349721276940/?app=news_article&timestamp=1632589262&use_new_style=1&req_id=202109260101020101502152272555C4EC&group_id=7011865349721276940&share_token=bf681cff-85de-47df-87ec-734d6519a521
-2.paxos算法
-描述：数据库集群同时对外提供服务（和冷备、读写分离有区别） 若两个客户端同时修改不同节点的同一个值 出现数据不一致的根本原因是出现了数据的覆盖现象，因为在节点内部无法确认客户端层面数据请求的先后顺序。
-大白话理解“最晦涩”的Paxos算法及在数据库高可用上的使用(每个节点会担任三个角色1.proposer2.acceptor3.learner分为三步：1.prepare 将这次修改的proposal及版本号发送给acceptor 如果版本号为大则返回 否则拒绝只有收到半数以上的响应可进入下一阶段 2.accept 统一数据 3.将决策通知各个learner 终止这次选举) https://database.51cto.com/art/201801/563334.htm
-3.raft算法
 4.Redis和MySQL分布式双写一致性 https://blog.csdn.net/luxiaoruo/article/details/106637213?spm=1001.2014.3001.5501
   4.1 1. 只可以保证最终一致性：先更新数据库 然后缓存设置过期时间 2.canal中间件：canel伪装成mysql slave 将MySQL的binlog文件同步到Canal 由Canal进行下一步处理，比如存入MQ、Redis等，但是可能会存在些许延迟
   4.2 读数据步骤 1.读缓存 2.ifnull 读DB 3.set缓存
