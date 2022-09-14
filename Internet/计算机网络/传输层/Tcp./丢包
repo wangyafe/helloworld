@@ -1,0 +1,3 @@
+1.灵魂拷问 TCP，你要投降了吗？ https://www.toutiao.com/article/7135619026491032098/?app=news_article&timestamp=1661393195&use_new_style=1&req_id=202208251006340101580460701A2C1131&group_id=7135619026491032098&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=04849629-a59f-4e7b-9d8d-5e6fe056fa41&source=m_redirect
+ 1.1 服务端和客户端在握手和挥手过程中的状态（导图）
+ 1.2 第二次握手发送SYN-ACK包丢失 双方都会重传 其余单方重传
