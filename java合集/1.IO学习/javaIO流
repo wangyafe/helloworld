@@ -1,0 +1,10 @@
+1.java，write()方法后写flush()的作用 https://blog.csdn.net/AnneQiQi/article/details/51295218
+2.史上第二全的 java 文件操作和数据读写 https://xie.infoq.cn/article/0882f298f16c3d9fa6133a950
+ 2.1字符=2字节 1字节(byte)=8位 一个汉字占两个字节长度(因为汉字博大精深，所以有些汉字也会占到「三个字节」的长度)；
+ 2.2「字节流」：每次读取(写出)一个字节，当传输的「资源文件」有中文时，就会出现乱码；
+ 2.3「字符流」：每次读取(写出)两个字节，有中文时，使用该流就可以正确传输显示中文；
+ 2.4 通常情况下，File类可以用来判断文件或获得文件属性，而文件内容的处理则可以借助字节流和字符流。
+ 2.5 字节流：InputStream、OutputStream
+ 2.6 字符流：Reader、Writer
+ 2.7 输入流（用来读取）InputStream Reader输出流（用来写入）OutputStream Writer
+3.一文带你了解javaIO流 https://www.toutiao.com/article/7142879454115873316/?app=news_article&timestamp=1663130952&use_new_style=1&req_id=202209141249110101501580701001736D&group_id=7142879454115873316&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=895c18a6-6f95-4372-a694-8b619e195eae&source=m_redirect
