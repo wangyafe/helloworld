@@ -1,2 +1,2 @@
-1.三次握手（1.SYN(请求连接)包 2.ACK（应答包））四次挥手（1.FIN(关闭连接包) 2.ACK(应答包)）
+1.三次握手（1.SYN(请求连接)包 2.第二次握手时syn-ack包请求连接和应答包一起发送 3.ACK（应答包））四次挥手（1.FIN(关闭连接包) 2.ACK(应答包 内核会自动回复 ACK) 3.fin 4.ack）
   1.1 Socket原理讲解 https://blog.csdn.net/pashanhu6402/article/details/96428887 1.2 为什么网络 I/O 会被阻塞？ https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247493163&idx=1&sn=6e579a0433157c31beaa87e7defb26ac&chksm=c1618b52f61602449eb8212a4a6b54a025918fea2824c8235e2924a836c0759eea777cce7ce7&scene=178&cur_album_id=2087617432768086020#rd
