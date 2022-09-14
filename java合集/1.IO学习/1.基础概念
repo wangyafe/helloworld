@@ -1,9 +1,7 @@
-1.java，write()方法后写flush()的作用 https://blog.csdn.net/AnneQiQi/article/details/51295218
 2.图解 | 原来这就是 IO 多路复用 https://zhuanlan.zhihu.com/p/360878783
   2.1 为什么网络 I/O 会被阻塞？ https://mp.weixin.qq.com/s/BH1H-JUhKqgaAjaIx5k0Fw
    1.建立连接后 连接会被放到连接队列里（1.连接是已完成的 可用的socket文件 2.线程是任务调度最小单位）
 3.MinIO 文件存储服务快速入门 https://segmentfault.com/a/1190000038745864
-4.史上第二全的 java 文件操作和数据读写 https://xie.infoq.cn/article/0882f298f16c3d9fa6133a950
 5.建立IO要素 1.打开网络通信接口（sokect对象）绑定、监听 2.建立连接得到文件描述符（connfd 阻塞） 3.根据文件描述符读数据(阻塞) 4.dosomething 5.close(关闭连接资源)
    5.1 用户态多线程调用read 非阻塞IO
    5.2 OS提供非阻塞read 若文件描述符未就绪 立即返回错误值（-1）而不是阻塞等待 需用户循环调用read 切换到内核态（仍是多线程）
