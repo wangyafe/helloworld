@@ -1,0 +1,9 @@
+1. 分布式计算+分布式文件系统，前者其实就是 MapReduce，后者是 HDFS 2.hadoop是hive和hbase的基础，hive依赖hadoop，而hbase仅依赖hadoop的hdfs模块
+2.HDFS采用master/slave架构。一个HDFS集群由一个Namenode和一定数目的Datanodes组成。
+ 1.Namenode 是一个中心服务器，负责管理文件系统的名字空间（namespace），以及客户端对文件的访问。
+ 2.集群中的Datanode一般是一个节点一个，负责管理它所在节点上的存储。
+ 3.HDFS暴露了文件系统的名字空间，用户能够以文件的形式在上面存储数据。
+ 4.从内部看，一个文件其实被分成一个或多个数据块，这些块存储在一组Datanode上。
+ 5.Namenode 执行文件系统的名字空间操作，比如打开、关闭、重命名文件或目录。它也负责确定数据块到具体Datanode节点的映射。
+ 6.Datanode负责处理文件系统客户端的读写请求。在Namenode的统一调度下进行数据块的创建、删除和复制操作。
+3.大数据之hadoop / hive / hbase 的区别是什么？有什么应用场景？ http://blog.itpub.net/29209863/viewspace-2754686/
