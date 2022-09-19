@@ -1,8 +1,10 @@
 1.关系数据库（1.强大的SQL功能 2.ACID的属性 3.行数据库）
  1.存储的是行记录，无法存储数据结构（比如列表list） 2.schema(表结构)扩展很不方便(扩展字段) 3.在大数据场景下I/O较高（某一列进行运算，会返回整行） 4.全文搜索功能比较弱（like可能导致索引失效）
-2.NoSQL数据库（not only sql）
+2.NoSQL数据库（not only sql）面向互联网应用，如web2.0，半结构化，非结构化数据的存储
  2.1 K-V存储：解决关系数据库无法存储数据结构的问题，以Redis为代表
  2.2 文档数据库：解决关系数据库强schema约束的问题，以MongoDB为代表（no-schema特性）
  2.3 列式数据库：解决关系数据库大数据场景下的I/O问题，以HBase为代表
  2.4 全文搜索引擎：解决关系数据库的全文搜索性能问题，以Elasticsearch为代表
-3.29高性能NoSQL https://www.toutiao.com/article/7135778799002010119/?app=news_article&timestamp=1661597735&use_new_style=1&req_id=202208271855340101581491540854E4C6&group_id=7135778799002010119&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=31ff5946-0894-4df7-bf82-82c612e60361&source=m_redirect
+3.NewSQL数据库：也是关系型数据库，吸收了传统关系型数据库和NoSql数据库的优点。可实现强一致性(传统关系型DB优点)，具有强的水平可扩展性(NoSql DB优点)
+ 3.1 NewSQL ---- 常用NewSQL数据库梳理 https://blog.csdn.net/weixin_41715077/article/details/107447342
+4.29高性能NoSQL https://www.toutiao.com/article/7135778799002010119/?app=news_article&timestamp=1661597735&use_new_style=1&req_id=202208271855340101581491540854E4C6&group_id=7135778799002010119&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=31ff5946-0894-4df7-bf82-82c612e60361&source=m_redirect
