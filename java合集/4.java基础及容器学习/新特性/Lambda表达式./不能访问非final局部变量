@@ -1,0 +1,5 @@
+1.局部变量（方法里面） 2.全局变量（成员变量） 3.lambda表达式是由匿名内部类演变过来 
+ 1.1局部变量会保存在栈中，方法结束局部变量也会出栈，随后会被垃圾回收掉，而此时，内部类对象可能还存在 访问就会出问题
+ 1.2解决办法就是把匿名内部类要访问的局部变量复制一份作为内部类对象的成员变量
+ 1.3复制变量的方式会造成一个数据不一致的问题final修饰这个变量，使它成为一个常量，这样就保证了数据的一致性
+2.【Java异常】Variable used in lambda expression should be final or effectively final https://blog.csdn.net/weixin_44299027/article/details/117333667
