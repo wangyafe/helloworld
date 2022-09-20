@@ -5,6 +5,7 @@ https://blog.csdn.net/zzzgd_666/article/details/80407002（控制日志输出级
 https://blog.csdn.net/thekenofDIS/article/details/80439776（配置详解）
 https://segmentfault.com/a/1190000039073461（日志脱敏原理）
 https://blog.csdn.net/bruce128/article/details/42744323（指定日志到文件）
+1.2 Logger对象和日志水平决定写入那个日志文件
 2.lombok + slf4j注解
 https://blog.lqdev.cn/2018/08/22/springboot/chapter-twenty-three/（日志详解）
 https://blog.lqdev.cn/2018/08/25/springboot/chapter-twenty-five/（自定义appender）
