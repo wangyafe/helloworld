@@ -2,4 +2,4 @@
 2.Java多线程学习七：线程池的 4 种拒绝策略和 6 种常见的线程池 https://blog.csdn.net/zhanghai412/article/details/114039783?share_token=b37185b9-3d67-4818-9f9d-ffffddc01ce2#tt_daymode=1&tt_font=m
 3.多线程-JUC线程池-ThreadFactory线程工厂 https://www.cnblogs.com/bjlhx/p/7609100.html?share_token=20d54615-738c-4b91-b504-ce2863d409ee
 4.参数：高并发面试：线程池的七大参数？手写一个线程池 https://www.toutiao.com/article/6984274275834266148/?app=news_article&timestamp=1652191759&use_new_style=1&req_id=2022051022091801015814901903029FBD&group_id=6984274275834266148&share_token=d7dc179d-229e-4b11-9c88-16fd575c84ac
-5.Java | 如何设置线程池大小？ https://www.huaweicloud.com/articles/d1f2f274673189cea78abef6809fef43.html
+5.线程池的核心线程数 设置大小与cpu 的关系 https://blog.csdn.net/weixin_43975771/article/details/113099180
