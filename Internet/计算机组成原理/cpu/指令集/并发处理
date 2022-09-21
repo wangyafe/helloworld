@@ -1,0 +1,3 @@
+1.并发原理—CPU原子性指令（一）https://www.toutiao.com/article/7145472400481501703/?app=news_article&timestamp=1663690197&use_new_style=1&req_id=20220921000956010158037072210C9451&group_id=7145472400481501703&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=6f944d04-14ac-4996-a916-acb14259cf39&source=m_redirect
+ 1.1 1.对总线上锁 2.对缓存行上锁 3.原子性指令 
+ 1.2 应用程序使用自身语言提供的并发操作函数库，比如java的juc包，而这些函数库又会封装OS的系统调用或者使用glibc库，OS的系统调用最终会使用CPU提供的原子性指令
