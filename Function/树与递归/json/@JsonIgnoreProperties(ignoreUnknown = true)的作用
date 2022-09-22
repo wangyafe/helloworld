@@ -1,0 +1,4 @@
+1.将json参数存放到实体类中
+ 1.ObjectMapper mapper=new ObjectMapper(); responseOrderInfo = mapper.readValue("JOSN字符串", "实体类".class); 2.responseOrderInfo = JSON.parseObject("JOSN字符串", "实体类".class);
+1.@JsonIgnoreProperties(ignoreUnknown = true) 说明 https://blog.csdn.net/wuzhong8809/article/details/90378722
+ 1.1 防止json转成实体类时因为字段的缺少或过多而报错
