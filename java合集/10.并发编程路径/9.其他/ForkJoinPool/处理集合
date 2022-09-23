@@ -1,4 +1,4 @@
-1.ForkJoinPool处理集合 https://blog.csdn.net/m0_37787662/article/details/123102086?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&utm_relevant_index=9
+1.ForkJoinPool处理集合（有返回值） https://blog.csdn.net/m0_37787662/article/details/123102086?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&utm_relevant_index=9
  List<xxx> list = xxx;
 ForkJoinPool forkJoinPool = new ForkJoinPool(核心线程数量);
 try {
@@ -10,3 +10,22 @@ try {
 }finally {
    forkJoinPool.shutdown();
 }
+2.JDK8-Fork/Join和CompletableFuture的使用（无返回值） https://blog.csdn.net/qq_32331073/article/details/81503475
+ 1.ForkJoinPool forkJoinPool = new ForkJoinPool(3);  
+forkJoinPool.submit(() -> {  
+    firstRange.parallelStream().forEach((number) -> {
+        try {
+            Thread.sleep(5);
+        } catch (InterruptedException e) { }
+    });
+});
+
+ForkJoinPool forkJoinPool2 = new ForkJoinPool(3);  
+forkJoinPool2.submit(() -> {  
+    secondRange.parallelStream().forEach((number) -> {
+        try {
+            Thread.sleep(5);
+        } catch (InterruptedException e) {
+        }
+    });
+});
