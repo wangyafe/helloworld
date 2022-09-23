@@ -4,3 +4,5 @@
 3.再谈CompletableFuture之循环创建并发线程 https://juejin.cn/post/6920867997984751630
 4.【Java|多线程】使用CompletableFuture 捕获异常，CompletableFuture的异常处理 ？ 
  4.1 exceptional()处理异常结果 https://blog.csdn.net/qq_28505809/article/details/112565706
+5.JDK8-Fork/Join和CompletableFuture的使用 https://blog.csdn.net/qq_32331073/article/details/81503475
+ 5.1 使用流并行远程
