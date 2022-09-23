@@ -1,0 +1,6 @@
+1.RecursiveTask和RecursiveAction的使用 https://www.cnblogs.com/yaochunhui/p/13452737.html
+ 1.1 Fork就是把一个大任务切分为若干子任务并行的执行 2.Join就是合并这些子任务的执行结果，最后得到这个大任务的结果
+ 1.2 工作窃取
+ 1.3 ForkJoinPool的submit(ForkJoinTask<T> task)或者invoke(ForkJoinTask<T> task)来执行指定任务。其中ForkJoinTask代表一个可以并行、合并的任务。ForkJoinTask是一个抽象类，它有两个抽象子类：RecursiveAction和RecursiveTask
+ 1.4 RecursiveTask代表有返回值的任务 RecursiveAction代表没有返回值的任务
+2.计算两种方式rt差值
