@@ -1,0 +1,18 @@
+1.RecursiveTask和RecursiveAction的使用 https://www.cnblogs.com/yaochunhui/p/13452737.html
+Instant start = Instant.now();
+        LongStream.rangeClosed( 0,110 )
+                //并行流
+                .parallel()
+                .reduce( 0,Long::sum );
+
+
+
+
+        LongStream.rangeClosed( 0,110 )
+                //顺序流
+                .sequential()
+                .reduce( 0,Long::sum );
+
+
+        Instant end = Instant.now();
+        System.out.println("耗费时间"+ Duration.between( start,end ).toMillis());
