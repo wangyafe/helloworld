@@ -2,3 +2,5 @@
  1.1 是否需要任务 A 和任务 B 的执行结果 1.2是否需要返回值
 2.并行远程调用(需要返回值) allOf
 3.再谈CompletableFuture之循环创建并发线程 https://juejin.cn/post/6920867997984751630
+4.【Java|多线程】使用CompletableFuture 捕获异常，CompletableFuture的异常处理 ？ 
+ 4.1 exceptional()处理异常结果 https://blog.csdn.net/qq_28505809/article/details/112565706
