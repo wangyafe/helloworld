@@ -1,0 +1,12 @@
+1.ForkJoinPool处理集合 https://blog.csdn.net/m0_37787662/article/details/123102086?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-123102086-blog-79696863.pc_relevant_aa_2&utm_relevant_index=9
+ List<xxx> list = xxx;
+ForkJoinPool forkJoinPool = new ForkJoinPool(核心线程数量);
+try {
+   forkJoinPool.submit(() -> list.parallelStream().forEach(t-> {
+        xxx逻辑;
+   })).get();
+}catch (Exception e){
+   log.error(e.getMessage(),e);
+}finally {
+   forkJoinPool.shutdown();
+}
