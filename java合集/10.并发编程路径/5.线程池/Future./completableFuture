@@ -1,0 +1,4 @@
+1.CompletableFuture最佳实践 https://blog.csdn.net/m0_37787662/article/details/124963363?spm=1001.2014.3001.5502
+ 1.1 是否需要任务 A 和任务 B 的执行结果 1.2是否需要返回值
+2.并行远程调用(需要返回值) allOf
+3.再谈CompletableFuture之循环创建并发线程 https://juejin.cn/post/6920867997984751630
