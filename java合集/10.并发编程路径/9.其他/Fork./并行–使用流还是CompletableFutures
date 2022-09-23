@@ -1,0 +1,2 @@
+1.JDK8-Fork/Join和CompletableFuture的使用 https://blog.csdn.net/qq_32331073/article/details/81503475
+ 1.1cpu bound(stream) 1.2 IO bound(completableFuture)
