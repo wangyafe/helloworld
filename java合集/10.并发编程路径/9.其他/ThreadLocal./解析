@@ -3,5 +3,3 @@
  1.2ThreadLocal设置成弱引用：当threadLocal==null时 theadLocalMap一直强引用着 ThreadLocal对象，这会让 ThreadLocal对象 以及对应的value对象内存无法释放，导致内存泄漏
  1.3 Java ThreadLocal 实现原理（维护了ThreadLocalMap对象，使线程之间的数据天然隔离） https://segmentfault.com/a/1190000022351511
  1.4 ThreadLocal源码解析 https://www.toutiao.com/article/7087437040803119657/?app=news_article&timestamp=1650190504&use_new_style=1&req_id=202204171815040101581671401E89A68E&group_id=7087437040803119657&share_token=f0345273-406b-43c2-bb46-dba66dc2fda7
-2.ThreadLocal使用不好，小心造成内存泄露！ https://blog.csdn.net/qq_33591903/article/details/106736396?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159737660519724811851498%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=159737660519724811851498&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-1-106736396.pc_v2_rank_blog_v1&utm_term=ThreadLocal&spm=1018.2118.3001.4187
- 2.1 预防内存泄露的最佳实践是，在使用完ThreadLocal后，先调用remove()，再置为null。tl.remove()能够使得ThreadLocalMap删除该ThreadLocal所在的Entry，以及将value置为null，tl=null使得ThreadLocal对象真正地被回收掉
