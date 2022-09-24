@@ -1,0 +1,5 @@
+1.ThreadLocal用完没清空
+  （1.ThreadLocal即使使用了WeakReference（弱引用）也可能会存在内存泄露问题，因为 entry对象中只把key(即threadLocal对象)设置成了弱引用，但是value值没有
+    2.需要在finally代码块中，调用remove方法清理没用的数据）
+ 2.ThreadLocal使用不好，小心造成内存泄露！ https://blog.csdn.net/qq_33591903/article/details/106736396?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159737660519724811851498%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=159737660519724811851498&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-1-106736396.pc_v2_rank_blog_v1&utm_term=ThreadLocal&spm=1018.2118.3001.4187
+ 2.1 预防内存泄露的最佳实践是，在使用完ThreadLocal后，先调用remove()，再置为null。tl.remove()能够使得ThreadLocalMap删除该ThreadLocal所在的Entry，以及将value置为null，tl=null使得ThreadLocal对象真正地被回收掉
