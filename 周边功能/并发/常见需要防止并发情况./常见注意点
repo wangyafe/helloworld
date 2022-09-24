@@ -1,0 +1,6 @@
+1.聊聊并发编程的10个坑 https://developer.aliyun.com/article/926534
+ 1. SimpleDateFormat线程不安全 2. 双重检查锁的漏洞 3. volatile的原子性 4. 死锁 5. 没释放锁 6. HashMap导致内存溢出 7. 使用默认线程池 8. @Async注解的陷阱 （产生大量的线程，从而导致OOM问题）
+ 9. 自旋锁浪费cpu资源（1.LockSupport类的parkNanos方法 2.相当于调用了Thread.Sleep方法） 10. ThreadLocal用完没清空
+  （1.ThreadLocal即使使用了WeakReference（弱引用）也可能会存在内存泄露问题，因为 entry对象中只把key(即threadLocal对象)设置成了弱引用，但是value值没有
+    2.需要在finally代码块中，调用remove方法清理没用的数据）
+ 
