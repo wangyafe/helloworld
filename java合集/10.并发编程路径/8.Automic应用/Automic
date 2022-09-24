@@ -1,3 +1,5 @@
 通过原子方式更新数据的工具类
 1.AtomicStampedReference 使用方法 https://www.jianshu.com/p/ab955e2a3c87?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
 2.这一次，彻底搞懂Java并发包中的Atomic原子类(Unsafe实现CAS 实现原子类 线程调度) https://zhpanvip.gitee.io/2021/06/26/41-atomic-cas/
+3.AtomicInteger的底层使用 1.自旋锁 2.CAS 
+ 3.1 自旋锁说白了就是一个死循环(1.for (;;)  2.whlie(ture))
