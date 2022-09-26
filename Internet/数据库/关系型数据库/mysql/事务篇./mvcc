@@ -1,0 +1,4 @@
+1.再有人问你什么是MVCC，就把这篇文章发给他 https://www.toutiao.com/article/7147531154118345253/?app=news_article&timestamp=1664174781&use_new_style=1&req_id=202209261446210102121621512506AA75&group_id=7147531154118345253&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=9d0d11b7-c391-40cd-a06e-071ddaa937f2&source=m_redirect
+ 1.1 读快照链表 undo log中保存了历史数据
+ 1.2 Read View 用来判断具体哪一个快照是可见的
+ 1.3 Read View + Undo Log来实现的
