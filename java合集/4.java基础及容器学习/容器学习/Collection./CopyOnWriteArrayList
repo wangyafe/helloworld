@@ -1,0 +1,5 @@
+1.CopyOnWriteArrayList适用场景与原理分析 https://blog.csdn.net/qq_40436854/article/details/120490738?share_token=cc8ad22d-e0c6-44c0-b208-0d449dfb149f
+ 1.1 写入副本后 将原来引用替换为副本引用
+4.写入时复制（CopyOnWrite）（CopyOnWrite 思想） https://www.cnblogs.com/jmcui/p/12377081.html
+          原因：不能并发读写 1.Java ConcurrentModificationException异常原因和解决方法 https://www.cnblogs.com/dolphin0520/p/3933551.html
+          2.多线程进阶（三）-- JUC中CopyOnWriteArrayList()解析及为什么要复制 
