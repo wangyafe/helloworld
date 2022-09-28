@@ -1,0 +1,20 @@
+1.mmap + write（内存映射）
+ 1.1 mmap（1.系统函数 2.内存映射） 将内核中读缓冲区（read buffer）的地址与用户空间的缓冲区（user buffer）进行映射，从而实现内核缓冲区与应用程序内存的共享，
+ 1.2 省去了将数据从内核读缓冲区（read buffer）拷贝到用户缓冲区（user buffer）的过程 1.3 整个拷贝过程会发生 4 次上下文切换，1 次 CPU 拷贝和 2 次 DMA 拷贝
+ 1.5（1.内核空间的读缓冲区（read buffer）到网络缓冲区（socket buffer） 内核到用户空间） 通过cpu拷贝 1.6 从硬件到内核是dma（设备控制器）拷贝
+ 1.7 调用了几次系统函数 发生了几次上下文切换（内核态到用户态的切换）
+2.sendfile（内核IO通道）
+ 2.1 通过 sendfile 系统调用，数据可以直接在内核空间内部进行 I/O 传输，从而省去了数据在用户空间和内核空间之间的来回拷贝、
+ 2.2 sendfile 调用中 I/O 数据对用户空间是完全不可见的，整个拷贝过程会发生 2 次上下文切换，1 次 CPU 拷贝和 2 次 DMA 拷贝。
+3.Sendfile + DMA gather copy
+ 3.1 Linux2.4 引入 ，将内核空间的读缓冲区（read buffer）中对应的数据描述信息（内存地址、地址偏移量）记录到相应的网络缓冲区（socketbuffer）中
+ 3.2 由 DMA 根据内存地址、地址偏移量将数据批量地从读缓冲区（read buffer）拷贝到网卡设备中
+ 3.3 这样就省去了内核空间中仅剩的 1 次 CPU 拷贝操作，发生 2 次上下文切换、0 次 CPU 拷贝以及 2 次 DMA 拷贝
+4.splice
+ 4.1 Linux2.6.17 版本引入，在内核空间的读缓冲区（read buffer）和网络缓冲区（socket buffer）之间建立管道（pipeline）、
+ 4.2 从而避免了两者之间的 CPU 拷贝操作，2 次上下文切换，0 次 CPU 拷贝以及 2 次 DMA 拷贝
+5.写时复制
+ 5.1 过尽量延迟产生私有对象中的副本，写时复制最充分地利用了稀有的物理资源
+6.Java 中零拷贝
+7.mmap()用于共享内存的两种方式 https://nieyong.github.io/wiki_cpu/mmap%E8%AF%A6%E8%A7%A3.html
+8.虚拟内存 & I/O & 零拷贝总结 https://www.toutiao.com/article/7148032464730997279/?app=news_article&timestamp=1664293294&use_new_style=1&req_id=202209272341330101511430470C25A55E&group_id=7148032464730997279&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=96b59e46-da4d-43a1-8e07-e144736d6f4e&source=m_redirect
