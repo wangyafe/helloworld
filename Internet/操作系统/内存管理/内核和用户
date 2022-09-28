@@ -1,3 +1,4 @@
 1.内核态：OS操作硬件的接口 2.用户态：用户进程 3.开始执行操作系统代码，进入内核模式
 2.内核空间：设备控制器 2.1用户空间：内存
 3.内核空间分为：1.读缓冲区（read buffer） 2.网络缓冲区（socket buffer）
+ 3.1 虚拟内存 & I/O & 零拷贝总结 https://www.toutiao.com/article/7148032464730997279/?app=news_article&timestamp=1664293294&use_new_style=1&req_id=202209272341330101511430470C25A55E&group_id=7148032464730997279&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=96b59e46-da4d-43a1-8e07-e144736d6f4e&source=m_redirect
