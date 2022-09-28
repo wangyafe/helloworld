@@ -8,9 +8,7 @@
     4.1.1 List
       4.1.1.1 ArrayList
        4.面试官问线程安全的List，看完再也不怕了！ https://cloud.tencent.com/developer/article/1513967
-       4.写入时复制（CopyOnWrite）（CopyOnWrite 思想） https://www.cnblogs.com/jmcui/p/12377081.html
-          原因：不能并发读写 1.Java ConcurrentModificationException异常原因和解决方法 https://www.cnblogs.com/dolphin0520/p/3933551.html
-          2.多线程进阶（三）-- JUC中CopyOnWriteArrayList()解析及为什么要复制 
+          1.多线程进阶（三）-- JUC中CopyOnWriteArrayList()解析及为什么要复制 
       4.1.1.2 LinkedList
         1.增删使用LinkedList 2.set get使用ArrayList
       4.1.1.3 Vector
