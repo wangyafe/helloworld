@@ -1,4 +1,5 @@
 1.Java中的零拷贝 https://blog.csdn.net/qq_45794943/article/details/124707318?share_token=2605ba95-eba3-48c4-9fe4-50ddfa817507
  1.1 在java中可以使用：1.fileChannel.transferTo() 2.fileChannel.map() 等函数来实现零拷贝
  1.2 mmap适合小数据量的传输, RocketMQ使用的就是mmap。
- 1.3 sendFile 适合大数据量的传输，Kafka使用的就是sendFile。
+ 1.3 sendFile 适合大数据量的传输，Kafka使用的就是sendFile
+2.所谓的零拷贝不是不拷贝，而是不经过CPU拷贝，它还是需要拷贝的（比如将数据从硬盘拷贝到内核态），这个零拷贝是从操作系统（CPU）的角度看的
