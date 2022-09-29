@@ -1,0 +1,5 @@
+1.j2ee的容器：web容器和ejb容器的概念 https://blog.51cto.com/u_15080022/3903860
+ 1.1 web容器（servlet jsp容器）
+ 1.2 ejb容器（javaBean容器）
+ 1.3 OSGI容器（模块容器）
+
