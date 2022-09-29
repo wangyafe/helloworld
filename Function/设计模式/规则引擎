@@ -1,2 +1,8 @@
-1.IF嵌套层数太多？试试Drools规则引擎 https://www.toutiao.com/i7054389676827820577/?timestamp=1642517888&app=news_article&use_new_style=1&req_id=202201182258080101502221571C267152&share_token=383ff8d8-725c-40b7-954f-0c72850b8f70&group_id=7054389676827820577
- 1.1 QlExpress使用 https://www.jianshu.com/p/a3ff29cf579d CompileFlow 使用 https://www.jianshu.com/p/9bb2f01ad816
+1.规则引擎从结构上来看也属于微内核架构的一种具体实现
+ 1.1 规则引擎在计费、保险、促销等业务领域应用较多。例如电商促销，常见的促销规则有：满100送50，3件立减50 ，3件8折，第3件免费，跨店满200减100，新用户立减50
+ 1.2 开发人员将业务功能分解提炼为多个规则，将规则保存在规则库中。
+ 1.3 业务人员根据业务需要，通过将规则排列组合，配置成业务流程，保存在业务库中。
+ 1.4 规则引擎执行业务流程实现业务功能
+ 1.5 通常情况下需要基于Drools进行封装，将规则配置做成可视化的操作
+2.IF嵌套层数太多？试试Drools规则引擎 https://www.toutiao.com/i7054389676827820577/?timestamp=1642517888&app=news_article&use_new_style=1&req_id=202201182258080101502221571C267152&share_token=383ff8d8-725c-40b7-954f-0c72850b8f70&group_id=7054389676827820577
+ 2.1 QlExpress使用 https://www.jianshu.com/p/a3ff29cf579d CompileFlow 使用 https://www.jianshu.com/p/9bb2f01ad816
