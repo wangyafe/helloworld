@@ -1,2 +1,5 @@
 1.同一线程的可重入（嵌套获取锁） 深入理解可重入锁 https://www.jianshu.com/p/6e8a49121133
 2.redis分布式锁-可重入锁 https://www.cnblogs.com/x-kq/p/14801527.html
+3.ReenTrantLock
+ 1.1 一文搞懂分布式可重入锁 https://gitchat.csdn.net/activity/60fa6e0011f41c3fb3afae86
+4.ReentrantReadWriteLock读写锁的使用(确定锁的级别) https://www.cnblogs.com/liuling/p/2013-8-21-03.html
