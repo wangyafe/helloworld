@@ -1,0 +1,5 @@
+1.一种无锁机制
+ 1.1 CAS(自旋)原理解析，及ABA问题 https://blog.csdn.net/weixin_44998030/article/details/105325844?share_token=bd47a147-3341-4ca8-bf67-9d183b22ca67
+ 1.2 CAS 实现原子操作的三大问题（只能保证一个变量的原子性 可采用并发原子类AtomicReferrence或锁） https://www.jianshu.com/p/68f9cd012de8
+ 1.3 通俗易懂的CAS https://segmentfault.com/a/1190000040042588
+    直接在用户态对内存进行读写操作（意味着不会阻塞/线程上下文切换）
