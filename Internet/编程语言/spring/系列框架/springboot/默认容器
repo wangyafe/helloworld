@@ -1,0 +1,7 @@
+1.Spring Boot 使用 jetty 作为默认的Web容器 https://blog.csdn.net/github_35169934/article/details/78573971
+ 1.1 spring-boot-starter-web的pom.xml（如下），其默认配置为Tomcat
+ 1.2 使用了autoconfigure包的自动配置 
+ 1.3 使用@Bean @Configuration实例化了tomcat
+ 1.4 @ConditionalOnClass 表示只有条件实例存在时 才会注册到容器
+2.Spring Boot内嵌Tomcat原理 https://juejin.cn/post/7114679361042645022
+ 2.1 使用日志定位源码
