@@ -1,0 +1,11 @@
+1.定义start项目 
+ 1.1 可以看到它的META-INF目录下只包含了：
+ 1.2 pom.protperties  配置maven所需的项目version、groupId和artifactId
+ 1.3 pom.xml  配置所依赖的jar包
+ 1.4 MANIFEST.MF 这个文件描述了该Jar文件的很多信息
+ 1.5 spring.provides 配置所依赖的artifactId，给IDE使用的，没有其他的作用
+2.定义实现项目
+ 1. pom.xml、spring.factories、IdGenerateAutoConfiguration、IdGenerateService 和 IdProperties 这5个关键文件
+ 2.spring-configuration-metadata.json 系统自动生成的IDE提示功能 3.additional-spring-configuration-metadata.json  手动添加IDE提示功能
+ 4.利用spi机制实例化bean
+3.老司机手把手教你编写自己的springboot starter https://cloud.tencent.com/developer/article/1718134
