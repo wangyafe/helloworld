@@ -1,0 +1,4 @@
+1.流程 1.实例化SpringApplication （new SpringApplication）2.获取监听器（getRunListeners） 3.准备环境（prepareEnvironment） 4.创建应用上下文（createApplicationContext prepareContext） 
+ 5.刷新应用上下文（refreshContext） 6.刷新后处理动作（afterRefresh）
+ 1.spring.factories（1.spi 2.插件化开发 3.热插拔 4.微内核架构） 
+ 2.扩展点：可以看到，在SpringBoot启动过程中，预留了许多的扩展点，开发者通过实现的对应的类和方法，即可在SpringBoot启动过程中实现自己需要的效果
