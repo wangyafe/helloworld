@@ -1,3 +1,3 @@
-1.double shift(全局关键词搜索) 2.find in path(全局文本搜索) 3.本文件搜索（ctrl+f）4.find usages(搜索引用)
+1.double shift(全局关键词搜索) 2.find in path(全局文本搜索) 3.本文件搜索（ctrl+f）4.find usages(搜索引用即查看类或方法调用链)
 2.idea中，为什么会有两个搜索框？并且ctrl+shift +f也不能全局搜索 https://segmentfault.com/q/1010000011612741
 3.idea find usage 功能 https://blog.csdn.net/zhaoyw2008/article/details/45888099
