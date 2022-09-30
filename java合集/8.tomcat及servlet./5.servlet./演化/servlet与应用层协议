@@ -1,2 +1,3 @@
 1.最早设计Servlet时，设计者希望Servlet不仅能处理HTTP，也能处理类似SMTP等其他协议
  1.1 因此，单独抽出了ServletRequest接口，但实际上除了HTTP外，并没有其他协议会用Servlet处理，所以这是一个过度设计
+ 1.2 Servlet 3.1中的WebSocket编程规范（可以处理1.http 2.websocket） https://blog.csdn.net/abc123lzf/article/details/102480097
