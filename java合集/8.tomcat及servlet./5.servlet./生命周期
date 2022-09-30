@@ -1,4 +1,5 @@
 1.单例模式下 多线程执行service 创建Servlet实例、调用实例的init()和destroy()方法都只进行一次
+ 1.1  Servlet 生命周期包括加载(加载到内存)、初始化（调用init方法）、服务（调用方法）、销毁（调用destroy方法）、卸载（GC）等 5 个部分，JSP 生命周期比 Servlet 生命周期多了一个“将 JSP 文件翻译成 Servlet ”的过程
 2.创建servlet在容器启动时 读取web.xml配置 2.1 销毁servlet在容器关闭或重启
-1.1.Servlet 是由 JVM 的垃圾回收器进行垃圾回收的
+3.1.Servlet 是由 JVM 的垃圾回收器进行垃圾回收的
  1.Servlet一般在什么时候被销毁 https://blog.csdn.net/qq_40459545/article/details/110563055
