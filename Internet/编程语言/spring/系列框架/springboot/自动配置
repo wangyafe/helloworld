@@ -1,1 +1,25 @@
 1.springboot面试杀手锏-自动配置原理 https://cloud.tencent.com/developer/article/1710222
+ 1.自动配置指启动自动实例化bean 交给IOC管理
+ 2.自动配置分为两种情况：1.bean的自动配置  2.属性的自动配置
+ 3.（spi机制）selectImports()方法通过SpringFactoriesLoader.loadFactoryNames()扫描所有具有META-INF/spring.factories的jar包下面key是EnableAutoConfiguration全名的，所有自动配置类
+ 4.SpringApplication.run(...)方法怎么调到selectImports()方法的
+  4.1 加载过程大概是这样的：
+  4.2 SpringApplication.run(...)
+  4.3 AbstractApplicationContext.refresh()
+  4.4 invokeBeanFactoryPostProcessors(...)
+  4.5 PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(...) 
+  4.6 ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(..)
+  4.7 AutoConfigurationImportSelector.selectImports
+  4.9 postProcessBeanDefinitionRegistry方法是最核心的方法，它负责解析@Configuration、@Import、@ImportSource、@Component、@ComponentScan、@Bean等，完成bean的自动配置功能
+5.TransactionTemplate为什么可以直接引用
+ 5.1 是因为在spring-boot-autoconfigure-xxx.jar的spring.factories配置文件中
+ 5.2 EnableAutoConfiguration全类名下配置了TransactionAutoConfiguration全类名，springboot在启动的时候会加载这个类
+6.属性的自动配置 
+ 6.1 ConfigurationPropertiesBindingPostProcessor类的postProcessBeforeInitialization方法完成 6.2 解析@ConfigurationProperties注解上的属性，将配置文件中对应key的值绑定到属性上
+7.自动配置的生效条件
+ 7.1 每个xxxxAutoConfiguration类上都可以定义一些生效条件，这些条件基本都是从@Conditional派生出来的
+ 7.2 @ConditionalOnBean：当容器里有指定的bean时生效
+ 7.3 @ConditionalOnMissingBean：当容器里不存在指定bean时生效
+ 7.3 @ConditionalOnClass：当类路径下有指定类时生效
+ 7.4 @ConditionalOnMissingClass：当类路径下不存在指定类时生效
+ 7.4 @ConditionalOnProperty：指定的属性是否有指定的值，比如@ConditionalOnProperties(prefix=”xxx.xxx”, value=”enable”, matchIfMissing=true)，代表当xxx.xxx为enable时条件的布尔值为true，如果没有设置的情况下也为true
