@@ -1,3 +1,6 @@
+0.Servlet 是基于 Java 技术的 Web 组件，运行在服务器端，由 Servlet 容器所管理，用于生成动态网页的内容。
+ 0.1 Servlet 是一个符合特定规范的 Java 程序，编写一个 Servlet，实际上就是按照 Servlet 的规范编写一个 Java 类，Servlet 主要用于处理客户端请求并做出响应
+ 0.2 要开发一个能够处理 HTTP 协议的控制器 Servlet，就必须继承 javax.servlet.http. HttpServlet，并重写 doGet() 方法或 doPost() 方法，用来处理客户端发来的 get 请求或 post 请求
 1.servlet工作模式 1.Web服务器的一部分而存在（tomcat） 2.Servlet容器由Web服务器插件和Java容器两部分组成(安装1.Tomcat 2.Web服务器 3.中间连接件) 3.Servlet容器运行在Web服务器外部地址空间
  1.1 servlet容器和web服务器是同一个jvm进程（独立）
  1.2 web服务器内部地址空间中打开一个JVM（Java虚拟机），在此JVM上加载Java容器并运行Servlet（内置）
