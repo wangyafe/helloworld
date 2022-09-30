@@ -1,2 +1,2 @@
-1.设置日志水平（debug） 2.根据日志搜索位置 3.maven download sources 
+1.设置日志水平（debug） 2.根据日志搜索位置 3.maven download sources 4.确定bean实例化时机（1.注解 2.xml）
 2.千万不要把Request传递到异步线程里面！有坑 https://www.toutiao.com/article/7121565091459367428/?log_from=902072025721c_1660545629866
