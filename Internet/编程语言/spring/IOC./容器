@@ -1,0 +1,5 @@
+1.通过注解和xml方式交由beanfactory或者applicationContext管理bean 2.其他情况的bean的实例化不由beanfactory或者applicationContext管理
+2.BeanFactory 2.ApplicationContext
+ 1.1 BeanFactory 「只提供了最基本的实例化对象和拿对象的功能 1.2 ApplicationContext 是继承了 BeanFactory 所派生出来的产物，是其子类，它的作用更加的强大，比如支持注解注入、国际化等功能
+2.区别： 2.1 BeanFactory 是 IOC 容器」，是用来承载对象的 2.2 FactoryBean 是一个接口」，为 Bean 提供了更加灵活的方式，通过代理一个Bean对象，对方法前后做一些操作
+3.Spring 夺命连环18问 https://cloud.tencent.com/developer/article/2081958
