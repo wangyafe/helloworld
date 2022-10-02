@@ -1,0 +1,6 @@
+0.ejb是可以远程访问的javabean 
+ 0.1 普通的javaBean只可以在本地运行
+1.基于Java 的远程方法调用（RMI）技术的，所以EJB 可以被远程访问（跨进程、跨计算机）
+ 1.1 但EJB必须被布署在诸如Webspere、WebLogic 这样的容器中，EJB 客户从不直接访问真正的EJB 组件，而是通过其容器访问
+ 1.2 EJB 容器是EJB 组件的代理，EJB 组件由容器所创建和管理。客户通过容器来访问真正的EJB 组件
+2.经典笔试篇-EJB及Spring篇 https://cloud.tencent.com/developer/article/1585990
