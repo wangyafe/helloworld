@@ -2,4 +2,9 @@
  1.1 web容器（servlet jsp容器）
  1.2 ejb容器（javaBean容器）
  1.3 OSGI容器（模块容器）
-
+2.每个服务器实例包含两个容器：Web 和 EJB
+ 2.1 容器是一种运行时环境，它为 J2EE 组件提供服务（如安全性和事务管理）。Web 组件（如 Java Server Pages 和 Servlet）在 Web 容器内运行
+ 2.2 Enterprise JavaBeans 在 EJB 容器内运行
+3.分为Web Container和EJB Container，以及运行于容器中的各种组件，比如Servlet。规范只提供了整体架构，流程以及API，由各家自己去实现这些规范
+ 3.1 比如Tomcat实现Web Container以及其API
+4.J2EE 平台概述 https://docs.oracle.com/cd/E19159-01/820-4903/abfar/index.html
