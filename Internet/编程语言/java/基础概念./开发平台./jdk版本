@@ -1,0 +1,6 @@
+1.JAVA等价于JDK。又因为JAVA有3个版本：J2SE J2EE J2ME，所以J2SE是JDK的3个版本中的其中一个，即标准版本。
+ 1.1 JDK8或者JDK1.8也是同一个东西
+ 1.2 不同的j2ee平台是指1.不同版本的jdk 2.不同的应用服务器（web container实现）
+ 1.3 其实J2EE在JDK5.0之后改名为了JavaEE，J2SE改为了Java SE，只是名字上的一个更改而已
+ 1.4 JavaEE是在JavaSE的基础上构建的,它提供Web服务、组件模型、管理和通信API ,可以用来实现企业级的面向服务体系结构( service-orientedarchitecture , SOA )和Web 2.0应用程序
+2.Java8与JDK1.8与JDK8与J2SE8与J2SE1.8的区别是什么？——Java的各个版本和各个版本的历史版本号的关系与解读 https://blog.csdn.net/wq6ylg08/article/details/91351339
