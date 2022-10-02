@@ -2,3 +2,4 @@
 2.JMS是与平台无关的，类似JDBC，绝大多数消息中间件厂商都支持JMS接口规范，也就是说可以通过JMS API来连接支持各种消息协议的中间件产品
 3.Jms规范学习 https://cloud.tencent.com/developer/article/1517666 
  3.1 2、消息协议及JMS介绍 https://www.jianshu.com/p/4cca7c51eff0
+ 3.2 JMS(Java消息服务)入门教程  https://www.cnblogs.com/chenpi/p/5559349.html
