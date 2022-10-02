@@ -1,2 +1,5 @@
 1.sun -> orcle 2.嵌入式开发时 C++缺少垃圾回收系统、可移植性、分布式和多线程等功能 3.Oak这个商品已经被注册，于是只得将Oak更名为Java
 2.java语言现在由哪个公司开发?Java语言的发展过程如何? https://qqe2.com/java/post/156.html
+ 2.1 2002年，Sun发布了JDK历史上最成熟的版本：JDK1.4成为发展最快的一个JDK版本。JDK1.4已经可以使用Java实现大多数的应用了。
+ 2.2 在此期间，Java语言在企业应用领域大放异彩，涌现出大量基于java语言的开源框架 ：Struts、WebWork、Hibernate、Spring等
+ 2.3 大量企业应用服务器也开始涌现：WebLogic、WebSphere、JBoss等，这些都标志着Java语言进入了飞速发展时期
