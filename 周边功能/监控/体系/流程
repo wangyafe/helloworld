@@ -1,0 +1,11 @@
+1.数据采集
+采集的方式有很多种:包括(1.日志埋点进行采集 2.JMX标准接口输出监控指标 3.被监控对象提供REST API进行数据采集（如Hadoop、ES） 4.系统命令行 5.统一的SDK进行侵入式的埋点和上报)等。
+2.数据传输
+将采集的数据以TCP、UDP或者HTTP协议的形式上报给监控系统，有主动Push模式，也有被动Pull模式。
+3.数据存储
+有使用MySQL、Oracle等关系数据库存储的，也有使用时序数据库RRDTool、OpentTSDB、InfluxDB存储的，还有使用HBase存储的。
+4.数据展示
+数据指标的图形化展示
+5.监控告警
+灵活的告警设置，以及支持邮件、短信、IM等多种通知通道
+6.一文吃透 监控系统 https://www.toutiao.com/article/7125710067277775392/?app=news_article&timestamp=1664729469&use_new_style=1&req_id=2022100300510901015013415907EED87E&group_id=7125710067277775392&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=10104e2e-fc2e-42b7-b513-b2bb1ec69b92&source=m_redirect
