@@ -8,4 +8,8 @@
 3.NewSQL数据库（用于分析）：也是关系型数据库，吸收了传统关系型数据库和NoSql数据库的优点。可实现强一致性(传统关系型DB优点)，具有强的水平可扩展性(NoSql DB优点)
  3.1 NewSQL ---- 常用NewSQL数据库梳理 https://blog.csdn.net/weixin_41715077/article/details/107447342
  3.2 SQL,NoSQL和NewSQL的区别 https://www.cnblogs.com/klb561/p/12064126.html
-4.29高性能NoSQL https://www.toutiao.com/article/7135778799002010119/?app=news_article&timestamp=1661597735&use_new_style=1&req_id=202208271855340101581491540854E4C6&group_id=7135778799002010119&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=31ff5946-0894-4df7-bf82-82c612e60361&source=m_redirect
+4.时间序列数据库(Time Series Database)是用于存储和管理时间序列数据的专业化数据库
+ 4.1 具备写多读少、冷热分明、高并发写入、无事务要求、海量数据持续写入等特点，可以基于时间区间聚合分析和高效检索
+ 4.2 广泛应用在物联网、经济金融、环境监控、工业制造、农业生产、硬件和软件系统监控等场景
+ 4.3 盘点市面上主流的时序数据库 http://blog.itpub.net/31545813/viewspace-2789615/
+5.29高性能NoSQL https://www.toutiao.com/article/7135778799002010119/?app=news_article&timestamp=1661597735&use_new_style=1&req_id=202208271855340101581491540854E4C6&group_id=7135778799002010119&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=31ff5946-0894-4df7-bf82-82c612e60361&source=m_redirect
