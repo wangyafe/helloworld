@@ -1,0 +1,2 @@
+1.jmx(java management extentions)，即java管理扩展，用于对应用程序进行监控和管理。jmx是一个标准、接口或者框架，可以在应用程序运行期，对自定义类发起调用
+ 1.1 jmx中标准MBean使用 https://blog.csdn.net/chinabestchina/article/details/108458931
