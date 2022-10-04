@@ -1,0 +1,13 @@
+1.服务器监控
+ 1.CPU使用率、内存使用率、磁盘使用率、磁盘读写的吞吐量、网络出入流量等等。
+2.MySQL监控
+TPS、QPS、数据库连接数、慢SQL、InnoDB缓冲池命中率等等。
+3.Redis监控
+内存使用率、缓存命中率、key值总数、Redis响应请求时间、客户端连接数、持久性指标等等
+4.MQ监控
+连接数、队列数、生产速率、消费速率、消息堆积量等等。
+5.应用监控
+HTTP接口：URL存活、请求量、耗时、异常量。
+JVM ：GC次数、GC耗时、各个内存区域的大小、当前线程数、死锁线程数。
+线程池：活跃线程数、任务队列大小、任务执行耗时、拒绝任务数。
+6.一文吃透 监控系统 https://www.toutiao.com/article/7125710067277775392/?app=news_article&timestamp=1664729469&use_new_style=1&req_id=2022100300510901015013415907EED87E&group_id=7125710067277775392&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=10104e2e-fc2e-42b7-b513-b2bb1ec69b92&source=m_redirect
