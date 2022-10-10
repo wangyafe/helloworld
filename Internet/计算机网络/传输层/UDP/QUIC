@@ -10,4 +10,5 @@
 3.没有队头阻塞的 QUIC
  3.1 QUIC 也借鉴 HTTP/2 里的 Stream 的概念，在一条 QUIC 连接上可以并发发送多个 HTTP 请求 (Stream)。
  3.2 QUIC 给每一个 Stream 都分配了一个独立的滑动窗口，这样使得一个连接上的多个 Stream 之间没有依赖关系，都是相互独立的，各自控制的滑动窗口。
-3.字节一面：如何用 UDP 实现可靠传输 https://www.toutiao.com/article/7132339255526965792/?log_from=3b449ea29ca9f_1661001476041
+4.更快的建立连接：HTTP/3 在传输数据前虽然需要 QUIC 协议握手，这个握手过程只需要 1 RTT，握手的目的是为确认双方的「连接 ID」，连接迁移就是基于连接 ID 实现的
+5.字节一面：如何用 UDP 实现可靠传输 https://www.toutiao.com/article/7132339255526965792/?log_from=3b449ea29ca9f_1661001476041
