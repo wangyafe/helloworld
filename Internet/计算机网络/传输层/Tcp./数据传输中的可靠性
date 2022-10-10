@@ -1,4 +1,18 @@
 0.TCP通信两阶段：1.建立连接 2.数据传输
-1.TCP可靠性的体现：seq和ack机制 https://blog.csdn.net/weixin_42447959/article/details/112507266
+1.TCP可靠性的体现：seq和ack机制（表中的数据传输表示客户端一直接收 无请求） https://blog.csdn.net/weixin_42447959/article/details/112507266
  1.1 计算机网络常见知识点[转] https://allenwu.itscoder.com/ji-suan-ji-wang-luo
  1.2 TCP的可靠性是通过顺序编号（SEQ）和确认（ACK）来实现的
+2.seq表示本次发送数据的偏移量，ack表示回复已经接收到的数据量。
+seq可以防止乱序，重复数据等功能，ack可以回复已经接受数据，下次对端发送从ack出偏移位置处发送，防止数据丢失。
+
+比如建立后，客户端seq=1,ack=1,服务端seq=1,ack=1
+
+客户端发送4字节：客户端seq=1,ack=1,len=4
+客户端在发送4字节：客户端seq=5,ack=1,len=4
+
+服务端回复ack:服务端：seq=1,ack=9,len=0
+服务端发送4字节数据：seq=1,ack=9,len=4
+服务端在发送4字节：seq=5,ack=9,len4
+
+客户端回复ack:seq=9,ack=9,len=0
+客户端发送4字节数据：seq=13,ack=9,len=4
