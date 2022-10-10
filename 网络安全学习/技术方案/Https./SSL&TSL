@@ -1,0 +1,6 @@
+1.TLS与SSL有什么区别？你应该使用哪一个？ https://www.wbolt.com/tls-vs-ssl.html
+2.SSL，HTTPS，TLS三者的区别 https://zhuanlan.zhihu.com/p/158711125
+ 2.1 SSL(Secure Socket Layer 安全套接层)是基于HTTPS下的一个协议加密层
+ 2.2 HPPTS是HTTP+SSL/TCP的简称
+ 2.3 TLS是SSL的最新版本，并且SSL的两个公开版本都已弃用多年，并且包含已知的安全漏洞
+ 2.4 大多数人仍然将它们称为SSL证书的原因基本上是品牌问题。大多数主要的证书提供商仍然将证书称为SSL证书，这就是命名约定仍然存在的原因
