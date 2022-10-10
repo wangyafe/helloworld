@@ -1,0 +1,2 @@
+1.字节一面：如何用 UDP 实现可靠传输 https://www.toutiao.com/article/7132339255526965792/?log_from=3b449ea29ca9f_1661001476041
+ 1.2 HTTP/2 通过抽象出 Stream 的概念，实现了 HTTP 并发传输，一个 Stream 就代表 HTTP/1.1 里的请求和响应。
