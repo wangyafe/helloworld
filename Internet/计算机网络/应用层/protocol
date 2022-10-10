@@ -1,4 +1,5 @@
 1.1 数据一般分为 header 和 body 2.rpc有attachment
  1.1 protocol规定数据格式
+ 1.2 body可嵌套新的protocol协议格式（1.head 2.body）
 1.2 聊聊 dubbo 协议 https://xie.infoq.cn/article/a98afea6beabb2e3b338cc872
 1.3计算机应用层全协议梳理 https://www.toutiao.com/article/6789788762105709067/?log_from=62589ec55917a_1649929280607
