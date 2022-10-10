@@ -1,0 +1,4 @@
+0.TCP通信两阶段：1.建立连接 2.数据传输
+1.TCP可靠性的体现：seq和ack机制 https://blog.csdn.net/weixin_42447959/article/details/112507266
+ 1.1 计算机网络常见知识点[转] https://allenwu.itscoder.com/ji-suan-ji-wang-luo
+ 1.2 TCP的可靠性是通过顺序编号（SEQ）和确认（ACK）来实现的
