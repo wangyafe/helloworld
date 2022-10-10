@@ -1,0 +1,4 @@
+1.对于 HTTP/1 和 HTTP/2 协议，TCP 和 TLS 是分层的
+ 1.2 分别属于内核实现的传输层、openssl 库实现的表示层，因此它们难以合并在一起，需要分批次来握手
+ 1.3 先 TCP 握手（1RTT），再 TLS 握手（2RTT），所以需要 3RTT 的延迟才能传输数据，就算 Session 会话服用，也需要至少 2 个 RTT。
+2. 1.字节一面：如何用 UDP 实现可靠传输 https://www.toutiao.com/article/7132339255526965792/?log_from=3b449ea29ca9f_1661001476041
