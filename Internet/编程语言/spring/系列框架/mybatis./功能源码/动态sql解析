@@ -1,0 +1,6 @@
+1.必须掌握Mybatis动态生成SQL原理，靠这个吃饭呢 https://www.toutiao.com/article/6885699579220591115/?log_from=8eacd13ce5347_1662297223468
+ 1.1 DynamicSqlSource 
+ 1.2 Mybatis中mapper.xml文件会再加载的时候全部解析为rootSqlNode节点 调用mapper的DAO接口时会代理其方法，封装参数，并传入StatementId （方法全限名） 
+ 1.3 根据StatementId获取到rootSqlNode节点，循环调用 MixedSqlNode方法，使用Ognl 解析的结果进行拼装返回 
+ 1.4 使用SqlSourceBuilder将#{} 中的内容解析，生成已经排序的参数List<ParameterMapping> parameterMappings并将 #{} 替换成 ?
+ 1.5 最终调用JDBC中的preparedStatement.setXXX()方法，将已经排序的参数List<ParameterMapping> parameterMappings 中的参数按照顺序将?替换，便得到一个完整的Sql
