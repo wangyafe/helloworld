@@ -5,3 +5,6 @@
 2.2 entry是key-value对象
 3.HashMap 常见问题Java8(扩容、转红黑树、退化链表、Hash优化) https://blog.csdn.net/yakax/article/details/108422101
  3.1 在扩容时 low、high 两个TreeNode 长度小于6时 会退化为链表
+4.我说HashMap初始容量是16，面试官让我回去等通知 https://www.toutiao.com/article/7153827223765271076/?app=news_article&timestamp=1665637194&use_new_style=1&req_id=2022101312595301015811821102802D17&group_id=7153827223765271076&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=2bc0f416-a15a-414b-8a1e-3e41b797793f&source=m_redirect
+ 4.1 链表用来解决hash冲突 4.2 红黑树用来优化查询性能O（logn） 4.3 JDK1.7的时候初始容量确实是16，但是JDK1.8的时候初始化HashMap的时候并没有指定容量大小，而是在第一次执行put数据，才初始化容量
+ 4.4 最后判断新增元素后，判断元素个数是否大于阈值（16*0.75=12），如果是则执行扩容逻辑，结束
