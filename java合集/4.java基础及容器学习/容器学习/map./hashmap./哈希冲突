@@ -1,0 +1,5 @@
+1.我说HashMap初始容量是16，面试官让我回去等通知 https://www.toutiao.com/article/7153827223765271076/?app=news_article&timestamp=1665637194&use_new_style=1&req_id=2022101312595301015811821102802D17&group_id=7153827223765271076&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=2bc0f416-a15a-414b-8a1e-3e41b797793f&source=m_redirect
+ 1.1 解决哈希冲突方法有哪些？
+  1 链地址法 就是把发生哈希冲突的值组成一个链表，HashMap就是采用的这种。
+  2 线性探测法 发生哈希冲突后，就继续向下遍历，直到找到空闲的位置，ThreadLocal就是采用的这种，以后再详细讲。
+  3 再哈希法 使用一种哈希算法发生了冲突，就换一种哈希算法，直到不冲突为止（就是这么聪明）。
