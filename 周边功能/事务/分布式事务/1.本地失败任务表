@@ -1,4 +1,4 @@
-1.写表 2.定时扫描 3.异步确保（1.更新本地 2.远程调用 3.失败回滚）
+1.写表（开启异步线程调用） 2.定时扫描 3.异步确保（1.更新本地 2.远程调用 3.失败回滚）
  1.1 String reportId = dingdingClient.createReport(JSON.toJSONString(param));（捕获异常处理）
                 //如果发送失败 回滚更新数据状态
                 if(StringUtils.isBlank(reportId)){
