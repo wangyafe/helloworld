@@ -7,3 +7,4 @@
   1.2.4 将Ruby on Rails改为Java
   1.2.5 Lua + redis改为Go语言实现
 2.12架构设计复杂度来源之低成本 https://www.toutiao.com/article/7129382527130681891/?log_from=6c95db09bad09_1662371559215
+ 2.1 时间 2.2 经济 2.3 安全 2.4 性能
