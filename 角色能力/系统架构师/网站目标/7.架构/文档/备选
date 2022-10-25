@@ -1,0 +1,11 @@
+1.需求介绍 主要描述需求的背景、目标、范围等
+2.需求分析 主要全方位地描述需求相关的信息
+ 2.1 5w 1h 8c
+ 2.2 1.Who：需求利益干系人，包括开发者、使用者、购买者、决策者等 2.When：需求使用时间，包括季节、时间、里程碑等 3.What：需求的产出是什么，包括系统、数据、文件、开发库、平台等
+   4.Where：需求的应用场景，包括国家、地点、环境等，例如测试平台只会在测试环境使用 5.Why：需求需要解决的问题，通常和需求背景相关
+ 2.3 这里的How不是设计方案也不是架构方案，而是关键业务流程 消息队列系统这部分内容很简单，但有的业务系统1H就是具体的用例了，如果是复杂的业务系统，这部分也可以独立成“用例文档
+ 2.4 8C指的是8个约束和限制，即Constraints 1.包括性能Performance 2.成本Cost 3.时间Time 4.可靠性Reliability 5.安全性Security 6.合规性Compliance 7.技术性Technology 8.兼容性Compatibility
+3.复杂度分析
+4.备选方案
+5.备选方案评估
+6.73架构设计文档模板实战 https://www.toutiao.com/article/7156849654800450052/?app=news_article&timestamp=1666622302&use_new_style=1&req_id=202210242238210101581491500AF86782&group_id=7156849654800450052&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=f5c61d9b-57d1-44cc-aa97-2a7051cd7a66&source=m_redirect
