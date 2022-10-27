@@ -1,0 +1,21 @@
+1.Java将所有节点排成有序树形结构 https://blog.csdn.net/weixin_44270446/article/details/113851155
+public List<MenuVO> getChildNode(String rootMenu, List<MenuVO> allMenuList) {
+
+        List<MenuVO> childMenu = new ArrayList<>();
+        for (MenuVO menu : allMenuList) {
+            if (menu.getParentCode().compareTo(rootMenu) == 0) {
+                // 递归查询此节点下的所有子节点
+                List<MenuVO> childNode = getChildNode(menu.getMenuCode(), allMenuList);
+                menu.setChildNode(childNode);
+                childMenu.add(menu);
+            }
+        }
+        // 子节点进行排序
+        List<MenuVO> childSortMenu = Optional.ofNullable(childMenu)
+                .map(List::stream)
+                .orElseGet(Stream::empty)
+                .sorted(Comparator.comparing(MenuVO::getSeq))
+                .collect(Collectors.toList());
+
+        return childSortMenu;
+    }
