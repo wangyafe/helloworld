@@ -16,3 +16,5 @@
                             })
 6.java List＜Bean＞ 根据某个属性值获取到该对象 https://blog.csdn.net/Romantic_321/article/details/123568689
  6.1 list.stream().filter(user -> Objects.equals(user.getId(),1)).findFirst();
+7.Java8 stream特性之一：List转Map方案（返回某个属性或对象本身）https://blog.csdn.net/qq_41732361/article/details/113932446
+ 7.1  Map<Integer,User> userMap3 = userList.stream().collect(Collectors.toMap(User::getId, Function.identity()));
