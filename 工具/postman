@@ -1,2 +1,4 @@
 1.一文带你全面解析postman工具的使用（基础篇） https://www.jianshu.com/p/e6b052f69001
  1.1.postMan请求格式 数组+对象:{"list":[{"name":"wany","pwd":"124"}]}
+ 1.2 前端的key是后端的变量名（1.对象 2.基本类型 3.枚举）
+ 1.3 枚举接收前端传过来的值 https://blog.csdn.net/qq_41123533/article/details/107758481?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-107758481-blog-123073587.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-107758481-blog-123073587.pc_relevant_default&utm_relevant_index=5
