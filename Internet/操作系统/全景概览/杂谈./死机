@@ -1,0 +1,8 @@
+1.某个线程进入了死循环，在你的时间片用完之后，也得乖乖交出CPU，让别的程序来执行
+2.CPU被困在了哪里出不来，连中断都拿它没办法
+ 2.1 中断也有优先级之分，低优先级的中断无法打断高优先级的中断
+ 2.2 中断能抢到CPU，但发现没有线程可以调度（死锁）
+3.CPU是一根筋死脑筋，只知道不断的取出指令来一条条执行，直到关机方休。
+ 3.1 所以理论上，死机分为两种，一种是CPU罢工不干了，不再执行下一条指令了，这属于硬件死机，不过这种情况基本不会发生。
+ 3.2 更多的是软件层面的死机，也就是CPU被困在了某个地方出不来了，导致本该执行的程序得不到执行，看起来就是死机了一般
+3.计算机死机的时候，它在干什么？ https://www.toutiao.com/article/7130516817813963304/?app=news_article&timestamp=1667614093&use_new_style=1&req_id=202211051008120101580360880E2B746A&group_id=7130516817813963304&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=e4c899d3-bebc-45ad-b393-7d2f6ab75570&source=m_redirect
