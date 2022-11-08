@@ -1,0 +1,2 @@
+1.JSON.parseObject(String.valueOf(commonCacheUtils.get(key)),
+                    new TypeReference<List<JobInfoDTO>>(){})
