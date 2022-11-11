@@ -1,5 +1,7 @@
 1.发布顺序（1.前端 2.上下游） 1.1前后上下新增、修改接口 1.2前后上下新增、修改参数
-2.灰度发布（若表结构改变 搭建全新的沙箱环境 使用cannel同步数据） 2.功能开关 3.蓝绿发布 4.滚动发布 5.A/B测试 6.交通影像
+2.灰度发布也即金丝雀发布（若表结构改变 搭建全新的沙箱环境 使用cannel同步数据） 2.功能开关 3.蓝绿发布 4.滚动发布 5.A/B测试 6.交通影像
+ 2.1 ab测试区分用户 根据用户属性进行分组（灰度发布是随机用户）
+ 2.2 灰度测试和ab测试区别 https://www.xitmi.com/7088.html?share_token=7f80ee98-b925-4234-8f51-ba128ed39dee
 3.搭建具备灰度发布能力的技术架构 https://www.toutiao.com/i6959836721248813582/?timestamp=1645781571&app=news_article&use_new_style=1&req_id=202202251732500101580681500B000889&share_token=5e53d000-0b44-4bde-b44f-71c6423d6242&group_id=6959836721248813582
 4.什么是持续集成（CI）/持续部署（CD）？ https://www.toutiao.com/i6590576887989273096/?timestamp=1645717461&app=news_article&use_new_style=1&req_id=20220224234421010158162022050415F8&share_token=84474612-acca-4d4f-a131-887640ec8a61&group_id=6590576887989273096
 5.部署微服务的5个测试策略 https://www.toutiao.com/article/7105637191182762528/?app=news_article&timestamp=1654481674&use_new_style=1&req_id=2022060610143401015814905312E411A8&group_id=7105637191182762528&share_token=37720a23-7ac2-4e7a-a96e-c52af255834b
