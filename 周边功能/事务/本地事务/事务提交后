@@ -1,0 +1,5 @@
+1.让方法在事务提交后执行 https://blog.csdn.net/qq_34500109/article/details/107315684?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107315684-blog-124415453.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-107315684-blog-124415453.pc_relevant_recovery_v2&utm_relevant_index=2
+ 1 TransactionSynchronizationManager
+ 2 ApplicationEventPublisher（发送消息监听 事务提交后执行 @TransactionalEventListener）
+ 3 ApplicationEvent（ ApplicationListener） 实现解耦
+2.Java：事务提交之后再做其他操作 https://blog.csdn.net/weixin_42311968/article/details/124415453
