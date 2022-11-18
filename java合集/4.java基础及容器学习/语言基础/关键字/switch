@@ -1,0 +1,2 @@
+1.forEach使用switch，使用return；switch不再往下执行，同时也跳过本次循环。（和for循环使用continue 一样）使用break；只对switch影响，将不再往下执行，switch内默认执行的方法default不再执行。switch外则没有影响（和for循环一样）。continue ；break；forEach内无法使用
+2.switch 分别在for和forEach中的使用 https://blog.csdn.net/lisengjiej/article/details/121556679
