@@ -1,1 +1,2 @@
-Spring异步线程池—传递线程上下文(TaskDecorator实现) https://www.jianshu.com/p/d000a0a44956
+1.Spring异步线程池—传递线程上下文(TaskDecorator实现) https://www.jianshu.com/p/d000a0a44956
+2.使用阿里开源的TTL解决线程池父子线程变量传递问题 https://www.modb.pro/db/413454
