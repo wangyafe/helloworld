@@ -1,0 +1,3 @@
+1.多线程注入对象@Autowired 注入为空的4种解法 https://blog.csdn.net/piaomiao_/article/details/119569111?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-119569111-blog-78409372.pc_relevant_recovery_v2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-119569111-blog-78409372.pc_relevant_recovery_v2&utm_relevant_index=8
+ 1.1 new Thread不在spring容器中，也就无法获得spring中的bean对象
+ 1.2 如果使用new 关键字手动生成的对象，Sring感知不到，无法管理
