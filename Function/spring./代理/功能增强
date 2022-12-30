@@ -1,0 +1,3 @@
+1.spring aop(八)--使用BeanNameAutoProxyCreator创建代理 https://blog.csdn.net/xiejx618/article/details/43952007
+ 1.1 BeanNameAutoProxyCreator是自动代理创建器的三种(BeanNameAutoProxyCreator,DefaultAdvisorAutoProxyCreator,AbstractAdvisorAutoProxyCreator)之一.它是根据拦截器和设置的Bean的名称表达式做匹配来创建代理
+2.说说在 Spring 中如何自动创建代理 https://www.jianshu.com/p/816078a79001
