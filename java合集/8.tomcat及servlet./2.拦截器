@@ -1,3 +1,5 @@
 拦截器：
 1.springboot 实现拦截的 3 种方式介绍及异步执行的思考 https://juejin.cn/post/6982562317040877582
 2.拦截器可以拦截 1.请求 2.调用
+3.spring中的两种拦截器HandlerInterceptor和MethodInterceptor详解 https://blog.csdn.net/guyue35/article/details/104658234
+ 3.1 HandlerInterceptor是springMVC项目中的拦截器，它拦截的目标是请求的地址，比MethodInterceptor先执行
