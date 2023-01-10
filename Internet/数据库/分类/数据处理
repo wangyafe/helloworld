@@ -2,6 +2,10 @@
  1.数据处理大致可以分成两大类：
   1.1 联机事务处理OLTP(On-line transaction processing) OLTP是传统的关系型数据库的主要应用，主要是基本的、日常的事务处理，例如银行交易。
   1.2 联机分析处理OLAP(On-Line Analytical Processing) OLAP是数据仓库系统的主要应用（报表作业），支持复杂的分析操作，侧重决策支持，并且提供直观易懂的查询结果
-2.OLAP系统，也称为DSS决策支持系统，就是我们说的数据仓库
+2.OLAP系统，也称为DSS决策支持系统，就是我们说的数据仓库（BI 前端可视化分析工具，或者报表工具从数据仓库取数去分析展现）
  2.1在这样的系统中，绝大多数时候数据库上运行着的是报表作业 
  2.2执行基本上是聚合类的SQL 操作，比如Group by，同时扫描非常多的行，一个查询将花费数小时，甚至数天，一次读取的数据量大;一般无数据修改，或者只有非常少的数据修改
+ 2.3OLAP 的数据来源就是不同的 OLTP 数据库，所以OLAP本身是不产生数据的，通过ETL从 OLTP 抽取数据到 OLAP 数据库即数据仓库中做整合清洗达到可分析的数据标准
+ 2.4返回数据方式： 1.是大宽表到前端 2.聚合结果到前端
+ 2.5优化：查询空间换时间
+ 2.6关于OLTP 和OLAP 干货知识分享 https://www.toutiao.com/article/7184337915609629221/?app=news_article&timestamp=1673279192&use_new_style=1&req_id=202301092346321E21840AC9967F48601C&group_id=7184337915609629221&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=fd674b9d-5eec-4fd3-8e37-bbcfa6962cc6&source=m_redirect
