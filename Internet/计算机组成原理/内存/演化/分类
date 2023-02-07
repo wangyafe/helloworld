@@ -1,0 +1,11 @@
+1.Dynamic Random Access Memory，DRAM（动态随机存取存储器）
+2.RAM分为两类：1.静态RAM（SRAM） 2.动态RAM（DRAM）,这当中涉及到比较复杂的原理，但我们可以理解的是，SRAM的访问速度比DRAM更快，但也贵得多
+3.所以SRAM被用于高速缓存中（cpu缓存 见上文中提到的存储器层次结构图），手机和电脑内存用的都是DRAM
+4.DRAM的种类也有很多，我们比较常见的是双倍数据速率同步DRAM(Double Data-Rate Synchronous DRAM, DDR SDRAM)，也就是所谓的DDR内存、
+5.智能手机上使用的是专门的移动DDR，也就是各种手机参数中提到的LPDDR，即Low Power DDR，是一种低电压的DDR
+6.非易失性存储器有1.ROM 2.固态硬盘 3.光存储（光盘） 4.磁存储（硬盘、软盘、磁带）等。我们手机使用的内存，就属于ROM的一种
+ 6.1 PROM(Programmable ROM，可编程ROM)：只能被编程一次
+ 6.2 EPROM(Erasable Programmable ROM, 可擦写可编程ROM）：EPROM 能够被擦除和重编程的次数的数量级可以达到 1000 次。
+ 6.3 闪存（flash memory)：)：是一类非易失性存储器，基于 EEPROM，它已经成为了一种重要的存储技术
+7.手机内存科普：你说的“内存”，其实不是内存？ https://www.163.com/dy/article/FA6OL5M605318WFK.html
+8.【科普】浅谈内存发展史 https://www.toutiao.com/article/7188836523117150772/?app=news_article&timestamp=1675524151&use_new_style=1&req_id=20230204232230BD455F9F44AF77929C07&group_id=7188836523117150772&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=dfe6131d-90a0-42de-a005-46f935868869&source=m_redirect
