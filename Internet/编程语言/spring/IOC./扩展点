@@ -1,0 +1,4 @@
+0.围绕实例化和bean本身属性信息dosomething
+1.BeanDefinitionRegistryPostProcessor 2 ApplicationListener 3 InstantiationAwareBeanPostProcessor  4 MergedBeanDefinitionPostProcessor 5 AwareMethods 6.BeanPostProcessor
+ 7.InitializingBean 8.DisposableBean 9.ApplicationContextAware 10.BeanNameAutoProxyCreator 11.ContextLoaderListener（容器启动） 12.RequestContextListener（某个bean拥有web的某种作用域）
+2.常用开源框架扩展清单之原理 https://www.toutiao.com/article/7196855106162229821/?app=news_article&timestamp=1675837167&use_new_style=1&req_id=202302081419279C8F6DA4A7945A4D1E64&group_id=7196855106162229821&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=76fa3d1a-6dd3-433e-a5e1-f0c216db939c&source=m_redirect
