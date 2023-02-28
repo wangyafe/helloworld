@@ -1,2 +1,2 @@
-1.右上角project structure管理项目 增加模块（csccmng-biz-test -格式表示在路径下建立模块）
+1.右上角project structure管理项目 增加模块（1.新建文件夹 2.新建module）
 2.右边maven管理模块及依赖
