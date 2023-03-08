@@ -1,3 +1,4 @@
+0.异常返回方法一个json异常类（非正常返回类型）
 1.java-异常体系 https://www.jianshu.com/p/49d2c3975c56
 2.两万字详解Java异常，面试再也不怕被问到！ https://javazhiyin.blog.csdn.net/article/details/121917598
  2.1  1.throws（作用）抛出受检查异常 2.声明异常
