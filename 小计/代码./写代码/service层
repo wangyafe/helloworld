@@ -1,4 +1,4 @@
-1.service层（1.状态处理转义（消除if else） 2.集合Stream(新特性) 3.optionl判空） 4.赋值（1.BeanUtils.copyProperties(request, featureRequest) import org.springframework.beans.BeanUtils; 2.设置对象属性setcopyutil）
+1.service层（1.状态处理转义（消除if else） 2.集合Stream(新特性) 3.optionl判空） 4.赋值（1.BeanUtils.copyProperties(request, featureRequest) import org.springframework.beans.BeanUtils; 2.设置对象属性setcopyutil 3.分页批量 新建对象）
  1.1 消除if else结果模板：
  public void add(Object element) {
  if (readOnly) {
