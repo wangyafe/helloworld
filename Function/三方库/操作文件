@@ -1,1 +1,7 @@
-
+0.日志文件加在target（字节码文件夹下） 不是resouces
+1.Springboot 之 使用POI读取解析Excel文件 https://www.jianshu.com/p/cba49a1acc1d
+2.怎么给一个string值加双引号 String name = "\""+(String) parameter.get("name") + "\"";
+3.Error:(33, 37) java: 无法访问org.apache.poi.ss.usermodel.Date1904Support 找不到org.apache.poi.ss.usermodel.（坐标版本不统一） https://blog.csdn.net/qq_41234832/article/details/100087318
+4.区别在于HSSFWorkbook主要读取的是.xls格式的文件，XSSFWorkbook主要读取的是.xlsx格式的文件 https://www.cnblogs.com/name-lizonglin/p/14791303.html The supplied data appears to be in the Office 2007+ XML. 。。。 You need to call a different part of POI to process this data (eg XSSF instead of HSSF) 异常
+5.java读取Resources下文件 https://blog.csdn.net/qq_41622739/article/details/97819146?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
+6. 海量数据下如何使用多线程的导出 Excel https://blog.csdn.net/lchq1995/article/details/102601524?spm=1001.2014.3001.5501
