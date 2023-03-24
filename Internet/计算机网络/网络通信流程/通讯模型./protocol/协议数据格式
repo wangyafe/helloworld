@@ -1,0 +1,2 @@
+1.应用层（报文或用户数据） 2.传输层（段 segments） 3.网络层（包 packets） 4.数据链路层（帧 frames） 5.物理层（比特流 bits）
+2.深入浅出RPC服务 | 不同层的网络协议 https://www.toutiao.com/article/7213907962614612513/?app=news_article&timestamp=1679623231&use_new_style=1&req_id=20230324100031541F546AE7B76254BFDB&group_id=7213907962614612513&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=12e3d928-36bd-4bdd-8c2c-f35f97bc7519&source=m_redirect
