@@ -1,0 +1,3 @@
+1.发布Jar包到Maven中央仓库(为开发开源中间件做准备) https://my.oschina.net/itstack/blog/4409573
+2.在idea中将jar包deploy到maven私服的处理方法（1.插件 2.deploy 3.账号密码 4.脚本） https://blog.csdn.net/greatliuda/article/details/125527781
+ 2.1 打包到不同的maven私服环境（0.idea maven控制台 1.选择不同profiles 2.点击模块中的(1.package 2.deploy)）
