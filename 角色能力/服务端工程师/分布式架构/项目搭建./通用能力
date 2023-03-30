@@ -7,4 +7,4 @@
  2.3 高并发五个利器（缓存、限流、降级、熔断、隔离）降级是停掉不重要模块 熔断是不去请求有问题的服务 会进行试探什么时候可以 什么时候把流量分过去 隔离是防止阻塞扩散 https://zhuanlan.zhihu.com/p/61363959
  2.4 java分布式系统开关功能设计(服务升降级) https://blog.csdn.net/iamzhongyong/article/details/84449762?utm_medium=distribute.wap_relevant.none-task-blog-baidujs_title-0&share_token=d180ea2e-9a07-45eb-a398-a845353d0b87
 3.如何设计一个好的接口/API https://blog.csdn.net/Jin_Kwok/article/details/104857416
-  1.边界问题（通讯协议1.http 2.RPC 3.websocket） 2.单一职责 3.接口隔离 4.面向对象语言六大原则 5.多层级调用 1.熔断2.降级3.隔离 4.重试 5.超时 6.分布式事务 6.API的1.幂等 2.并发 3.本地事务
+  1.边界问题（通讯协议1.http 2.RPC 3.websocket） 2.单一职责 3.接口隔离 4.面向对象语言六大原则 5.多层级调用 1.熔断2.降级3.隔离 4.重试 5.超时 6.分布式事务 6.API的1.幂等 2.并发（安全和大流量带来的可用性） 3.本地事务
