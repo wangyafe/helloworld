@@ -10,3 +10,7 @@
  1.2 互换性，意味着不同的设备和系统可以使用相同的接口进行通信和交互。
  1.3 可扩展性，意味着接口可以通过添加新的功能来扩展其能力。
  1.2 可配置性，意味着接口可以根据需要进行配置和调整
+4.（降低复杂度）帮助程序员实现模块化和抽象化的编程方法
+ 4.1 接口可以定义不同模块之间的通信和交互方式，从而使程序更加灵活、可扩展和可维护
+ 4.2 此外，接口还可以使程序更加可测试和可靠
+5.程序员三大基础思维简谈：协议、接口和分层 https://www.toutiao.com/article/7215797420083479074/?app=news_article&timestamp=1680142554&use_new_style=1&req_id=20230330101554520608B2CFB48144D420&group_id=7215797420083479074&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=05d0920b-1463-4e85-942d-5d5a8e4d636f&source=m_redirect
