@@ -1,2 +1,3 @@
 1.后端数据返回前端时，不返回null的字段（1.注解 2.配置） https://blog.csdn.net/qq_25844803/article/details/119155569
 2.【SpringBoot WEB 系列】xml 传参与返回使用姿势（@RequestBody指定了使用json解析器） https://cloud.tencent.com/developer/article/1656569
+2.Spring Boot中接受HTTP请求参数的6种方式(取报文中不同部分的参数：1.请求行 2.请求头（1.cookie） 3.请求体)
