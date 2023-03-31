@@ -1,1 +1,2 @@
 1.Zdal分库分表介绍、超详细一步一步搭建简单的zdal框架 https://blog.csdn.net/q6834850/article/details/75574890
+ 1.1 基于标准的 Java JDBC，实现 Java 应用可以访问不同类型数据库的功能
