@@ -1,0 +1,11 @@
+1.Network面板可以记录页面上的网络请求的详情信息，从发起网页页面请求Request后分析HTTP请求后得到的各个请求资源信息（包括状态、资源类型、大小、所用时间、Request和Response等），可以根据这个进行网络性能优化。该面板主要包括5大块窗格
+ 1.Controls 控制Network的外观和功能 2.Filters 控制Requests Table具体显示哪些内容 3.Overview 显示获取到资源的时间轴信息 4.Requests Table 按资源获取的前后顺序显示所有获取到的资源信息，点击资源名可以查看该资源的详细信息 5.Summary 显示总的请求数、数据传输量、加载时间信息。
+ 2.2 (Requests Table)请求资源面板
+  0.Initiator(前端js) 标记请求是由哪个对象或进程发起的（请求源）。 1.Name 资源名称，点击名称可以查看资源的详情情况，包括Headers、Preview、Response、Cookies、Timing 2.Status HTTP状态码 3.Type 请求的资源MIME类型。
+  4.Size 从服务器下载的文件和请求的资源大小。如果是从缓存中取得的资源则该列会显示(from cache) 5.Time 请求或下载的时间，从发起Request到获取到Response所用的总时间。
+  6.Watefall显示所有网络请求的可视化瀑布流(时间状态轴)，点击时间轴，可以查看该请求的详细信息，点击列头则可以根据指定的字段可以排序。
+ 2.3 （不同版本浏览器功能窗格不同）Controls窗格包括的功能有1.网络日志录制 2.日志清理 3.捕获屏幕 4.过滤器 5.视图切换 6.保留日志开关 7.Cache开关 7.网络连接开关 8.网速阀值
+ 2.4 summary窗格 查看DOMContentLoaded和load事件信息
+ 2.5 分析资源在请求的生命周期内各部分时间花费信息（不是每个请求都有dns和ssl时间）
+ 2.6 查看资源的请求源和依赖项（通过按住Shfit并且把光标移到资源名称上，可以查看该资源是由哪个对象或进程发起的（请求源）和对该资源的请求过程中引发了哪些资源（依赖资源））
+2.Google开发者工具面板-network详解 https://blog.csdn.net/daipianpian/article/details/120411730?share_token=632a92ac-a85a-4f47-9046-6fbe18a6e44a
