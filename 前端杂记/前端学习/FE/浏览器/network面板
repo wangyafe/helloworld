@@ -15,5 +15,5 @@
  2.4 summary窗格 查看DOMContentLoaded和load事件信息
  2.5 分析资源在请求的生命周期内各部分时间花费信息（不是每个请求都有dns和ssl时间）
  2.6 查看资源的请求源和依赖项（通过按住Shfit并且把光标移到资源名称上，可以查看该资源是由哪个对象或进程发起的（请求源）和对该资源的请求过程中引发了哪些资源（依赖资源））
- 2.7 细节补充：请求右键（1.Clear Browser Cache：清除浏览器缓存 2.Clear Browser Cookies：清除浏览器cookies）
+ 2.7 细节补充：请求右键（1.Clear Browser Cache：清除浏览器缓存 2.Clear Browser Cookies：清除浏览器cookies 3.Block request domain 或 Block request URL，可以分别阻塞该请求所在 domain 下的所有请求 和 该请求）
 2.Google开发者工具面板-network详解 https://blog.csdn.net/daipianpian/article/details/120411730?share_token=632a92ac-a85a-4f47-9046-6fbe18a6e44a
