@@ -8,4 +8,4 @@
  2.4 java分布式系统开关功能设计(服务升降级) https://blog.csdn.net/iamzhongyong/article/details/84449762?utm_medium=distribute.wap_relevant.none-task-blog-baidujs_title-0&share_token=d180ea2e-9a07-45eb-a398-a845353d0b87
 3.如何设计一个好的接口/API https://blog.csdn.net/Jin_Kwok/article/details/104857416
   1.边界问题（通讯协议1.http 2.RPC 3.websocket） 2.单一职责 3.接口隔离 4.面向对象语言六大原则 5.多层级调用 1.熔断2.降级3.隔离 4.重试 5.超时 6.分布式事务 
-  6.API的1.幂等 2.并发（1.线程安全 2.大流量带来的可用性 3.及时释放数据库链接） 3.本地事务
+  6.API的1.幂等 2.并发（1.线程安全(1.2 不同接口的并发安全) 2.大流量带来的可用性 3.及时释放数据库链接） 3.本地事务
