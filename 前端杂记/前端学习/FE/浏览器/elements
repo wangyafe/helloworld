@@ -1,1 +1,2 @@
 1.请求页面关注elements(iframe嵌入新页面)
+2.断点：1.在 Elements 标签页，选中一个元素 2.右击，选择 Break on --> subtree modifications （或 attribute modifications 或 node removal）
