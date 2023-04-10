@@ -1,2 +1,6 @@
 1.请求页面关注elements(iframe嵌入新页面)
 2.断点：1.在 Elements 标签页，选中一个元素 2.右击，选择 Break on --> subtree modifications （或 attribute modifications 或 node removal）
+3.谷歌浏览器开发者工具操作手册 https://blog.csdn.net/IO14122/article/details/125557209?share_token=6f6a1d70-72b6-477f-9b4e-9d11601cea36
+ 3.1 选中元素 右边窗格有：
+  3.1 基本结构图例 3.2 元素样式模块 3.3 计算样式 3.4 布局 3.5 事件监听器 3.6 DOM断点： 监听当前元素移除，变化等操作后进行的断点隔断 3.7 属性： 当前元素的JS属性；
+  3.8 无障碍功能： 让每一个人都可以正常使用我们的浏览器，这个需要在浏览器设置页面进行开启和配置插件使用
