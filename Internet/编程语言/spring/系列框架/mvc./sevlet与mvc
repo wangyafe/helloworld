@@ -1,4 +1,5 @@
 1.关于Servlet 与 MVC 设计模式 https://www.toutiao.com/article/7101558272712720907/?log_from=4e49fbd7ee3be_1656587935214
- 1.1 MVC 模式中 1.视图 View 可以用 JSP/HTML/CSS 实现 2.模型 Model 可以用 JavaBean 实现 3.控制器 Controller 就可以用 Servlet 来实现
+ 1.1 MVC是一种设计模式 1.视图 View 可以用 JSP/HTML/CSS 实现 2.模型 Model（完成业务逻辑） 可以用 JavaBean（service+dao+entity）实现 3.控制器 Controller 就可以用 Servlet 来实现
  1.2 视图view可以放在后端 前后端分离后 前端承担了部分工作
  1.3 通常用封装数据的 JavaBean 和封装业务的 JavaBean 两部分来实现模型层
+2.springMVC是mvc的开源框架 2.1 struts+spring的整合 2.2 是spring的子模块 无需整合
