@@ -2,3 +2,9 @@
 2.mock单元测试 https://zhuanlan.zhihu.com/p/98074553
  2.1 模拟1.对象 2.方法 3.出入参
 3.手把手教你单元测试，你学会了吗？(查看代码覆盖率) http://www.51testing.com/html/95/n-4476595.html?nomobile=1
+4.这个Mockito，够喝一壶了（修改元类字节码文件生成子类） https://www.toutiao.com/article/7034741978780893707/?app=news_article&timestamp=1681198913&use_new_style=1&req_id=20230411154153BA0FAB2C5873EE038885&group_id=7034741978780893707&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=4922cc45-be41-4c16-bc43-5bae107c84fd&source=m_redirect
+ 4.1 使用：invoke-when-then-invoke这样的步骤去使用就可以了，即插桩前调用-插桩-插桩后调用
+ 4.2 插桩的参数 1.参数包括两类：通常的参数和匹配器 2.匹配器：可以使用Mockito.any的一系列函数来匹配参数，包括ArgumentMatchers类下面提供的所有静态方法，eq，startsWith等等
+ 4.3 其实并没有修改原类的既定逻辑，而是调用mock工具函数会生成一个Mock对象
+ 4.4 这个对象是继承了原类的一个子类
+ 4.5 子类是用字节码框架在运行时生成的 使用Byte Buddy字节码框架处理技术生成的字节码 字节码可以直接加载，选定一个合适的类加载器加载生成的字节码，并实例化为一个对象
