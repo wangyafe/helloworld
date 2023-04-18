@@ -1,0 +1,3 @@
+1.采用https方式把接口的数据进行加密传输，即便是被黑客破解，黑客也花费大量的时间和精力去破解。
+2.（1.根据参数用私钥加密得到签名 2.中间人修改参数但不知道私钥 签名错误）接口后台对接口的请求参数进行验证，防止被黑客篡改（对称加密）
+3.既简洁又优雅的接口防刷处理方案，yyds! https://www.toutiao.com/article/7222457333421621775/?app=news_article&timestamp=1681814576&use_new_style=1&req_id=20230418184255904BB13BBF9EE5063697&group_id=7222457333421621775&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=a3a67238-22c4-41e3-b548-49dde41f21c0&source=m_redirect
