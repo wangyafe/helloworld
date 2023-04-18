@@ -1,0 +1,46 @@
+前端技术分类，会了这些基本就是大佬了 https://www.toutiao.com/w/1760322109742083/?log_from=908098d64a008_1681798358763
+1、pc网站
+     后台管理
+     门户网站
+2、h5页面
+    h5页面
+    app内嵌
+3、app开发
+    uniapp
+    taro
+4、地图
+    百度地图
+    腾讯地图
+    高德地图
+    一些内网自己的地图等等
+5、图表类开发
+    echarts
+    hightcharts
+    antv
+    d3
+    canvas原生开发
+6、网页即时通讯
+    腾讯IM
+    strophejs
+    websocket
+7、网页音视频类
+直播
+    flv推流
+    m3u8推流
+    rtmp
+    ...
+音视频通话
+    webrtc
+8、webgl
+    threejs
+9、富文本编辑
+    draftjs
+    UEditor
+    ....
+10、桌面端开发
+    electorn
+    reactNative
+11、nodejs相关
+    egg
+    express
+    爬虫
