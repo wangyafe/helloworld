@@ -1,0 +1,3 @@
+1.jar包内容修改（路径截图） https://www.toutiao.com/article/7223204725674574374/?app=news_article&timestamp=1681956555&use_new_style=1&req_id=202304201009141B5659CC193B9A3CB82F&group_id=7223204725674574374&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=d5779168-75d2-48ec-8a8f-a82cfe138716&source=m_redirect
+ 1.1 使用反编译工具 1.2 3.复制一份demo.jar该扩展名为demo.zip
+2.使用IntelliJ IDEA修改jar包中某个class文件 https://blog.csdn.net/Gnd15732625435/article/details/109967731
