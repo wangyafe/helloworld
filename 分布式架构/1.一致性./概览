@@ -8,5 +8,6 @@
     1.2pc问题：1.阻塞 2.协调者崩溃 导致参与者阻塞  
     2.3pc改进：1.先获取数据库锁 询问是否可以进行commit操作 2.在preCommit阶段引入 参与者超时机制
 4.Redis和MySQL分布式双写一致性 https://blog.csdn.net/luxiaoruo/article/details/106637213?spm=1001.2014.3001.5501
-  4.1 1. 只可以保证最终一致性：先更新数据库 然后缓存设置过期时间 2.canal中间件：canel伪装成mysql slave 将MySQL的binlog文件同步到Canal 由Canal进行下一步处理，比如存入MQ、Redis等，但是可能会存在些许延迟
+  4.1 1. 只可以保证最终一致性：先更新数据库 然后缓存设置过期时间（并发量大，会一直延长过期时间，不会出现缓存穿透，数据不一致） 2.canal中间件：canel伪装成mysql slave 将MySQL的binlog文件同步到Canal 由Canal进行下一步处理，比如存入MQ、Redis等，但是可能会存在些许延迟
+  4.2 先更新数据库 然后删除缓存（并发量大，缓存一直被删，出现缓存穿透）
   4.2 读数据步骤（读接口写入缓存） 1.读缓存 2.ifnull 读DB 3.set缓存
