@@ -4,7 +4,7 @@
  1.3 技术上不更新，总要有人去做的吧，几年前 Dubbo被 SpringCloud所取代
  1.4 相同的剧本，可惜阿里巴巴和 Spring社区都是巨头，巨头之间战斗要考虑很多，于是它们想到了合作， SpringCloud与alibaba相结合，
  1.5 技术上有人负责更新新的组件，也还可以继续使用 Spring社区的技术，阿里另外一方面也可以推广一波阿里云和各种商业软件，双赢局面。于是 SpringCloudAlibaba诞生了
- 1.6 Spring Cloud Alibaba简介 https://www.toutiao.com/article/7207424396858802726/?app=news_article&timestamp=1680618656&use_new_style=1&req_id=20230404223055C78317CCF0748F24A0A1&group_id=7207424396858802726&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=ba9e0c73-3bbb-4e9d-a0b7-59d9bbcbd7b1&source=m_redirect
+ 1.6 Spring Cloud Alibaba简介(架构图) https://www.toutiao.com/article/7207424396858802726/?app=news_article&timestamp=1680618656&use_new_style=1&req_id=20230404223055C78317CCF0748F24A0A1&group_id=7207424396858802726&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=ba9e0c73-3bbb-4e9d-a0b7-59d9bbcbd7b1&source=m_redirect
 2.为什么Spring Cloud Alibaba会替代Spring Cloud https://zhuanlan.zhihu.com/p/385084113
 3.Spring Cloud Alibaba与Spring Cloud Netflix区别 https://blog.csdn.net/colours_starry_sky/article/details/125735977
 4.springcloud团队开发时支持使用zk为注册中心（引入依赖）
