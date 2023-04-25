@@ -1,0 +1,9 @@
+1.(监控代码：1.大代码量提交监控 2.删除文件监控)git hooks是一些自定义的脚本，用于控制git工作的流程，分为客户端钩子和服务端钩子
+ 1.1 git hooks分为客户端hook和服务端hook。客户端hook又分为pre-commit、prepare-commit-msg、commit-msg、post-commit等，主要用于控制客户端git的提交工作流
+ 1.2 （全局git template）用户可以在项目根目录的.git目录下面配置使用，也可以配置全局git template用于个人pc上的所有git项目使用
+ 1.3 服务端hook又分为pre-receive、post-receive、update，主要在服务端接受提交对象时进行调用
+ 1.4 如何规范你的Git commit？ https://zhuanlan.zhihu.com/p/182553920
+2.webhook是作用于代码库上的，用户提交git commit，push到仓库的时候就会触发webhook，webhook从用户的commit信息里面获取到commit message，校验其是否满足git commit规范，如果不满足就发送告警消息
+ 2.1 如果满足规范，调用gitlab API获取提交的diff信息，验证提交代码量，验证是否有重命名文件和删除文件操作，如果存在以上操作还会发送告警消息，最后把所有记录都入库保存
+3.Git 钩子 https://www.atlassian.com/zh/git/tutorials/git-hooks#server-side-hooks
+4.详解如何在项目中使用git Hooks（husky、yorkie） https://juejin.cn/post/6974301879731748900
