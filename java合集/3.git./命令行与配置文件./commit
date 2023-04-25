@@ -1,0 +1,6 @@
+1.如何规范你的Git commit？ https://zhuanlan.zhihu.com/p/182553920
+ 1.1 格式：<type>(<scope>): <subject>
+ 1.2 1.feat：新功能（feature）2.fix/to 3.perf 4.refactor：重构（即不是新增功能，也不是修改bug的代码变动） 5.chore: 不修改src或者test的其余修改，例如构建过程或辅助工具的变动
+2.Git commit message 规范 https://juejin.cn/post/6844903871832145927
+3.为啥我的代码库那么大？聊聊Git使用坏习惯 https://www.toutiao.com/article/7213558893845185028/?app=news_article&timestamp=1679555546&use_new_style=1&req_id=20230323151226C3213A05518BB4008568&group_id=7213558893845185028&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=315a3766-2d6f-4526-aa4e-1ad7a53b6b35&source=m_redirect
+
