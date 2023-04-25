@@ -1,2 +1,6 @@
 1.SocketChannel（处理读写事件） 1.2.ServerSocketChannel（1.监听连接事件 2.父channel） 1.3.DatagramChannel(用于udp) 1.4.FileChannel(文件读写)
 2.Netty 基石，Java NIO 核心知识 https://mp.weixin.qq.com/s?__biz=MzkxNTE3NjQ3MA==&mid=2247494123&idx=1&sn=9be7d3c690fdd6c2cfac6ac025ed0aac&chksm=c1618492f6160d8456f587438d0834bcda4ce93df644ae3290cb052fcd4c9048f93b5a21608f&scene=178&cur_album_id=2126839054972354563#rd
+3.一文搞懂ByteBuffer使用与原理 https://blog.csdn.net/m0_71777195/article/details/129966484
+ 3.1 已知NIO中有三大组件：1.Channel（连接） 2.Buffer（应用程序读写channel连接） 3.Selector（1.处理线程 2.与运行库交互（调用os函数））
+ 3.2 那么Buffer的作用就是提供一个缓冲区，用于用户程序和Channel(连接)之间进行数据读写，也就是用户程序中可以使用Buffer向Channel写入数据，也可以使用Buffer从Channel读取数据。
+ 
