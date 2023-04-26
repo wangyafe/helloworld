@@ -1,0 +1,16 @@
+0.命名本质上是分类（taxonomy）。即，选择一个单一的分类，能够包含类的全部信息，作为名字
+1.困难（1.信息压缩 2.预测未来：类/方法的职责可能会在未来有变化，现在起的名字需要考虑未来可能的变动 3.语言能力 计算机的词汇表不同于日常交流词汇表，有大量黑话 4.不良设计）
+2.原则（1.准确 Precision（1.是什么 2.能做什么） 2.可读（类“是什么”，方法“做什么”, 它们应该是可读的，应该是 [Object] [Does ...] 式的句子） 3.避免 API 中使用缩写 4.避免双关
+ 5.合乎语法 6.使用单一的概念命名 7.应该使用所允许的最细粒度的分类 8.简洁 Simplicity 9.一致 Consistency）
+3.语法规则：1.类（名词） 2.辅助类（） 3.接口 （当接口表示可行动类型时，可使用另一个语法，即 Verb-able） 4.方法（谓语（动词），或是 谓宾（动词+名词） 结构） 5.访问器 Getter（直接使用所 Get 的对象的名词形式）
+ 6.断言 Predicate（1.系动词： 主-系-表 2.情态动词： 主-助谓-谓-(宾/表) 3.表尝试： 主-maybe/try-谓-（宾/表） 4.第三人称单数 5.一阶逻辑 First-order logic, Predicate Logic）
+ 7.介词（介词经常与某些动词固定搭配）
+4.词汇表
+ 4.1 类继承（1.Abstract/Base 2.Impl 3.Default） 4.2 模块（Module/Component） 4.3 测试 4.4 异常 4.5 服务 4.6 容器（Holder/Container/Wrapper） 4.7 控制类（Manager/Controller）
+ 4.8 辅助类（Util/Utility/Utils/Helper/{ClassName}s） 4.9 函数式 （Function/Predicate/Callback）
+ 4.10 设计模式类：1.创建式 （1.Builder 2.Factory） 2.行为式 1.Adapter: 适配器 2.Decorator：装饰器 3.Delegation：委派模式 4.Facade: 外观模式 5.Proxy：代理模式 6.Iterator: 迭代器
+ 7.Visitor: 访问者模式 8.Observer/Observable: 观察者模式 9.Strategy：策略模式 10.Command：命令模式 11.Null Object 模式 12.Object Pool 对象池模式 
+ 4.11 1,并发/异步 2.缓存/惰性 3.不可变性 4.存储/数据/处理 5.哈希 6.流式编程 7.状态 8.计数
+ 4.12 方法：1.创建/提供 2.消费 3.查找 4.拷贝 5.添加 6.更新 7.删除 8.编排 9.检查/验证 9.执行/操作 10.开启 vs 关闭 11.读取 vs 写入 12.序列化 vs 反序列化 13.转换 14.匹配 15.事件
+  16.文本处理 17.生命周期 18.计算 19.元数据（配置/环境/...）
+5.程序员“头痛”起名根治指南 https://www.toutiao.com/article/7205460257743585830/?app=news_article&timestamp=1678847059&use_new_style=1&req_id=20230315102419DBBB8C6D4CC97961E6CF&group_id=7205460257743585830&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=22ef7e62-7ab1-4af3-a9c8-6ca8dcbbe8ce&source=m_redirect
