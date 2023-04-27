@@ -5,7 +5,7 @@
    1.2.2 Redlock之分布式锁实现原理 https://blog.csdn.net/qq_39470733/article/details/116054873?share_token=afcfd2ab-24ef-43b3-a577-4296265ea484
      redlock缺点及原因：1.同时持有锁 2.数据丢失
    1.2.3 redis分布式锁自动延长过期时间 https://segmentfault.com/a/1190000037526623?share_token=790903ce-519c-4de4-bcc6-58aeb06a2580
-3.分布式锁：1.redis 2.zk 3.数据库分布式锁
+3.分布式锁：1.redis 2.zk（查看创建节点是否最新） 3.数据库分布式锁
   3.1 非原子性（加锁操作和后面的设置超时时间）
   3.2 忘了释放锁
   3.3 释放的别人的锁（1.大事务锁失效 2.其他线程加锁成功 3.释放别人的锁）（1.用requestId标识是不是本线程的锁 2.lua脚本 保证查和删是原子性）
