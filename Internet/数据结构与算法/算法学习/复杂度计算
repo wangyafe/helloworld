@@ -1,4 +1,4 @@
 1.算法的时间与空间复杂度（一看就懂） https://zhuanlan.zhihu.com/p/50479555
   1.可以去简化原因 n无限大 常数无意义 1.1 O标识正比例关系
   2.1常数阶O（1） 2.2对数阶O（logN）2.3线性阶O（n）2.4线性对数阶O(nlogN) 2.4K次方阶O(n^K) 2.5指数阶O(2^K)
-  
+2.二分查找算法（Binary Search）的时间复杂度（O（logN）） https://www.jianshu.com/p/4fe210d7acdf
