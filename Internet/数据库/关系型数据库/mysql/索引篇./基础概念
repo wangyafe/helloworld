@@ -1,4 +1,5 @@
 1.MySQL索引那些事：什么是索引？为什么加索引就查得快了？ http://blog.itpub.net/70000181/viewspace-2776159/
+ 1.1 可选的数据结构（1.二叉树（退化为链表） 2.红黑树（树的高度过高导致查询效率变慢） 3.hash（不能支持范围查询） 4.B-Tree（1.瓶颈是IO 不是计算 2.data元素挪到叶子节点））
 2.B+Tree原理及mysql的索引分析 https://www.cnblogs.com/xiaoxi/p/6894610.html
 3.MySQL回表、索引覆盖、索引下推 https://blog.csdn.net/luxiaoruo/article/details/106637231?share_token=7a59d0da-1223-4c66-b503-b8b9f6809f75
  3.1 索引下推（多条件查询）：1.ICP关闭：引擎层根据索引匹配到主键（多列索引）时 直接回表查询 2.ICP开启：引擎层根据索引匹配到主键（多列索引）时 会根据其他查询条件过滤一遍 再回表
