@@ -2,3 +2,4 @@
 1.2 网站KPI:1.RT 2.吞吐量 = 1.TPS 2.HPS 3.QPS 3.并发数 =（1.在线用户数 2.并发访问数） 4.系统KPI（1.cpu负载 2.内存 3.网络IO 4.磁盘IO 5.DB访问）
 1.3 QPS（每秒读请求）、TPS（每秒写请求）、并发用户数、吞吐量关系 https://zhuanlan.zhihu.com/p/111914041
  1.3.1 QPS不等同于并发量（同一时刻请求数）
+1.4 性能指标有哪些 https://www.toutiao.com/article/7103818861081854476/?app=news_article&timestamp=1654055508&use_new_style=1&req_id=202206011151470101500710761128D35E&group_id=7103818861081854476&share_token=b3697048-74c1-4c83-8235-f623d2b57aee&source=m_redirect
