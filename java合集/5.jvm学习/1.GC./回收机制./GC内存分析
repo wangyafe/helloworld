@@ -1,0 +1,5 @@
+1.从S区晋升的对象在老年代也放不下导致 FullGC（fullgc 回收无效则抛 OOM）。
+ 1.1 可能原因： 1.survivor 区太小，对象过早进入老年代查看 SurvivorRatio 参数 2.大对象分配，没有足够的内存dump 堆，profiler/MAT 分析对象占用情况 3.old 区存在大量对象dump 堆，profiler/MAT 分析对象占用情况
+2.（fullgc堆内存没有变化）正常的堆内存曲线应该是呈锯齿形。如果你发现full gc 之后堆内存几乎没有下降，那么可以推断：java堆中有大量不能回收的对象且在不停膨胀，使堆的使用占比超过full GC的触发阈值，但又回收不掉，导致full GC一直执行
+ 2.1 (不能回收的对象且在膨胀)换句话来说，可能是内存泄露了
+3.Java应用CPU过高，如何排查？参考解决思路和常用工具总结 https://www.toutiao.com/article/6852954713722192396/?app=news_article&timestamp=1633879528&use_new_style=1&req_id=202110102325280101502181341C5110AC&group_id=6852954713722192396&share_token=9498c069-62ac-48be-8c3a-574420c39b33&source=m_redirect
