@@ -1,0 +1,4 @@
+1.关于JVM参数-XX:SurvivorRatio的理解 https://blog.csdn.net/flyfhj/article/details/86630105
+ 1.1 新生代中Eden区域和Survivor区域（From幸存区或To幸存区）的比例
+2.JVM中新生代为什么要有两个Survivor（form,to）？ https://www.zhihu.com/question/44929481
+ 2.1 只有一个s区 需要复制两次旧对象
