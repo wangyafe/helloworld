@@ -2,3 +2,4 @@
   1.可以去简化原因 n无限大 常数无意义 1.1 O标识正比例关系
   2.1常数阶O（1） 2.2对数阶O（logN）2.3线性阶O（n）2.4线性对数阶O(nlogN) 2.4K次方阶O(n^K) 2.5指数阶O(2^K)
 2.二分查找算法（Binary Search）的时间复杂度（O（logN）） https://www.jianshu.com/p/4fe210d7acdf
+3.一定要会的算法复杂度分析，简直yyds！ https://www.toutiao.com/article/7174316202490380834/?app=news_article&timestamp=1670909496&use_new_style=1&req_id=20221213133135EDB75177A253D46FBE63&group_id=7174316202490380834&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=069849f4-94fd-4aa8-8bf5-305df5ecd8a7&source=m_redirect
