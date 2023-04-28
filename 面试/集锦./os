@@ -1,0 +1,6 @@
+1.使用CPU最高的都是GC 线程(频繁gc(内存泄漏))
+2.使用CPU最高的是业务线程（1.死循环 2.线程阻塞（死锁，等待内核态锁，如 synchronized） 3.io wait（硬盘空间不足））
+3.排查：1.top命令找具体进程 2.top -hp pid找线程 
+ 3.2 arthas thread
+4.Java应用CPU过高，如何排查？参考解决思路和常用工具总结 https://www.toutiao.com/article/6852954713722192396/?app=news_article&timestamp=1633879528&use_new_style=1&req_id=202110102325280101502181341C5110AC&group_id=6852954713722192396&share_token=9498c069-62ac-48be-8c3a-574420c39b33&source=m_redirect
+5.线上CPU飙升100%问题排查，一篇足矣 https://www.toutiao.com/article/6741276798333485581/?app=news_article&timestamp=1682584867&use_new_style=1&req_id=2023042716410765B9CE975CC03900AFB3&group_id=6741276798333485581&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=7a158316-578a-4e27-bdae-d3ac3ec039ec&source=m_redirect
