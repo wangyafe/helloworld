@@ -1,2 +1,3 @@
 1.功能（将购物系统拆分为登录认证子系统、订单系统、查询系统、分析系统等） 2.拆存储 3.拆计算（服务器）
  1.1 63互联网技术演进的模式 https://www.toutiao.com/article/7147985888180748836/?log_from=1ec7ab63359d1_1664976201580
+2.阿里一面：微服务拆分需要考虑什么因素？ https://www.toutiao.com/article/7152314718064017931/?app=news_article&timestamp=1665281195&use_new_style=1&req_id=2022100910063501015801820018A6E5EA&group_id=7152314718064017931&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=070bdb74-a306-42b3-bb9d-b1ff41e42dea&source=m_redirect
