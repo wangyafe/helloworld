@@ -3,3 +3,7 @@
  1.2 mmap适合小数据量的传输, RocketMQ使用的就是mmap。
  1.3 sendFile 适合大数据量的传输，Kafka使用的就是sendFile
 2.所谓的零拷贝不是不拷贝，而是不经过CPU拷贝，它还是需要拷贝的（比如将数据从硬盘拷贝到内核态），这个零拷贝是从操作系统（CPU）的角度看的
+3.零拷贝技术及在Java中应用 https://www.toutiao.com/article/7100795589604033059/?app=news_article&timestamp=1653288174&use_new_style=1&req_id=2022052314425401015010304823009CE9&group_id=7100795589604033059&share_token=4fb4927d-fd4f-4d83-abc8-a5bc1cf4c946&source=m_redirect
+ 3.1 Tomcat: 使用sendfile直接把大文件写入Socket，提升静态文件高效的数据传输
+ 3.2 Netty: 统一的ByteBuf机制，通过DirectBuffer封装，使用堆外内存进行Socket读写；也提供使用Sendfile来把文件缓冲区的数据发送到目标Channel
+ 3.3 RecketMQ：基于mmap内存映射文件方式对CommitLog文件读写文件，当客户端消费消息时直接把内容写到目标Socket
