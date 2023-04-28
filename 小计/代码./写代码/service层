@@ -1,4 +1,4 @@
-1.service层（1.状态处理转义（消除if else） 2.集合Stream(新特性) 3.optionl判空） 4.赋值（1.BeanUtils.copyProperties(request, featureRequest) import org.springframework.beans.BeanUtils; 2.设置对象属性setcopyutil 3.分页批量 新建对象）
+1.service层（1.状态处理转义（消除if else） 2.集合Stream(新特性) 3.optionl判空） 4.赋值
  1.1 消除if else结果模板：
  public void add(Object element) {
  if (readOnly) {
@@ -11,3 +11,4 @@
 
  addElement(element);
 }
+1.2 一款 IDEA 插件帮你优雅转化 DTO、VO、BO、PO、DO https://www.toutiao.com/article/7082290021406868005/?app=news_article&timestamp=1648984550&use_new_style=1&req_id=202204031915500101502220291744DEED&group_id=7082290021406868005&share_token=789fb97e-2998-45f6-8078-a2c1b5c39ba0&source=m_redirect
