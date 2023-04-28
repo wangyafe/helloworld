@@ -1,6 +1,7 @@
 1.mybatis的一些特殊符号标识 https://blog.csdn.net/buyaoshuohua1/article/details/74991913
 2.传输对象
        12.1 DTO(请求对象) 12.2 BO(业务对象) 12.3 DAO(mapper请求对象) 12.4 DO(entity和数据库对应) 12.4 VO(展示对象) PO BO VO DTO POJO DAO DO这些Java中的概念分别指一些什么？ https://www.zhihu.com/question/39651928
+  2.1 一款 IDEA 插件帮你优雅转化 DTO、VO、BO、PO、DO https://www.toutiao.com/article/7082290021406868005/?app=news_article&timestamp=1648984550&use_new_style=1&req_id=202204031915500101502220291744DEED&group_id=7082290021406868005&share_token=789fb97e-2998-45f6-8078-a2c1b5c39ba0&source=m_redirect
 3.打印sql
 方案一：
 1.https://blog.csdn.net/wqh0830/article/details/85886383
