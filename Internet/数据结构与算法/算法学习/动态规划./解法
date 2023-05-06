@@ -1,0 +1,23 @@
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        // 初始化备忘录,用amount+1填满备忘录,amount+1 表示该值不可以用硬币凑出来
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp,amount+1);
+        // 设置初始条件为 0
+        dp[0]=0;
+        for (int coin : coins) {
+            for (int i = coin; i <= amount; i++) {
+                // 根据动态转移方程求出最小值
+                if(coin <= i) {
+                    dp[i]=Math.min(dp[i],dp[i-coin]+1);
+                }
+            }
+        }
+        // 如果 `dp[amount] === amount+1`说明没有最优解返回-1,否则返回最优解
+        return dp[amount] == amount+1 ? -1 : dp[amount];
+    }
+}
+1.确定实体变量及函数意义（1.变量是问题中的 2.函数值是结果）
+2.状态转移方程（1.初始化dp数组（边界问题））
+3.遍历顺序及执行条件（1.从顶自下 2.从下至上）
+4.一文搞懂动态规划 https://www.toutiao.com/article/6811687124945863179/?app=news_article&timestamp=1683300581&use_new_style=1&req_id=2023050523294102214AEF0EA7D41840BD&group_id=6811687124945863179&share_token=9ab874da-6f7a-422b-b887-a4d5f3be0e41&source=m_redirect
