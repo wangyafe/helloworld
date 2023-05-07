@@ -1,3 +1,4 @@
+1.找零钱（1.初始化一维数组 2.状态来自起点）
 class Solution {
     public int coinChange(int[] coins, int amount) {
         // 初始化备忘录,用amount+1填满备忘录,amount+1 表示该值不可以用硬币凑出来
@@ -46,10 +47,11 @@ class Solution {
         return dp[0][0];
     }
 }
-1.确定实体变量及函数意义（1.变量是问题中的(确定一维数组还是二维数组) 2.函数值是结果）
-2.状态转移方程（0.利用递归思想（1.从顶自下 2.从下至上）1.找dp(i) 和 dp(i-1) 的关系 2.初始化dp数组（边界问题(1.一维数组起点边界 2.二维数组行列边界)））
-3.遍历顺序及执行条件（1.从顶自下 2.从下至上）
-4.判断是否有最优解（1.打印数组 2.举例推导）
+1.步骤（代码：1.初始化数组及边界 2.循环及条件更新dp状态）
+ 1.确定实体变量及函数意义（1.变量是问题中的(确定一维数组还是二维数组) 2.函数值是结果）
+ 2.状态转移方程（0.利用递归思想（1.从顶自下 2.从下至上）1.找dp(i) 和 dp(i-1) 的关系 2.初始化dp数组（边界问题(1.一维数组起点边界 2.二维数组行列边界)））
+ 3.遍历顺序及执行条件（1.从顶自下 2.从下至上）
+ 4.判断是否有最优解（1.打印数组 2.举例推导）
 5.一文搞懂动态规划 https://www.toutiao.com/article/6811687124945863179/?app=news_article&timestamp=1683300581&use_new_style=1&req_id=2023050523294102214AEF0EA7D41840BD&group_id=6811687124945863179&share_token=9ab874da-6f7a-422b-b887-a4d5f3be0e41&source=m_redirect
 6.动态规划（JAVA）-最长公共子序列 https://blog.csdn.net/qq_35374224/article/details/128187489?share_token=9838bc71-6bfc-4f21-b46c-3e76f81af18a
 7.力扣https://leetcode.cn/problems/longest-common-subsequence/
