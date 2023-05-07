@@ -1,4 +1,4 @@
-1.找零钱（1.初始化一维数组 2.状态来自起点）
+1.找零钱（1.初始化一维数组 2.从下至上 状态来自起点）
 class Solution {
     public int coinChange(int[] coins, int amount) {
         // 初始化备忘录,用amount+1填满备忘录,amount+1 表示该值不可以用硬币凑出来
