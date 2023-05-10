@@ -1,0 +1,43 @@
+1.全局变量 2.for循环处理节点（横向处理树的宽度） 3.递归（纵向处理树的深度） 4.回到上一层节点 撤销处理
+ 1.1 节点选取key-value 1.2 顺序数组 对应value
+ 1.2 电话号码的字母组合 https://leetcode.cn/problems/letter-combinations-of-a-phone-number/
+class Solution {
+    List<String> rest = new ArrayList<>();
+    String path = "";
+    public List<String> letterCombinations(String digits) {
+        //0.使用map对应数据
+        HashMap<String,String> map = new HashMap<String,String>();
+        map.put("2","abc");
+        map.put("3","def");
+        map.put("4","ghi");
+        map.put("5","jkl");
+        map.put("6","mno");
+        map.put("7","pqrs");
+        map.put("8","tuv");
+        map.put("9","wxyz");
+        char[] test1 = digits.toCharArray();
+        if(test1.length == 0){
+            return new ArrayList<>();
+        }
+        res(test1,map,0,test1.length);
+        return rest;
+        
+    }
+    public void res(char[] test1,HashMap<String,String> map,int index,int size){
+        if(path.length() == size){
+            rest.add(path);
+            return;
+        }
+        //0.key-value 作为节点 顺序由数组控制
+        char[] c = map.get(String.valueOf(test1[index])).toCharArray();
+        //1.for循环横向遍历
+        for(int i = 0;i<c.length;i++){
+            //2.处理节点
+            path = path + c[i];
+            //3.递归纵向处理树的深度，该节点入参不变
+            res(test1,map,index+1,size);
+            //4.回溯撤销处理 回到上一个节点
+            path = path.substring(0, path.length()-1);
+        }
+    }
+}
