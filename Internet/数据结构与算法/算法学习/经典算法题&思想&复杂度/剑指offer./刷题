@@ -1,2 +1,6 @@
 1.（1.数据结构 2.算法 3.真题 4.其他语言）https://leetcode.cn/problemset/all/
 2.（ACM模式（自己处理输入输出））https://www.nowcoder.com/exam/oj
+ 2.1 有多行数据输入的情况下，一般这样处理，static Scanner in = new Scanner(System.in); while(in.hasNext()){ //以空格作为分隔符读取 sc.nextDouble();}
+ 2.2 采用has xxxx的话，后面也要用next xxxx。比如前面用hasNextLine，那么后面要用 nextLine 来处理输入
+ 2.3 整行读取 String[] s = in.nextLine().split(" ");
+ 2.4 https://www.cnblogs.com/zyd123123/p/16198087.html?share_token=8953d1fd-6f66-4f06-8673-fd24feaea1d2
