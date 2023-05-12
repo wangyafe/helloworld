@@ -1,0 +1,7 @@
+1.基础数据结构：1.数组（1.有序集合） 2.链表（1.双向链表） 3.栈（1.单调栈） 4.队列 5.树（1.二叉树 2.二叉搜索树 3.最小生成树） 
+   6.堆（1.优先队列 2.单调队列） 7.图（1.拓扑排序 2.最短路 3.欧拉回路 4.双连通分量 5.强连通分量） 8.哈希表
+2.高级数据结构
+ 1.并查集 2.字典树 3.线段树 4.树状数组 5.后缀数组
+3.常用数据库数据结构
+ 1.skiplist(跳表) 2.hashIndex(哈希索引) 3.SSTable（Sorted Strings Table） 4.LSMTree（跳表+ssTable 用于写多读少如kafka） 5.B-Tree(B+Tree) 6.inverted index(倒排索引) 7.suffix Tree(前缀树) 8.R-Tree(空间数据索引R树)
+ 3.2 数据库常用数据结构. https://www.toutiao.com/w/1765644143351815/?app=news_article&timestamp=1683875246&use_new_style=1&share_token=3eb53c70-ca2d-4477-9a65-1e08b18e7851&source=m_redirect
