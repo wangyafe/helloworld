@@ -1,0 +1,2 @@
+1.深入解析什么是LSM-Tree https://blog.csdn.net/wzf1993/article/details/79547037
+ 1.1 LSM-Tree全称是Log Structured Merge Tree，是一种分层，有序，面向磁盘的数据结构，其核心思想是充分了利用了，磁盘批量的顺序写要远比随机写性能高出很多
