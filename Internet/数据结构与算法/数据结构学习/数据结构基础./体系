@@ -1,1 +1,6 @@
-1.专项练习（数据结构） https://www.nowcoder.com/exam/intelligent?questionJobId=10&tagId=21000
+1.专项练习（基础数据结构）介绍 https://www.nowcoder.com/exam/intelligent?questionJobId=10&tagId=21000
+2.基础数据结构：1.数组（1.有序集合） 2.链表（1.双向链表） 3.栈（1.单调栈） 4.队列 5.树（1.二叉树 2.二叉搜索树 3.最小生成树） 
+   6.堆（1.优先队列 2.单调队列） 7.图（1.拓扑排序 2.最短路 3.欧拉回路 4.双连通分量 5.强连通分量） 8.哈希表
+3.高级数据结构
+ 1.并查集 2.字典树 3.线段树 4.树状数组 5.后缀数组
+4.标签 数据结构（代码实现）https://leetcode.cn/problemset/algorithms/?page=1&topicSlugs=segment-tree
