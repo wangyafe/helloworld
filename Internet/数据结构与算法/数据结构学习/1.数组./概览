@@ -1,2 +1,5 @@
 1.Object[] array（定义） 求最大值 1.变量 2.遍历数组 https://github.com/wangyafe/leetcode-master/blob/master/problems/0654.%E6%9C%80%E5%A4%A7%E4%BA%8C%E5%8F%89%E6%A0%91.md
  1.求众数 https://github.com/wangyafe/leetcode-master/blob/master/problems/0501.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%97%E6%95%B0.md
+2.方法
+ 1.初始化 1.int[] a = new int[]{2,3}; 2.int[] a={2,3}; 3.int[] a = new int[length] a[i] = nums;
+ 2.长度 a.length;
