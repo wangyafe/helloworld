@@ -3,3 +3,5 @@
  1.2 操作系统的线程调度程序在选择要执行的线程时只会选择就绪态的线程
  1.3 直到阻塞线程所调用的阻塞方法发起中断并返回后阻塞线程才可以继续向下执行
 2.这次我们从底层把线程说清楚 https://www.cnblogs.com/niuyourou/p/11877269.html
+3.Java中线程等待和线程阻塞的区别？(1.主动被动 2.线程状态可控) https://blog.csdn.net/PanYiAn9/article/details/126252372
+ 3.1 线程阻塞和等待的区别_19.线程调度 https://blog.csdn.net/weixin_39933508/article/details/111579414
