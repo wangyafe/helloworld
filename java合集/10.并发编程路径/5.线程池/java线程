@@ -1,3 +1,5 @@
 1.用户级线程 2.内核级线程（在我们程序的实际使用中，不会直接去使用内核线程，而是使用内核线程的一种高级接口——轻量级进程(LWP)） 3.混合型（1.java应用自身实例化了线程对象 2.调用os实例化了一个线程对象）
  1.1 Java线程实现 https://www.toutiao.com/article/6941387837807837704/?log_from=841e340ba8f98_1642942973375
 2.继承Thread类、实现Runnable接口、实现Callable接口（线程方法） https://blog.csdn.net/xixiyuguang/article/details/115161911
+  2.1 创建线程有三种方式：1.继承 Thread 重写 run 方法 2.实现 Runnable 接口 3.实现 Callable 接口。
+  2.2 runnable 没有返回值，callable 可以拿到有返回值，callable 可以看作是 runnable 的补充
