@@ -1,0 +1,5 @@
+1.多线程（力扣） https://leetcode.cn/problemset/concurrency/
+ 1.1 一个有意思的面试题 → 线程交替输出问题（） https://www.toutiao.com/article/6930894763785224712/?app=news_article&timestamp=1684378335&use_new_style=1&req_id=202305181052148626A914934FB6BD49C6&group_id=6930894763785224712&share_token=bfc851cb-8cf2-426c-b460-77ed281b88ab&source=m_redirect
+ 1.2 用两个线程交替打印数字和字母（LockSupport + park + unpark） https://www.toutiao.com/article/6877506756730159620/?app=news_article&timestamp=1684378371&use_new_style=1&req_id=2023051810525050E8862DD04094BAB82F&group_id=6877506756730159620&share_token=8443183e-10b5-42d0-a497-3318a9cfebeb&source=m_redirect
+ 1.3 面试题-Synchronized实现两个线程交替打印（synchronized + wait + notify + flag(控制初始化打印数字)） https://www.toutiao.com/article/6877506756730159620/?app=news_article&timestamp=1684378371&use_new_style=1&req_id=2023051810525050E8862DD04094BAB82F&group_id=6877506756730159620&share_token=8443183e-10b5-42d0-a497-3318a9cfebeb&source=m_redirect 
+ 1.4 线程通信之两个线程交替打印数字和字母（synchronized + wait + notify + flag(控制初始化打印数字)） https://blog.csdn.net/u011345756/article/details/103553507
