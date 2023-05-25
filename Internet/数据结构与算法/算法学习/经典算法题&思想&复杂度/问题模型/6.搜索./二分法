@@ -21,3 +21,5 @@ public class Main {
 }
 2.二维数组（回溯剪枝）
 3.(L+R)/2内存溢出问题(L + (R - L) / 2) https://blog.csdn.net/weixin_38684180/article/details/125633227?share_token=ea7e80b1-1371-4185-bb8f-e14fac5763e5
+4.二分法思想在于target是在middle的左半部分还是右半部分 然后逼近middle+1逼近
+ 4.1 https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china
