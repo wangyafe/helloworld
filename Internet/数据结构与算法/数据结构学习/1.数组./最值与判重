@@ -1,1 +1,2 @@
 1.数组嵌套 https://leetcode.cn/problems/array-nesting/
+ 1.最值（1.结果变量 2.过程变量）：  ans = Math.max(ans, cnt);
