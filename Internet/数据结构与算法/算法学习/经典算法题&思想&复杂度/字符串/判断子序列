@@ -1,2 +1,2 @@
 1.1.（1.双指针）https://leetcode.cn/problems/is-subsequence/
- 1.常见方法tocharArray 2.charAt
+ 1.常见方法tocharArray 2.charAt 3.indexOf
