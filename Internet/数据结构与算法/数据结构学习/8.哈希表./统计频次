@@ -1,2 +1,2 @@
 1. 最长和谐序列 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%93%88%E5%B8%8C%E8%A1%A8.md
- 1.1 getDedefault(num,o) 1.2 for(int num: nums)
+ 1.1 getOrDedefault(num,o) 1.2 for(int num: nums)
