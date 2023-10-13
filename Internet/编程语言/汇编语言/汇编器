@@ -1,4 +1,7 @@
-1.漫谈从编译器到运行时 https://www.toutiao.com/article/6930058297282134536/?log_from=7609bbce4582c_1664444974189
- 1.1 这些文本机器不能识别，所以又需要一个程序来将这些文本转换为机器指令，这个转换程序称为 汇编器 
+1.漫谈从编译器到运行时 https://www.toutiao.com/article/6930058297282134536/?log_from=7609bbce4582c_1664444974189(用来操作寄存器和内存)
+ 1.1 这些文本机器不能识别，所以又需要一个程序来将这些文本转换为机器指令，这个转换程序称为 汇编器(输入也是二进制) 
  1.2 汇编器用什么来写呢？用汇编语言、或者高级语言都可以
  1.3 但前提是已经有程序能将这些东西转换成二进制机器码程序。所以可想而知，最早汇编器就是直接用机器码写的
+2.原理
+ 2.1 实现一个汇编器 https://blog.csdn.net/judyge/article/details/41171673?share_token=6652c59e-31ff-4d18-a1ce-d4a5f727a644&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share - 【实现一个汇编器-CSDN博客】 - 今日头条
+ 2.2 汇编器的原理就在于定义好汇编指令集、二进制指令集，并且确定好二者之间的映射转换关系
