@@ -4,8 +4,9 @@
  0.3 收音机上上的音量控制旋钮的工作原理是什么 
   1.（可变电阻）音量旋钮是利用电阻的变化来改变输入到放大器输入端信号的大小 （可变电容）2.调台旋钮传动机构来调整可变电容器的大小！改变收音机的谐振频率从而改变接受不同的电台！
 1.晶体管（导线+门极+半导体 可以控制导电性） 2.逻辑门 3.集成电路 4.微体系结构（也即超大规模集成电路 机器指令 1.x86 2.ARM）
-   1.1 晶体管两个功能：1.放大信号或电流 2.非机械开关(通过另一个闭合电路控制导电性)
+   1.1 晶体管两个功能：1.放大信号或电流 2.非机械开关(1.通过另一个闭合电路控制导电性 1.2控制电路可以控制输出频率)
     1.11晶体管—科技领域的魔杖，揭开其奥秘 https://m.toutiao.com/video/7290316310267822652/?wxshare_count=1&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_android&utm_campaign=client_share&share_token=270fb95a-8418-4b6d-ba4d-d2088e7963d5
+    1.12https://m.toutiao.com/is/iduNHX8Q/ - 一个视频弄懂，直流电是如何变成交流电的 - 今日头条 - 今日头条
    1.2 微处理器：50岁了 https://www.toutiao.com/i6983503764514832909/?timestamp=1646712007&app=news_article&use_new_style=1&req_id=20220308120006010158018200090002E6&share_token=2409d267-dd49-4213-a4a0-01b2b75c81f5&group_id=6983503764514832909
    1.3 晶体管工作原理 https://m.bilibili.com/video/av47388949?notad=1&share_token=1bca9753-0976-473c-8083-38984dcafe5f&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share
  1.4 光电晶体管(耦合器) https://m.toutiao.com/is/id571n2M/ - 光电耦合器原理 - 今日头条 - 今日头条
