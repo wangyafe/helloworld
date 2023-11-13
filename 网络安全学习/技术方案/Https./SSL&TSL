@@ -2,7 +2,6 @@
 2.SSL，HTTPS，TLS三者的区别 https://zhuanlan.zhihu.com/p/158711125
  2.1 SSL(Secure Socket Layer 安全套接层)是基于HTTPS下的一个协议加密层
  2.2 HPPTS是HTTP+SSL/TCP的简称
- 2.3 TLS是SSL的最新版本，并且SSL的两个公开版本都已弃用多年，并且包含已知的安全漏洞
- 2.4 大多数人仍然将它们称为SSL证书的原因基本上是品牌问题。大多数主要的证书提供商仍然将证书称为SSL证书，这就是命名约定仍然存在的原因
- 2.5 实际上，您看到的所有“SSL证书”实际上都是SSL/TLS 证书 2.6 也就是说，您可以将SSL和TLS协议与您的证书一起使用。
- 2.7 没有SSL证书或TLS证书之类的东西，您无需担心将SSL证书替换为TLS证书
+ 2.3 SSL：（Secure Socket Layer，安全套接字层），位于可靠的面向连接的网络层协议和应用层协议之间的一种协议层
+ 2.4 TLS：(Transport LayerSecurity，传输层安全协议)，用于两个应用程序之间提供保密性和数据完整性。该协议由两层组成：TLS记录协议和TLS握手协议
+ (SSL与TLS有什么区别(最全面的知识点都在这))
