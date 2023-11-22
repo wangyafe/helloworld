@@ -19,3 +19,4 @@ MySQL主从复制(Master-Slave)实践 https://www.cnblogs.com/gl-developer/p/617
    4.3 垂直分是结构上的拆分 水平分是数据上的拆分 
       1 彻底搞清分库分表（垂直分库，垂直分表，水平分库，水平分表） https://blog.csdn.net/u014453898/article/details/113177855?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1.no_search_link&spm=1001.2101.3001.4242.2&utm_relevant_index=4
    4.4 分片方案 （同一个用户落在同一张表） 2.使用多个分片键
+5.分库分表替代方案:1.优化2.缓存3.归档4.分区 5.分布式数据库(不同节点)
