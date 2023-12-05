@@ -7,5 +7,6 @@
 1.路由器的每一个端口，都有独立的 MAC 地址（有ip和mac） https://www.cnblogs.com/flashsun/p/14266148.html
 2.静态路由-路由负载均衡（路由器(任何一台设备)可以有负载功能） https://blog.51cto.com/lxlaizz/3717443 https://www.cxyzjd.com/article/monologuezjp/104773277
   2.1动态路由会根据路由策略更新路由表（1.满载2.断点）
+  2.2（数据包传递路径不唯一）路由器需要根据一定的选择规则，如距离、速度、费用等，选择最合适的路径，实现数据包的快速传输
 3.图文并茂详解 NAT 协议！ https://juejin.cn/post/7067706621220093965
 4.有公网ip和私网ip,那么是怎么找到一个具体的主机的？（公用公网IP时 用端口区别内网IP） https://www.zhihu.com/question/56576553
