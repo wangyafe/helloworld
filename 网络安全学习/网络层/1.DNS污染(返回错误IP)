@@ -1,0 +1,5 @@
+0.DNS污染就是在系统发起DNS查询请求查询域名对应的ip地址时，由于某种"众所周知的原因"，DNS服务器故意返回一个错误的ip地址
+1.指定干净的未被投毒的DNS服务器
+2.修改hosts文件，将github的正确ip写死
+3.通过代理工具，也就是番蔷来访问。
+4.Github Ping不通的解决办法 https://www.cnblogs.com/arisskz6/p/16989529.html
