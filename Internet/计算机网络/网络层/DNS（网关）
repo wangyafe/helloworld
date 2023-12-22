@@ -1,3 +1,4 @@
+0.DNS污染 返回错误IP
 1.浏览器 2.os(hosts) 3.路由器 4.isp（1.内部dns 2.isp 3.负载均衡DNS） 5.根域名
   1.win10系统如何修改dns为8.8.8.8 http://www.xitongcheng.com/jiaocheng/win10_article_47808.html 3.超细！在浏览器输入xxxhub 回车之后发生了什么 https://toutiao.io/posts/mufeah6/preview
   2.公司内网搭建代理DNS使用内网域名代替ip地址 https://www.cnblogs.com/liuxinyustu/articles/11757384.html?share_token=ed1215be-6cb3-4766-b677-5337df966cf9
