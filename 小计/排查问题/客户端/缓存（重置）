@@ -1,2 +1,4 @@
 1.重置（1.浏览器（应用） 2.运行库 3.操作系统 4.驱动 5.固件 6.硬件）
-2.刷新缓存（1.刷新 2.登出登录 3.无痕（清除缓存1.ctrl+shift+c打开控制台 2.ctrl+shift+p 输入命令 3.clear site） 4.修改host文件）
+2.刷新浏览器缓存（1.刷新 2.登出登录 3.修改host文件）
+ 1.隐私模式浏览 2.禁用缓存 network(disable cache) 3.清除缓存（1.三点清除 2. 清除缓存1.ctrl+shift+c打开控制台 2.ctrl+shift+p 输入命令 3.clear site）
+3.如何设置chrome浏览器不缓存网页数据？ http://www.0430.com/cn/web264434/
