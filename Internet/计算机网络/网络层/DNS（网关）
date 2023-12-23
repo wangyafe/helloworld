@@ -5,3 +5,6 @@
   3.利用dns解析来实现网站的负载均衡 https://segmentfault.com/a/1190000002578457
 2.路由器中获取DNS和本机IP(路由器开启DHCP服务器功能) 2.网关功能可以是路由器 可以是交换机
   1.DNS劫持是什么意思？DNS劫持是干什么用的 2. 3.请问电脑有ip地址，为啥还要网关地址呢？ 网关的ip地址是路由器的地址吗？ https://www.zhihu.com/question/327338744
+3.修改Hosts为何不生效，是DNS缓存 https://www.toutiao.com/article/7174576159475253767/?log_from=c46c941b9fbd7_1703282078614
+ 3.1 客户端会跟服务器保持长连接，只要长连接不断开，页面在请求的时候就不会重新解析域名
+ 3.2 服务器设置了 keep-alive ！次要原因是存在浏览器 DNS 缓存和系统 DNS 缓存(chrome://net-internals/#sockets 查看长连接)
