@@ -2,3 +2,5 @@
 2.github使用教程 https://www.toutiao.com/search/?keyword=github%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B
 3.加速github docmirror/dev-sidecar https://github.com/docmirror/dev-sidecar
  3.1 访问github加速 https://www.jianshu.com/p/0f4b97a29cb8
+4.修改hosts文件（不要www）
+ 4.1 https://github.com.ipaddress.com/www.github.com 获取目前github.com实际ip 
