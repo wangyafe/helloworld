@@ -1,6 +1,7 @@
 1.在IDEA中实战Git Git结构 https://blog.csdn.net/autfish/article/details/52513465?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
 2.Git 撤销commit文件 和 回退push的文件 及各种参数含义 https://www.jianshu.com/p/491a14d414f6 https://blog.csdn.net/hyy11111/article/details/84969970?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param
 3.rebase分支 https://www.jianshu.com/p/3ba086dee206
+ 3.1 1.merge(合并一个节点) 2.rebase(合并一个分支) Git合并（merge）和变基（rebase）的区别！ https://www.toutiao.com/w/1791228448530436/?log_from=da891b6f4bb33_1708268354337
 4.idea git 回滚到之前git提交的版本 https://blog.csdn.net/weixin_37878255/article/details/89553220?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
 https://blog.csdn.net/C18298182575/article/details/100972438?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
 5.Git版本控制 —— IDE工具（IDEA） https://my.oschina.net/u/3452433/blog/1789923
