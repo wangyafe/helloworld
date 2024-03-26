@@ -1,4 +1,4 @@
-1.作用：异步、削峰、解耦 
+1.作用：异步、削峰、解耦 （场景：写入密集型任务）
   2.为什么要选择RocketMQ（技术选型 低延迟、吞吐量比较高）
   3.消息模型（队列模型和发布/订阅模型）
   4.RocketMQ本身的消息是由几部分组成(1.Message 2.Topic 3.TagGroup 4.MessageQueuev 5.Offset)
