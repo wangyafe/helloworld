@@ -1,0 +1,12 @@
+ELF 格式
+
+Linux提供了各种不同的指令去识别和评估ELF文件。比如说，file命令识别文件的类型。如果main.o是一个目标文件，且main是一个可执行文件，那么命令：
+
+file main.o
+
+会输出main.o是一个ELF可重定位文件，而命令：
+
+file main
+
+会输出main是一个ELF可执行文件。ELF文件被分成好几个段，通过readlf命令对其评估。
+2.操作系统 - 链接器和加载器 https://www.toutiao.com/article/6866980477161439751/?channel=&source=search_tab
