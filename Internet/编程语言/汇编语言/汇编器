@@ -5,3 +5,4 @@
 2.原理(利用机器码自身编写一个指令映射转化的程序 比如输入是+ 执行是-)
  2.1 实现一个汇编器 https://blog.csdn.net/judyge/article/details/41171673?share_token=6652c59e-31ff-4d18-a1ce-d4a5f727a644&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share - 【实现一个汇编器-CSDN博客】 - 今日头条
  2.2 汇编器的原理就在于定义好汇编指令集、二进制指令集，并且确定好二者之间的映射转换关系
+ 2.3（映射函数） 汇编器是将汇编源代码转换成机器码的程序。在转换过程中，汇编器需要查阅指令助记符与机器码的对照表，将汇编源代码转换成对应的机器码
