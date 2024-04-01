@@ -1,0 +1,7 @@
+GCC编译器提供了如下命令对C源文件进行预处理：
+1.gcc -E C源文件 -o [预处理后文件]
+例如：
+gcc -E main.c -o main.i
+对main.c文件进行预处理，预处理后的文件为main.i。执行上述预处理命令时，需要gcc能够找到main.c文件。
+main.c预处理后文件main.i要比main.c大很多
+2.一文读懂C程序的编译过程 https://www.toutiao.com/article/7232656362126328378/?log_from=aaad1f350891a_1711986646065
