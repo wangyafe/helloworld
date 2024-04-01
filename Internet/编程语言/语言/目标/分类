@@ -2,4 +2,5 @@
 1.C 语言基础，来喽 https://www.toutiao.com/i7029530104472535584/?timestamp=1643515453&app=news_article&use_new_style=1&req_id=2022013012041201015115205209B2466F&share_token=69eed5e9-e10b-4992-ac35-cca9681659fd&group_id=7029530104472535584
 2.解释型语言的编译发生在运行期间（不可以把编译后的二进制文件 直接运行） 2.1 脚本语言（script）是解释型语言
  2.2 python是脚本语言还是编译语言_脚本语言、编译性语言和解释性语言的区别 https://blog.csdn.net/weixin_39791322/article/details/110762865
- 2.3 从来的不到解释型语言的编译二进制文件
+ 2.3 从来的不到解释型语言的编译二进制文件（一边编译为机器码 一边加载到内存执行）
+3.机器语言,汇编语言，高级语言，c，java语言编译到运行过程 https://blog.csdn.net/he1234555/article/details/105875315?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171186979816800227473954%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=171186979816800227473954&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-21-105875315-null-null.142^v100^pc_search_result_base2&utm_term=%E6%B1%87%E7%BC%96%E5%99%A8%E5%A6%82%E4%BD%95%E6%8A%8A%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E5%8F%98%E4%B8%BA%E6%9C%BA%E5%99%A8%E8%AF%AD%E8%A8%80%E7%9A%84&spm=1018.2226.3001.4187
