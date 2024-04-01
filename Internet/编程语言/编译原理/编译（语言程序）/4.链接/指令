@@ -5,3 +5,5 @@
  gcc main.c paraller.c rectangle.c square.c triangle.c
 2.链接是将目标文件和库文件组合在一起，生成最终的可执行文件的过程。链接器（通常是LD，但在编译器中也包含链接器）负责解析所有的符号引用，确保每个符号都有一个唯一的定义，并将所有目标文件和库文件组合成一个单独的可执行文件。生成的可执行文件没有特定的扩展名，通常是没有扩展名的文件。以下是一个链接的示例命令：
  2.1 gcc source.o -o my_program
+3.C 编译器、链接器、加载器详解 https://blog.csdn.net/lanchunhui/article/details/51319160?share_token=1758f3ca-399d-4553-93a0-ad155a2e0010
+ 3.1 链接器：将.o文件转化成可执行程序，使用的gcc 命令是： gcc，对应于链接命令是 ld；
