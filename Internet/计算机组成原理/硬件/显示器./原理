@@ -4,3 +4,4 @@
  1.3 彩色依赖彩色滤光片（通过RGB可调配黑白色）
  1.4 背光源是冷阴极荧光灯 发光二极管led等（提供光源）
 2.计算机通过存储每个像素点（三个分量）的值（即led或荧光灯亮度）由图像编辑器（读写）做映射转化（映射表存在固件和驱动中）
+3.1.图像如何存储在计算机中？ https://blog.csdn.net/woshicver/article/details/116112821?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_default&utm_relevant_index=6
