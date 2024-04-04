@@ -1,1 +1,6 @@
 基础类型有 8 种：1.byte 2.boolean 3.char 4.short 5.int 6.float 7.long 8.double
+ 1.1 单精度浮点数：使用4个字节，32位来表达浮点数(float)
+ 1.2 双精度浮点数：使用8个字节，64位来表达浮点数(double)
+ 1.3 byte占用1个字节、short占用2个字节、int占用4个字节、long占用8个字节
+ 1.4 boolean占用1个字节
+ 1.5 char占用2个字节
