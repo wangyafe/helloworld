@@ -1,0 +1,2 @@
+1.模拟信号转换成数字信号的电路，称为模数转换器（简称A/D转换器或ADC,Analog to Digital Converter）
+ 1.2 将数字信号转换为模拟信号的电路称为数模转换器（简称D/A转换器或DAC,Digital to Analog Converter）A/D转换器和D/A转换器已成为计算机系统中不可缺少的接口电路
