@@ -4,3 +4,5 @@
  0.3 乘法和除法是加法和减法的多次重复运算
 1. CPU系列-什么是加法器 https://www.toutiao.com/article/6928746771199853067/?channel=&source=search_tab
  1.1 通过设计电路（逻辑门）使用补码可以完成符号实数的加减乘除算术运算
+2.1.基本电路 2.门电路 3.半加器 4.全加器 5.加法器
+ 2.2 https://m.toutiao.com/is/iY2aagTF/ - 科普创世纪: 通过加法器理解CPU的工作原理#cpu工作原理 #半加器 #全加器 #CPU  - 今日头条
