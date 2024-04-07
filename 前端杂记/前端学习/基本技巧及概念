@@ -5,3 +5,4 @@
 https://blog.csdn.net/yang134679/article/details/97267412?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase
 5.简单弄懂同源政策 (Same Origin Policy) 与跨网域 (CORS) https://www.toutiao.com/i7044061736407761440/?timestamp=1640079576&app=news_article&use_new_style=1&req_id=2021122117393601015011008217059225&share_token=c18c05a9-3234-4980-8549-122ec8dfb676&group_id=7044061736407761440
   5.1 跨域 = 跨源=跨来源 5.2 /允许 client side 带 cookie 等验证，defult 是 false( Access-Control-Allow-Credentials: true)
+  5.2 限制三个方面：1.DOM（一个http文档拉取另一个源的文档） 2.Web 数据（前后端分离导致 拉取后端数据和前端非同源） 3.网络通信（1.代理通信 对后端请求 其他源给它响应）
