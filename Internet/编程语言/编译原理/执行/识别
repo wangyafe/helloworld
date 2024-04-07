@@ -1,4 +1,4 @@
 1.应用程序（指定应用程序运行文件（1.文本 2.二进制）） 2.操作系统默认应用程序
  2.1  Windows 中，电脑识别文件类型的方式主要是通过文件的扩展名来判断
  2.2 Linux 更多地依赖于文件的开头二进制码来判断文件类型（所有的图片文件的开头二进制码都是“0xFFD8”，而视频文件则有自己独特的二进制码）
- 2.3 两者都需要判断文件是否是一个合法的可执行文件才能执行它。在 Windows 中，文件必须是一个合法的 PE（Portable Executable）文件，而在 Linux 中，文件必须包含正确的 shebang 或者是一个合法的 ELF（Executable and Linkable Format）文件
+ 2.3 两者都需要判断文件是否是一个合法的可执行文件才能执行它（操作系统的加载器可以加载的二进制文件有一定格式（协议））在 Windows 中，文件必须是一个合法的 PE（Portable Executable）文件，而在 Linux 中，文件必须包含正确的 shebang 或者是一个合法的 ELF（Executable and Linkable Format）文件
