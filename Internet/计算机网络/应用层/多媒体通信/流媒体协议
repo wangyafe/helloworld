@@ -1,0 +1,3 @@
+1.流媒体协议详解：RTSP、RTP、RTCP、SIP、SDP、RTMP、WebRTC、WebSockt https://blog.csdn.net/zzhongcy/article/details/131779684
+ 1.1 理论上RTSP RTMPHTTP都可以做直播和点播，但一般做直播用RTSP RTMP，做点播用HTTP。做视频会议的时候原来用SIP协议，现在基本上被RTMP协议取代了
+2.HTTP协议/RTP/RTSP协议/RTMP协议的区别 https://www.toutiao.com/article/6599394310695682568/?channel=&source=search_tab
