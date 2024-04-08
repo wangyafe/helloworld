@@ -1,4 +1,5 @@
-
+0.Spring关于参数的注解 https://blog.csdn.net/weixin_44712669/article/details/11848221
+ 0.1 解析不同报文部分
 1.使用get时，form数据集被附加到form元素的action属性所指定的URL后面；
   1.1 使用post时，form数据集被包装在请求的body中并被发送
   1.2 get是从服务器上获取数据，post是向服务器传送数据
