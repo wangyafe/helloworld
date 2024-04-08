@@ -1,0 +1,4 @@
+1.SIP：Session Initiation Protocol，会话初始协议 
+ 1.1 SIP用于初始化一个会话，并负责传输SDP包；而SDP包中描述了一个会话中包含这些媒体数据，邀请的人等等；当需要被邀请的人都通过各自的终端设备被通知到后，就可以使用RTSP来控制特定媒体的通信，某种RTSP控制信息要求开始视频的播放，然后就开始使用RTP（或者TCP）实时传输数据，在传输过程中，RTCP要负责QoS等
+ 1.2 实时传输协议---RTP【详解】（RTP是一种运行在传输层的协议，通常基于 UDP 协议，但也支持 TCP 协议。） https://blog.csdn.net/Chiang2018/article/details/122741850
+2.sip篇——sip协议是什么? （不同域用户间建立会话）https://blog.csdn.net/m0_51292856/article/details/128214377
