@@ -1,3 +1,5 @@
 1.（都是shell语言）终端（终端集成工具 windows teminal）、 控制台、 命令行工具（1.命令提示符(不是dos操作系统，是cmd可执行程序，解释器) 2.powershell（powshell可执行程序 解释器））
  1.1 （批处理命令 执行脚本）powshell高版本 可解释powershell和批处理命令
+ 1.2 支持多种命令行应用程序的多个配置文件，任何具有命令行接口的应用程序都可以在 Windows 终端中运行
+ 1.3 这包括从 PowerShell 和命令提示符到 Azure Cloud Shell 和任何 WSL 分发（如 Ubuntu 或 Oh-My-Zsh）的所有应用程序。并且不会替代现有的控制台，这将导致与旧版应用程序的无限兼容性问题。相反，您将能够在新终端中的单独选项卡中运行命令提示符，PowerShell 和 WSL 实例
 2.与操作系统交互的命令应用程序
