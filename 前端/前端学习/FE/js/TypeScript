@@ -1,0 +1,6 @@
+1.TypeScript 是 JavaScript 的增强版 2.Node.Js 或任何其他支持 ECMAScript 3 或其最新版本的浏览器上执行它
+3.TypeScript:
+ 3.1 静态类型: TypeScript 添加了静态类型系统，变量类型在编写代码时指定。
+ 3.2 环境配置: 需要安装 TypeScript 编译器，并将 TS 代码编译为 JS 代码。
+4.详细对比分析 JavaScript 和 TypeScript https://www.toutiao.com/article/7319537774309392907/?channel=&source=search_tab
+ 4.1 目标：TS编译器可以在预编译的时候扫描代码提前发现错误，例如缺少字段或者字段非法等等

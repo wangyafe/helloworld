@@ -1,0 +1,7 @@
+1.前端编译，通常指的是将前端源代码（如ES6、TypeScript、Vue、React等）转换为浏览器能够直接执行的JavaScript代码的过程
+ 1.1 这个过程包括了代码解析、语法转换、代码优化等多个步骤
+2.前端编译工具如Babel、TypeScript Compiler等
+ 2.1 （Babel）它们能够将最新的JavaScript语法（如ES6+）转换为兼容性更好的ES5语法(更多低版本的浏览器运行)
+ 2.2 （Ts Compiler）将TypeScript转换为JavaScript，确保代码能在不同浏览器中正确运行
+3.vue框架需要编译因为1.其使用了ts语言 2.使用了es6的语法（普通vue羡慕可以直接当作库执行） 
+ 

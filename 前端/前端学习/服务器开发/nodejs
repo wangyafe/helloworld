@@ -1,0 +1,2 @@
+0.js的编译器（也叫node）相当于jre虚拟机 运行环境 1.可以让JavaScript代码运行在服务端(没有浏览器) 2.基于Google的V8引擎 3.通过事件驱动I/O服务端JavaScript环境
+4.包含npm（包管理工具 maven npm install安装依赖）
