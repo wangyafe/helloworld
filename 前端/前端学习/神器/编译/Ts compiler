@@ -1,1 +1,2 @@
 1.TypeScript 支持 Babel，并且可以通过配置文件与 Webpack 集成 https://www.webpackjs.com/guides/typescript/
+2.webpack集成typescript和babel (webpack+typescript+Babel https://blog.csdn.net/qq_43342124/article/details/120907871)
