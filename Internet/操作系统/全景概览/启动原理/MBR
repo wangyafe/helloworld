@@ -1,0 +1,4 @@
+1.MBR全称为Master Boot Record，译为主引导记录
+ 1.1 基于BIOS和MBR的方式操作系统引导流程为：BIOS -> MBR -> DPT -> PBR-> 寻找根目录下 NTLDR(XP)/bootmgr(WIN7/Vista)等可用于引导的程序
+ 1.2 操作系统引导程序是指最终去加载操作系统的一段代码，不同的操作系统所使用的引导程序不同，在WindowsXP之前是NTLDR，WIndows7之后就采用bootmgr，Linux是采用Grub（grldr）
+2.手写操作系统(4)——计算机是如何启动的？BIOS、GRUB、文件系统...... https://zhuanlan.zhihu.com/p/392858237

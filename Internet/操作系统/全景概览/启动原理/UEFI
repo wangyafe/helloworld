@@ -1,0 +1,5 @@
+1. 什么是UEFI启动？ https://www.jianshu.com/p/f43cb5e03581
+2.Uefi启动有必要吗？Uefi启动设置 https://www.xitongzhijia.net/xtjc/20210606/212991.html
+3.UEFI，统一可扩展固件接口（英语：Unified Extensible Firmware Interface，缩写UEFI）是由intel牵头制定一种个人系统规格，用来定义操作系统与系统固件之间的软件界面，作为BIOS的替代方案。
+UEFI的启动过程相比BIOS更为简单：
+ 1.上电； 2.UEFI固件从ROM中被加载，初始化硬件； 3.固件读取NVRAM（一个存储设备）中的引导管理器（配置信息），确定一步需要加载的UEFI应用； 3.UEFI应用继续加载其他UEFI应用，最终通过读取.efi文件来加载操作系统
