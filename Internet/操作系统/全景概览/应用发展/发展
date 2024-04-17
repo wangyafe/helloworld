@@ -1,0 +1,8 @@
+1.操作系统的发展历史及其基本类型
+ 1.手工操作阶段
+  2.单道批处理系统(simple batch processing System 1.使用磁带作为输入) 
+  3.多道批处理系统(multiprogramming Batch Processing System 1.引入中断技术，并发执行)
+ 4.分时操作系统(Time-Sharing Operating System) 
+ 5.实时操作系统(1.Real Time Operating System 2.比如自动驾驶操作系统 导弹控制系统) 6.通用操作系统(General Operating System)
+2.操作系统的进一步发展
+ 7.个人计算机上的操作系统 8.网络操作系统（1.Network Operating System 2.可以和其他计算机通信） 9.分布式操作系统 10.嵌入式操作系统
