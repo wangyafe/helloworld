@@ -1,3 +1,5 @@
 1.操作系统的基本特性
  1.并发(Concurrence) 2.共享(Sharing) 3.虚拟(Virtual) 4. 异步性(Asynchronism)
+ 1.1 操作系统的并发性是通过分时得以实现的
+ 1.2 并行性需要相关硬件的支持，如多流水线或多处理机硬件环境
 2.操作系统（一）——操作系统概述 https://blog.csdn.net/Eve12345678/article/details/108791595
