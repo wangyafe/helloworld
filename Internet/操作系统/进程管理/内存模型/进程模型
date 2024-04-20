@@ -1,4 +1,5 @@
 1.web server的进程模型：1.多进程（CGI）2.进程池（FastCGI） 3.单进程多线程（servlet）
+  1.0浏览器就是多进程模型（可通过任务管理查看）
   1.Servlet简介 https://blog.csdn.net/weixin_45192073/article/details/113125862?load_id=6&share_token=b80b1bb2-7bfc-4e15-a05c-896f3be64a31
   1.进程优点：一个进程退出后，其它进程还在工作 缺点：并发数有限，创建和运行消耗资源，进程的切换带来cache的失效
   2.线程优点：线程的创建以及运行比进程的创建和运行来得快 缺点：需要做并发编程，上下文切换消耗资源
