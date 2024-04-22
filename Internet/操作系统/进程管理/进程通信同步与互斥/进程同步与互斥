@@ -1,0 +1,9 @@
+0.解决进程同步互斥的方法
+ 1.软件方法 2.硬件方法 3.信号量机制 4.管程机制
+ 0.1 硬件方法包括屏蔽中断和专用机器指令
+ 0.2 进程-互斥-同步-临界资源-解决互斥的方法 https://blog.csdn.net/xzengwei1313/article/details/88222473
+1.信号量（PV原语 荷兰语）：（不可中断）用于进程间传递信号的一个整数值。在信号量上只有三种操作可以进行：初始化，P操作和V操作，这三种操作都是原子操作
+2.消息传递 消息传递的实际功能以一对原语的形式提供：send(destination,message) receive(source,message)
+3.管程：把对临界资源的操作封装
+ 3.1 【操作系统】 管程机制  https://www.cnblogs.com/yongh/p/9294838.html
+4.操作系统基础13-进程同步与互斥的概念 https://www.toutiao.com/article/6890339956581990919/?channel=&source=search_tab
