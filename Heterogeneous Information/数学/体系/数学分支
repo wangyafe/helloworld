@@ -1,5 +1,5 @@
 1.现代数学可以大致分为两个领域 1.纯数学：为数学本身而研究数学 2.应用数学：帮助解决一些现实世界问题的数学
- 1.1 数学的五大部分：1.数学基础 2.代数学 3.分析学 4.几何学 5.应用数学
+ 1.1 数学的五大部分：1.数学基础 2.代数学（数） 3.分析学（数形关系即函数） 4.几何学（形） 5.应用数学
  1.2 微积分作为分界线：1.初等数学 2.高等数学
 2.纯数学用处：在物理学或计算机科学的前沿碰到一些问题，他们会发现纯数学中一些古老理论正是他们所需要的工具
  2.1 数字：数字的研究从自然数开始，你可以用算术运算对它们进行操作 除了自然数之外，我们还可以查看一下其它的数字类型。 例如包含负整数、分数等有理数、包括 pi 等无限小数的实数，然后是复数和一大堆其他数字。 
@@ -39,3 +39,5 @@
 5.一图看完所有数学分支 https://www.toutiao.com/article/7195371038861984259/?app=news_article&timestamp=1675306886&use_new_style=1&req_id=202302021101251D76839FD46EEC52BE1A&group_id=7195371038861984259&tt_from=android_share&utm_medium=toutiao_android&utm_campaign=client_share&share_token=c028da4b-3ffb-44d2-9eda-870a8f9ecb5b&source=m_redirect
 6.一文概括数学的各个研究领域 https://www.toutiao.com/article/6814711162341425664/?app=news_article&timestamp=1586753878&req_id=202004131257570101310741722D070CB4&group_id=6814711162341425664&wxshare_count=1&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_android&utm_campaign=client_share&source=m_redirect
 7.数学·包含学科（数学学科分类标准） https://blog.51cto.com/u_15905375/6193157
+8.数学学科的五大分类 https://www.toutiao.com/article/7158965659219706403/?channel=&source=search_tab
+ 8.1 从数学学科的内部构成来讲，不同的国家有不同的分类方法。在我国，数学目前划分为五大分支：基础数学、应用数学、计算数学、运筹学与控制论、概率与数理统计
